@@ -2,6 +2,14 @@ name: Museum Radar Intelligence Scout
 
 on:
   workflow_dispatch:
+  push:
+    branches: ["main"]
+    paths:
+      - "scripts/research_agent.py"
+      - "scripts/scout_static.py"
+      - "data/scout-config.json"
+      - "data/historical-intelligence.json"
+      - ".github/workflows/scout.yml"
   schedule:
     - cron: "17 */6 * * *"
 

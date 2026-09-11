@@ -21,6 +21,12 @@ def flat(x):
     if isinstance(x,list): return ' '.join(flat(v) for v in x)
     return str(x or '')
 
+def parse_xml(raw):
+    try: return ET.fromstring(raw)
+    except ET.ParseError:
+        fixed=re.sub(r'&(?!amp;|lt;|gt;|quot;|apos;|#\\d+;|#x[0-9a-fA-F]+;)','&amp;',raw)
+        return ET.fromstring(fixed)
+
 def history_model():
     try: return json.loads(HIST.read_text(encoding='utf8'))
     except Exception: return {}
@@ -68,7 +74,7 @@ def classify_document(title='', url='', kind=''):
 
 def ted(limit=100):
     q='FT=(museum OR exhibition OR interactive OR multimedia OR heritage OR "visitor centre" OR "visitor center")'
-    body={'query':q,'fields':['publication-number','notice-title','buyer-name','publication-date','deadline','estimated-value-procurement','place-of-performance'],'page':1,'limit':min(limit,100),'scope':'ACTIVE','checkQuerySyntax':False,'paginationMode':'PAGE_NUMBER'}
+    body={'query':q,'fields':['publication-number','notice-title','buyer-name','publication-date','deadline','estimated-value-proc','place-of-performance'],'page':1,'limit':min(limit,100),'scope':'ACTIVE','checkQuerySyntax':False,'paginationMode':'PAGE_NUMBER'}
     raw=get_json('https://api.ted.europa.eu/v3/notices/search','POST',body)
     rows=raw.get('notices') or raw.get('results') or []
     out=[]
@@ -113,7 +119,7 @@ def contracts_finder(limit=100,days=21):
     return out
 
 def rss(url,name='',country='',limit=100):
-    root=ET.fromstring(get_text(url)); rows=[]; items=root.findall('.//item')
+    root=parse_xml(get_text(url)); rows=[]; items=root.findall('.//item')
     if items:
         for i in items[:limit]: rows.append(((i.findtext('title') or '').strip(),(i.findtext('description') or '').strip(),(i.findtext('link') or '').strip(),(i.findtext('pubDate') or '').strip()))
     else:
@@ -274,7 +280,7 @@ def portal_category_search(base_url, source_key, source_name, country, cpv_codes
 def search_feed(query, name='', country='', mode='pitch', limit=40):
     encoded=urllib.parse.quote_plus(query)
     url=f'https://www.bing.com/news/search?q={encoded}&format=rss'
-    root=ET.fromstring(get_text(url))
+    root=parse_xml(get_text(url))
     out=[]
     for i in root.findall('.//item')[:limit]:
         title=(i.findtext('title') or '').strip()

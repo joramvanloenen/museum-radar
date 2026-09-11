@@ -200,67 +200,52 @@ def parse_portal_date(value):
         except Exception: pass
     return None
 
-def portal_category_search(base_url, source_key, source_name, country, cpv_codes, limit=10):
+def portal_category_search(base_url, source_key, source_name, country, cpv_codes, limit=20):
     found=[]; seen=set()
     for cpv in cpv_codes:
         try:
             raw=get_text(base_url.rstrip('/')+'/search/search_category.aspx?ID='+urllib.parse.quote(str(cpv)))
         except Exception:
             continue
-        for m in re.finditer(r'href=["\']([^"\']*search_view\.aspx\?ID=([A-Za-z0-9_-]+)[^"\']*)["\'][^>]*>(.*?)</a>',raw,re.I|re.S):
-            ref=m.group(2)
-            title=html.unescape(re.sub('<[^>]+>',' ',m.group(3)))
+        rows=re.findall(r'<tr[^>]*>.*?</tr>',raw,re.I|re.S)
+        for row in rows:
+            mm=re.search(r'href=["\']([^"\']*search_view\.aspx\?ID=([A-Za-z0-9_-]+)[^"\']*)["\'][^>]*>(.*?)</a>',row,re.I|re.S)
+            if not mm: continue
+            ref=mm.group(2)
+            if ref in seen: continue
+            title=html.unescape(re.sub('<[^>]+>',' ',mm.group(3)))
             title=re.sub(r'\s+',' ',title).strip()
-            if not title or ref in seen: continue
-            score,_=relevance(title,'museum exhibition audiovisual interactive immersive interpretation','')
-            if score<35: continue
-            seen.add(ref)
-            url=urllib.parse.urljoin(base_url.rstrip('/')+'/',m.group(1))
-            try: detail=get_text(url)
-            except Exception: continue
-            plain=html.unescape(re.sub('<[^>]+>',' ',detail))
+            plain=html.unescape(re.sub('<[^>]+>',' ',row))
             plain=re.sub(r'\s+',' ',plain).strip()
             low=plain.lower()
-            if 'contract award notice' in low or 'you are viewing an expired notice' in low:
-                continue
-            org=''
-            mm=re.search(r'Published by:\s*(.*?)\s+(?:Authority ID:|Publication date:)',plain,re.I)
-            if mm: org=mm.group(1).strip()
+            if not title or 'award' in low: continue
+            score,_=relevance(title,plain+' museum exhibition audiovisual interactive immersive interpretation','')
+            if score<35: continue
             deadline=None
-            for pat in (
-                r'Deadline date:\s*(\d{1,2}\s+[A-Za-z]+\s+\d{4})',
-                r'Tender submission deadline\s*(\d{1,2}\s+[A-Za-z]+\s+\d{4})',
-                r'Expression of interest deadline\s*(\d{1,2}\s+[A-Za-z]+\s+\d{4})'
-            ):
-                dm=re.search(pat,plain,re.I)
-                if dm:
-                    dt=parse_portal_date(dm.group(1))
-                    if dt: deadline=dt.strftime('%Y-%m-%d'); break
+            dm=re.search(r'Deadline Date:\s*(\d{1,2}[-/]?[A-Za-z]{3,9}[-/]?\d{2,4}|\d{1,2}\s+[A-Za-z]+\s+\d{4})',plain,re.I)
+            if dm:
+                rawdate=dm.group(1).replace('-',' ').replace('/',' ')
+                dt=parse_portal_date(rawdate)
+                if dt: deadline=dt.strftime('%Y-%m-%d')
             if deadline:
                 try:
                     if datetime.strptime(deadline,'%Y-%m-%d').date() < datetime.now(timezone.utc).date():
                         continue
                 except Exception: pass
-            elif not any(x in low for x in ['prior information','preliminary market','market engagement','future opportunity']):
+            elif not any(x in low for x in ['prior information','preliminary market','market engagement','speculative notice']):
                 continue
-            score,_=relevance(title,plain[:5000],org)
-            if score<35: continue
-            stage='Pre-market' if any(x in low for x in ['prior information','preliminary market','market engagement']) else 'Live Tender'
-            value_min=value_max=None
-            vm=re.search(r'Total value.*?([0-9][0-9,\.]+)\s*(?:GBP|EUR)',plain,re.I)
-            if vm:
-                try: value_min=value_max=float(vm.group(1).replace(',',''))
-                except Exception: pass
-            currency='GBP' if country=='United Kingdom' else 'EUR'
+            org=''
+            om=re.search(r'Published By:\s*(.*?)(?:Deadline Date:|Notice Type:|$)',plain,re.I)
+            if om: org=om.group(1).strip()
+            stage='Pre-market' if any(x in low for x in ['prior information','preliminary market','market engagement','speculative notice']) else 'Live Tender'
+            url=urllib.parse.urljoin(base_url.rstrip('/')+'/',mm.group(1))
+            seen.add(ref)
             found.append({
-                'id':source_key+'-'+ref.lower(),
-                'title':title,
-                'organization':org or source_name,
-                'country':country,'city':'','stage':stage,
-                'score':min(score,98),'confidence':94,
-                'budget_min':value_min,'budget_max':value_max,'currency':currency,
+                'id':source_key+'-'+ref.lower(),'title':title,
+                'organization':org or source_name,'country':country,'city':'','stage':stage,
+                'score':min(score,98),'confidence':93,'currency':'GBP' if country=='United Kingdom' else 'EUR',
                 'deadline':deadline,'procurement_window':None if deadline else 'Pre-market',
-                'summary':plain[:900],
+                'summary':'Official procurement listing discovered in a museum / exhibition / AV category.',
                 'fit_rationale':'Official procurement notice matched museum, exhibition, AV or interactive experience terms.',
                 'pitch_angle':'Review the official notice and decide whether to bid directly or with a delivery partner.',
                 'next_action':'Open the official procurement notice and review scope, documents, deadline and eligibility.',
@@ -268,7 +253,7 @@ def portal_category_search(base_url, source_key, source_name, country, cpv_codes
                 'source_url':url,'source_label':source_name,
                 'documents':[{'title':'Official procurement notice','url':url,'kind':'Contract notice'}],
                 'updated_at':now(),
-                'evidence':[{'date':'','kind':'Procurement','title':'Official procurement notice','detail':'Automatically discovered on '+source_name+'.','source_url':url,'source_label':source_name,'strength':94}]
+                'evidence':[{'date':'','kind':'Procurement','title':'Official procurement listing','detail':plain[:500],'source_url':url,'source_label':source_name,'strength':93}]
             })
             if len(found)>=limit: return found
     return found
@@ -368,7 +353,7 @@ def main():
             found.extend(portal_category_search(
                 portal.get('base_url',''),portal.get('source_key','official_portal'),
                 portal.get('name','Official procurement portal'),portal.get('country',''),
-                portal.get('cpv_codes',cfg.get('cpv_codes',[])),10))
+                portal.get('cpv_codes',cfg.get('cpv_codes',[])),20))
         except Exception as e:
             errors.append(f"Portal {portal.get('name','')}: {e}")
     for feed in cfg.get('rss_feeds',[]):

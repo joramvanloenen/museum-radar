@@ -92,4 +92,55 @@ function bind(){document.querySelectorAll('[data-nav]').forEach(b=>b.onclick=()=
 function filterOpps(){const q=$('#q').value.toLowerCase(),st=$('#stageFilter').value,min=+$('#scoreFilter').value,w=$('#watchFilter').checked;const o=mergedOpps().filter(x=>!x.rejected&&(!q||[x.title,x.organization,x.country,x.city,x.summary].join(' ').toLowerCase().includes(q))&&(!st||x.stage===st)&&x.score>=min&&(!w||x.watched));$('#oppResults').innerHTML=table(o);document.querySelectorAll('[data-open]').forEach(x=>x.onclick=()=>openDetail(x.dataset.open))}
 function exportData(){const blob=new Blob([JSON.stringify({prefs:localPrefs(),manual:store.get('radarManual',[]),settings:state.settings},null,2)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='museum-radar-local-backup.json';a.click();URL.revokeObjectURL(a.href)}
 function importData(){const i=document.createElement('input');i.type='file';i.accept='application/json';i.onchange=()=>{const r=new FileReader();r.onload=()=>{try{const d=JSON.parse(r.result);if(d.prefs)store.set('radarPrefs',d.prefs);if(d.manual)store.set('radarManual',d.manual);if(d.settings)store.set('radarSettings',d.settings);location.reload()}catch(e){alert('Invalid backup file')}};r.readAsText(i.files[0])};i.click()}
-load().catch(e=>{$('#app').innerHTML=`<div class="empty">Could not load Radar: ${escapeHtml(e.message)}</div>`});
+const AUTH_KEY='museumRadarAuthUntil';
+const AUTH_DAYS=30;
+const AUTH_HASH='8d2d60b662ab63b0db7eb631d0f0cc8f4da456ea791dd66eb6f16c8309fc914c';
+
+function authValid(){
+  const until=Number(localStorage.getItem(AUTH_KEY)||0);
+  return until>Date.now();
+}
+async function sha256(text){
+  const bytes=new TextEncoder().encode(text);
+  const digest=await crypto.subtle.digest('SHA-256',bytes);
+  return [...new Uint8Array(digest)].map(b=>b.toString(16).padStart(2,'0')).join('');
+}
+function showLogin(){
+  const app=document.querySelector('#app');
+  app.innerHTML=`<main class="loginPage">
+    <section class="loginCard" aria-labelledby="loginTitle">
+      <div class="loginBrand">Museum Radar</div>
+      <h1 id="loginTitle">Enter password</h1>
+      <p>Access is remembered on this browser for 30 days.</p>
+      <form id="loginForm">
+        <label for="loginPassword">Password</label>
+        <input id="loginPassword" type="password" autocomplete="current-password" autofocus>
+        <div id="loginError" class="loginError" role="alert" aria-live="polite"></div>
+        <button class="btn primary loginButton" type="submit">Enter</button>
+      </form>
+    </section>
+  </main>`;
+  const form=document.querySelector('#loginForm');
+  const input=document.querySelector('#loginPassword');
+  const error=document.querySelector('#loginError');
+  form.onsubmit=async e=>{
+    e.preventDefault();
+    const hash=await sha256(input.value);
+    if(hash!==AUTH_HASH){
+      error.textContent='Incorrect password.';
+      input.select();
+      return;
+    }
+    localStorage.setItem(AUTH_KEY,String(Date.now()+AUTH_DAYS*24*60*60*1000));
+    app.innerHTML='<div class="empty">Loading Radar…</div>';
+    load().catch(err=>{app.innerHTML=`<div class="empty">Could not load Radar: ${escapeHtml(err.message)}</div>`});
+  };
+}
+function bootstrap(){
+  if(authValid()){
+    load().catch(e=>{$('#app').innerHTML=`<div class="empty">Could not load Radar: ${escapeHtml(e.message)}</div>`});
+  }else{
+    showLogin();
+  }
+}
+bootstrap();

@@ -150,27 +150,13 @@ def bing_html_search(query, limit=12):
     return out
 
 queries=[
- ('renovation','museum renovation funding architect exhibition'),
- ('redevelopment','museum redevelopment funding masterplan'),
- ('new gallery','museum "new gallery" funding design'),
- ('permanent exhibition','museum "permanent exhibition" design'),
- ('interactive','museum interactive exhibition funding'),
- ('immersive','museum immersive exhibition redevelopment'),
- ('science centre','"science centre" interactive exhibition'),
- ('visitor centre','"visitor centre" heritage exhibition'),
- ('procurement','museum "market engagement" exhibition'),
- ('france','musée rénovation scénographie multimédia'),
- ('germany','Museum Sanierung Ausstellungsgestaltung Medientechnik'),
- ('netherlands','museum verbouwing tentoonstelling interactieve media')
+ ('museum','museum'),
+ ('science centre','"science centre"'),
+ ('science center','"science center"'),
+ ('visitor centre','"visitor centre"'),
+ ('visitor center','"visitor center"')
 ]
 watch_buyers=[]
-for b in history.get('top_buyers',[])[:10]:
-    if b.get('buyer'): watch_buyers.append(b['buyer'])
-for o in sorted(existing,key=lambda x:x.get('score',0),reverse=True):
-    org=o.get('organization','')
-    if org and org not in watch_buyers and o.get('score',0)>=88: watch_buyers.append(org)
-    if len(watch_buyers)>=14: break
-
 started=time.monotonic()
 errors=[]
 raw=[]
@@ -196,23 +182,15 @@ def ingest(rows,label,buyer=None):
 
 for label,q in queries:
     try:
-        rows=gdelt_search(q,55); queries_ok+=1; ingest(rows,label)
+        rows=gdelt_search(q,200); queries_ok+=1; ingest(rows,label)
     except Exception as e:
         queries_failed+=1; errors.append(f'GDELT {label}: {e}')
-    time.sleep(.55)
 
-for buyer in watch_buyers[:10]:
-    try:
-        rows=gdelt_search(f'"{buyer}" exhibition',25); queries_ok+=1; ingest(rows,'buyer watch',buyer)
-    except Exception as e:
-        queries_failed+=1; errors.append(f'GDELT buyer {buyer}: {e}')
-    time.sleep(.55)
-
-# Small fallback only when GDELT coverage is unusually thin.
-if len(raw)<12:
-    for label,q in queries[:5]:
+# Tiny fallback only if the global feed is unavailable or unusually thin.
+if len(raw)<8:
+    for label,q in [('museum projects','museum renovation funding exhibition'),('museum procurement','museum exhibition procurement')]:
         try:
-            queries_ok+=1; ingest(bing_html_search(q,10),label+' fallback')
+            queries_ok+=1; ingest(bing_html_search(q,12),label+' fallback')
         except Exception as e:
             queries_failed+=1; errors.append(f'Bing {label}: {e}')
 

@@ -158,5 +158,53 @@
     "status": "Candidate",
     "url": "https://udbud.dk",
     "notes": "Danish national procurement overview covering current tenders, expected purchases, prior notices and contract awards; updated daily."
+  },
+  {
+    "name": "GeBIZ",
+    "region": "Singapore",
+    "type": "Official procurement platform",
+    "status": "Candidate",
+    "url": "https://www.gebiz.gov.sg",
+    "notes": "Singapore government procurement portal. Science Centre Board repeatedly publishes exhibit design/build, interactive, AR and AV opportunities here."
+  },
+  {
+    "name": "India eProcure (CPPP)",
+    "region": "India",
+    "type": "Official procurement platform",
+    "status": "Candidate",
+    "url": "https://eprocure.gov.in/eprocure/app",
+    "notes": "Central Public Procurement Portal. Particularly useful for National Council of Science Museums immersive projection, multimedia and science-centre procurements."
+  },
+  {
+    "name": "South Africa eTenders",
+    "region": "South Africa",
+    "type": "Official procurement platform",
+    "status": "Candidate",
+    "url": "https://www.etenders.gov.za",
+    "notes": "National tender portal. Has carried SANSA science-centre exhibit development, interactive models, coding, AR/VR and hologram requirements."
+  },
+  {
+    "name": "In-Tend supplier portals",
+    "region": "United Kingdom",
+    "type": "Supplier procurement portal",
+    "status": "Monitored",
+    "url": "https://in-tendhost.co.uk",
+    "notes": "Used by museum buyers including Science Museum Group. Useful for official tender packs and submissions after discovery on UK notices."
+  },
+  {
+    "name": "Delta eSourcing",
+    "region": "United Kingdom",
+    "type": "Supplier procurement portal",
+    "status": "Monitored",
+    "url": "https://www.delta-esourcing.com",
+    "notes": "Frequently used for museum frameworks, exhibition build, AV and interpretation procurements. Treat as tender-document/submission source."
+  },
+  {
+    "name": "ProContract / Due North",
+    "region": "United Kingdom",
+    "type": "Supplier procurement portal",
+    "status": "Monitored",
+    "url": "https://procontract.due-north.com",
+    "notes": "Used by councils and museums for exhibit, visitor-experience and immersive installation tenders."
   }
 ]

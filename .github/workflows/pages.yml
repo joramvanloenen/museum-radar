@@ -29,7 +29,11 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Refresh opportunity data
+      - name: Run autonomous research agent
+        continue-on-error: true
+        run: python scripts/research_agent.py
+
+      - name: Refresh verified opportunity data
         continue-on-error: true
         run: python scripts/scout_static.py
 

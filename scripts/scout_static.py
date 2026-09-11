@@ -38,6 +38,20 @@ def stage_from(text):
     if any(x in t for x in ['funding approved','funding secured','appointed','masterplan','master plan']): return 'Lead'
     return 'Signal'
 
+def classify_document(title='', url='', kind=''):
+    text=(' '.join([str(title or ''),str(url or ''),str(kind or '')])).lower()
+    if any(x in text for x in ['market consultation','market engagement','prior information','pin notice']): return 'Market consultation'
+    if any(x in text for x in ['design brief','creative brief','exhibition brief','interpretation brief']): return 'Design brief'
+    if any(x in text for x in ['requirement','qualification','selection criteria','scope of work','statement of work']): return 'Requirements'
+    if any(x in text for x in ['technical spec','specification','technical requirement']): return 'Technical specs'
+    if any(x in text for x in ['drawing','floor plan','floorplan','architectural plan','layout']): return 'Drawings / plans'
+    if any(x in text for x in ['budget','funding','grant','finance','business case']): return 'Budget / funding'
+    if any(x in text for x in ['council','municipal','committee','decision','resolution','minutes']): return 'Council decision'
+    if any(x in text for x in ['contract notice','procurement notice','tender notice']): return 'Contract notice'
+    if str(url or '').lower().split('?')[0].endswith('.pdf') or 'tender pdf' in text or 'brief pdf' in text: return 'Tender PDF'
+    if any(x in text for x in ['article','news','press release','announcement']): return 'Source article'
+    return str(kind or 'Document') if str(kind or '').lower() != 'document' else 'Document'
+
 def ted(limit=100):
     q='FT=(museum OR exhibition OR interactive OR multimedia OR heritage OR "visitor centre" OR "visitor center")'
     body={'query':q,'fields':['publication-number','notice-title','buyer-name','publication-date','deadline','estimated-value-procurement','place-of-performance'],'page':1,'limit':min(limit,100),'scope':'ACTIVE','checkQuerySyntax':False,'paginationMode':'PAGE_NUMBER'}
@@ -55,7 +69,7 @@ def ted(limit=100):
         if score<25: continue
         pub=str(val('publication-number',''))
         source_url=f'https://ted.europa.eu/en/notice/-/detail/{pub}' if pub else ''
-        out.append({'id':'ted-'+(pub or fp(title,org)), 'title':title,'organization':org,'country':'','city':'','stage':'Live Tender','score':score,'confidence':86,'currency':'EUR','deadline':str(val('deadline',''))[:10] or None,'procurement_window':None,'summary':'Relevant EU procurement notice detected by the automated TED scout.','fit_rationale':'Matched museum / exhibition / interactive procurement language.','pitch_angle':'Review the source notice before deciding whether to bid.','next_action':'Open the TED notice and verify scope, eligibility, budget and deadline.','sample':False,'source_key':'ted','external_id':pub,'source_url':source_url,'source_label':'TED notice','documents':[{'title':'TED notice','url':source_url,'kind':'Procurement notice'}] if source_url else [],'updated_at':now(),'evidence':[{'date':str(val('publication-date',''))[:10],'kind':'Procurement','title':'TED notice detected','detail':'Automated discovery. Verify the complete notice at the source.','source_url':source_url,'source_label':'TED notice','strength':86}]})
+        out.append({'id':'ted-'+(pub or fp(title,org)), 'title':title,'organization':org,'country':'','city':'','stage':'Live Tender','score':score,'confidence':86,'currency':'EUR','deadline':str(val('deadline',''))[:10] or None,'procurement_window':None,'summary':'Relevant EU procurement notice detected by the automated TED scout.','fit_rationale':'Matched museum / exhibition / interactive procurement language.','pitch_angle':'Review the source notice before deciding whether to bid.','next_action':'Open the TED notice and verify scope, eligibility, budget and deadline.','sample':False,'source_key':'ted','external_id':pub,'source_url':source_url,'source_label':'TED notice','documents':[{'title':'TED notice','url':source_url,'kind':classify_document('TED notice',source_url,'Procurement notice')}] if source_url else [],'updated_at':now(),'evidence':[{'date':str(val('publication-date',''))[:10],'kind':'Procurement','title':'TED notice detected','detail':'Automated discovery. Verify the complete notice at the source.','source_url':source_url,'source_label':'TED notice','strength':86}]})
     return out
 
 def contracts_finder(limit=100,days=21):
@@ -77,7 +91,9 @@ def contracts_finder(limit=100,days=21):
         docs=[]
         for d in t.get('documents') or []:
             if not d.get('url'): continue
-            docs.append({'title':d.get('title') or d.get('description') or 'Tender document','url':d.get('url'),'kind':d.get('documentType') or 'Document'})
+            doc_title=d.get('title') or d.get('description') or 'Tender document'
+            doc_url=d.get('url')
+            docs.append({'title':doc_title,'url':doc_url,'kind':classify_document(doc_title,doc_url,d.get('documentType') or 'Document')})
         url=docs[0]['url'] if docs else ''
         out.append({'id':'cf-'+fp(ext),'title':title,'organization':org,'country':'United Kingdom','city':'','stage':stage_from(title+' '+desc),'score':score,'confidence':82,'currency':'GBP','deadline':(period.get('endDate') or '')[:10] or None,'procurement_window':None,'summary':re.sub('<[^>]+>',' ',desc)[:900] or 'Relevant UK procurement notice detected by Contracts Finder.','fit_rationale':'Matched museum / exhibition / visitor-experience language.','pitch_angle':'Review the procurement notice and qualification requirements.','next_action':'Open source and triage scope, budget, deadline and bidder requirements.','sample':False,'source_key':'contracts_finder','external_id':ext,'source_url':url,'source_label':'Contracts Finder notice','documents':docs,'updated_at':now(),'evidence':[{'date':(r.get('date') or '')[:10],'kind':'Procurement','title':'Contracts Finder notice detected','detail':'Automated discovery. Verify against the original procurement notice.','source_url':url,'source_label':'Contracts Finder notice','strength':82}]})
     return out
@@ -94,7 +110,7 @@ def rss(url,name='',country='',limit=100):
     for title,desc,url,pub in rows:
         clean=re.sub('<[^>]+>',' ',desc); score,hits=relevance(title,clean,name)
         if score<25: continue
-        out.append({'id':'rss-'+fp(url or title,pub),'title':title,'organization':name or 'Web signal','country':country,'city':'','stage':stage_from(title+' '+clean),'score':min(score,78),'confidence':58,'currency':'EUR','deadline':None,'procurement_window':'Unknown — investigate','summary':clean[:900],'fit_rationale':'Early web signal matching museum / exhibition / interactive project language.','pitch_angle':'Investigate before contacting; this may be upstream of formal procurement.','next_action':'Follow the source, identify project owner, funding, design team and expected opening date.','sample':False,'source_key':'rss','external_id':url or fp(title,pub),'source_url':url,'source_label':name or 'Original article','documents':[{'title':'Original article','url':url,'kind':'Source article'}] if url else [],'updated_at':now(),'evidence':[{'date':pub[:10],'kind':'Web signal','title':'Relevant project signal detected','detail':clean[:500],'source_url':url,'source_label':name or 'Original article','strength':58}]})
+        out.append({'id':'rss-'+fp(url or title,pub),'title':title,'organization':name or 'Web signal','country':country,'city':'','stage':stage_from(title+' '+clean),'score':min(score,78),'confidence':58,'currency':'EUR','deadline':None,'procurement_window':'Unknown — investigate','summary':clean[:900],'fit_rationale':'Early web signal matching museum / exhibition / interactive project language.','pitch_angle':'Investigate before contacting; this may be upstream of formal procurement.','next_action':'Follow the source, identify project owner, funding, design team and expected opening date.','sample':False,'source_key':'rss','external_id':url or fp(title,pub),'source_url':url,'source_label':name or 'Original article','documents':[{'title':'Original article','url':url,'kind':classify_document('Original article',url,'Source article')}] if url else [],'updated_at':now(),'evidence':[{'date':pub[:10],'kind':'Web signal','title':'Relevant project signal detected','detail':clean[:500],'source_url':url,'source_label':name or 'Original article','strength':58}]})
     return out
 
 def merge(existing,incoming):

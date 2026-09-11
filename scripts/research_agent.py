@@ -2,6 +2,7 @@
 import json, re, hashlib, urllib.request, urllib.parse, xml.etree.ElementTree as ET
 from pathlib import Path
 from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 
 ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/'data'
@@ -9,197 +10,366 @@ OPPS=DATA/'opportunities.json'
 SOURCES=DATA/'sources.json'
 DISCOVERED=DATA/'discovered-sources.json'
 META=DATA/'research-agent-meta.json'
+GRAPH=DATA/'project-graph.json'
 HIST=DATA/'historical-intelligence.json'
-UA='MuseumRadarResearchAgent/0.1 (+GitHub Actions)'
+UA='MuseumRadarResearchAgent/0.4 (+GitHub Actions)'
+MAX_PAGE_BYTES=300000
 
 def now(): return datetime.now(timezone.utc).isoformat(timespec='seconds')
 def fp(*xs): return hashlib.sha1('|'.join(str(x or '').lower().strip() for x in xs).encode()).hexdigest()[:18]
-def clean_html(s): return re.sub(r'<[^>]+>',' ',s or '').replace('&amp;','&').strip()
-
-def get_text(url):
-    req=urllib.request.Request(url,headers={'User-Agent':UA,'Accept':'application/rss+xml, text/xml, */*'})
-    with urllib.request.urlopen(req,timeout=25) as r:
-        return r.read().decode('utf-8','replace')
-
-def bing_news(query, limit=20):
-    url='https://www.bing.com/news/search?'+urllib.parse.urlencode({'q':query,'format':'rss'})
-    root=ET.fromstring(get_text(url))
+def clean_html(s):
+    s=re.sub(r'(?is)<(script|style).*?>.*?</\\1>',' ',s or '')
+    s=re.sub(r'<[^>]+>',' ',s)
+    s=s.replace('&amp;','&').replace('&quot;','"').replace('&#39;',"'")
+    return re.sub(r'\\s+',' ',s).strip()
+def load_json(path, default):
+    try: return json.loads(path.read_text(encoding='utf8'))
+    except Exception: return default
+def hostname(url):
+    try: return (urllib.parse.urlparse(url).hostname or '').lower()
+    except Exception: return ''
+def canonical_url(url):
+    try:
+        p=urllib.parse.urlparse(url)
+        q=[(k,v) for k,v in urllib.parse.parse_qsl(p.query,keep_blank_values=True) if not k.lower().startswith('utm_')]
+        return urllib.parse.urlunparse((p.scheme,p.netloc,p.path,p.params,urllib.parse.urlencode(q),''))
+    except Exception: return url
+def get_text(url, timeout=18):
+    req=urllib.request.Request(url,headers={'User-Agent':UA,'Accept':'text/html, application/rss+xml, text/xml, */*'})
+    with urllib.request.urlopen(req,timeout=timeout) as r:
+        raw=r.read(MAX_PAGE_BYTES)
+        return raw.decode('utf-8','replace')
+def bing_search(query, limit=20, news=True):
+    base='https://www.bing.com/news/search' if news else 'https://www.bing.com/search'
+    url=base+'?'+urllib.parse.urlencode({'q':query,'format':'rss'})
+    root=ET.fromstring(get_text(url,20))
     rows=[]
     for i in root.findall('.//item')[:limit]:
         rows.append({
             'title':clean_html(i.findtext('title') or ''),
             'description':clean_html(i.findtext('description') or ''),
-            'url':(i.findtext('link') or '').strip(),
+            'url':canonical_url((i.findtext('link') or '').strip()),
             'date':(i.findtext('pubDate') or '').strip()
         })
     return rows
-
-def hostname(url):
-    try: return urllib.parse.urlparse(url).hostname or ''
-    except Exception: return ''
-
-def load_json(path, default):
-    try: return json.loads(path.read_text(encoding='utf8'))
-    except Exception: return default
+def parse_date(value):
+    if not value: return None
+    try:
+        d=parsedate_to_datetime(value)
+        return d.astimezone(timezone.utc) if d.tzinfo else d.replace(tzinfo=timezone.utc)
+    except Exception: return None
+def age_days(value):
+    d=parse_date(value)
+    if not d: return 90
+    return max(0,(datetime.now(timezone.utc)-d).days)
 
 history=load_json(HIST,{})
+existing_opps=load_json(OPPS,[])
+existing_sources=load_json(SOURCES,[])
+existing_discovered=load_json(DISCOVERED,[])
 learned=[x.lower() for x in history.get('learned_terms',[])]
 negative=[x.lower() for x in history.get('negative_terms',[])]
+buyer_history={x.get('buyer','').strip().lower():x for x in history.get('top_buyers',[]) if x.get('buyer')}
 
-museum_terms=['museum','museums','gallery','galleries','science centre','science center','visitor centre','visitor center','heritage centre','heritage center','interpretation centre','interpretive center','aquarium','zoo']
+museum_terms=['museum','museums','gallery','galleries','science centre','science center','visitor centre','visitor center','heritage centre','heritage center','interpretation centre','interpretive center','aquarium','zoo','historic site','national park']
+high_fit_terms=['interactive','interactives','immersive','multimedia','audiovisual','audio visual','projection','projection mapping','digital exhibition','digital interactive','media production','media design','media station','visitor guide','museum app','augmented reality','virtual reality','software development','hands-on','exhibit design','exhibition design','interpretive exhibit','visitor experience','exhibition build','scenography','museographic']
 signal_terms={
-    'funding':['funding approved','funding secured','grant awarded','investment approved','capital funding','heritage fund','lottery funding'],
-    'design':['architect appointed','design team appointed','exhibition designer appointed','masterplan','master plan','concept design','design development'],
-    'project':['new gallery','new museum','museum expansion','museum renovation','museum redevelopment','permanent exhibition','new exhibition','visitor centre','visitor center'],
-    'procurement':['market engagement','market consultation','prior information notice','procurement planned','tender expected','request for information','supplier engagement'],
-    'opening':['opening in','opens in','reopening in','completion in','construction starts','work begins']
+    'funding':['funding approved','funding secured','grant awarded','investment approved','capital funding','heritage fund','lottery funding','funded by','investment of'],
+    'design':['architect appointed','design team appointed','exhibition designer appointed','masterplan','master plan','concept design','design development','design competition','designer appointed'],
+    'project':['new gallery','new museum','museum expansion','museum renovation','museum redevelopment','permanent exhibition','new exhibition','visitor centre','visitor center','new science centre','new science center','reopening'],
+    'procurement':['market engagement','market consultation','prior information notice','procurement planned','tender expected','request for information','supplier engagement','pre-market','procurement pipeline'],
+    'delivery':['construction starts','work begins','fit-out','fit out','installation','fabrication','delivery phase'],
+    'opening':['opening in','opens in','reopening in','completion in','complete by','scheduled to open']
 }
+GENERIC_ORGS={'unknown organisation','web source','web discovery','museum','gallery','news','bing'}
 
-def signal_score(title,desc):
-    text=(title+' '+desc).lower()
-    if not any(x in text for x in museum_terms): return 0,[]
-    score=28
+STOP=set('the a an and or for of to in on at from with by new museum museums gallery galleries exhibition exhibitions project projects centre center visitor heritage redevelopment renovation expansion funding design tender procurement rfp contract permanent planned plan plans'.split())
+def tokens(text):
+    return {x for x in re.findall(r'[a-z0-9]{3,}',(text or '').lower()) if x not in STOP}
+def similarity(a,b):
+    aa=tokens(a); bb=tokens(b)
+    return len(aa&bb)/max(1,len(aa|bb))
+def normalize_org(org):
+    s=re.sub(r'[^a-z0-9 ]+',' ',(org or '').lower())
+    s=re.sub(r'\\b(the|city of|municipality of|council of|department of|office of)\\b',' ',s)
+    return re.sub(r'\\s+',' ',s).strip()
+def org_from_result(title,url):
+    if ':' in title:
+        p=title.split(':',1)[0].strip()
+        if 3<len(p)<120: return p
+    dom=hostname(url).replace('www.','')
+    return dom or 'Unknown organisation'
+def source_quality(url):
+    dom=hostname(url)
+    if not dom: return 35
+    if dom.endswith('.gov') or '.gov.' in dom or dom.endswith('.gov.uk') or dom.endswith('.gouv.fr') or dom.endswith('.bund.de') or dom.endswith('.europa.eu'):
+        return 96
+    if any(x in dom for x in ['tender','procure','contractsfinder','find-tender','ted.europa','etenders','evergabe','simap','boamp','gebiz','doffin','udbud']):
+        return 92
+    if any(x in dom for x in ['museum','gallery','heritage','sciencecentre','sciencecenter','nationalpark','zoo']):
+        return 84
+    if any(x in dom for x in ['bbc.','reuters.','apnews.','theguardian.','architectsjournal.','museumsassociation.','blooloop.']):
+        return 76
+    return 58
+
+def detect_signals(text):
+    low=(text or '').lower()
     tags=[]
     for tag,terms in signal_terms.items():
-        n=sum(t in text for t in terms)
-        if n:
-            score += {'funding':18,'design':18,'project':14,'procurement':24,'opening':8}[tag]*min(n,2)
-            tags.append(tag)
-    score += 4*sum(t in text for t in learned[:80])
-    score -= 7*sum(t in text for t in negative)
-    return max(0,min(96,score)),tags
+        if any(t in low for t in terms): tags.append(tag)
+    fit=[t for t in high_fit_terms if t in low]
+    years=[int(y) for y in re.findall(r'\\b(202[6-9]|203[0-5])\\b',low)]
+    money=re.findall(r'(?:€|£|\\$)\\s?\\d[\\d,.]*(?:\\s?(?:m|million|bn|billion))?',text or '',re.I)
+    return tags,fit,sorted(set(years)),money[:3]
 
-def predict(tags,text):
-    t=text.lower()
+def base_score(title,desc,org=''):
+    text=(title+' '+desc+' '+org).lower()
+    if not any(x in text for x in museum_terms): return 0,[],[]
+    tags,fit,years,money=detect_signals(text)
+    score=24
+    score+=min(30,10*len(set(fit)))
+    for tag in tags:
+        score += {'funding':14,'design':15,'project':12,'procurement':24,'delivery':8,'opening':7}.get(tag,0)
+    score += min(12,3*sum(t in text for t in learned[:100]))
+    score -= min(35,7*sum(t in text for t in negative))
+    bh=buyer_history.get((org or '').lower().strip())
+    if bh: score+=min(12,2*bh.get('high',0)+bh.get('adjacent',0))
+    return max(0,min(96,score)),tags,fit
+
+def predict(tags,fit,source_count,quality,years):
+    tags=set(tags); source_bonus=min(12,max(0,source_count-1)*5)
     if 'procurement' in tags:
-        return 'Expected','0–6 months',82,'Procurement language is already visible; formal competition may be near.'
-    if 'design' in tags and 'funding' in tags:
-        return 'Expected','2–9 months',78,'Funding plus a design/masterplan appointment often precedes exhibition or technical procurement.'
-    if 'design' in tags:
-        return 'Lead','3–12 months',70,'Design-team or masterplan activity often precedes specialist exhibition and media packages.'
-    if 'funding' in tags:
-        return 'Lead','3–15 months',68,'Confirmed capital funding commonly precedes consultant, exhibition and technical procurement.'
-    if 'opening' in tags and 'project' in tags:
-        return 'Pitch','2–12 months',62,'A dated project/opening signal suggests delivery packages may be forming.'
-    return 'Signal','6–18 months',55,'Early project signal; timing still uncertain.'
+        stage,window,base='Expected','0–4 months',80
+        why='Pre-procurement or supplier-engagement language is visible; a formal competition may be close.'
+    elif {'funding','design'} <= tags:
+        stage,window,base='Expected','2–9 months',76
+        why='Funding and design/masterplan activity are both visible, a strong precursor to specialist exhibition and media packages.'
+    elif 'design' in tags and ('project' in tags or 'delivery' in tags):
+        stage,window,base='Lead','2–10 months',70
+        why='A defined project plus active design work suggests specialist packages are beginning to form.'
+    elif 'funding' in tags and 'project' in tags:
+        stage,window,base='Lead','3–12 months',68
+        why='A funded museum project is moving beyond aspiration; consultant and delivery procurement often follows.'
+    elif 'design' in tags:
+        stage,window,base='Lead','3–12 months',65
+        why='Design-team or masterplan activity often comes before exhibition, AV and interactive procurement.'
+    elif 'funding' in tags:
+        stage,window,base='Lead','4–15 months',62
+        why='Confirmed funding is an upstream indicator for later design and delivery packages.'
+    elif 'opening' in tags and 'project' in tags:
+        stage,window,base='Pitch','2–12 months',58
+        why='A dated museum project gives a useful window for early outreach before specialist procurement appears.'
+    else:
+        stage,window,base='Signal','6–18 months',50
+        why='This is an early project signal; more procurement breadcrumbs are needed.'
+    if years:
+        y=min(years)
+        if y<=datetime.now(timezone.utc).year+1 and stage in ('Signal','Lead'):
+            window='1–9 months'; base+=5
+    if len(fit)>=2: base+=6
+    confidence=max(35,min(94,base+source_bonus+round((quality-55)/5)))
+    next_signals=[]
+    if 'funding' not in tags: next_signals.append('funding or capital approval')
+    if 'design' not in tags: next_signals.append('architect / exhibition designer appointment')
+    if 'procurement' not in tags: next_signals.append('market engagement / procurement notice')
+    if stage in ('Expected','Pitch'): next_signals.append('formal tender or supplier brief')
+    return stage,window,confidence,why,next_signals[:3]
 
 lead_queries=[
-    'museum renovation funding approved architect appointed',
-    '"new gallery" museum funding architect appointed',
-    'museum expansion masterplan exhibition designer',
-    '"permanent exhibition" museum redevelopment funding',
-    '"visitor centre" heritage funding architect appointed',
-    '"science centre" expansion new gallery funding',
-    'museum market engagement exhibition interactive',
-    'museum procurement planned exhibition multimedia',
-    'musée rénovation financement scénographie architecte',
-    'Museum Sanierung Förderung Ausstellungsgestaltung Architekt',
-    'museum verbouwing financiering tentoonstelling architect'
+    ('Capital projects','museum renovation funding approved architect appointed exhibition'),
+    ('New galleries','"new gallery" museum funding architect exhibition'),
+    ('Masterplans','museum expansion masterplan exhibition designer visitor experience'),
+    ('Permanent exhibitions','"permanent exhibition" museum redevelopment funding interactive'),
+    ('Visitor centres','"visitor centre" heritage funding architect interpretation'),
+    ('Science centres','"science centre" expansion gallery interactive funding'),
+    ('Pre-market','museum "market engagement" exhibition interactive AV'),
+    ('Procurement pipelines','museum "procurement planned" exhibition multimedia'),
+    ('Digital experiences','museum immersive digital interactive project funding'),
+    ('France','musée rénovation financement scénographie multimédia architecte'),
+    ('Germany','Museum Sanierung Förderung Ausstellungsgestaltung Medientechnik Architekt'),
+    ('Netherlands','museum verbouwing financiering tentoonstelling interactieve media architect'),
+    ('Nordics','museum science centre new exhibition funding interactive Scandinavia')
 ]
 platform_queries=[
     '"museum" tender portal procurement exhibition',
-    '"museum exhibition" procurement portal',
-    '"science centre" tender procurement portal',
+    '"museum exhibition" procurement platform AV interactive',
+    '"science centre" tender procurement portal interactive',
     '"visitor centre" procurement exhibition tender',
-    '"museum" RFP platform exhibition design',
-    '"museum" AV tender procurement'
+    '"museum" RFP platform exhibition design multimedia',
+    '"heritage" procurement portal interpretive exhibit'
 ]
 
-opps=load_json(OPPS,[])
-seen={(o.get('source_url') or '').strip() for o in opps if o.get('source_url')}
-new_leads=[]
+# Recurring buyers get their own searches, making the agent proactive instead of purely keyword-driven.
+watch_buyers=[]
+for b in history.get('top_buyers',[])[:12]:
+    if b.get('buyer'): watch_buyers.append(b['buyer'])
+for o in sorted(existing_opps,key=lambda x:x.get('score',0),reverse=True):
+    org=o.get('organization','')
+    if org and org not in watch_buyers and o.get('score',0)>=85:
+        watch_buyers.append(org)
+    if len(watch_buyers)>=18: break
+
+raw=[]
 errors=[]
-for q in lead_queries:
-    try:
-        rows=bing_news(q,18)
-    except Exception as e:
-        errors.append(f'lead:{q}: {e}')
-        continue
+seen_urls=set()
+def ingest(rows,query_name):
     for r in rows:
-        if not r['url'] or r['url'] in seen: continue
-        score,tags=signal_score(r['title'],r['description'])
-        if score<48: continue
-        stage,window,conf,why=predict(tags,r['title']+' '+r['description'])
-        org=(r['title'].split(':',1)[0] if ':' in r['title'] else hostname(r['url']).replace('www.',''))[:120]
-        new_leads.append({
-            'id':'agent-'+fp(r['url'],r['title']),
-            'title':r['title'][:240],
-            'organization':org or 'Unknown organisation',
-            'country':'',
-            'city':'',
-            'stage':stage,
-            'score':score,
-            'confidence':conf,
-            'currency':'EUR',
-            'deadline':None,
-            'procurement_window':window,
-            'summary':r['description'][:900] or 'Potential future museum opportunity detected by the Research Agent.',
-            'fit_rationale':'Potential upstream museum/visitor-experience signal matching historical high-fit patterns.',
-            'pitch_angle':'Investigate early: identify project owner, funding, design team and likely specialist packages before formal procurement.',
-            'next_action':'Follow the source and verify project status, budget, decision-makers and procurement route.',
-            'sample':False,
-            'verified':False,
-            'source_key':'research_agent',
-            'external_id':r['url'],
-            'source_url':r['url'],
-            'source_label':hostname(r['url']) or 'Web source',
-            'documents':[{'title':'Source article','url':r['url'],'kind':'Source article'}],
-            'updated_at':now(),
-            'prediction':{'window':window,'reason':why,'signals':tags},
-            'evidence':[{
-                'date':r['date'][:16],
-                'kind':'Predicted lead',
-                'title':'Research Agent signal',
-                'detail':why,
-                'source_url':r['url'],
-                'source_label':hostname(r['url']) or 'Web source',
-                'strength':conf
-            }]
+        u=r.get('url','')
+        if not u or u in seen_urls: continue
+        seen_urls.add(u)
+        org=org_from_result(r.get('title',''),u)
+        score,tags,fit=base_score(r.get('title',''),r.get('description',''),org)
+        if score<44: continue
+        raw.append({**r,'organization':org,'base_score':score,'signals':tags,'fit_terms':fit,'query':query_name,'quality':source_quality(u)})
+
+for name,q in lead_queries:
+    try: ingest(bing_search(q,18,True),name)
+    except Exception as e: errors.append(f'lead:{name}: {e}')
+for buyer in watch_buyers[:18]:
+    try: ingest(bing_search(f'"{buyer}" (exhibition OR gallery OR interactive OR multimedia OR renovation OR funding OR procurement)',10,True),'Buyer watch')
+    except Exception as e: errors.append(f'buyer:{buyer}: {e}')
+
+# Enrich the strongest candidates with their source page text when accessible.
+for r in sorted(raw,key=lambda x:(x['base_score'],x['quality']),reverse=True)[:14]:
+    if not r['url'].lower().endswith('.pdf'):
+        try:
+            page=clean_html(get_text(r['url'],10))[:7000]
+            if page:
+                r['page_text']=page
+                score,tags,fit=base_score(r['title'],r['description']+' '+page,r['organization'])
+                r['base_score']=max(r['base_score'],score)
+                r['signals']=sorted(set(r['signals']+tags))
+                r['fit_terms']=sorted(set(r['fit_terms']+fit))
+        except Exception:
+            pass
+
+# Cluster multiple breadcrumbs into evolving projects.
+clusters=[]
+for r in sorted(raw,key=lambda x:x['base_score'],reverse=True):
+    orgn=normalize_org(r['organization'])
+    best=None; best_sim=0
+    for c in clusters:
+        sim=similarity(r['title'],c['title_seed'])
+        same_org=orgn and orgn==c['org_norm'] and orgn not in GENERIC_ORGS
+        if sim>=0.42 or (same_org and sim>=0.20):
+            if sim+(0.25 if same_org else 0)>best_sim:
+                best,best_sim=c,sim+(0.25 if same_org else 0)
+    if best is None:
+        clusters.append({'org_norm':orgn,'organization':r['organization'],'title_seed':r['title'],'items':[r]})
+    else:
+        best['items'].append(r)
+
+old_agent={o.get('project_id') or o.get('id'):o for o in existing_opps if o.get('source_key')=='research_agent'}
+new_projects=[]
+for c in clusters:
+    items=sorted(c['items'],key=lambda x:(x['base_score'],x['quality']),reverse=True)
+    domains=sorted({hostname(x['url']).replace('www.','') for x in items if x.get('url')})
+    urls=[]
+    for x in items:
+        if x['url'] not in urls: urls.append(x['url'])
+    all_text=' '.join(x['title']+' '+x['description']+' '+x.get('page_text','')[:2500] for x in items)
+    tags,fit,years,money=detect_signals(all_text)
+    avg_quality=round(sum(x['quality'] for x in items)/len(items))
+    stage,window,conf,why,next_signals=predict(tags,fit,len(domains),avg_quality,years)
+    top=items[0]
+    score=min(97,round(max(x['base_score'] for x in items)*0.72+conf*0.28+min(6,(len(domains)-1)*2)))
+    project_id='project-'+fp(normalize_org(c['organization']),*sorted(tokens(c['title_seed']))[:8])
+    evidence=[]
+    for x in items[:8]:
+        evidence.append({
+            'date':x.get('date','')[:16],
+            'kind':'Project signal',
+            'title':x['title'][:220],
+            'detail':x['description'][:500] or why,
+            'source_url':x['url'],
+            'source_label':hostname(x['url']).replace('www.','') or 'Web source',
+            'strength':min(95,round((x['quality']+conf)/2))
         })
-        seen.add(r['url'])
+    verified_domains=[d for d in domains if source_quality('https://'+d)>=84]
+    risk=[]
+    if len(domains)==1: risk.append('single-source signal')
+    if not verified_domains: risk.append('no first-party/official source yet')
+    if not fit: risk.append('specialist interactive/AV scope not explicit yet')
+    title=top['title'][:240]
+    summary=(top['description'] or f'Potential museum project detected from {len(domains)} source domain(s).')[:900]
+    prediction={
+        'window':window,'reason':why,'signals':sorted(set(tags)),'fit_terms':sorted(set(fit))[:12],
+        'source_count':len(evidence),'source_domains':domains,'source_diversity':len(domains),
+        'source_quality':avg_quality,'expected_next_signals':next_signals,'risk_flags':risk,
+        'opening_years':years[:3],'investment_signals':money,'why_now':why
+    }
+    obj={
+        'id':'agent-'+project_id,'project_id':project_id,'title':title,'organization':c['organization'],
+        'country':'','city':'','stage':stage,'score':score,'confidence':conf,'currency':'EUR',
+        'deadline':None,'procurement_window':window,'summary':summary,
+        'fit_rationale':'Upstream project intelligence matches museum/visitor-experience patterns associated with later exhibition, AV, interactive or interpretation procurement.',
+        'pitch_angle':'Investigate before procurement: map the project owner, funding, design team and likely specialist packages; approach only when the evidence supports useful early contact.',
+        'next_action':('Verify the strongest first-party source and watch for '+', '.join(next_signals[:2])+'.') if next_signals else 'Verify the project and procurement route.',
+        'sample':False,'verified':False,'source_key':'research_agent','external_id':project_id,
+        'source_url':top['url'],'source_label':hostname(top['url']).replace('www.','') or 'Web source',
+        'documents':[{'title':x['title'][:160],'url':x['url'],'kind':'Source article'} for x in items[:5]],
+        'updated_at':now(),'prediction':prediction,'evidence':evidence
+    }
+    # Avoid noisy churn: keep the old record unchanged when no new evidence or assessment appeared.
+    old=old_agent.get(project_id) or old_agent.get(obj['id'])
+    if old:
+        old_urls={e.get('source_url') for e in old.get('evidence',[])}
+        new_urls={e.get('source_url') for e in evidence}
+        materially_changed=(new_urls-old_urls) or old.get('stage')!=stage or old.get('score')!=score or old.get('confidence')!=conf
+        if not materially_changed:
+            obj=old
+    new_projects.append(obj)
 
-# Keep only the strongest predictions to avoid flooding the UI.
-new_leads=sorted(new_leads,key=lambda x:(x['score'],x['confidence']),reverse=True)[:40]
-by={o.get('id'):o for o in opps}
-for o in new_leads: by[o['id']]=o
-OPPS.write_text(json.dumps(list(by.values()),indent=2,ensure_ascii=False),encoding='utf8')
+new_projects=sorted(new_projects,key=lambda x:(x['score'],x['confidence'],x.get('prediction',{}).get('source_diversity',0)),reverse=True)[:80]
 
-known=load_json(SOURCES,[])
-known_domains={hostname(x.get('url','')).replace('www.','') for x in known if x.get('url')}
-candidates={}
+# Replace the previous Research Agent slice while keeping verified tenders and manual/static records.
+non_agent=[o for o in existing_opps if o.get('source_key')!='research_agent']
+OPPS.write_text(json.dumps(non_agent+new_projects,indent=2,ensure_ascii=False),encoding='utf8')
+
+# Source discovery uses general web search and accumulates evidence over time.
+known_domains={hostname(x.get('url','')).replace('www.','') for x in existing_sources if x.get('url')}
+cand_by={hostname(x.get('url','')).replace('www.',''):x for x in existing_discovered if x.get('url')}
 for q in platform_queries:
-    try:
-        rows=bing_news(q,15)
+    try: rows=bing_search(q,18,False)
     except Exception as e:
-        errors.append(f'platform:{q}: {e}')
-        continue
+        errors.append(f'platform:{q}: {e}'); continue
     for r in rows:
         dom=hostname(r['url']).replace('www.','')
         if not dom or dom in known_domains or dom.endswith('museuminsider.co.uk'): continue
         text=(r['title']+' '+r['description']).lower()
-        if not any(x in text for x in ['tender','procurement','rfp','contract','bid','framework']): continue
+        if not any(x in text for x in ['tender','procurement','rfp','contract','bid','framework','supplier']): continue
         if not any(x in text for x in ['museum','exhibition','gallery','heritage','visitor centre','visitor center','science centre','science center']): continue
-        c=candidates.setdefault(dom,{
-            'name':dom,
-            'region':'Unknown',
-            'type':'Discovered source candidate',
-            'status':'Needs verification',
-            'url':'https://'+dom,
-            'notes':'Autonomously discovered while searching for museum/exhibition procurement sources.',
-            'confidence':45,
-            'examples':[]
-        })
-        c['confidence']=min(80,c['confidence']+8)
-        if len(c['examples'])<3:
-            c['examples'].append({'title':r['title'],'url':r['url']})
+        c=cand_by.get(dom) or {
+            'name':dom,'region':'Unknown','type':'Discovered source candidate','status':'Needs verification',
+            'url':'https://'+dom,'notes':'Autonomously discovered while searching for museum/exhibition procurement sources.',
+            'confidence':40,'examples':[]
+        }
+        ex_urls={x.get('url') for x in c.get('examples',[])}
+        if r['url'] not in ex_urls:
+            c.setdefault('examples',[]).append({'title':r['title'][:180],'url':r['url']})
+            c['examples']=c['examples'][-5:]
+            c['confidence']=min(88,int(c.get('confidence',40))+8)
+        cand_by[dom]=c
 
-DISCOVERED.write_text(json.dumps(sorted(candidates.values(),key=lambda x:x['confidence'],reverse=True)[:30],indent=2,ensure_ascii=False),encoding='utf8')
-META.write_text(json.dumps({
-    'last_run':now(),
-    'lead_queries':len(lead_queries),
-    'platform_queries':len(platform_queries),
-    'predicted_leads_added':len(new_leads),
-    'candidate_sources_found':len(candidates),
-    'errors':errors[:20]
+discovered=sorted(cand_by.values(),key=lambda x:(x.get('confidence',0),len(x.get('examples',[]))),reverse=True)[:40]
+DISCOVERED.write_text(json.dumps(discovered,indent=2,ensure_ascii=False),encoding='utf8')
+
+GRAPH.write_text(json.dumps({
+    'generated_at':now(),
+    'project_count':len(new_projects),
+    'high_conviction':sum(1 for x in new_projects if x.get('confidence',0)>=75 and x.get('score',0)>=75),
+    'projects':[{
+        'project_id':x.get('project_id'),'title':x.get('title'),'organization':x.get('organization'),
+        'stage':x.get('stage'),'score':x.get('score'),'confidence':x.get('confidence'),
+        'procurement_window':x.get('procurement_window'),'prediction':x.get('prediction',{}),
+        'source_url':x.get('source_url')
+    } for x in new_projects]
 },indent=2,ensure_ascii=False),encoding='utf8')
-print(json.dumps({'predicted_leads':len(new_leads),'candidate_sources':len(candidates),'errors':len(errors)}))
+
+META.write_text(json.dumps({
+    'last_run':now(),'lead_queries':len(lead_queries),'buyer_watch_queries':len(watch_buyers[:18]),
+    'platform_queries':len(platform_queries),'raw_signals':len(raw),'project_clusters':len(new_projects),
+    'predicted_leads_added':len(new_projects),'high_conviction':sum(1 for x in new_projects if x.get('confidence',0)>=75 and x.get('score',0)>=75),
+    'candidate_sources_found':len(discovered),'errors':errors[:30]
+},indent=2,ensure_ascii=False),encoding='utf8')
+print(json.dumps({'raw_signals':len(raw),'projects':len(new_projects),'high_conviction':sum(1 for x in new_projects if x.get('confidence',0)>=75 and x.get('score',0)>=75),'candidate_sources':len(discovered),'errors':len(errors)}))

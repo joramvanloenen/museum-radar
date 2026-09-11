@@ -135,5 +135,294 @@
         "strength": 98
       }
     ]
+  },
+  {
+    "id": "uk-sep655817",
+    "title": "ROG First Light Exhibitions Audio Visual Hardware Contractor",
+    "organization": "National Maritime Museum",
+    "country": "United Kingdom",
+    "city": "London",
+    "stage": "Live Tender",
+    "score": 99,
+    "confidence": 99,
+    "budget_min": 1050000,
+    "budget_max": 1050000,
+    "currency": "GBP",
+    "deadline": "2026-10-12",
+    "procurement_window": null,
+    "summary": "Royal Observatory Greenwich is procuring an AV hardware contractor for the First Light exhibition programme, covering exhibition AV hardware, installation, systems integration, contractor design portions and coordination with digital-media and setworks packages.",
+    "fit_rationale": "Exceptional fit for YIPP's AV integration, exhibition technology, physical-digital installations and technical delivery capabilities.",
+    "pitch_angle": "High-priority bid/partner opportunity. Assess whether to bid directly or join with a UK AV installation partner.",
+    "next_action": "Open the official notice and Delta eSourcing documents; review PSQ, insurance, turnover and UK delivery requirements.",
+    "sample": false,
+    "verified": true,
+    "source_key": "sell2wales",
+    "external_id": "SEP655817",
+    "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=SEP655817",
+    "source_label": "Official UK procurement notice",
+    "documents": [
+      {
+        "title": "Official procurement notice",
+        "url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=SEP655817",
+        "kind": "Contract notice"
+      },
+      {
+        "title": "Delta eSourcing tender",
+        "url": "https://www.delta-esourcing.com/tenders/UK-UK-London:-Museum-exhibition-services./8S88U624C2",
+        "kind": "Tender documents"
+      },
+      {
+        "title": "Respond via Delta",
+        "url": "https://www.delta-esourcing.com/respond/8S88U624C2",
+        "kind": "Submission portal"
+      }
+    ],
+    "updated_at": "2026-09-11T18:30:00+02:00",
+    "evidence": [
+      {
+        "date": "2026-09-09",
+        "kind": "Procurement",
+        "title": "Official procurement publication",
+        "detail": "£1.05m AV hardware contract for Royal Observatory Greenwich First Light exhibitions.",
+        "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=SEP655817",
+        "source_label": "Sell2Wales / UK notice",
+        "strength": 99
+      }
+    ]
+  },
+  {
+    "id": "uk-aug652341",
+    "title": "Palaeontology Gallery – Jurassic Seas Immersive Box",
+    "organization": "Rutland County Council",
+    "country": "United Kingdom",
+    "city": "Oakham",
+    "stage": "Live Tender",
+    "score": 99,
+    "confidence": 99,
+    "budget_min": null,
+    "budget_max": null,
+    "currency": "GBP",
+    "deadline": "2026-10-08",
+    "procurement_window": null,
+    "summary": "Design, build and installation of a 10m × 10m immersive Jurassic Seas environment using high-quality projection, projection mapping and sensor-based interactive technology for Rutland County Museum.",
+    "fit_rationale": "Near-perfect YIPP fit: immersive projection, sensors, realtime/interactive media, museum storytelling and complete physical-digital delivery.",
+    "pitch_angle": "Treat as a top-priority opportunity; the brief explicitly asks for projection mapping and sensor-based interaction.",
+    "next_action": "Open the official notice and EastMidsTenders/ProContract tender; review content-production scope and delivery-partner requirements.",
+    "sample": false,
+    "verified": true,
+    "source_key": "sell2wales",
+    "external_id": "AUG652341",
+    "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=AUG652341",
+    "source_label": "Official UK procurement notice",
+    "documents": [
+      {
+        "title": "Official procurement notice",
+        "url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=AUG652341",
+        "kind": "Contract notice"
+      },
+      {
+        "title": "ProContract tender",
+        "url": "https://procontract.due-north.com/Advert?advertId=77d6f35e-5aa1-f111-813c-005056b64545&fromProjectDashboard=True",
+        "kind": "Tender documents"
+      }
+    ],
+    "updated_at": "2026-09-11T18:30:00+02:00",
+    "evidence": [
+      {
+        "date": "2026-08-27",
+        "kind": "Procurement",
+        "title": "Official procurement publication",
+        "detail": "Permanent immersive museum installation explicitly requiring projection mapping and sensor-based interactive technology.",
+        "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=AUG652341",
+        "source_label": "Sell2Wales / UK notice",
+        "strength": 99
+      }
+    ]
+  },
+  {
+    "id": "uk-aug652022",
+    "title": "Palaeontology Gallery – Science Lab, Rutland County Museum",
+    "organization": "Rutland County Council",
+    "country": "United Kingdom",
+    "city": "Oakham",
+    "stage": "Live Tender",
+    "score": 95,
+    "confidence": 99,
+    "budget_min": null,
+    "budget_max": null,
+    "currency": "GBP",
+    "deadline": "2026-10-08",
+    "procurement_window": null,
+    "summary": "Design, build and installation of a permanent Science Lab gallery that complements the separately tendered immersive Jurassic Seas experience, including concept, technical design, fabrication, installation, testing and handover.",
+    "fit_rationale": "Strong fit for playful science interpretation, exhibit design, interaction and complete museum installation delivery.",
+    "pitch_angle": "Potential standalone bid or strategic pairing with the Jurassic Seas immersive-box tender.",
+    "next_action": "Review the ProContract documents and determine whether to bid alone or coordinate with a fabrication partner.",
+    "sample": false,
+    "verified": true,
+    "source_key": "sell2wales",
+    "external_id": "AUG652022",
+    "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=AUG652022",
+    "source_label": "Official UK procurement notice",
+    "documents": [
+      {
+        "title": "Official procurement notice",
+        "url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=AUG652022",
+        "kind": "Contract notice"
+      },
+      {
+        "title": "ProContract tender",
+        "url": "https://procontract.due-north.com/Advert?advertId=4d5c20ab-2da1-f111-813c-005056b64545&fromProjectDashboard=True",
+        "kind": "Tender documents"
+      }
+    ],
+    "updated_at": "2026-09-11T18:30:00+02:00",
+    "evidence": [
+      {
+        "date": "2026-08-27",
+        "kind": "Procurement",
+        "title": "Official procurement publication",
+        "detail": "Integrated end-to-end museum gallery design and build for a science-learning environment.",
+        "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=AUG652022",
+        "source_label": "Sell2Wales / UK notice",
+        "strength": 99
+      }
+    ]
+  },
+  {
+    "id": "ie-8901321",
+    "title": "Medical Museum Exhibition Design Services – Expression of Interest",
+    "organization": "Royal College of Physicians of Ireland",
+    "country": "Ireland",
+    "city": "Dublin",
+    "stage": "Live Tender",
+    "score": 96,
+    "confidence": 99,
+    "budget_min": 2500000,
+    "budget_max": 2500000,
+    "currency": "EUR",
+    "deadline": "2026-09-18",
+    "procurement_window": null,
+    "summary": "EOI for exhibition design firms to create Ireland's first publicly accessible medical museum at No. 6 Kildare Street, transforming more than 50,000 objects, archives and rare books into a new visitor experience.",
+    "fit_rationale": "Large museum-development opportunity with major potential for interactive and digital interpretation, although the current stage is exhibition-design led.",
+    "pitch_angle": "High strategic value. Investigate whether YIPP should partner with an exhibition-design lead for the later tender stage.",
+    "next_action": "Review the official eTenders EOI immediately; identify consortium requirements and potential exhibition-design partners.",
+    "sample": false,
+    "verified": true,
+    "source_key": "etenders_ie",
+    "external_id": "8901321",
+    "source_url": "https://www.etenders.gov.ie/epps/cft/prepareViewCfTWS.do?resourceId=8901321",
+    "source_label": "Official eTenders Ireland notice",
+    "documents": [
+      {
+        "title": "Official eTenders notice",
+        "url": "https://www.etenders.gov.ie/epps/cft/prepareViewCfTWS.do?resourceId=8901321",
+        "kind": "Contract notice"
+      }
+    ],
+    "updated_at": "2026-09-11T18:30:00+02:00",
+    "evidence": [
+      {
+        "date": "2026-08-26",
+        "kind": "Procurement",
+        "title": "Official eTenders Ireland EOI",
+        "detail": "€2.5m museum exhibition-design procurement; first stage of a restricted two-stage process.",
+        "source_url": "https://www.etenders.gov.ie/epps/cft/prepareViewCfTWS.do?resourceId=8901321",
+        "source_label": "eTenders Ireland",
+        "strength": 99
+      }
+    ]
+  },
+  {
+    "id": "uk-sep653553",
+    "title": "3D Exhibition Design Services Framework for Imperial War Museums",
+    "organization": "Imperial War Museums",
+    "country": "United Kingdom",
+    "city": "London / UK",
+    "stage": "Live Tender",
+    "score": 89,
+    "confidence": 99,
+    "budget_min": 250000,
+    "budget_max": 250000,
+    "currency": "GBP",
+    "deadline": "2026-10-03",
+    "procurement_window": null,
+    "summary": "Three-year framework for 3D exhibition design services across Imperial War Museums, aimed at suppliers with demonstrable museum, heritage or public-facing exhibition experience.",
+    "fit_rationale": "Good strategic framework fit for spatial interactive concept/design work, particularly when paired with YIPP's technical-art and interactive capabilities.",
+    "pitch_angle": "Consider bidding with a spatial/exhibition-design partner if the qualification criteria favour full-service exhibition design.",
+    "next_action": "Review PSQ and framework requirements on the official procurement page and Delta eSourcing.",
+    "sample": false,
+    "verified": true,
+    "source_key": "sell2wales",
+    "external_id": "SEP653553",
+    "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=SEP653553",
+    "source_label": "Official UK procurement notice",
+    "documents": [
+      {
+        "title": "Official procurement notice",
+        "url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=SEP653553",
+        "kind": "Contract notice"
+      },
+      {
+        "title": "Delta eSourcing tender",
+        "url": "https://www.delta-esourcing.com/tenders/UK-UK-London:-Architectural-design-services./262BGR94ZU",
+        "kind": "Tender documents"
+      }
+    ],
+    "updated_at": "2026-09-11T18:30:00+02:00",
+    "evidence": [
+      {
+        "date": "2026-09-02",
+        "kind": "Procurement",
+        "title": "Official procurement publication",
+        "detail": "£250k exhibition-design framework for IWM, with three-year term plus extension option.",
+        "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=SEP653553",
+        "source_label": "Sell2Wales / UK notice",
+        "strength": 99
+      }
+    ]
+  },
+  {
+    "id": "uk-aug653053",
+    "title": "Space Pod Gallery – Lead Exhibition & Graphic Designer",
+    "organization": "Science Museum Group",
+    "country": "United Kingdom",
+    "city": "London",
+    "stage": "Live Tender",
+    "score": 86,
+    "confidence": 99,
+    "budget_min": 150000,
+    "budget_max": 150000,
+    "currency": "GBP",
+    "deadline": "2026-09-23",
+    "procurement_window": null,
+    "summary": "Science Museum Group is procuring a lead exhibition and graphic designer for the Space Pod gallery project at the Science Museum London.",
+    "fit_rationale": "Relevant as an exhibition-design route into a major science-museum gallery, with potential downstream interactive/media scope.",
+    "pitch_angle": "Worth assessing as a design-partner opportunity rather than a pure YIPP solo bid.",
+    "next_action": "Review the official notice and tender documents; assess consortium/partner route.",
+    "sample": false,
+    "verified": true,
+    "source_key": "sell2wales",
+    "external_id": "AUG653053",
+    "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=AUG653053",
+    "source_label": "Official UK procurement notice",
+    "documents": [
+      {
+        "title": "Official procurement notice",
+        "url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=AUG653053",
+        "kind": "Contract notice"
+      }
+    ],
+    "updated_at": "2026-09-11T18:30:00+02:00",
+    "evidence": [
+      {
+        "date": "2026-08-29",
+        "kind": "Procurement",
+        "title": "Official procurement publication",
+        "detail": "£150k lead exhibition and graphic design procurement for Science Museum London's Space Pod project.",
+        "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=AUG653053",
+        "source_label": "Sell2Wales / UK notice",
+        "strength": 99
+      }
+    ]
   }
 ]

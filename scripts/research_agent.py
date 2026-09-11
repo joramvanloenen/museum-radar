@@ -85,7 +85,7 @@ def bing_html_search(query, limit=15):
     raw=get_text(url,20)
     out=[]
     for block in re.findall("<li[^>]+class=[\"'][^\"']*b_algo[^\"']*[\"'][^>]*>.*?</li>",raw,re.I|re.S):
-        m=re.search(r'<h2[^>]*>\\s*<a[^>]+href=["\\']([^"\\']+)["\\'][^>]*>(.*?)</a>',block,re.I|re.S)
+        m=re.search("<h2[^>]*>\\s*<a[^>]+href=[\"']([^\"']+)[\"'][^>]*>(.*?)</a>",block,re.I|re.S)
         if not m: continue
         href=unwrap_search_url(m.group(1))
         title=clean_html(m.group(2))

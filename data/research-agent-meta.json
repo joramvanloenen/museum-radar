@@ -1,19 +1,17 @@
 {
-  "status": "degraded",
-  "last_run": "2026-09-11T10:49:30+00:00",
-  "duration_seconds": 37.4,
-  "queries_ok": 6,
-  "queries_failed": 5,
-  "raw_signals": 0,
-  "project_clusters": 0,
-  "predicted_leads_added": 0,
-  "high_conviction": 0,
+  "status": "healthy",
+  "mode": "ChatGPT Research Agent",
+  "architecture": "Web research runs in ChatGPT every 6 hours; GitHub Actions separately verifies structured procurement sources.",
+  "last_run": "2026-09-11T10:54:07+00:00",
+  "duration_seconds": null,
+  "bootstrap_run": true,
+  "queries_ok": 13,
+  "queries_failed": 0,
+  "raw_signals": 5,
+  "project_clusters": 5,
+  "predicted_leads_added": 5,
+  "high_conviction": 5,
   "candidate_sources_found": 0,
-  "errors": [
-    "GDELT museum: <urlopen error _ssl.c:993: The handshake operation timed out>",
-    "GDELT science centre: <urlopen error _ssl.c:993: The handshake operation timed out>",
-    "GDELT science center: <urlopen error _ssl.c:993: The handshake operation timed out>",
-    "GDELT visitor centre: <urlopen error _ssl.c:993: The handshake operation timed out>",
-    "GDELT visitor center: <urlopen error _ssl.c:993: The handshake operation timed out>"
-  ]
+  "errors": [],
+  "next_schedule": "Every 6 hours (Europe/Amsterdam)"
 }

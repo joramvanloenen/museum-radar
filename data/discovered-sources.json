@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "name": "GeBIZ – Singapore Government Electronic Business",
+    "region": "Singapore",
+    "type": "Official government procurement portal",
+    "status": "Verified",
+    "url": "https://www.gebiz.gov.sg/",
+    "notes": "Official Singapore government procurement platform. Independently verified against current Science Centre Board opportunity pages. Particularly useful because Science Centre Singapore repeatedly procures exhibit design/build, interactive technology, immersive/blockbuster exhibitions and visitor-facing technical work here.",
+    "confidence": 99,
+    "verified_at": "2026-09-11T16:48:55+00:00",
+    "examples": [
+      {
+        "title": "Science Centre Board – ITQ for Design and Build of Exhibits / Everyday Science Exhibition",
+        "url": "https://www.gebiz.gov.sg/ptn/opportunity/opportunityDetails.xhtml?OPPORTUNITY_ID=1000000000000537898&code=SCB000ETQ26000036&origin=rss&status=RELEASED&type=TQ"
+      },
+      {
+        "title": "Science Centre Board – Design, Supply and Build of Science Centre Singapore new blockbuster exhibition 2026",
+        "url": "https://www.gebiz.gov.sg/ptn/opportunity/opportunityDetails.xhtml?OPPORTUNITY_ID=1000000000000516268&code=SCB000ETT26000007&origin=rss&status=RELEASED&type=TT"
+      }
+    ]
+  }
+]

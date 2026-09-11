@@ -74,6 +74,38 @@ def bing_search(query, limit=20, news=True):
             'date':(i.findtext('pubDate') or '').strip()
         })
     return rows
+
+def bing_html_search(query, limit=15):
+    url='https://www.bing.com/search?'+urllib.parse.urlencode({'q':query,'count':limit})
+    raw=get_text(url,20)
+    out=[]
+    for block in re.findall(r'<li[^>]+class=["\\'][^"\\']*b_algo[^"\\']*["\\'][^>]*>.*?</li>',raw,re.I|re.S):
+        m=re.search(r'<h2[^>]*>\\s*<a[^>]+href=["\\']([^"\\']+)["\\'][^>]*>(.*?)</a>',block,re.I|re.S)
+        if not m: continue
+        href=unwrap_search_url(m.group(1))
+        title=clean_html(m.group(2))
+        sm=re.search(r'<p[^>]*>(.*?)</p>',block,re.I|re.S)
+        desc=clean_html(sm.group(1)) if sm else ''
+        if href and title: out.append({'title':title,'description':desc,'url':href,'date':''})
+        if len(out)>=limit: break
+    return out
+
+def ddg_search(query, limit=15):
+    url='https://html.duckduckgo.com/html/?'+urllib.parse.urlencode({'q':query})
+    raw=get_text(url,20)
+    out=[]
+    for m in re.finditer(r'<a[^>]+class=["\\']result__a["\\'][^>]+href=["\\']([^"\\']+)["\\'][^>]*>(.*?)</a>',raw,re.I|re.S):
+        href=m.group(1).replace('&amp;','&')
+        try:
+            p=urllib.parse.urlparse(href)
+            qs=urllib.parse.parse_qs(p.query)
+            if 'uddg' in qs and qs['uddg']: href=urllib.parse.unquote(qs['uddg'][0])
+        except Exception: pass
+        href=canonical_url(href)
+        title=clean_html(m.group(2))
+        if href and title: out.append({'title':title,'description':'','url':href,'date':''})
+        if len(out)>=limit: break
+    return out
 def parse_date(value):
     if not value: return None
     try:
@@ -148,7 +180,8 @@ def detect_signals(text):
 
 def base_score(title,desc,org=''):
     text=(title+' '+desc+' '+org).lower()
-    if not any(x in text for x in museum_terms): return 0,[],[]
+    museum_context=any(x in text for x in museum_terms) or (org or '').lower().strip() in buyer_history
+    if not museum_context: return 0,[],[]
     tags,fit,years,money=detect_signals(text)
     score=24
     score+=min(30,10*len(set(fit)))
@@ -236,24 +269,41 @@ for o in sorted(existing_opps,key=lambda x:x.get('score',0),reverse=True):
 raw=[]
 errors=[]
 seen_urls=set()
-def ingest(rows,query_name):
+def ingest(rows,query_name,buyer_override=None):
+    added=0
     for r in rows:
         u=r.get('url','')
         if not u or u in seen_urls: continue
-        seen_urls.add(u)
-        org=org_from_result(r.get('title',''),u)
+        org=buyer_override or org_from_result(r.get('title',''),u)
         score,tags,fit=base_score(r.get('title',''),r.get('description',''),org)
-        if score<44: continue
+        if buyer_override and not any(x in (r.get('title','')+' '+r.get('description','')).lower() for x in ['exhibition','gallery','interactive','immersive','multimedia','digital','renovation','redevelopment','funding','procurement','tender','visitor','experience','masterplan']):
+            continue
+        if score<40: continue
+        seen_urls.add(u)
         raw.append({**r,'organization':org,'base_score':score,'signals':tags,'fit_terms':fit,'query':query_name,'quality':source_quality(u)})
+        added+=1
+    return added
 
 for name,q in lead_queries:
-    try: ingest(bing_search(q,18,True),name+' news')
+    n=0
+    try: n+=ingest(bing_search(q,18,True),name+' news')
     except Exception as e: errors.append(f'lead-news:{name}: {e}')
-    try: ingest(bing_search(q,14,False),name+' web')
+    try: n+=ingest(bing_search(q,14,False),name+' web')
     except Exception as e: errors.append(f'lead-web:{name}: {e}')
+    if n<3:
+        try: n+=ingest(bing_html_search(q,12),name+' web html')
+        except Exception as e: errors.append(f'lead-html:{name}: {e}')
+    if n<2:
+        try: ingest(ddg_search(q,10),name+' ddg')
+        except Exception as e: errors.append(f'lead-ddg:{name}: {e}')
 for buyer in watch_buyers[:18]:
-    try: ingest(bing_search(f'"{buyer}" (exhibition OR gallery OR interactive OR multimedia OR renovation OR funding OR procurement)',10,True),'Buyer watch')
-    except Exception as e: errors.append(f'buyer:{buyer}: {e}')
+    q=f'"{buyer}" (exhibition OR gallery OR interactive OR multimedia OR renovation OR funding OR procurement)'
+    n=0
+    try: n+=ingest(bing_search(q,10,True),'Buyer watch',buyer)
+    except Exception as e: errors.append(f'buyer-news:{buyer}: {e}')
+    if n<2:
+        try: n+=ingest(bing_html_search(q,8),'Buyer watch',buyer)
+        except Exception as e: errors.append(f'buyer-html:{buyer}: {e}')
 
 # Enrich the strongest candidates with their source page text when accessible.
 for r in sorted(raw,key=lambda x:(x['base_score'],x['quality']),reverse=True)[:14]:
@@ -356,9 +406,15 @@ OPPS.write_text(json.dumps(non_agent+new_projects,indent=2,ensure_ascii=False),e
 known_domains={hostname(x.get('url','')).replace('www.','') for x in existing_sources if x.get('url')}
 cand_by={hostname(x.get('url','')).replace('www.',''):x for x in existing_discovered if x.get('url')}
 for q in platform_queries:
-    try: rows=bing_search(q,18,False)
-    except Exception as e:
-        errors.append(f'platform:{q}: {e}'); continue
+    rows=[]
+    try: rows.extend(bing_search(q,18,False))
+    except Exception as e: errors.append(f'platform-rss:{q}: {e}')
+    if len(rows)<5:
+        try: rows.extend(bing_html_search(q,12))
+        except Exception as e: errors.append(f'platform-html:{q}: {e}')
+    if len(rows)<3:
+        try: rows.extend(ddg_search(q,10))
+        except Exception as e: errors.append(f'platform-ddg:{q}: {e}')
     for r in rows:
         dom=hostname(r['url']).replace('www.','')
         if not dom or dom in known_domains or dom.endswith('museuminsider.co.uk'): continue

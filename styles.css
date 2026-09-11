@@ -518,3 +518,60 @@ body.modal-open .modalback{inset:0!important;padding:0!important;z-index:9999!im
     flex:1 1 140px;
   }
 }
+
+/* Research Agent / prediction intelligence */
+.intelBadge{
+  background:#668cff;
+  border-color:#101010;
+}
+.verifiedBadge{
+  background:#d9ff3f;
+  border-color:#101010;
+}
+.predictionBox{
+  margin:26px 0 32px;
+  padding:20px;
+  border:1.5px solid var(--ink);
+  background:#eef2ff;
+}
+.predictionBox h3{
+  margin:0 0 10px;
+}
+.predictionBox p{
+  margin:0 0 14px;
+  max-width:48ch;
+  font-size:15px;
+  line-height:1.55;
+}
+.signalPills{
+  display:flex;
+  flex-wrap:wrap;
+  gap:7px;
+  margin:0 0 14px;
+}
+.signalPills span{
+  display:inline-flex;
+  align-items:center;
+  min-height:28px;
+  padding:5px 9px;
+  border:1px solid var(--ink);
+  background:var(--card);
+  font-size:11px;
+  font-weight:800;
+  line-height:1;
+}
+.predictionNext,
+.predictionRisk{
+  margin-top:9px;
+  font-size:13px;
+  line-height:1.45;
+}
+.predictionRisk{
+  color:#5d5147;
+}
+@media(max-width:900px){
+  .predictionBox{
+    margin:22px 0 28px;
+    padding:16px;
+  }
+}

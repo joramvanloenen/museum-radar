@@ -175,7 +175,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-11T08:02:55+00:00",
+    "updated_at": "2026-09-11T08:05:47+00:00",
     "evidence": [
       {
         "date": "",
@@ -186,7 +186,8 @@
         "source_label": "Public Contracts Scotland museum exhibition",
         "strength": 93
       }
-    ]
+    ],
+    "watched": false
   },
   {
     "id": "public_contracts_scotland-apr554400",
@@ -217,7 +218,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-11T08:02:55+00:00",
+    "updated_at": "2026-09-11T08:05:47+00:00",
     "evidence": [
       {
         "date": "",
@@ -228,7 +229,8 @@
         "source_label": "Public Contracts Scotland museum exhibition",
         "strength": 93
       }
-    ]
+    ],
+    "watched": false
   },
   {
     "id": "public_contracts_scotland-jul560676",
@@ -259,7 +261,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-11T08:02:50+00:00",
+    "updated_at": "2026-09-11T08:05:42+00:00",
     "evidence": [
       {
         "date": "",
@@ -270,7 +272,8 @@
         "source_label": "Public Contracts Scotland museum exhibition",
         "strength": 93
       }
-    ]
+    ],
+    "watched": false
   },
   {
     "id": "public_contracts_scotland-mar552523",
@@ -301,7 +304,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-11T08:02:50+00:00",
+    "updated_at": "2026-09-11T08:05:42+00:00",
     "evidence": [
       {
         "date": "",
@@ -312,7 +315,8 @@
         "source_label": "Public Contracts Scotland museum exhibition",
         "strength": 93
       }
-    ]
+    ],
+    "watched": false
   },
   {
     "id": "public_contracts_scotland-jan546606",
@@ -343,7 +347,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-11T08:02:50+00:00",
+    "updated_at": "2026-09-11T08:05:42+00:00",
     "evidence": [
       {
         "date": "",
@@ -354,7 +358,8 @@
         "source_label": "Public Contracts Scotland museum exhibition",
         "strength": 93
       }
-    ]
+    ],
+    "watched": false
   },
   {
     "id": "sell2wales-jul637317",
@@ -385,7 +390,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-11T08:02:49+00:00",
+    "updated_at": "2026-09-11T08:05:41+00:00",
     "evidence": [
       {
         "date": "",
@@ -396,7 +401,8 @@
         "source_label": "Sell2Wales museum exhibition",
         "strength": 93
       }
-    ]
+    ],
+    "watched": false
   },
   {
     "id": "sell2wales-jul643195",
@@ -427,7 +433,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-11T08:02:44+00:00",
+    "updated_at": "2026-09-11T08:05:35+00:00",
     "evidence": [
       {
         "date": "",
@@ -438,7 +444,8 @@
         "source_label": "Sell2Wales museum exhibition",
         "strength": 93
       }
-    ]
+    ],
+    "watched": false
   },
   {
     "id": "sell2wales-jul639968",
@@ -469,7 +476,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-11T08:02:43+00:00",
+    "updated_at": "2026-09-11T08:05:31+00:00",
     "evidence": [
       {
         "date": "",
@@ -480,7 +487,8 @@
         "source_label": "Sell2Wales museum exhibition",
         "strength": 93
       }
-    ]
+    ],
+    "watched": false
   },
   {
     "id": "sell2wales-jun631313",
@@ -511,7 +519,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-11T08:02:43+00:00",
+    "updated_at": "2026-09-11T08:05:31+00:00",
     "evidence": [
       {
         "date": "",
@@ -522,7 +530,8 @@
         "source_label": "Sell2Wales museum exhibition",
         "strength": 93
       }
-    ]
+    ],
+    "watched": false
   },
   {
     "id": "ie-8901321",
@@ -902,10 +911,10 @@
     ]
   },
   {
-    "id": "agent-project-0228518db47f06ba03",
-    "project_id": "project-0228518db47f06ba03",
+    "id": "agent-project-5bd657c0bcc8224f37",
+    "project_id": "project-5bd657c0bcc8224f37",
     "title": "Museums Deploy Interactive Technology To Create More Immersive Experiences",
-    "organization": "bing.com",
+    "organization": "biztechmagazine.com",
     "country": "",
     "city": "",
     "stage": "Signal",
@@ -921,17 +930,17 @@
     "sample": false,
     "verified": false,
     "source_key": "research_agent",
-    "external_id": "project-0228518db47f06ba03",
-    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa3b599232243fbb694079caa7e3adc&url=https%3A%2F%2Fbiztechmagazine.com%2Farticle%2F2025%2F12%2Fmuseums-deploy-interactive-technology-create-more-immersive-experiences&c=6976440360555668323&mkt=en-us",
-    "source_label": "bing.com",
+    "external_id": "project-5bd657c0bcc8224f37",
+    "source_url": "https://biztechmagazine.com/article/2025/12/museums-deploy-interactive-technology-create-more-immersive-experiences",
+    "source_label": "biztechmagazine.com",
     "documents": [
       {
         "title": "Museums Deploy Interactive Technology To Create More Immersive Experiences",
-        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa3b599232243fbb694079caa7e3adc&url=https%3A%2F%2Fbiztechmagazine.com%2Farticle%2F2025%2F12%2Fmuseums-deploy-interactive-technology-create-more-immersive-experiences&c=6976440360555668323&mkt=en-us",
+        "url": "https://biztechmagazine.com/article/2025/12/museums-deploy-interactive-technology-create-more-immersive-experiences",
         "kind": "Source article"
       }
     ],
-    "updated_at": "2026-09-11T08:02:37+00:00",
+    "updated_at": "2026-09-11T08:05:20+00:00",
     "prediction": {
       "window": "6–18 months",
       "reason": "This is an early project signal; more procurement breadcrumbs are needed.",
@@ -943,7 +952,7 @@
       ],
       "source_count": 1,
       "source_domains": [
-        "bing.com"
+        "biztechmagazine.com"
       ],
       "source_diversity": 1,
       "source_quality": 58,
@@ -966,17 +975,17 @@
         "kind": "Project signal",
         "title": "Museums Deploy Interactive Technology To Create More Immersive Experiences",
         "detail": "The Griffin Museum of Science and Industry and other science centers are integrating projectors, touch screens and other technology to enhance the visitor experience. Wylie Wong is a freelance ...",
-        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa3b599232243fbb694079caa7e3adc&url=https%3A%2F%2Fbiztechmagazine.com%2Farticle%2F2025%2F12%2Fmuseums-deploy-interactive-technology-create-more-immersive-experiences&c=6976440360555668323&mkt=en-us",
-        "source_label": "bing.com",
+        "source_url": "https://biztechmagazine.com/article/2025/12/museums-deploy-interactive-technology-create-more-immersive-experiences",
+        "source_label": "biztechmagazine.com",
         "strength": 58
       }
     ]
   },
   {
-    "id": "agent-project-9766c0bd892419ebb0",
-    "project_id": "project-9766c0bd892419ebb0",
+    "id": "agent-project-35fed33012e7fce960",
+    "project_id": "project-35fed33012e7fce960",
     "title": "'Immersive' new Royal Marines Museum in Portsmouth honouring Commandos nears completion as funding sought",
-    "organization": "bing.com",
+    "organization": "msn.com",
     "country": "",
     "city": "",
     "stage": "Signal",
@@ -992,17 +1001,17 @@
     "sample": false,
     "verified": false,
     "source_key": "research_agent",
-    "external_id": "project-9766c0bd892419ebb0",
-    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa3b599232243fbb694079caa7e3adc&url=https%3A%2F%2Fwww.msn.com%2Fen-gb%2Fnews%2Fuknews%2Fimmersive-new-royal-marines-museum-in-portsmouth-honouring-commandos-nears-completion-as-funding-sought%2Far-AA1ZL4oW&c=10535911874828507102&mkt=en-us",
-    "source_label": "bing.com",
+    "external_id": "project-35fed33012e7fce960",
+    "source_url": "https://www.msn.com/en-gb/news/uknews/immersive-new-royal-marines-museum-in-portsmouth-honouring-commandos-nears-completion-as-funding-sought/ar-AA1ZL4oW",
+    "source_label": "msn.com",
     "documents": [
       {
         "title": "'Immersive' new Royal Marines Museum in Portsmouth honouring Commandos nears completion as funding sought",
-        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa3b599232243fbb694079caa7e3adc&url=https%3A%2F%2Fwww.msn.com%2Fen-gb%2Fnews%2Fuknews%2Fimmersive-new-royal-marines-museum-in-portsmouth-honouring-commandos-nears-completion-as-funding-sought%2Far-AA1ZL4oW&c=10535911874828507102&mkt=en-us",
+        "url": "https://www.msn.com/en-gb/news/uknews/immersive-new-royal-marines-museum-in-portsmouth-honouring-commandos-nears-completion-as-funding-sought/ar-AA1ZL4oW",
         "kind": "Source article"
       }
     ],
-    "updated_at": "2026-09-11T08:02:37+00:00",
+    "updated_at": "2026-09-11T08:05:20+00:00",
     "prediction": {
       "window": "6–18 months",
       "reason": "This is an early project signal; more procurement breadcrumbs are needed.",
@@ -1015,7 +1024,7 @@
       ],
       "source_count": 1,
       "source_domains": [
-        "bing.com"
+        "msn.com"
       ],
       "source_diversity": 1,
       "source_quality": 58,
@@ -1038,8 +1047,8 @@
         "kind": "Project signal",
         "title": "'Immersive' new Royal Marines Museum in Portsmouth honouring Commandos nears completion as funding sought",
         "detail": "TV personalities Ross Kemp and Dan Snow have given their backing to help raise the final £2.5m needed to create a new museum aimed at paying tribute to the “courage, sacrifice, and service” of the ...",
-        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa3b599232243fbb694079caa7e3adc&url=https%3A%2F%2Fwww.msn.com%2Fen-gb%2Fnews%2Fuknews%2Fimmersive-new-royal-marines-museum-in-portsmouth-honouring-commandos-nears-completion-as-funding-sought%2Far-AA1ZL4oW&c=10535911874828507102&mkt=en-us",
-        "source_label": "bing.com",
+        "source_url": "https://www.msn.com/en-gb/news/uknews/immersive-new-royal-marines-museum-in-portsmouth-honouring-commandos-nears-completion-as-funding-sought/ar-AA1ZL4oW",
+        "source_label": "msn.com",
         "strength": 58
       }
     ]

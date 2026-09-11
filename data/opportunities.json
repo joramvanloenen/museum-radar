@@ -424,5 +424,103 @@
         "strength": 99
       }
     ]
+  },
+  {
+    "id": "uk-sep654439",
+    "title": "Science and Industry Museum Wonderlab Group 2 Interactives Makers",
+    "organization": "Science Museum Group",
+    "country": "United Kingdom",
+    "city": "Manchester",
+    "stage": "Live Tender",
+    "score": 99,
+    "confidence": 99,
+    "budget_min": null,
+    "budget_max": null,
+    "currency": "GBP",
+    "deadline": "2026-10-03",
+    "procurement_window": null,
+    "summary": "Current procurement for makers of interactive exhibits for the new Wonderlab gallery at the Science and Industry Museum in Manchester.",
+    "fit_rationale": "Exceptional fit for interactive exhibit development, physical-digital play, technical prototyping and permanent museum installations.",
+    "pitch_angle": "Top-priority opportunity. Review the live tender pack and identify whether to bid directly or with fabrication partners.",
+    "next_action": "Open the official notice and supplier portal; review interactives scope, qualification criteria and submission requirements.",
+    "sample": false,
+    "verified": true,
+    "source_key": "sell2wales",
+    "external_id": "SEP654439",
+    "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=SEP654439",
+    "source_label": "Official UK procurement notice",
+    "documents": [
+      {
+        "title": "Official procurement notice",
+        "url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=SEP654439",
+        "kind": "Contract notice"
+      }
+    ],
+    "updated_at": "2026-09-11T09:40:00+02:00",
+    "evidence": [
+      {
+        "date": "2026-09-04",
+        "kind": "Procurement",
+        "title": "Official procurement publication",
+        "detail": "Science Museum Group procurement for Wonderlab Group 2 interactive exhibit makers, with a 3 October 2026 deadline.",
+        "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=SEP654439",
+        "source_label": "Sell2Wales",
+        "strength": 99
+      }
+    ]
+  },
+  {
+    "id": "uk-aug650869",
+    "title": "IWM Exhibitions Build Framework Agreement",
+    "organization": "Imperial War Museums",
+    "country": "United Kingdom",
+    "city": "London / UK",
+    "stage": "Live Tender",
+    "score": 90,
+    "confidence": 99,
+    "budget_min": 3000000,
+    "budget_max": 3000000,
+    "currency": "GBP",
+    "deadline": "2026-09-24",
+    "procurement_window": null,
+    "summary": "Three-year exhibitions build framework across Imperial War Museums, split into projects under and over £200,000, with an estimated total framework value of £3m.",
+    "fit_rationale": "Strong route into recurring museum exhibition production work and potentially interactive/technical packages through a build partnership.",
+    "pitch_angle": "Strategic framework opportunity; strongest as a consortium or delivery-partner route if full exhibition-build capability is required.",
+    "next_action": "Review the PSQ and Delta eSourcing documents; assess qualification thresholds and potential build partners.",
+    "sample": false,
+    "verified": true,
+    "source_key": "sell2wales",
+    "external_id": "AUG650869",
+    "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=AUG650869",
+    "source_label": "Official UK procurement notice",
+    "documents": [
+      {
+        "title": "Official procurement notice",
+        "url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=AUG650869",
+        "kind": "Contract notice"
+      },
+      {
+        "title": "Delta eSourcing tender",
+        "url": "https://www.delta-esourcing.com/tenders/UK-UK-London:-Museum-exhibition-services./3GC8GAUTZN",
+        "kind": "Tender documents"
+      },
+      {
+        "title": "Respond via Delta",
+        "url": "https://www.delta-esourcing.com/respond/3GC8GAUTZN",
+        "kind": "Submission portal"
+      }
+    ],
+    "updated_at": "2026-09-11T09:40:00+02:00",
+    "evidence": [
+      {
+        "date": "2026-08-22",
+        "kind": "Procurement",
+        "title": "Official procurement publication",
+        "detail": "IWM exhibitions build framework with £3m estimated value and 24 September 2026 deadline.",
+        "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=AUG650869",
+        "source_label": "Sell2Wales",
+        "strength": 99
+      }
+    ]
   }
 ]

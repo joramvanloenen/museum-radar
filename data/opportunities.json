@@ -109,13 +109,18 @@
     "verified": true,
     "source_key": "evergabe",
     "external_id": "885869",
-    "source_url": "https://www.evergabe-online.de/tenderdetails.html?55=&cookieCheck=&id=885869",
+    "source_url": "https://www.evergabe-online.de/tenderdetails.html?id=885869",
     "source_label": "Official eVergabe tender page",
     "documents": [
       {
-        "title": "Official tender page",
-        "url": "https://www.evergabe-online.de/tenderdetails.html?55=&cookieCheck=&id=885869",
+        "title": "Official tender notice",
+        "url": "https://www.evergabe-online.de/tenderdetails.html?id=885869",
         "kind": "Contract notice"
+      },
+      {
+        "title": "Official procurement documents",
+        "url": "https://www.evergabe-online.de/tenderdocuments.html?id=885869",
+        "kind": "Tender documents"
       }
     ],
     "updated_at": "2026-09-11T08:20:00+02:00",

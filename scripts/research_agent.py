@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import json, re, hashlib, urllib.request, urllib.parse, xml.etree.ElementTree as ET
+import json, re, hashlib, urllib.request, urllib.parse, xml.etree.ElementTree as ET, time
 from pathlib import Path
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
@@ -39,6 +39,11 @@ def get_text(url, timeout=18):
     with urllib.request.urlopen(req,timeout=timeout) as r:
         raw=r.read(MAX_PAGE_BYTES)
         return raw.decode('utf-8','replace')
+
+def get_json_url(url, timeout=25):
+    req=urllib.request.Request(url,headers={'User-Agent':UA,'Accept':'application/json'})
+    with urllib.request.urlopen(req,timeout=timeout) as r:
+        return json.load(r)
 def parse_xml(raw):
     try: return ET.fromstring(raw)
     except ET.ParseError:
@@ -105,6 +110,25 @@ def ddg_search(query, limit=15):
         title=clean_html(m.group(2))
         if href and title: out.append({'title':title,'description':'','url':href,'date':''})
         if len(out)>=limit: break
+    return out
+
+def gdelt_search(query, limit=40, timespan='3months'):
+    params={'query':query,'mode':'artlist','format':'json','maxrecords':min(limit,250),'timespan':timespan,'sort':'datedesc'}
+    url='https://api.gdeltproject.org/api/v2/doc/doc?'+urllib.parse.urlencode(params)
+    raw=get_json_url(url,30)
+    out=[]
+    for x in raw.get('articles',[])[:limit]:
+        u=canonical_url(x.get('url',''))
+        if not u: continue
+        out.append({
+            'title':clean_html(x.get('title','')),
+            'description':'',
+            'url':u,
+            'date':x.get('seendate',''),
+            'gdelt_domain':x.get('domain',''),
+            'gdelt_language':x.get('language',''),
+            'gdelt_country':x.get('sourcecountry','')
+        })
     return out
 def parse_date(value):
     if not value: return None
@@ -255,6 +279,14 @@ platform_queries=[
     '"museum" RFP platform exhibition design multimedia',
     '"heritage" procurement portal interpretive exhibit'
 ]
+gdelt_queries=[
+    'museum (renovation OR redevelopment OR expansion) (funding OR architect OR masterplan)',
+    'museum ("new gallery" OR "permanent exhibition") (funding OR design OR architect)',
+    '("science centre" OR "science center") (expansion OR exhibition OR interactive)',
+    '("visitor centre" OR "visitor center") (heritage OR museum) (funding OR design OR interpretation)',
+    'museum ("market engagement" OR "supplier engagement" OR procurement)',
+    '(museum OR gallery) (immersive OR interactive OR multimedia OR audiovisual) (exhibition OR renovation OR redevelopment)'
+]
 
 # Recurring buyers get their own searches, making the agent proactive instead of purely keyword-driven.
 watch_buyers=[]
@@ -284,6 +316,13 @@ def ingest(rows,query_name,buyer_override=None):
         added+=1
     return added
 
+for i,q in enumerate(gdelt_queries):
+    try:
+        ingest(gdelt_search(q,45,'3months'),f'GDELT {i+1}')
+    except Exception as e:
+        errors.append(f'gdelt:{i+1}: {e}')
+    time.sleep(1.05)
+
 for name,q in lead_queries:
     n=0
     try: n+=ingest(bing_search(q,18,True),name+' news')
@@ -296,6 +335,13 @@ for name,q in lead_queries:
     if n<2:
         try: ingest(ddg_search(q,10),name+' ddg')
         except Exception as e: errors.append(f'lead-ddg:{name}: {e}')
+for buyer in watch_buyers[:12]:
+    try:
+        ingest(gdelt_search(f'"{buyer}" (exhibition OR gallery OR interactive OR multimedia OR renovation OR funding OR procurement)',20,'3months'),'Buyer watch GDELT',buyer)
+    except Exception as e:
+        errors.append(f'buyer-gdelt:{buyer}: {e}')
+    time.sleep(1.05)
+
 for buyer in watch_buyers[:18]:
     q=f'"{buyer}" (exhibition OR gallery OR interactive OR multimedia OR renovation OR funding OR procurement)'
     n=0
@@ -449,7 +495,7 @@ GRAPH.write_text(json.dumps({
 },indent=2,ensure_ascii=False),encoding='utf8')
 
 META.write_text(json.dumps({
-    'last_run':now(),'lead_queries':len(lead_queries),'buyer_watch_queries':len(watch_buyers[:18]),
+    'last_run':now(),'lead_queries':len(lead_queries),'gdelt_queries':len(gdelt_queries),'buyer_watch_queries':len(watch_buyers[:18]),
     'platform_queries':len(platform_queries),'raw_signals':len(raw),'project_clusters':len(new_projects),
     'predicted_leads_added':len(new_projects),'high_conviction':sum(1 for x in new_projects if x.get('confidence',0)>=75 and x.get('score',0)>=75),
     'candidate_sources_found':len(discovered),'errors':errors[:30]

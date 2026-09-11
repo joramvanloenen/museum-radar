@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-11T10:54:07+00:00",
-  "project_count": 5,
-  "high_conviction": 5,
+  "generated_at": "2026-09-11T16:48:55+00:00",
+  "project_count": 7,
+  "high_conviction": 7,
   "projects": [
     {
       "project_id": "project-nhm150-western-av",
@@ -11,39 +11,7 @@
       "score": 98,
       "confidence": 99,
       "procurement_window": "Formal procurement expected after September 2026 market engagement",
-      "prediction": {
-        "window": "0–3 months",
-        "reason": "A formal AV/integration requirement is already defined and preliminary market engagement was published in September 2026.",
-        "signals": [
-          "procurement",
-          "project",
-          "design"
-        ],
-        "fit_terms": [
-          "audiovisual",
-          "interactive",
-          "exhibition design",
-          "exhibition build"
-        ],
-        "source_count": 2,
-        "source_domains": [
-          "sell2wales.gov.wales",
-          "find-tender.service.gov.uk"
-        ],
-        "source_diversity": 2,
-        "source_quality": 97,
-        "expected_next_signals": [
-          "formal tender notice",
-          "supplier brief / tender documents"
-        ],
-        "risk_flags": [
-          "market-engagement response window has just closed"
-        ],
-        "opening_years": [],
-        "investment_signals": [
-          "£290,000"
-        ]
-      },
+      "prediction": {"window":"0–3 months","reason":"A formal AV/integration requirement is already defined and preliminary market engagement was published in September 2026.","signals":["procurement","project","design"],"fit_terms":["audiovisual","interactive","exhibition design","exhibition build"],"source_count":2,"source_domains":["sell2wales.gov.wales","find-tender.service.gov.uk"],"source_diversity":2,"source_quality":97,"expected_next_signals":["formal tender notice","supplier brief / tender documents"],"risk_flags":["market-engagement response window has just closed"],"opening_years":[],"investment_signals":["£290,000"]},
       "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=SEP654811"
     },
     {
@@ -54,38 +22,7 @@
       "score": 97,
       "confidence": 98,
       "procurement_window": "Planned procurement; delivery indicated for late 2026–2028",
-      "prediction": {
-        "window": "0–6 months",
-        "reason": "A planned procurement notice is already published and the scope/value are substantially defined.",
-        "signals": [
-          "procurement",
-          "project",
-          "design"
-        ],
-        "fit_terms": [
-          "interactive",
-          "audiovisual",
-          "exhibition design",
-          "visitor experience"
-        ],
-        "source_count": 2,
-        "source_domains": [
-          "find-tender.service.gov.uk"
-        ],
-        "source_diversity": 1,
-        "source_quality": 99,
-        "expected_next_signals": [
-          "formal tender documents",
-          "submission deadline"
-        ],
-        "risk_flags": [
-          "planned procurement; final packaging/timing may still change"
-        ],
-        "opening_years": [],
-        "investment_signals": [
-          "£350,000"
-        ]
-      },
+      "prediction": {"window":"0–6 months","reason":"A planned procurement notice is already published and the scope/value are substantially defined.","signals":["procurement","project","design"],"fit_terms":["interactive","audiovisual","exhibition design","visitor experience"],"source_count":2,"source_domains":["find-tender.service.gov.uk"],"source_diversity":1,"source_quality":99,"expected_next_signals":["formal tender documents","submission deadline"],"risk_flags":["planned procurement; final packaging/timing may still change"],"opening_years":[],"investment_signals":["£350,000"]},
       "source_url": "https://www.find-tender.service.gov.uk/Notice/067059-2026"
     },
     {
@@ -96,36 +33,7 @@
       "score": 95,
       "confidence": 93,
       "procurement_window": "Market consultation open to 9 Nov 2026; formal procurement expected afterwards",
-      "prediction": {
-        "window": "1–6 months",
-        "reason": "A formal market consultation for a defined permanent-exhibition concept is active and closes in November 2026.",
-        "signals": [
-          "procurement",
-          "design",
-          "project"
-        ],
-        "fit_terms": [
-          "exhibition design",
-          "scenography",
-          "visitor experience"
-        ],
-        "source_count": 2,
-        "source_domains": [
-          "eis.gov.lv",
-          "tedas.eu"
-        ],
-        "source_diversity": 2,
-        "source_quality": 91,
-        "expected_next_signals": [
-          "formal procurement notice",
-          "technical brief"
-        ],
-        "risk_flags": [
-          "consultation scope may change before tender"
-        ],
-        "opening_years": [],
-        "investment_signals": []
-      },
+      "prediction": {"window":"1–6 months","reason":"A formal market consultation for a defined permanent-exhibition concept is active and closes in November 2026.","signals":["procurement","design","project"],"fit_terms":["exhibition design","scenography","visitor experience"],"source_count":2,"source_domains":["eis.gov.lv","tedas.eu"],"source_diversity":2,"source_quality":91,"expected_next_signals":["formal procurement notice","technical brief"],"risk_flags":["consultation scope may change before tender"],"opening_years":[],"investment_signals":[]},
       "source_url": "https://www.eis.gov.lv/EKEIS/Supplier/Procurement/180665"
     },
     {
@@ -136,38 +44,7 @@
       "score": 91,
       "confidence": 94,
       "procurement_window": "Specialist exhibition packages likely during 2026–2028 ahead of 2029 opening",
-      "prediction": {
-        "window": "6–18 months",
-        "reason": "Construction is underway for a 2029 opening and the government explicitly confirms new interactive exhibits, making future specialist exhibit packages highly plausible.",
-        "signals": [
-          "project",
-          "delivery",
-          "opening"
-        ],
-        "fit_terms": [
-          "interactive",
-          "visitor experience"
-        ],
-        "source_count": 2,
-        "source_domains": [
-          "news.ontario.ca",
-          "ontariosciencecentre.ca"
-        ],
-        "source_diversity": 2,
-        "source_quality": 94,
-        "expected_next_signals": [
-          "exhibit-package procurement",
-          "AV / interactive design appointments",
-          "fabrication tenders"
-        ],
-        "risk_flags": [
-          "no specialist procurement notice identified yet"
-        ],
-        "opening_years": [
-          2029
-        ],
-        "investment_signals": []
-      },
+      "prediction": {"window":"6–18 months","reason":"Construction is underway for a 2029 opening and the government explicitly confirms new interactive exhibits, making future specialist exhibit packages highly plausible.","signals":["project","delivery","opening"],"fit_terms":["interactive","visitor experience"],"source_count":2,"source_domains":["news.ontario.ca","ontariosciencecentre.ca"],"source_diversity":2,"source_quality":94,"expected_next_signals":["exhibit-package procurement","AV / interactive design appointments","fabrication tenders"],"risk_flags":["no specialist procurement notice identified yet"],"opening_years":[2029],"investment_signals":[]},
       "source_url": "https://news.ontario.ca/en/release/1007497/ontario_breaks_ground_on_new_science_centre_at_ontario_place"
     },
     {
@@ -178,36 +55,30 @@
       "score": 89,
       "confidence": 95,
       "procurement_window": "Multi-year specialist packages expected as design develops from 2026 onward",
-      "prediction": {
-        "window": "6–24 months",
-        "reason": "The architecture team is appointed and the Louvre states that project refinement and stakeholder consultation are now beginning.",
-        "signals": [
-          "design",
-          "project"
-        ],
-        "fit_terms": [
-          "visitor experience",
-          "exhibition design",
-          "scenography"
-        ],
-        "source_count": 2,
-        "source_domains": [
-          "louvre.fr"
-        ],
-        "source_diversity": 1,
-        "source_quality": 96,
-        "expected_next_signals": [
-          "detailed design packages",
-          "scenography / mediation procurement",
-          "technical and digital packages"
-        ],
-        "risk_flags": [
-          "very large programme; relevant packages may be bundled through the appointed design consortium"
-        ],
-        "opening_years": [],
-        "investment_signals": []
-      },
+      "prediction": {"window":"6–24 months","reason":"The architecture team is appointed and the Louvre states that project refinement and stakeholder consultation are now beginning.","signals":["design","project"],"fit_terms":["visitor experience","exhibition design","scenography"],"source_count":2,"source_domains":["louvre.fr"],"source_diversity":1,"source_quality":96,"expected_next_signals":["detailed design packages","scenography / mediation procurement","technical and digital packages"],"risk_flags":["very large programme; relevant packages may be bundled through the appointed design consortium"],"opening_years":[],"investment_signals":[]},
       "source_url": "https://www.louvre.fr/en/explore/life-at-the-museum/louvre-nouvelle-renaissance-international-architecture-competition"
+    },
+    {
+      "project_id": "project-national-gallery-domani",
+      "title": "National Gallery London – Project Domani new wing",
+      "organization": "National Gallery",
+      "stage": "Lead",
+      "score": 90,
+      "confidence": 96,
+      "procurement_window": "Specialist visitor-experience, interpretation and gallery packages likely as design develops from late 2026 onward",
+      "prediction": {"window":"6–18 months","reason":"The £750m transformation is funded to a substantial degree and the architectural team has been appointed, moving the project from ambition into active design development.","signals":["funding","design","project"],"fit_terms":["visitor experience","exhibition design","interpretation","public engagement"],"source_count":2,"source_domains":["nationalgallery.org.uk"],"source_diversity":1,"source_quality":98,"expected_next_signals":["detailed gallery-design packages","interpretation / digital-media appointments","specialist exhibition procurement"],"risk_flags":["interactive or AV specialist scope is not explicit yet","relevant packages may be led through the appointed architecture consortium"],"opening_years":[],"investment_signals":["£750 million programme","£375 million already committed"]},
+      "source_url": "https://www.nationalgallery.org.uk/about-us/project-domani"
+    },
+    {
+      "project_id": "project-gam-torino-redevelopment",
+      "title": "GAM Torino – 21st-century museum redevelopment",
+      "organization": "Fondazione Torino Musei / GAM Torino",
+      "stage": "Lead",
+      "score": 87,
+      "confidence": 92,
+      "procurement_window": "Downstream exhibition, public-engagement and technical packages likely as the winning design progresses",
+      "prediction": {"window":"6–18 months","reason":"A public design competition has selected the redevelopment team and the project is now in progress, with adaptable exhibition systems and public-engagement spaces central to the design.","signals":["design","project"],"fit_terms":["exhibition design","visitor experience","public engagement","adaptable display systems"],"source_count":2,"source_domains":["fondazionetorinomusei.it","mvrdv.com"],"source_diversity":2,"source_quality":91,"expected_next_signals":["detailed design approval","museum fit-out packages","media / interpretation procurement"],"risk_flags":["digital/interactive scope is not explicit yet","procurement route and package timing are not yet published"],"opening_years":[],"investment_signals":[]},
+      "source_url": "https://www.mvrdv.com/projects/1265/gam-torino"
     }
   ]
 }

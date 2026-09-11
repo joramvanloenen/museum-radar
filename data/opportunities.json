@@ -1,142 +1,5 @@
 [
   {
-    "id": "ted-607742-2026",
-    "title": "Produktion und technische Umsetzung einer Dauerausstellung in Wasserturm und Bahnhof Wittenberge",
-    "organization": "Landesamt für Umwelt Brandenburg",
-    "country": "Germany",
-    "city": "Wittenberge",
-    "stage": "Live Tender",
-    "score": 94,
-    "confidence": 96,
-    "budget_min": 299270,
-    "budget_max": 299270,
-    "currency": "EUR",
-    "deadline": "2026-09-24",
-    "procurement_window": null,
-    "summary": "Technical production and implementation of a new permanent exhibition in the Wittenberge water tower and station, including exhibits, models, graphics, lighting, media technology and interactive elements.",
-    "fit_rationale": "Very strong match for physical-digital museum production, media technology, interactive exhibits and technical implementation.",
-    "pitch_angle": "Review whether our team should participate directly or with a German exhibition-production partner.",
-    "next_action": "Open the official TED notice and procurement documents; verify participation and subcontracting requirements.",
-    "sample": false,
-    "verified": true,
-    "source_key": "ted",
-    "external_id": "607742-2026",
-    "source_url": "https://ted.europa.eu/en/notice/-/detail/607742-2026",
-    "source_label": "Official TED notice 607742-2026",
-    "documents": [
-      {
-        "title": "Official TED notice",
-        "url": "https://ted.europa.eu/en/notice/-/detail/607742-2026",
-        "kind": "Contract notice"
-      }
-    ],
-    "updated_at": "2026-09-11T08:20:00+02:00",
-    "evidence": [
-      {
-        "date": "2026-09-03",
-        "kind": "Procurement",
-        "title": "TED contract notice 607742-2026",
-        "detail": "Official EU procurement notice for production and technical implementation of the permanent exhibition.",
-        "source_url": "https://ted.europa.eu/en/notice/-/detail/607742-2026",
-        "source_label": "TED",
-        "strength": 96
-      }
-    ]
-  },
-  {
-    "id": "ted-608996-2026",
-    "title": "Planung und Umsetzungsbegleitung einer digitalen Wein-Erlebniswelt",
-    "organization": "Stadt Zell (Mosel)",
-    "country": "Germany",
-    "city": "Zell (Mosel)",
-    "stage": "Live Tender",
-    "score": 96,
-    "confidence": 96,
-    "budget_min": null,
-    "budget_max": null,
-    "currency": "EUR",
-    "deadline": "2026-09-22",
-    "procurement_window": null,
-    "summary": "Exhibition, scenography and media-design planning for the digital wine experience NOIAR – including augmented reality and media concept, exhibition design, execution planning and implementation support.",
-    "fit_rationale": "Extremely strong match for interactive storytelling, media design, AR, exhibition design and technical-art capabilities.",
-    "pitch_angle": "High-priority opportunity; assess tender qualifications and potential local consortium partners immediately.",
-    "next_action": "Open the official TED notice and procurement documents; review selection criteria and submission requirements.",
-    "sample": false,
-    "verified": true,
-    "source_key": "ted",
-    "external_id": "608996-2026",
-    "source_url": "https://ted.europa.eu/en/notice/-/detail/608996-2026",
-    "source_label": "Official TED notice 608996-2026",
-    "documents": [
-      {
-        "title": "Official TED notice",
-        "url": "https://ted.europa.eu/en/notice/-/detail/608996-2026",
-        "kind": "Contract notice"
-      }
-    ],
-    "updated_at": "2026-09-11T08:20:00+02:00",
-    "evidence": [
-      {
-        "date": "2026-09-01",
-        "kind": "Procurement",
-        "title": "TED contract notice 608996-2026",
-        "detail": "Official EU procurement notice for planning and implementation support of a digital wine experience.",
-        "source_url": "https://ted.europa.eu/en/notice/-/detail/608996-2026",
-        "source_label": "TED",
-        "strength": 96
-      }
-    ]
-  },
-  {
-    "id": "de-jena-885869",
-    "title": "Ausstellungs- und Mediengestaltung der neuen Dauerausstellung im Romantikerhaus Jena",
-    "organization": "Stadtverwaltung Jena / JenaKultur",
-    "country": "Germany",
-    "city": "Jena",
-    "stage": "Live Tender",
-    "score": 93,
-    "confidence": 98,
-    "budget_min": null,
-    "budget_max": null,
-    "currency": "EUR",
-    "deadline": "2026-09-30",
-    "procurement_window": null,
-    "summary": "Exhibition and media design for a new permanent exhibition at the Romantikerhaus Jena, including foyer redesign and basic fit-out planning for the temporary exhibition area.",
-    "fit_rationale": "Direct match for exhibition concept, media design, interactive interpretation and implementation planning.",
-    "pitch_angle": "High-value design-led opportunity; review HOAS scope and qualification requirements.",
-    "next_action": "Open the official federal eVergabe tender page and download the procurement documents.",
-    "sample": false,
-    "verified": true,
-    "source_key": "evergabe",
-    "external_id": "885869",
-    "source_url": "https://www.evergabe-online.de/tenderdetails.html?id=885869",
-    "source_label": "Official eVergabe tender page",
-    "documents": [
-      {
-        "title": "Official tender notice",
-        "url": "https://www.evergabe-online.de/tenderdetails.html?id=885869",
-        "kind": "Contract notice"
-      },
-      {
-        "title": "Official procurement documents",
-        "url": "https://www.evergabe-online.de/tenderdocuments.html?id=885869",
-        "kind": "Tender documents"
-      }
-    ],
-    "updated_at": "2026-09-11T08:20:00+02:00",
-    "evidence": [
-      {
-        "date": "2026-08-27",
-        "kind": "Procurement",
-        "title": "Official eVergabe publication",
-        "detail": "Official German procurement listing with a submission deadline of 30 September 2026.",
-        "source_url": "https://www.evergabe-online.de/tenderdetails.html?55=&cookieCheck=&id=885869",
-        "source_label": "eVergabe",
-        "strength": 98
-      }
-    ]
-  },
-  {
     "id": "uk-sep655817",
     "title": "ROG First Light Exhibitions Audio Visual Hardware Contractor",
     "organization": "National Maritime Museum",
@@ -240,6 +103,516 @@
     ]
   },
   {
+    "id": "uk-sep654439",
+    "title": "Science and Industry Museum Wonderlab Group 2 Interactives Makers",
+    "organization": "Science Museum Group",
+    "country": "United Kingdom",
+    "city": "Manchester",
+    "stage": "Live Tender",
+    "score": 99,
+    "confidence": 99,
+    "budget_min": null,
+    "budget_max": null,
+    "currency": "GBP",
+    "deadline": "2026-10-03",
+    "procurement_window": null,
+    "summary": "Current procurement for makers of interactive exhibits for the new Wonderlab gallery at the Science and Industry Museum in Manchester.",
+    "fit_rationale": "Exceptional fit for interactive exhibit development, physical-digital play, technical prototyping and permanent museum installations.",
+    "pitch_angle": "Top-priority opportunity. Review the live tender pack and identify whether to bid directly or with fabrication partners.",
+    "next_action": "Open the official notice and supplier portal; review interactives scope, qualification criteria and submission requirements.",
+    "sample": false,
+    "verified": true,
+    "source_key": "sell2wales",
+    "external_id": "SEP654439",
+    "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=SEP654439",
+    "source_label": "Official UK procurement notice",
+    "documents": [
+      {
+        "title": "Official procurement notice",
+        "url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=SEP654439",
+        "kind": "Contract notice"
+      }
+    ],
+    "updated_at": "2026-09-11T09:40:00+02:00",
+    "evidence": [
+      {
+        "date": "2026-09-04",
+        "kind": "Procurement",
+        "title": "Official procurement publication",
+        "detail": "Science Museum Group procurement for Wonderlab Group 2 interactive exhibit makers, with a 3 October 2026 deadline.",
+        "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=SEP654439",
+        "source_label": "Sell2Wales",
+        "strength": 99
+      }
+    ]
+  },
+  {
+    "id": "public_contracts_scotland-jul560733",
+    "title": "Energy-Efficient Audio-Visual Equipment and Solutions",
+    "organization": "APUC Limited",
+    "country": "United Kingdom",
+    "city": "",
+    "stage": "Pre-market",
+    "score": 98,
+    "confidence": 93,
+    "currency": "GBP",
+    "deadline": null,
+    "procurement_window": "Pre-market",
+    "summary": "Official procurement listing discovered in a museum / exhibition / AV category.",
+    "fit_rationale": "Official procurement notice matched museum, exhibition, AV or interactive experience terms.",
+    "pitch_angle": "Review the official notice and decide whether to bid directly or with a delivery partner.",
+    "next_action": "Open the official procurement notice and review scope, documents, deadline and eligibility.",
+    "sample": false,
+    "verified": true,
+    "source_key": "public_contracts_scotland",
+    "external_id": "JUL560733",
+    "source_url": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=JUL560733&amp;catID=",
+    "source_label": "Public Contracts Scotland museum exhibition",
+    "documents": [
+      {
+        "title": "Official procurement notice",
+        "url": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=JUL560733&amp;catID=",
+        "kind": "Contract notice"
+      }
+    ],
+    "updated_at": "2026-09-11T08:02:55+00:00",
+    "evidence": [
+      {
+        "date": "",
+        "kind": "Procurement",
+        "title": "Official procurement listing",
+        "detail": "23/07/2026 Energy-Efficient Audio-Visual Equipment and Solutions Reference No: JUL560733 Published By: APUC Limited Deadline Date: Notice Type: 01 Prior Information Notice (PIN)",
+        "source_url": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=JUL560733&amp;catID=",
+        "source_label": "Public Contracts Scotland museum exhibition",
+        "strength": 93
+      }
+    ]
+  },
+  {
+    "id": "public_contracts_scotland-apr554400",
+    "title": "Provision of Events Equipment and Services",
+    "organization": "City of Glasgow College",
+    "country": "United Kingdom",
+    "city": "",
+    "stage": "Pre-market",
+    "score": 98,
+    "confidence": 93,
+    "currency": "GBP",
+    "deadline": null,
+    "procurement_window": "Pre-market",
+    "summary": "Official procurement listing discovered in a museum / exhibition / AV category.",
+    "fit_rationale": "Official procurement notice matched museum, exhibition, AV or interactive experience terms.",
+    "pitch_angle": "Review the official notice and decide whether to bid directly or with a delivery partner.",
+    "next_action": "Open the official procurement notice and review scope, documents, deadline and eligibility.",
+    "sample": false,
+    "verified": true,
+    "source_key": "public_contracts_scotland",
+    "external_id": "APR554400",
+    "source_url": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=APR554400&amp;catID=",
+    "source_label": "Public Contracts Scotland museum exhibition",
+    "documents": [
+      {
+        "title": "Official procurement notice",
+        "url": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=APR554400&amp;catID=",
+        "kind": "Contract notice"
+      }
+    ],
+    "updated_at": "2026-09-11T08:02:55+00:00",
+    "evidence": [
+      {
+        "date": "",
+        "kind": "Procurement",
+        "title": "Official procurement listing",
+        "detail": "22/04/2026 Provision of Events Equipment and Services Reference No: APR554400 Published By: City of Glasgow College Deadline Date: Notice Type: 01 Prior Information Notices (below FTS threshold or call offs of any value)",
+        "source_url": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=APR554400&amp;catID=",
+        "source_label": "Public Contracts Scotland museum exhibition",
+        "strength": 93
+      }
+    ]
+  },
+  {
+    "id": "public_contracts_scotland-jul560676",
+    "title": "Museum Design and Delivery Team",
+    "organization": "Glasgow Life (Culture & Sport Glasgow)",
+    "country": "United Kingdom",
+    "city": "",
+    "stage": "Pre-market",
+    "score": 98,
+    "confidence": 93,
+    "currency": "GBP",
+    "deadline": null,
+    "procurement_window": "Pre-market",
+    "summary": "Official procurement listing discovered in a museum / exhibition / AV category.",
+    "fit_rationale": "Official procurement notice matched museum, exhibition, AV or interactive experience terms.",
+    "pitch_angle": "Review the official notice and decide whether to bid directly or with a delivery partner.",
+    "next_action": "Open the official procurement notice and review scope, documents, deadline and eligibility.",
+    "sample": false,
+    "verified": true,
+    "source_key": "public_contracts_scotland",
+    "external_id": "JUL560676",
+    "source_url": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=JUL560676&amp;catID=",
+    "source_label": "Public Contracts Scotland museum exhibition",
+    "documents": [
+      {
+        "title": "Official procurement notice",
+        "url": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=JUL560676&amp;catID=",
+        "kind": "Contract notice"
+      }
+    ],
+    "updated_at": "2026-09-11T08:02:50+00:00",
+    "evidence": [
+      {
+        "date": "",
+        "kind": "Procurement",
+        "title": "Official procurement listing",
+        "detail": "22/07/2026 Museum Design and Delivery Team Reference No: JUL560676 Published By: Glasgow Life (Culture & Sport Glasgow) Deadline Date: Notice Type: 01 Prior Information Notice (PIN)",
+        "source_url": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=JUL560676&amp;catID=",
+        "source_label": "Public Contracts Scotland museum exhibition",
+        "strength": 93
+      }
+    ]
+  },
+  {
+    "id": "public_contracts_scotland-mar552523",
+    "title": "Greenock Cut Visitor Centre Redesign and Heritage Interpretation Services",
+    "organization": "Inverclyde Council",
+    "country": "United Kingdom",
+    "city": "",
+    "stage": "Pre-market",
+    "score": 98,
+    "confidence": 93,
+    "currency": "GBP",
+    "deadline": null,
+    "procurement_window": "Pre-market",
+    "summary": "Official procurement listing discovered in a museum / exhibition / AV category.",
+    "fit_rationale": "Official procurement notice matched museum, exhibition, AV or interactive experience terms.",
+    "pitch_angle": "Review the official notice and decide whether to bid directly or with a delivery partner.",
+    "next_action": "Open the official procurement notice and review scope, documents, deadline and eligibility.",
+    "sample": false,
+    "verified": true,
+    "source_key": "public_contracts_scotland",
+    "external_id": "MAR552523",
+    "source_url": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=MAR552523&amp;catID=",
+    "source_label": "Public Contracts Scotland museum exhibition",
+    "documents": [
+      {
+        "title": "Official procurement notice",
+        "url": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=MAR552523&amp;catID=",
+        "kind": "Contract notice"
+      }
+    ],
+    "updated_at": "2026-09-11T08:02:50+00:00",
+    "evidence": [
+      {
+        "date": "",
+        "kind": "Procurement",
+        "title": "Official procurement listing",
+        "detail": "25/03/2026 Greenock Cut Visitor Centre Redesign and Heritage Interpretation Services Reference No: MAR552523 Published By: Inverclyde Council Deadline Date: Notice Type: 01 Prior Information Notices (below FTS threshold or call offs of any value)",
+        "source_url": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=MAR552523&amp;catID=",
+        "source_label": "Public Contracts Scotland museum exhibition",
+        "strength": 93
+      }
+    ]
+  },
+  {
+    "id": "public_contracts_scotland-jan546606",
+    "title": "Project Managers: to deliver creative programming",
+    "organization": "National Trust for Scotland",
+    "country": "United Kingdom",
+    "city": "",
+    "stage": "Pre-market",
+    "score": 98,
+    "confidence": 93,
+    "currency": "GBP",
+    "deadline": null,
+    "procurement_window": "Pre-market",
+    "summary": "Official procurement listing discovered in a museum / exhibition / AV category.",
+    "fit_rationale": "Official procurement notice matched museum, exhibition, AV or interactive experience terms.",
+    "pitch_angle": "Review the official notice and decide whether to bid directly or with a delivery partner.",
+    "next_action": "Open the official procurement notice and review scope, documents, deadline and eligibility.",
+    "sample": false,
+    "verified": true,
+    "source_key": "public_contracts_scotland",
+    "external_id": "JAN546606",
+    "source_url": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=JAN546606&amp;catID=",
+    "source_label": "Public Contracts Scotland museum exhibition",
+    "documents": [
+      {
+        "title": "Official procurement notice",
+        "url": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=JAN546606&amp;catID=",
+        "kind": "Contract notice"
+      }
+    ],
+    "updated_at": "2026-09-11T08:02:50+00:00",
+    "evidence": [
+      {
+        "date": "",
+        "kind": "Procurement",
+        "title": "Official procurement listing",
+        "detail": "07/01/2026 Project Managers: to deliver creative programming Reference No: JAN546606 Published By: National Trust for Scotland Deadline Date: Notice Type: 01 Prior Information Notices (below FTS threshold or call offs of any value)",
+        "source_url": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=JAN546606&amp;catID=",
+        "source_label": "Public Contracts Scotland museum exhibition",
+        "strength": 93
+      }
+    ]
+  },
+  {
+    "id": "sell2wales-jul637317",
+    "title": "Inner Moray Firth Housing & Property Maintenance Framework - 2026",
+    "organization": "Highland Council",
+    "country": "United Kingdom",
+    "city": "",
+    "stage": "Pre-market",
+    "score": 98,
+    "confidence": 93,
+    "currency": "GBP",
+    "deadline": null,
+    "procurement_window": "Pre-market",
+    "summary": "Official procurement listing discovered in a museum / exhibition / AV category.",
+    "fit_rationale": "Official procurement notice matched museum, exhibition, AV or interactive experience terms.",
+    "pitch_angle": "Review the official notice and decide whether to bid directly or with a delivery partner.",
+    "next_action": "Open the official procurement notice and review scope, documents, deadline and eligibility.",
+    "sample": false,
+    "verified": true,
+    "source_key": "sell2wales",
+    "external_id": "JUL637317",
+    "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUL637317&amp;catID=",
+    "source_label": "Sell2Wales museum exhibition",
+    "documents": [
+      {
+        "title": "Official procurement notice",
+        "url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUL637317&amp;catID=",
+        "kind": "Contract notice"
+      }
+    ],
+    "updated_at": "2026-09-11T08:02:49+00:00",
+    "evidence": [
+      {
+        "date": "",
+        "kind": "Procurement",
+        "title": "Official procurement listing",
+        "detail": "15/07/2026 Inner Moray Firth Housing & Property Maintenance Framework - 2026 Reference No: JUL637317 Published By: Highland Council Deadline Date: Notice Type: Prior Information Notice",
+        "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUL637317&amp;catID=",
+        "source_label": "Sell2Wales museum exhibition",
+        "strength": 93
+      }
+    ]
+  },
+  {
+    "id": "sell2wales-jul643195",
+    "title": "UK Participation at Expo 2030 Riyadh - Creative, Cultural, Retail and Hospitality Preliminary Market Engagement/Early Engagement Questionnaire",
+    "organization": "Department for Business & Trade",
+    "country": "United Kingdom",
+    "city": "",
+    "stage": "Pre-market",
+    "score": 98,
+    "confidence": 93,
+    "currency": "GBP",
+    "deadline": null,
+    "procurement_window": "Pre-market",
+    "summary": "Official procurement listing discovered in a museum / exhibition / AV category.",
+    "fit_rationale": "Official procurement notice matched museum, exhibition, AV or interactive experience terms.",
+    "pitch_angle": "Review the official notice and decide whether to bid directly or with a delivery partner.",
+    "next_action": "Open the official procurement notice and review scope, documents, deadline and eligibility.",
+    "sample": false,
+    "verified": true,
+    "source_key": "sell2wales",
+    "external_id": "JUL643195",
+    "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUL643195&amp;catID=",
+    "source_label": "Sell2Wales museum exhibition",
+    "documents": [
+      {
+        "title": "Official procurement notice",
+        "url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUL643195&amp;catID=",
+        "kind": "Contract notice"
+      }
+    ],
+    "updated_at": "2026-09-11T08:02:44+00:00",
+    "evidence": [
+      {
+        "date": "",
+        "kind": "Procurement",
+        "title": "Official procurement listing",
+        "detail": "31/07/2026 UK Participation at Expo 2030 Riyadh - Creative, Cultural, Retail and Hospitality Preliminary Market Engagement/Early Engagement Questionnaire Reference No: JUL643195 Published By: Department for Business & Trade Deadline Date: 01-Sep-26 Notice Type: Unknown",
+        "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUL643195&amp;catID=",
+        "source_label": "Sell2Wales museum exhibition",
+        "strength": 93
+      }
+    ]
+  },
+  {
+    "id": "sell2wales-jul639968",
+    "title": "Museum Design and Delivery Team",
+    "organization": "Glasgow Life (Culture & Sport Glasgow)",
+    "country": "United Kingdom",
+    "city": "",
+    "stage": "Pre-market",
+    "score": 98,
+    "confidence": 93,
+    "currency": "GBP",
+    "deadline": null,
+    "procurement_window": "Pre-market",
+    "summary": "Official procurement listing discovered in a museum / exhibition / AV category.",
+    "fit_rationale": "Official procurement notice matched museum, exhibition, AV or interactive experience terms.",
+    "pitch_angle": "Review the official notice and decide whether to bid directly or with a delivery partner.",
+    "next_action": "Open the official procurement notice and review scope, documents, deadline and eligibility.",
+    "sample": false,
+    "verified": true,
+    "source_key": "sell2wales",
+    "external_id": "JUL639968",
+    "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUL639968&amp;catID=",
+    "source_label": "Sell2Wales museum exhibition",
+    "documents": [
+      {
+        "title": "Official procurement notice",
+        "url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUL639968&amp;catID=",
+        "kind": "Contract notice"
+      }
+    ],
+    "updated_at": "2026-09-11T08:02:43+00:00",
+    "evidence": [
+      {
+        "date": "",
+        "kind": "Procurement",
+        "title": "Official procurement listing",
+        "detail": "23/07/2026 Museum Design and Delivery Team Reference No: JUL639968 Published By: Glasgow Life (Culture & Sport Glasgow) Deadline Date: Notice Type: Prior Information Notice",
+        "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUL639968&amp;catID=",
+        "source_label": "Sell2Wales museum exhibition",
+        "strength": 93
+      }
+    ]
+  },
+  {
+    "id": "sell2wales-jun631313",
+    "title": "Museum Interpretation Services",
+    "organization": "Amgueddfa Cymru - National Museum Wales",
+    "country": "United Kingdom",
+    "city": "",
+    "stage": "Pre-market",
+    "score": 98,
+    "confidence": 93,
+    "currency": "GBP",
+    "deadline": null,
+    "procurement_window": "Pre-market",
+    "summary": "Official procurement listing discovered in a museum / exhibition / AV category.",
+    "fit_rationale": "Official procurement notice matched museum, exhibition, AV or interactive experience terms.",
+    "pitch_angle": "Review the official notice and decide whether to bid directly or with a delivery partner.",
+    "next_action": "Open the official procurement notice and review scope, documents, deadline and eligibility.",
+    "sample": false,
+    "verified": true,
+    "source_key": "sell2wales",
+    "external_id": "JUN631313",
+    "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUN631313&amp;catID=",
+    "source_label": "Sell2Wales museum exhibition",
+    "documents": [
+      {
+        "title": "Official procurement notice",
+        "url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUN631313&amp;catID=",
+        "kind": "Contract notice"
+      }
+    ],
+    "updated_at": "2026-09-11T08:02:43+00:00",
+    "evidence": [
+      {
+        "date": "",
+        "kind": "Procurement",
+        "title": "Official procurement listing",
+        "detail": "26/06/2026 Museum Interpretation Services Reference No: JUN631313 Published By: Amgueddfa Cymru - National Museum Wales Deadline Date: Notice Type: Speculative Notice",
+        "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUN631313&amp;catID=",
+        "source_label": "Sell2Wales museum exhibition",
+        "strength": 93
+      }
+    ]
+  },
+  {
+    "id": "ie-8901321",
+    "title": "Medical Museum Exhibition Design Services – Expression of Interest",
+    "organization": "Royal College of Physicians of Ireland",
+    "country": "Ireland",
+    "city": "Dublin",
+    "stage": "Live Tender",
+    "score": 96,
+    "confidence": 99,
+    "budget_min": 2500000,
+    "budget_max": 2500000,
+    "currency": "EUR",
+    "deadline": "2026-09-18",
+    "procurement_window": null,
+    "summary": "EOI for exhibition design firms to create Ireland's first publicly accessible medical museum at No. 6 Kildare Street, transforming more than 50,000 objects, archives and rare books into a new visitor experience.",
+    "fit_rationale": "Large museum-development opportunity with major potential for interactive and digital interpretation, although the current stage is exhibition-design led.",
+    "pitch_angle": "High strategic value. Investigate whether our team should partner with an exhibition-design lead for the later tender stage.",
+    "next_action": "Review the official eTenders EOI immediately; identify consortium requirements and potential exhibition-design partners.",
+    "sample": false,
+    "verified": true,
+    "source_key": "etenders_ie",
+    "external_id": "8901321",
+    "source_url": "https://www.etenders.gov.ie/epps/cft/prepareViewCfTWS.do?resourceId=8901321",
+    "source_label": "Official eTenders Ireland notice",
+    "documents": [
+      {
+        "title": "Official eTenders notice",
+        "url": "https://www.etenders.gov.ie/epps/cft/prepareViewCfTWS.do?resourceId=8901321",
+        "kind": "Contract notice"
+      }
+    ],
+    "updated_at": "2026-09-11T18:30:00+02:00",
+    "evidence": [
+      {
+        "date": "2026-08-26",
+        "kind": "Procurement",
+        "title": "Official eTenders Ireland EOI",
+        "detail": "€2.5m museum exhibition-design procurement; first stage of a restricted two-stage process.",
+        "source_url": "https://www.etenders.gov.ie/epps/cft/prepareViewCfTWS.do?resourceId=8901321",
+        "source_label": "eTenders Ireland",
+        "strength": 99
+      }
+    ]
+  },
+  {
+    "id": "ted-608996-2026",
+    "title": "Planung und Umsetzungsbegleitung einer digitalen Wein-Erlebniswelt",
+    "organization": "Stadt Zell (Mosel)",
+    "country": "Germany",
+    "city": "Zell (Mosel)",
+    "stage": "Live Tender",
+    "score": 96,
+    "confidence": 96,
+    "budget_min": null,
+    "budget_max": null,
+    "currency": "EUR",
+    "deadline": "2026-09-22",
+    "procurement_window": null,
+    "summary": "Exhibition, scenography and media-design planning for the digital wine experience NOIAR – including augmented reality and media concept, exhibition design, execution planning and implementation support.",
+    "fit_rationale": "Extremely strong match for interactive storytelling, media design, AR, exhibition design and technical-art capabilities.",
+    "pitch_angle": "High-priority opportunity; assess tender qualifications and potential local consortium partners immediately.",
+    "next_action": "Open the official TED notice and procurement documents; review selection criteria and submission requirements.",
+    "sample": false,
+    "verified": true,
+    "source_key": "ted",
+    "external_id": "608996-2026",
+    "source_url": "https://ted.europa.eu/en/notice/-/detail/608996-2026",
+    "source_label": "Official TED notice 608996-2026",
+    "documents": [
+      {
+        "title": "Official TED notice",
+        "url": "https://ted.europa.eu/en/notice/-/detail/608996-2026",
+        "kind": "Contract notice"
+      }
+    ],
+    "updated_at": "2026-09-11T08:20:00+02:00",
+    "evidence": [
+      {
+        "date": "2026-09-01",
+        "kind": "Procurement",
+        "title": "TED contract notice 608996-2026",
+        "detail": "Official EU procurement notice for planning and implementation support of a digital wine experience.",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/608996-2026",
+        "source_label": "TED",
+        "strength": 96
+      }
+    ]
+  },
+  {
     "id": "uk-aug652022",
     "title": "Palaeontology Gallery – Science Lab, Rutland County Museum",
     "organization": "Rutland County Council",
@@ -289,45 +662,148 @@
     ]
   },
   {
-    "id": "ie-8901321",
-    "title": "Medical Museum Exhibition Design Services – Expression of Interest",
-    "organization": "Royal College of Physicians of Ireland",
-    "country": "Ireland",
-    "city": "Dublin",
+    "id": "ted-607742-2026",
+    "title": "Produktion und technische Umsetzung einer Dauerausstellung in Wasserturm und Bahnhof Wittenberge",
+    "organization": "Landesamt für Umwelt Brandenburg",
+    "country": "Germany",
+    "city": "Wittenberge",
     "stage": "Live Tender",
-    "score": 96,
-    "confidence": 99,
-    "budget_min": 2500000,
-    "budget_max": 2500000,
+    "score": 94,
+    "confidence": 96,
+    "budget_min": 299270,
+    "budget_max": 299270,
     "currency": "EUR",
-    "deadline": "2026-09-18",
+    "deadline": "2026-09-24",
     "procurement_window": null,
-    "summary": "EOI for exhibition design firms to create Ireland's first publicly accessible medical museum at No. 6 Kildare Street, transforming more than 50,000 objects, archives and rare books into a new visitor experience.",
-    "fit_rationale": "Large museum-development opportunity with major potential for interactive and digital interpretation, although the current stage is exhibition-design led.",
-    "pitch_angle": "High strategic value. Investigate whether our team should partner with an exhibition-design lead for the later tender stage.",
-    "next_action": "Review the official eTenders EOI immediately; identify consortium requirements and potential exhibition-design partners.",
+    "summary": "Technical production and implementation of a new permanent exhibition in the Wittenberge water tower and station, including exhibits, models, graphics, lighting, media technology and interactive elements.",
+    "fit_rationale": "Very strong match for physical-digital museum production, media technology, interactive exhibits and technical implementation.",
+    "pitch_angle": "Review whether our team should participate directly or with a German exhibition-production partner.",
+    "next_action": "Open the official TED notice and procurement documents; verify participation and subcontracting requirements.",
     "sample": false,
     "verified": true,
-    "source_key": "etenders_ie",
-    "external_id": "8901321",
-    "source_url": "https://www.etenders.gov.ie/epps/cft/prepareViewCfTWS.do?resourceId=8901321",
-    "source_label": "Official eTenders Ireland notice",
+    "source_key": "ted",
+    "external_id": "607742-2026",
+    "source_url": "https://ted.europa.eu/en/notice/-/detail/607742-2026",
+    "source_label": "Official TED notice 607742-2026",
     "documents": [
       {
-        "title": "Official eTenders notice",
-        "url": "https://www.etenders.gov.ie/epps/cft/prepareViewCfTWS.do?resourceId=8901321",
+        "title": "Official TED notice",
+        "url": "https://ted.europa.eu/en/notice/-/detail/607742-2026",
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-11T18:30:00+02:00",
+    "updated_at": "2026-09-11T08:20:00+02:00",
     "evidence": [
       {
-        "date": "2026-08-26",
+        "date": "2026-09-03",
         "kind": "Procurement",
-        "title": "Official eTenders Ireland EOI",
-        "detail": "€2.5m museum exhibition-design procurement; first stage of a restricted two-stage process.",
-        "source_url": "https://www.etenders.gov.ie/epps/cft/prepareViewCfTWS.do?resourceId=8901321",
-        "source_label": "eTenders Ireland",
+        "title": "TED contract notice 607742-2026",
+        "detail": "Official EU procurement notice for production and technical implementation of the permanent exhibition.",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/607742-2026",
+        "source_label": "TED",
+        "strength": 96
+      }
+    ]
+  },
+  {
+    "id": "de-jena-885869",
+    "title": "Ausstellungs- und Mediengestaltung der neuen Dauerausstellung im Romantikerhaus Jena",
+    "organization": "Stadtverwaltung Jena / JenaKultur",
+    "country": "Germany",
+    "city": "Jena",
+    "stage": "Live Tender",
+    "score": 93,
+    "confidence": 98,
+    "budget_min": null,
+    "budget_max": null,
+    "currency": "EUR",
+    "deadline": "2026-09-30",
+    "procurement_window": null,
+    "summary": "Exhibition and media design for a new permanent exhibition at the Romantikerhaus Jena, including foyer redesign and basic fit-out planning for the temporary exhibition area.",
+    "fit_rationale": "Direct match for exhibition concept, media design, interactive interpretation and implementation planning.",
+    "pitch_angle": "High-value design-led opportunity; review HOAS scope and qualification requirements.",
+    "next_action": "Open the official federal eVergabe tender page and download the procurement documents.",
+    "sample": false,
+    "verified": true,
+    "source_key": "evergabe",
+    "external_id": "885869",
+    "source_url": "https://www.evergabe-online.de/tenderdetails.html?id=885869",
+    "source_label": "Official eVergabe tender page",
+    "documents": [
+      {
+        "title": "Official tender notice",
+        "url": "https://www.evergabe-online.de/tenderdetails.html?id=885869",
+        "kind": "Contract notice"
+      },
+      {
+        "title": "Official procurement documents",
+        "url": "https://www.evergabe-online.de/tenderdocuments.html?id=885869",
+        "kind": "Tender documents"
+      }
+    ],
+    "updated_at": "2026-09-11T08:20:00+02:00",
+    "evidence": [
+      {
+        "date": "2026-08-27",
+        "kind": "Procurement",
+        "title": "Official eVergabe publication",
+        "detail": "Official German procurement listing with a submission deadline of 30 September 2026.",
+        "source_url": "https://www.evergabe-online.de/tenderdetails.html?55=&cookieCheck=&id=885869",
+        "source_label": "eVergabe",
+        "strength": 98
+      }
+    ]
+  },
+  {
+    "id": "uk-aug650869",
+    "title": "IWM Exhibitions Build Framework Agreement",
+    "organization": "Imperial War Museums",
+    "country": "United Kingdom",
+    "city": "London / UK",
+    "stage": "Live Tender",
+    "score": 90,
+    "confidence": 99,
+    "budget_min": 3000000,
+    "budget_max": 3000000,
+    "currency": "GBP",
+    "deadline": "2026-09-24",
+    "procurement_window": null,
+    "summary": "Three-year exhibitions build framework across Imperial War Museums, split into projects under and over £200,000, with an estimated total framework value of £3m.",
+    "fit_rationale": "Strong route into recurring museum exhibition production work and potentially interactive/technical packages through a build partnership.",
+    "pitch_angle": "Strategic framework opportunity; strongest as a consortium or delivery-partner route if full exhibition-build capability is required.",
+    "next_action": "Review the PSQ and Delta eSourcing documents; assess qualification thresholds and potential build partners.",
+    "sample": false,
+    "verified": true,
+    "source_key": "sell2wales",
+    "external_id": "AUG650869",
+    "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=AUG650869",
+    "source_label": "Official UK procurement notice",
+    "documents": [
+      {
+        "title": "Official procurement notice",
+        "url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=AUG650869",
+        "kind": "Contract notice"
+      },
+      {
+        "title": "Delta eSourcing tender",
+        "url": "https://www.delta-esourcing.com/tenders/UK-UK-London:-Museum-exhibition-services./3GC8GAUTZN",
+        "kind": "Tender documents"
+      },
+      {
+        "title": "Respond via Delta",
+        "url": "https://www.delta-esourcing.com/respond/3GC8GAUTZN",
+        "kind": "Submission portal"
+      }
+    ],
+    "updated_at": "2026-09-11T09:40:00+02:00",
+    "evidence": [
+      {
+        "date": "2026-08-22",
+        "kind": "Procurement",
+        "title": "Official procurement publication",
+        "detail": "IWM exhibitions build framework with £3m estimated value and 24 September 2026 deadline.",
+        "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=AUG650869",
+        "source_label": "Sell2Wales",
         "strength": 99
       }
     ]
@@ -426,100 +902,145 @@
     ]
   },
   {
-    "id": "uk-sep654439",
-    "title": "Science and Industry Museum Wonderlab Group 2 Interactives Makers",
-    "organization": "Science Museum Group",
-    "country": "United Kingdom",
-    "city": "Manchester",
-    "stage": "Live Tender",
-    "score": 99,
-    "confidence": 99,
-    "budget_min": null,
-    "budget_max": null,
-    "currency": "GBP",
-    "deadline": "2026-10-03",
-    "procurement_window": null,
-    "summary": "Current procurement for makers of interactive exhibits for the new Wonderlab gallery at the Science and Industry Museum in Manchester.",
-    "fit_rationale": "Exceptional fit for interactive exhibit development, physical-digital play, technical prototyping and permanent museum installations.",
-    "pitch_angle": "Top-priority opportunity. Review the live tender pack and identify whether to bid directly or with fabrication partners.",
-    "next_action": "Open the official notice and supplier portal; review interactives scope, qualification criteria and submission requirements.",
+    "id": "agent-project-0228518db47f06ba03",
+    "project_id": "project-0228518db47f06ba03",
+    "title": "Museums Deploy Interactive Technology To Create More Immersive Experiences",
+    "organization": "bing.com",
+    "country": "",
+    "city": "",
+    "stage": "Signal",
+    "score": 61,
+    "confidence": 57,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "6–18 months",
+    "summary": "The Griffin Museum of Science and Industry and other science centers are integrating projectors, touch screens and other technology to enhance the visitor experience. Wylie Wong is a freelance ...",
+    "fit_rationale": "Upstream project intelligence matches museum/visitor-experience patterns associated with later exhibition, AV, interactive or interpretation procurement.",
+    "pitch_angle": "Investigate before procurement: map the project owner, funding, design team and likely specialist packages; approach only when the evidence supports useful early contact.",
+    "next_action": "Verify the strongest first-party source and watch for funding or capital approval, architect / exhibition designer appointment.",
     "sample": false,
-    "verified": true,
-    "source_key": "sell2wales",
-    "external_id": "SEP654439",
-    "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=SEP654439",
-    "source_label": "Official UK procurement notice",
+    "verified": false,
+    "source_key": "research_agent",
+    "external_id": "project-0228518db47f06ba03",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa3b599232243fbb694079caa7e3adc&url=https%3A%2F%2Fbiztechmagazine.com%2Farticle%2F2025%2F12%2Fmuseums-deploy-interactive-technology-create-more-immersive-experiences&c=6976440360555668323&mkt=en-us",
+    "source_label": "bing.com",
     "documents": [
       {
-        "title": "Official procurement notice",
-        "url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=SEP654439",
-        "kind": "Contract notice"
+        "title": "Museums Deploy Interactive Technology To Create More Immersive Experiences",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa3b599232243fbb694079caa7e3adc&url=https%3A%2F%2Fbiztechmagazine.com%2Farticle%2F2025%2F12%2Fmuseums-deploy-interactive-technology-create-more-immersive-experiences&c=6976440360555668323&mkt=en-us",
+        "kind": "Source article"
       }
     ],
-    "updated_at": "2026-09-11T09:40:00+02:00",
+    "updated_at": "2026-09-11T08:02:37+00:00",
+    "prediction": {
+      "window": "6–18 months",
+      "reason": "This is an early project signal; more procurement breadcrumbs are needed.",
+      "signals": [],
+      "fit_terms": [
+        "immersive",
+        "interactive",
+        "visitor experience"
+      ],
+      "source_count": 1,
+      "source_domains": [
+        "bing.com"
+      ],
+      "source_diversity": 1,
+      "source_quality": 58,
+      "expected_next_signals": [
+        "funding or capital approval",
+        "architect / exhibition designer appointment",
+        "market engagement / procurement notice"
+      ],
+      "risk_flags": [
+        "single-source signal",
+        "no first-party/official source yet"
+      ],
+      "opening_years": [],
+      "investment_signals": [],
+      "why_now": "This is an early project signal; more procurement breadcrumbs are needed."
+    },
     "evidence": [
       {
-        "date": "2026-09-04",
-        "kind": "Procurement",
-        "title": "Official procurement publication",
-        "detail": "Science Museum Group procurement for Wonderlab Group 2 interactive exhibit makers, with a 3 October 2026 deadline.",
-        "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=SEP654439",
-        "source_label": "Sell2Wales",
-        "strength": 99
+        "date": "Mon, 01 Dec 2025",
+        "kind": "Project signal",
+        "title": "Museums Deploy Interactive Technology To Create More Immersive Experiences",
+        "detail": "The Griffin Museum of Science and Industry and other science centers are integrating projectors, touch screens and other technology to enhance the visitor experience. Wylie Wong is a freelance ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa3b599232243fbb694079caa7e3adc&url=https%3A%2F%2Fbiztechmagazine.com%2Farticle%2F2025%2F12%2Fmuseums-deploy-interactive-technology-create-more-immersive-experiences&c=6976440360555668323&mkt=en-us",
+        "source_label": "bing.com",
+        "strength": 58
       }
     ]
   },
   {
-    "id": "uk-aug650869",
-    "title": "IWM Exhibitions Build Framework Agreement",
-    "organization": "Imperial War Museums",
-    "country": "United Kingdom",
-    "city": "London / UK",
-    "stage": "Live Tender",
-    "score": 90,
-    "confidence": 99,
-    "budget_min": 3000000,
-    "budget_max": 3000000,
-    "currency": "GBP",
-    "deadline": "2026-09-24",
-    "procurement_window": null,
-    "summary": "Three-year exhibitions build framework across Imperial War Museums, split into projects under and over £200,000, with an estimated total framework value of £3m.",
-    "fit_rationale": "Strong route into recurring museum exhibition production work and potentially interactive/technical packages through a build partnership.",
-    "pitch_angle": "Strategic framework opportunity; strongest as a consortium or delivery-partner route if full exhibition-build capability is required.",
-    "next_action": "Review the PSQ and Delta eSourcing documents; assess qualification thresholds and potential build partners.",
+    "id": "agent-project-9766c0bd892419ebb0",
+    "project_id": "project-9766c0bd892419ebb0",
+    "title": "'Immersive' new Royal Marines Museum in Portsmouth honouring Commandos nears completion as funding sought",
+    "organization": "bing.com",
+    "country": "",
+    "city": "",
+    "stage": "Signal",
+    "score": 56,
+    "confidence": 57,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "6–18 months",
+    "summary": "TV personalities Ross Kemp and Dan Snow have given their backing to help raise the final £2.5m needed to create a new museum aimed at paying tribute to the “courage, sacrifice, and service” of the ...",
+    "fit_rationale": "Upstream project intelligence matches museum/visitor-experience patterns associated with later exhibition, AV, interactive or interpretation procurement.",
+    "pitch_angle": "Investigate before procurement: map the project owner, funding, design team and likely specialist packages; approach only when the evidence supports useful early contact.",
+    "next_action": "Verify the strongest first-party source and watch for funding or capital approval, architect / exhibition designer appointment.",
     "sample": false,
-    "verified": true,
-    "source_key": "sell2wales",
-    "external_id": "AUG650869",
-    "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=AUG650869",
-    "source_label": "Official UK procurement notice",
+    "verified": false,
+    "source_key": "research_agent",
+    "external_id": "project-9766c0bd892419ebb0",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa3b599232243fbb694079caa7e3adc&url=https%3A%2F%2Fwww.msn.com%2Fen-gb%2Fnews%2Fuknews%2Fimmersive-new-royal-marines-museum-in-portsmouth-honouring-commandos-nears-completion-as-funding-sought%2Far-AA1ZL4oW&c=10535911874828507102&mkt=en-us",
+    "source_label": "bing.com",
     "documents": [
       {
-        "title": "Official procurement notice",
-        "url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=AUG650869",
-        "kind": "Contract notice"
-      },
-      {
-        "title": "Delta eSourcing tender",
-        "url": "https://www.delta-esourcing.com/tenders/UK-UK-London:-Museum-exhibition-services./3GC8GAUTZN",
-        "kind": "Tender documents"
-      },
-      {
-        "title": "Respond via Delta",
-        "url": "https://www.delta-esourcing.com/respond/3GC8GAUTZN",
-        "kind": "Submission portal"
+        "title": "'Immersive' new Royal Marines Museum in Portsmouth honouring Commandos nears completion as funding sought",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa3b599232243fbb694079caa7e3adc&url=https%3A%2F%2Fwww.msn.com%2Fen-gb%2Fnews%2Fuknews%2Fimmersive-new-royal-marines-museum-in-portsmouth-honouring-commandos-nears-completion-as-funding-sought%2Far-AA1ZL4oW&c=10535911874828507102&mkt=en-us",
+        "kind": "Source article"
       }
     ],
-    "updated_at": "2026-09-11T09:40:00+02:00",
+    "updated_at": "2026-09-11T08:02:37+00:00",
+    "prediction": {
+      "window": "6–18 months",
+      "reason": "This is an early project signal; more procurement breadcrumbs are needed.",
+      "signals": [
+        "project"
+      ],
+      "fit_terms": [
+        "immersive",
+        "interactive"
+      ],
+      "source_count": 1,
+      "source_domains": [
+        "bing.com"
+      ],
+      "source_diversity": 1,
+      "source_quality": 58,
+      "expected_next_signals": [
+        "funding or capital approval",
+        "architect / exhibition designer appointment",
+        "market engagement / procurement notice"
+      ],
+      "risk_flags": [
+        "single-source signal",
+        "no first-party/official source yet"
+      ],
+      "opening_years": [],
+      "investment_signals": [],
+      "why_now": "This is an early project signal; more procurement breadcrumbs are needed."
+    },
     "evidence": [
       {
-        "date": "2026-08-22",
-        "kind": "Procurement",
-        "title": "Official procurement publication",
-        "detail": "IWM exhibitions build framework with £3m estimated value and 24 September 2026 deadline.",
-        "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=AUG650869",
-        "source_label": "Sell2Wales",
-        "strength": 99
+        "date": "Mon, 30 Mar 2026",
+        "kind": "Project signal",
+        "title": "'Immersive' new Royal Marines Museum in Portsmouth honouring Commandos nears completion as funding sought",
+        "detail": "TV personalities Ross Kemp and Dan Snow have given their backing to help raise the final £2.5m needed to create a new museum aimed at paying tribute to the “courage, sacrifice, and service” of the ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa3b599232243fbb694079caa7e3adc&url=https%3A%2F%2Fwww.msn.com%2Fen-gb%2Fnews%2Fuknews%2Fimmersive-new-royal-marines-museum-in-portsmouth-honouring-commandos-nears-completion-as-funding-sought%2Far-AA1ZL4oW&c=10535911874828507102&mkt=en-us",
+        "source_label": "bing.com",
+        "strength": 58
       }
     ]
   }

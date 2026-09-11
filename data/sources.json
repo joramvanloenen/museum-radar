@@ -1,0 +1,42 @@
+[
+  {
+    "name": "TED — Tenders Electronic Daily",
+    "region": "EU / EEA",
+    "type": "Official API",
+    "status": "Active",
+    "url": "https://ted.europa.eu",
+    "notes": "Scheduled Scout supports the TED Search API."
+  },
+  {
+    "name": "Contracts Finder",
+    "region": "United Kingdom",
+    "type": "Official API",
+    "status": "Active",
+    "url": "https://www.contractsfinder.service.gov.uk",
+    "notes": "Scheduled Scout supports OCDS procurement search."
+  },
+  {
+    "name": "Custom RSS / Atom feeds",
+    "region": "Worldwide",
+    "type": "Feed",
+    "status": "Configurable",
+    "url": "",
+    "notes": "Add museum, heritage, architecture and funding feeds in data/scout-config.json."
+  },
+  {
+    "name": "SAM.gov",
+    "region": "United States",
+    "type": "Official API",
+    "status": "Optional",
+    "url": "https://sam.gov",
+    "notes": "Reserved for a later API-key connector."
+  },
+  {
+    "name": "Web research agent",
+    "region": "Worldwide",
+    "type": "Agent",
+    "status": "Planned",
+    "url": "",
+    "notes": "Future layer for following weak signals through funding, architects, council records and museum news."
+  }
+]

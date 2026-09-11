@@ -200,7 +200,7 @@ def parse_portal_date(value):
         except Exception: pass
     return None
 
-def portal_category_search(base_url, source_key, source_name, country, cpv_codes, limit=24):
+def portal_category_search(base_url, source_key, source_name, country, cpv_codes, limit=10):
     found=[]; seen=set()
     for cpv in cpv_codes:
         try:
@@ -368,7 +368,7 @@ def main():
             found.extend(portal_category_search(
                 portal.get('base_url',''),portal.get('source_key','official_portal'),
                 portal.get('name','Official procurement portal'),portal.get('country',''),
-                portal.get('cpv_codes',cfg.get('cpv_codes',[])),24))
+                portal.get('cpv_codes',cfg.get('cpv_codes',[])),10))
         except Exception as e:
             errors.append(f"Portal {portal.get('name','')}: {e}")
     for feed in cfg.get('rss_feeds',[]):

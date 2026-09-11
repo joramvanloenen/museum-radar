@@ -74,6 +74,74 @@
       "query": "musée rénovation nouvelle exposition financement architecte scénographie",
       "country": "France",
       "mode": "pitch"
+    },
+    {
+      "name": "AV integration museum",
+      "query": "museum exhibition AV hardware integrator projection multimedia tender",
+      "country": "Worldwide",
+      "mode": "tender"
+    },
+    {
+      "name": "Immersive museum installations",
+      "query": "museum immersive projection mapping sensors interactive tender",
+      "country": "Worldwide",
+      "mode": "tender"
+    },
+    {
+      "name": "Exhibit makers",
+      "query": "museum interactive exhibit makers tender science centre",
+      "country": "Worldwide",
+      "mode": "tender"
+    },
+    {
+      "name": "Museum software interactives",
+      "query": "museum interactive software custom software exhibition tender",
+      "country": "Worldwide",
+      "mode": "tender"
+    },
+    {
+      "name": "Museum Insider project signals",
+      "query": "site:museuminsider.co.uk museum new gallery renovation interactive exhibition tender",
+      "country": "Worldwide",
+      "mode": "pitch"
+    }
+  ],
+  "cpv_codes": [
+    "92521100",
+    "92521000",
+    "32321200",
+    "32322000",
+    "51310000",
+    "39154000",
+    "79930000",
+    "72230000",
+    "72212783",
+    "71220000"
+  ],
+  "official_portal_searches": [
+    {
+      "name": "Sell2Wales museum exhibition",
+      "base_url": "https://www.sell2wales.gov.wales",
+      "country": "United Kingdom",
+      "source_key": "sell2wales",
+      "cpv_codes": [
+        "92521100",
+        "92521000",
+        "39154000",
+        "79930000"
+      ]
+    },
+    {
+      "name": "Public Contracts Scotland museum exhibition",
+      "base_url": "https://www.publiccontractsscotland.gov.uk",
+      "country": "United Kingdom",
+      "source_key": "public_contracts_scotland",
+      "cpv_codes": [
+        "92521100",
+        "92521000",
+        "39154000",
+        "32321200"
+      ]
     }
   ]
 }

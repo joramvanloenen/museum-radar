@@ -81,13 +81,56 @@ function sources(){
   const all=[...state.sources,...state.discoveredSources];
   return `${header('Sources','Automated public-source coverage plus newly discovered candidate platforms.')}<div class="cards">${all.map(s=>`<div class="card source"><div class="row space"><span class="badge">${escapeHtml(s.type)}</span><span class="status">${escapeHtml(s.status)}</span></div><h3>${escapeHtml(s.name)}</h3><div class="muted">${escapeHtml(s.region||'Unknown')}</div><p>${escapeHtml(s.notes||'')}</p>${s.confidence?`<div class="muted">Discovery confidence ${s.confidence}%</div>`:''}${s.url?`<a class="muted" href="${escapeHtml(s.url)}" target="_blank" rel="noopener noreferrer">Open source ↗</a>`:''}</div>`).join('')}</div>`;
 }
-function scout(){return `${header('Scout','Scheduled discovery runs in GitHub Actions and republishes this site.',false)}<div class="grid4"><div class="metric"><b>${state.meta.last_scan_found||0}</b><span>Found last scan</span></div><div class="metric"><b>${state.meta.last_scan_relevant||0}</b><span>Relevant matches</span></div><div class="metric"><b>${state.meta.total_opportunities||mergedOpps().length}</b><span>Total opportunities</span></div><div class="metric"><b>${state.sources.filter(s=>s.status==='Active').length}</b><span>Active sources</span></div></div><div class="card detail settings" style="margin-top:18px"><h2>How automation works</h2><p class="muted">The included GitHub workflow runs on a schedule and on manual dispatch. It executes the Scout script, fetches configured public procurement/news feeds, scores and deduplicates matches, writes updated JSON, then deploys Pages.</p><div class="notice">Last generated: ${escapeHtml(state.meta.generated_at||'not yet')}<br>Last scan: ${escapeHtml(state.meta.last_scan_at||'not yet')}<br>${escapeHtml(state.meta.last_error||'No recorded scanner error.')}</div></div>`}
+function scout(){
+  const r=state.researchMeta||{};
+  const researchStatus=escapeHtml(r.status||'unknown');
+  return `${header('Scout','Two independent agents keep Radar current.',false)}
+  <div class="grid4">
+    <div class="metric"><b>${state.meta.last_scan_found||0}</b><span>Verified Scout matches</span></div>
+    <div class="metric"><b>${state.meta.total_opportunities||mergedOpps().length}</b><span>Total opportunities</span></div>
+    <div class="metric"><b>${r.project_clusters||0}</b><span>Predicted projects</span></div>
+    <div class="metric"><b>${r.high_conviction||0}</b><span>High-confidence predictions</span></div>
+  </div>
+  <div class="cards" style="margin-top:18px">
+    <div class="card source">
+      <div class="row space"><span class="badge">Verified Tender Scout</span><span class="status">● Active</span></div>
+      <h3>Official procurement</h3>
+      <p>GitHub Actions checks structured and official procurement sources every 6 hours. It can verify Live Tender and Pre-market records but does not invent predicted tenders.</p>
+      <div class="muted">Last scan: ${escapeHtml(state.meta.last_scan_at||'not yet')}</div>
+      ${state.meta.last_error?`<div class="notice">${escapeHtml(state.meta.last_error)}</div>`:''}
+    </div>
+    <div class="card source">
+      <div class="row space"><span class="badge">Research Agent</span><span class="status">● ${researchStatus}</span></div>
+      <h3>Web intelligence & prediction</h3>
+      <p>ChatGPT searches the wider web every 6 hours, correlates project breadcrumbs, predicts likely procurement windows, discovers new source platforms and writes meaningful changes back to Radar.</p>
+      <div class="muted">Last research: ${escapeHtml((r.last_run||'not yet').replace('T',' '))}</div>
+      ${(r.errors||[]).length?`<div class="notice">${escapeHtml(r.errors.slice(0,3).join(' · '))}</div>`:''}
+    </div>
+  </div>`;
+}
 function activity(){
   const h=state.history||{},fc=h.fit_counts||{},r=state.researchMeta||{},g=state.projectGraph||{};
   const buyers=(h.top_buyers||[]).slice(0,6);
   const types=(h.project_types||[]).filter(x=>(x.high||0)+(x.adjacent||0)>0).slice(0,6);
-  const predicted=mergedOpps().filter(o=>o.source_key==='research_agent').sort((a,b)=>(b.confidence||0)-(a.confidence||0)||(b.score||0)-(a.score||0)).slice(0,5);
-  return `${header('Intelligence','Live changes, predicted leads and historical patterns that improve opportunity scoring.')}<div class="grid4"><div class="metric"><b>${r.project_clusters||r.predicted_leads_added||0}</b><span>Predicted projects</span></div><div class="metric"><b>${r.high_conviction||g.high_conviction||0}</b><span>High-conviction leads</span></div><div class="metric"><b>${r.candidate_sources_found||0}</b><span>Source candidates</span></div><div class="metric"><b>${fc.high||0}</b><span>Strong-fit history</span></div></div><section class="section"><div class="sectionhead"><h2>Research Agent</h2></div><div class="card source"><p><b>Last run:</b> ${escapeHtml((r.last_run||'Not run yet').replace('T',' '))}</p><p>Clusters multiple breadcrumbs into projects, scores source quality and diversity, watches recurring buyers, predicts procurement windows, and keeps predicted leads separate from verified tenders.</p></div></section><section class="section"><div class="sectionhead"><h2>Highest-conviction predictions</h2></div><div class="cards">${predicted.map(card).join('')||'<div class="notice">No strong predicted projects yet.</div>'}</div></section><section class="section"><div class="sectionhead"><h2>Recurring useful buyers</h2></div><div class="cards">${buyers.map(b=>`<div class="card source"><h3>${escapeHtml(b.buyer)}</h3><p><b>${b.high||0}</b> strong-fit · ${b.adjacent||0} adjacent · ${b.total||0} total records</p></div>`).join('')}</div></section><section class="section"><div class="sectionhead"><h2>What the history says to look for</h2></div><div class="cards">${types.map(t=>`<div class="card source"><h3>${escapeHtml(t.name)}</h3><p>${t.high||0} strong-fit · ${t.adjacent||0} adjacent examples</p></div>`).join('')}</div></section>`;
+  const predicted=mergedOpps().filter(o=>o.source_key==='research_agent').sort((a,b)=>(b.confidence||0)-(a.confidence||0)||(b.score||0)-(a.score||0)).slice(0,6);
+  return `${header('Intelligence','Predicted projects, evidence and historical patterns that help us act before a tender appears.')}
+  <div class="grid4">
+    <div class="metric"><b>${r.project_clusters||r.predicted_leads_added||0}</b><span>Predicted projects</span></div>
+    <div class="metric"><b>${r.high_conviction||g.high_conviction||0}</b><span>High-confidence leads</span></div>
+    <div class="metric"><b>${r.candidate_sources_found||0}</b><span>Source candidates</span></div>
+    <div class="metric"><b>${fc.high||0}</b><span>Strong-fit history</span></div>
+  </div>
+  <section class="section">
+    <div class="sectionhead"><h2>Research Agent</h2><span class="status">● ${escapeHtml(r.status||'unknown')}</span></div>
+    <div class="card source">
+      <p><b>Last research:</b> ${escapeHtml((r.last_run||'Not run yet').replace('T',' '))}</p>
+      <p>The Research Agent searches outside procurement portals for funding, design appointments, masterplans, renovations, new galleries and other breadcrumbs. Multiple sources are combined into one evolving project prediction. General web research can never promote itself to Live Tender.</p>
+      ${(r.errors||[]).length?`<div class="notice"><b>Agent issues:</b> ${escapeHtml(r.errors.slice(0,4).join(' · '))}</div>`:''}
+    </div>
+  </section>
+  <section class="section"><div class="sectionhead"><h2>Highest-confidence predictions</h2></div><div class="cards">${predicted.map(card).join('')||'<div class="notice">No predicted projects yet.</div>'}</div></section>
+  <section class="section"><div class="sectionhead"><h2>Recurring useful buyers</h2></div><div class="cards">${buyers.map(b=>`<div class="card source"><h3>${escapeHtml(b.buyer)}</h3><p><b>${b.high||0}</b> strong-fit · ${b.adjacent||0} adjacent · ${b.total||0} total records</p></div>`).join('')}</div></section>
+  <section class="section"><div class="sectionhead"><h2>What the history says to look for</h2></div><div class="cards">${types.map(t=>`<div class="card source"><h3>${escapeHtml(t.name)}</h3><p>${t.high||0} strong-fit · ${t.adjacent||0} adjacent examples</p></div>`).join('')}</div></section>`;
 }
 function settings(){const s=state.settings;return `${header('Scoring Settings','Local scoring preferences for this browser.',false)}<div class="card detail settings"><div class="formgrid"><div class="field"><label>Company name</label><input id="company_name" value="${escapeHtml(s.company_name)}"></div><div class="field full"><label>Capability profile</label><textarea id="capability_profile">${escapeHtml(s.capability_profile)}</textarea></div>${[['weight_fit','Capability fit'],['weight_budget','Budget'],['weight_geo','Geography'],['weight_timing','Timing'],['weight_confidence','Sources confidence'],['weight_strategy','Strategic value']].map(([k,n])=>`<div class="field"><label>${n} weight</label><input type="number" id="${k}" value="${s[k]}"></div>`).join('')}<div class="field full"><button class="btn primary" id="saveSettings">Save locally</button></div></div></div>`}
 function render(){const fn={overview,opportunities,future,pitch:pitches,organizations,sources,scout,activity,settings}[state.page];$('#app').innerHTML=`<div class="layout">${nav()}<main class="main">${fn()}</main></div>`;bind()}

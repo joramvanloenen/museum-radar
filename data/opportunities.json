@@ -534,6 +534,189 @@
     "watched": false
   },
   {
+    "id": "agent-project-nhm150-western-av",
+    "project_id": "project-nhm150-western-av",
+    "title": "NHM150 Western Galleries – AV Hardware Integrator",
+    "organization": "Natural History Museum",
+    "country": "United Kingdom",
+    "city": "London",
+    "stage": "Expected",
+    "score": 98,
+    "confidence": 99,
+    "currency": "GBP",
+    "budget_min": 290000,
+    "budget_max": 290000,
+    "deadline": null,
+    "procurement_window": "Formal procurement expected after September 2026 market engagement",
+    "summary": "Natural History Museum is preparing an AV hardware integration package for four NHM150 Western Galleries, covering exhibition AV, interactives and gallery fit-out lighting.",
+    "fit_rationale": "Exceptional fit: permanent museum galleries, AV integration, interactives, exhibition fit-out and coordination with design/build teams.",
+    "pitch_angle": "Track the transition from market engagement to formal tender and position early around robust interactive/AV delivery, accessibility and sustainability.",
+    "next_action": "Watch Find a Tender / Sell2Wales for the formal procurement notice following the September market-engagement stage.",
+    "sample": false,
+    "verified": false,
+    "source_key": "research_agent",
+    "external_id": "ocds-h6vhtk-06f281",
+    "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=SEP654811",
+    "source_label": "Sell2Wales / Find a Tender mirror",
+    "documents": [
+      {
+        "title": "Market engagement notice",
+        "url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=SEP654811",
+        "kind": "Market consultation"
+      },
+      {
+        "title": "Find a Tender notice",
+        "url": "https://www.find-tender.service.gov.uk/Notice/083991-2026",
+        "kind": "Market consultation"
+      }
+    ],
+    "updated_at": "2026-09-11T10:54:07+00:00",
+    "prediction": {
+      "window": "0–3 months",
+      "reason": "A formal AV/integration requirement is already defined and preliminary market engagement was published in September 2026.",
+      "signals": [
+        "procurement",
+        "project",
+        "design"
+      ],
+      "fit_terms": [
+        "audiovisual",
+        "interactive",
+        "exhibition design",
+        "exhibition build"
+      ],
+      "source_count": 2,
+      "source_domains": [
+        "sell2wales.gov.wales",
+        "find-tender.service.gov.uk"
+      ],
+      "source_diversity": 2,
+      "source_quality": 97,
+      "expected_next_signals": [
+        "formal tender notice",
+        "supplier brief / tender documents"
+      ],
+      "risk_flags": [
+        "market-engagement response window has just closed"
+      ],
+      "opening_years": [],
+      "investment_signals": [
+        "£290,000"
+      ]
+    },
+    "evidence": [
+      {
+        "date": "2026-09-05",
+        "kind": "Official procurement signal",
+        "title": "NHM150 Western Galleries - AV Hardware Integrator",
+        "detail": "Official UK2 market-engagement notice for AV hardware integration across four new Western Galleries, including exhibitions, interactives and gallery fit-out lighting.",
+        "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=SEP654811",
+        "source_label": "Sell2Wales",
+        "strength": 99
+      },
+      {
+        "date": "2026-09-04",
+        "kind": "Procurement corroboration",
+        "title": "Find a Tender process reference",
+        "detail": "The process is reported under OCID ocds-h6vhtk-06f281 with a £290k estimated value and Find a Tender source notice 083991-2026.",
+        "source_url": "https://www.find-tender.service.gov.uk/Notice/083991-2026",
+        "source_label": "Find a Tender",
+        "strength": 99
+      }
+    ]
+  },
+  {
+    "id": "agent-project-pendine-through-time",
+    "project_id": "project-pendine-through-time",
+    "title": "Museum of Land Speed – “Pendine Through Time” permanent exhibition, wayfinding & building interactives",
+    "organization": "Carmarthenshire County Council",
+    "country": "United Kingdom",
+    "city": "Pendine",
+    "stage": "Expected",
+    "score": 97,
+    "confidence": 98,
+    "currency": "GBP",
+    "budget_min": 0,
+    "budget_max": 350000,
+    "deadline": null,
+    "procurement_window": "Planned procurement; delivery indicated for late 2026–2028",
+    "summary": "A planned procurement covers a new permanent exhibition plus refreshed and new interactives, AV, digital collection terminals, wayfinding and associated exhibition design at the Museum of Land Speed.",
+    "fit_rationale": "Very strong fit: interactive design and production, AV and digital integration, physical exhibit work, interpretation and visitor experience are explicitly in scope.",
+    "pitch_angle": "Prepare for a single-supplier / specialist-subcontractor delivery model and identify where to lead versus partner on fabrication, AV and interaction design.",
+    "next_action": "Watch Find a Tender notice 067059-2026 and Carmarthenshire procurement channels for the formal competition and tender documents.",
+    "sample": false,
+    "verified": false,
+    "source_key": "research_agent",
+    "external_id": "ocds-h6vhtk-05496f",
+    "source_url": "https://www.find-tender.service.gov.uk/Notice/067059-2026",
+    "source_label": "Find a Tender",
+    "documents": [
+      {
+        "title": "Planned procurement notice",
+        "url": "https://www.find-tender.service.gov.uk/Notice/067059-2026",
+        "kind": "Contract notice"
+      },
+      {
+        "title": "Earlier market engagement notice",
+        "url": "https://www.find-tender.service.gov.uk/Notice/032657-2025",
+        "kind": "Market consultation"
+      }
+    ],
+    "updated_at": "2026-09-11T10:54:07+00:00",
+    "prediction": {
+      "window": "0–6 months",
+      "reason": "A planned procurement notice is already published and the scope/value are substantially defined.",
+      "signals": [
+        "procurement",
+        "project",
+        "design"
+      ],
+      "fit_terms": [
+        "interactive",
+        "audiovisual",
+        "exhibition design",
+        "visitor experience"
+      ],
+      "source_count": 2,
+      "source_domains": [
+        "find-tender.service.gov.uk"
+      ],
+      "source_diversity": 1,
+      "source_quality": 99,
+      "expected_next_signals": [
+        "formal tender documents",
+        "submission deadline"
+      ],
+      "risk_flags": [
+        "planned procurement; final packaging/timing may still change"
+      ],
+      "opening_years": [],
+      "investment_signals": [
+        "£350,000"
+      ]
+    },
+    "evidence": [
+      {
+        "date": "2026-07-16",
+        "kind": "Official procurement signal",
+        "title": "Planned procurement notice",
+        "detail": "Find a Tender planned procurement for Pendine Through Time with permanent exhibition, refreshed/new interactives, AV and wayfinding scope.",
+        "source_url": "https://www.find-tender.service.gov.uk/Notice/067059-2026",
+        "source_label": "Find a Tender",
+        "strength": 99
+      },
+      {
+        "date": "2025-06-16",
+        "kind": "Market engagement",
+        "title": "Earlier interactive exhibition market engagement",
+        "detail": "Early market engagement described a 54m² permanent exhibition with AV terminals, interactives, showcases and a new wind-assisted cycling exhibit.",
+        "source_url": "https://www.find-tender.service.gov.uk/Notice/032657-2025",
+        "source_label": "Find a Tender",
+        "strength": 96
+      }
+    ]
+  },
+  {
     "id": "ie-8901321",
     "title": "Medical Museum Exhibition Design Services – Expression of Interest",
     "organization": "Royal College of Physicians of Ireland",
@@ -671,6 +854,95 @@
     ]
   },
   {
+    "id": "agent-project-andrejs-pumpurs",
+    "project_id": "project-andrejs-pumpurs",
+    "title": "Andrejs Pumpurs Lielvārde Museum – new permanent exhibition concept & content",
+    "organization": "Ogres novada pašvaldība",
+    "country": "Latvia",
+    "city": "Lielvārde",
+    "stage": "Expected",
+    "score": 95,
+    "confidence": 93,
+    "currency": "EUR",
+    "budget_min": null,
+    "budget_max": null,
+    "deadline": null,
+    "procurement_window": "Market consultation open to 9 Nov 2026; formal procurement expected afterwards",
+    "summary": "A current market consultation is shaping the artistic concept, content, design and scenography for a new permanent exhibition at the Andrejs Pumpurs Lielvārde Museum.",
+    "fit_rationale": "Strong fit for museum concept, storytelling, scenography, human-centred exhibition design and later interactive/media delivery.",
+    "pitch_angle": "Use the consultation phase to understand the storytelling and technical ambition, then watch for the formal design/production procurement.",
+    "next_action": "Review the Latvian EIS consultation documents and watch procurement 180665 for the formal procedure.",
+    "sample": false,
+    "verified": false,
+    "source_key": "research_agent",
+    "external_id": "ONP-2026-86-AP",
+    "source_url": "https://www.eis.gov.lv/EKEIS/Supplier/Procurement/180665",
+    "source_label": "Latvian EIS procurement portal",
+    "documents": [
+      {
+        "title": "Official procurement profile",
+        "url": "https://www.eis.gov.lv/EKEIS/Supplier/Procurement/180665",
+        "kind": "Market consultation"
+      },
+      {
+        "title": "Public consultation summary",
+        "url": "https://tedas.eu/procurements/317776",
+        "kind": "Source article"
+      }
+    ],
+    "updated_at": "2026-09-11T10:54:07+00:00",
+    "prediction": {
+      "window": "1–6 months",
+      "reason": "A formal market consultation for a defined permanent-exhibition concept is active and closes in November 2026.",
+      "signals": [
+        "procurement",
+        "design",
+        "project"
+      ],
+      "fit_terms": [
+        "exhibition design",
+        "scenography",
+        "visitor experience"
+      ],
+      "source_count": 2,
+      "source_domains": [
+        "eis.gov.lv",
+        "tedas.eu"
+      ],
+      "source_diversity": 2,
+      "source_quality": 91,
+      "expected_next_signals": [
+        "formal procurement notice",
+        "technical brief"
+      ],
+      "risk_flags": [
+        "consultation scope may change before tender"
+      ],
+      "opening_years": [],
+      "investment_signals": []
+    },
+    "evidence": [
+      {
+        "date": "2026-08-27",
+        "kind": "Market consultation",
+        "title": "Permanent exhibition concept and content consultation",
+        "detail": "Procurement ONP 2026/86_AP covers artistic concept, content, design and scenography for the new permanent exhibition.",
+        "source_url": "https://www.eis.gov.lv/EKEIS/Supplier/Procurement/180665",
+        "source_label": "Latvian EIS",
+        "strength": 95
+      },
+      {
+        "date": "2026-08-27",
+        "kind": "Secondary procurement index",
+        "title": "Consultation details and CPV codes",
+        "detail": "The published consultation uses museum-exhibition, design-consultancy and specialty-design CPV codes and lists a 9 Nov 2026 consultation deadline.",
+        "source_url": "https://tedas.eu/procurements/317776",
+        "source_label": "TEDAS",
+        "strength": 88
+      }
+    ]
+  },
+  {
     "id": "ted-607742-2026",
     "title": "Produktion und technische Umsetzung einer Dauerausstellung in Wasserturm und Bahnhof Wittenberge",
     "organization": "Landesamt für Umwelt Brandenburg",
@@ -760,6 +1032,97 @@
         "source_url": "https://www.evergabe-online.de/tenderdetails.html?55=&cookieCheck=&id=885869",
         "source_label": "eVergabe",
         "strength": 98
+      }
+    ]
+  },
+  {
+    "id": "agent-project-ontario-science-centre",
+    "project_id": "project-ontario-science-centre",
+    "title": "New Ontario Science Centre at Ontario Place",
+    "organization": "Ontario Science Centre / Government of Ontario",
+    "country": "Canada",
+    "city": "Toronto",
+    "stage": "Lead",
+    "score": 91,
+    "confidence": 94,
+    "currency": "CAD",
+    "budget_min": null,
+    "budget_max": null,
+    "deadline": null,
+    "procurement_window": "Specialist exhibition packages likely during 2026–2028 ahead of 2029 opening",
+    "summary": "Ontario has broken ground on a new 400,000-square-foot Science Centre at Ontario Place, scheduled to open in 2029 with new interactive exhibits and an upgraded Cinesphere.",
+    "fit_rationale": "Large new science-centre build with interactive exhibits and a multi-year delivery horizon creates strong potential for specialist digital, interactive, AV and exhibit-production packages.",
+    "pitch_angle": "Map Ontario Science Partners and the Science Centre delivery team now; track exhibit-package procurement well before the 2029 opening.",
+    "next_action": "Watch Ontario procurement channels and the Science Centre project team for exhibit design, interactive, AV and media packages.",
+    "sample": false,
+    "verified": false,
+    "source_key": "research_agent",
+    "external_id": "ontario-science-centre-ontario-place",
+    "source_url": "https://news.ontario.ca/en/release/1007497/ontario_breaks_ground_on_new_science_centre_at_ontario_place",
+    "source_label": "Government of Ontario",
+    "documents": [
+      {
+        "title": "Ontario groundbreaking announcement",
+        "url": "https://news.ontario.ca/en/release/1007497/ontario_breaks_ground_on_new_science_centre_at_ontario_place",
+        "kind": "Source article"
+      },
+      {
+        "title": "Ontario Science Centre project overview",
+        "url": "https://www.ontariosciencecentre.ca/about-us/who-we-are",
+        "kind": "Source article"
+      }
+    ],
+    "updated_at": "2026-09-11T10:54:07+00:00",
+    "prediction": {
+      "window": "6–18 months",
+      "reason": "Construction is underway for a 2029 opening and the government explicitly confirms new interactive exhibits, making future specialist exhibit packages highly plausible.",
+      "signals": [
+        "project",
+        "delivery",
+        "opening"
+      ],
+      "fit_terms": [
+        "interactive",
+        "visitor experience"
+      ],
+      "source_count": 2,
+      "source_domains": [
+        "news.ontario.ca",
+        "ontariosciencecentre.ca"
+      ],
+      "source_diversity": 2,
+      "source_quality": 94,
+      "expected_next_signals": [
+        "exhibit-package procurement",
+        "AV / interactive design appointments",
+        "fabrication tenders"
+      ],
+      "risk_flags": [
+        "no specialist procurement notice identified yet"
+      ],
+      "opening_years": [
+        2029
+      ],
+      "investment_signals": []
+    },
+    "evidence": [
+      {
+        "date": "2026-05-25",
+        "kind": "First-party project signal",
+        "title": "Ontario breaks ground on new Science Centre",
+        "detail": "Ontario confirms a 400,000-square-foot facility opening in 2029 with new interactive exhibits and an upgraded Cinesphere.",
+        "source_url": "https://news.ontario.ca/en/release/1007497/ontario_breaks_ground_on_new_science_centre_at_ontario_place",
+        "source_label": "Government of Ontario",
+        "strength": 98
+      },
+      {
+        "date": "2026",
+        "kind": "First-party project signal",
+        "title": "Ontario Science Centre permanent-home programme",
+        "detail": "The Science Centre confirms its future permanent home at Ontario Place and ongoing work with Ontario Science Partners.",
+        "source_url": "https://www.ontariosciencecentre.ca/about-us/who-we-are",
+        "source_label": "Ontario Science Centre",
+        "strength": 94
       }
     ]
   },
@@ -863,6 +1226,94 @@
         "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=SEP653553",
         "source_label": "Sell2Wales / UK notice",
         "strength": 99
+      }
+    ]
+  },
+  {
+    "id": "agent-project-louvre-nouvelle-renaissance",
+    "project_id": "project-louvre-nouvelle-renaissance",
+    "title": "Louvre – Nouvelle Renaissance transformation programme",
+    "organization": "Musée du Louvre",
+    "country": "France",
+    "city": "Paris",
+    "stage": "Lead",
+    "score": 89,
+    "confidence": 95,
+    "currency": "EUR",
+    "budget_min": null,
+    "budget_max": null,
+    "deadline": null,
+    "procurement_window": "Multi-year specialist packages expected as design develops from 2026 onward",
+    "summary": "The Louvre has selected STUDIOS Architecture Paris and Selldorf Architects for its major Nouvelle Renaissance transformation, including new access, exhibition spaces, visitor mediation and a redesigned Mona Lisa visitor journey.",
+    "fit_rationale": "A major museum transformation explicitly centred on visitor experience, exhibition spaces, mediation and digital/technical modernisation creates a long pipeline of potentially relevant specialist packages.",
+    "pitch_angle": "Track the winning design team, Louvre procurement channels and BOAMP for downstream scenography, media, visitor-experience and technical packages.",
+    "next_action": "Watch Louvre administrative notices and BOAMP as the winning team refines the project with stakeholders during the next design phase.",
+    "sample": false,
+    "verified": false,
+    "source_key": "research_agent",
+    "external_id": "louvre-nouvelle-renaissance",
+    "source_url": "https://www.louvre.fr/en/explore/life-at-the-museum/louvre-nouvelle-renaissance-international-architecture-competition",
+    "source_label": "Musée du Louvre",
+    "documents": [
+      {
+        "title": "Architecture competition winner",
+        "url": "https://www.louvre.fr/en/explore/life-at-the-museum/louvre-nouvelle-renaissance-international-architecture-competition",
+        "kind": "Source article"
+      },
+      {
+        "title": "Louvre major renovations",
+        "url": "https://www.louvre.fr/en/support-the-louvre/major-projects/renovations-and-refurbishments",
+        "kind": "Source article"
+      }
+    ],
+    "updated_at": "2026-09-11T10:54:07+00:00",
+    "prediction": {
+      "window": "6–24 months",
+      "reason": "The architecture team is appointed and the Louvre states that project refinement and stakeholder consultation are now beginning.",
+      "signals": [
+        "design",
+        "project"
+      ],
+      "fit_terms": [
+        "visitor experience",
+        "exhibition design",
+        "scenography"
+      ],
+      "source_count": 2,
+      "source_domains": [
+        "louvre.fr"
+      ],
+      "source_diversity": 1,
+      "source_quality": 96,
+      "expected_next_signals": [
+        "detailed design packages",
+        "scenography / mediation procurement",
+        "technical and digital packages"
+      ],
+      "risk_flags": [
+        "very large programme; relevant packages may be bundled through the appointed design consortium"
+      ],
+      "opening_years": [],
+      "investment_signals": []
+    },
+    "evidence": [
+      {
+        "date": "2026-05-26",
+        "kind": "First-party design signal",
+        "title": "Louvre Nouvelle Renaissance winning team",
+        "detail": "The Louvre selected STUDIOS Architecture Paris and Selldorf Architects; the next phase is project refinement with museum stakeholders and the public.",
+        "source_url": "https://www.louvre.fr/en/explore/life-at-the-museum/louvre-nouvelle-renaissance-international-architecture-competition",
+        "source_label": "Musée du Louvre",
+        "strength": 98
+      },
+      {
+        "date": "2026",
+        "kind": "First-party programme signal",
+        "title": "Major renovations and visitor-experience programme",
+        "detail": "The Louvre describes extensive development projects covering visitor engagement, exhibition spaces, new mediation areas and modern technologies.",
+        "source_url": "https://www.louvre.fr/en/support-the-louvre/major-projects/renovations-and-refurbishments",
+        "source_label": "Musée du Louvre",
+        "strength": 96
       }
     ]
   },

@@ -29,6 +29,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Validate Scout code
+        run: python -m py_compile scripts/research_agent.py scripts/scout_static.py
+
       - name: Run autonomous research agent
         continue-on-error: true
         run: python scripts/research_agent.py

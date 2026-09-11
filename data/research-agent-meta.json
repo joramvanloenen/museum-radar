@@ -1,0 +1,19 @@
+{
+  "status": "degraded",
+  "last_run": "2026-09-11T10:49:30+00:00",
+  "duration_seconds": 37.4,
+  "queries_ok": 6,
+  "queries_failed": 5,
+  "raw_signals": 0,
+  "project_clusters": 0,
+  "predicted_leads_added": 0,
+  "high_conviction": 0,
+  "candidate_sources_found": 0,
+  "errors": [
+    "GDELT museum: <urlopen error _ssl.c:993: The handshake operation timed out>",
+    "GDELT science centre: <urlopen error _ssl.c:993: The handshake operation timed out>",
+    "GDELT science center: <urlopen error _ssl.c:993: The handshake operation timed out>",
+    "GDELT visitor centre: <urlopen error _ssl.c:993: The handshake operation timed out>",
+    "GDELT visitor center: <urlopen error _ssl.c:993: The handshake operation timed out>"
+  ]
+}

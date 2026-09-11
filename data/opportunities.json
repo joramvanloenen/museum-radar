@@ -175,7 +175,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-11T08:18:21+00:00",
+    "updated_at": "2026-09-11T10:49:58+00:00",
     "evidence": [
       {
         "date": "",
@@ -218,7 +218,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-11T08:18:21+00:00",
+    "updated_at": "2026-09-11T10:49:58+00:00",
     "evidence": [
       {
         "date": "",
@@ -261,7 +261,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-11T08:18:17+00:00",
+    "updated_at": "2026-09-11T10:49:54+00:00",
     "evidence": [
       {
         "date": "",
@@ -304,7 +304,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-11T08:18:17+00:00",
+    "updated_at": "2026-09-11T10:49:54+00:00",
     "evidence": [
       {
         "date": "",
@@ -347,7 +347,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-11T08:18:17+00:00",
+    "updated_at": "2026-09-11T10:49:54+00:00",
     "evidence": [
       {
         "date": "",
@@ -390,7 +390,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-11T08:18:16+00:00",
+    "updated_at": "2026-09-11T10:49:53+00:00",
     "evidence": [
       {
         "date": "",
@@ -433,7 +433,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-11T08:18:05+00:00",
+    "updated_at": "2026-09-11T10:49:47+00:00",
     "evidence": [
       {
         "date": "",
@@ -476,7 +476,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-11T08:18:00+00:00",
+    "updated_at": "2026-09-11T10:49:40+00:00",
     "evidence": [
       {
         "date": "",
@@ -519,7 +519,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-11T08:18:00+00:00",
+    "updated_at": "2026-09-11T10:49:40+00:00",
     "evidence": [
       {
         "date": "",
@@ -911,355 +911,44 @@
     ]
   },
   {
-    "id": "agent-project-5bd657c0bcc8224f37",
-    "project_id": "project-5bd657c0bcc8224f37",
-    "title": "Museums Deploy Interactive Technology To Create More Immersive Experiences",
-    "organization": "biztechmagazine.com",
-    "country": "",
+    "id": "search-099bcb8b65f16255b1",
+    "title": "Fleet Science Center unveils two new exhibition spaces after renovation",
+    "organization": "Science centre signals",
+    "country": "Worldwide",
     "city": "",
-    "stage": "Signal",
-    "score": 61,
-    "confidence": 57,
+    "stage": "Pitch",
+    "score": 86,
+    "confidence": 62,
     "currency": "EUR",
     "deadline": null,
-    "procurement_window": "6–18 months",
-    "summary": "The Griffin Museum of Science and Industry and other science centers are integrating projectors, touch screens and other technology to enhance the visitor experience. Wylie Wong is a freelance ...",
-    "fit_rationale": "Upstream project intelligence matches museum/visitor-experience patterns associated with later exhibition, AV, interactive or interpretation procurement.",
-    "pitch_angle": "Investigate before procurement: map the project owner, funding, design team and likely specialist packages; approach only when the evidence supports useful early contact.",
-    "next_action": "Verify the strongest first-party source and watch for funding or capital approval, architect / exhibition designer appointment.",
+    "procurement_window": "Investigate",
+    "summary": "The Fleet Science Center in Balboa Park has introduced two new exhibition spaces and new interactive features after nearly a year of partial closure for a $5.6 million renovation. The project, which ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
     "sample": false,
     "verified": false,
-    "source_key": "research_agent",
-    "external_id": "project-5bd657c0bcc8224f37",
-    "source_url": "https://biztechmagazine.com/article/2025/12/museums-deploy-interactive-technology-create-more-immersive-experiences",
-    "source_label": "biztechmagazine.com",
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa3dcd75d284a7ca9486d0911b46e78&url=https%3a%2f%2fwww.sandiegouniontribune.com%2f2026%2f06%2f26%2ffleet-science-center-renovation%2f&c=2026535705577697871&mkt=es-mx",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa3dcd75d284a7ca9486d0911b46e78&url=https%3a%2f%2fwww.sandiegouniontribune.com%2f2026%2f06%2f26%2ffleet-science-center-renovation%2f&c=2026535705577697871&mkt=es-mx",
+    "source_label": "Science centre signals",
     "documents": [
       {
-        "title": "Museums Deploy Interactive Technology To Create More Immersive Experiences",
-        "url": "https://biztechmagazine.com/article/2025/12/museums-deploy-interactive-technology-create-more-immersive-experiences",
+        "title": "Fleet Science Center unveils two new exhibition spaces after renovation",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa3dcd75d284a7ca9486d0911b46e78&url=https%3a%2f%2fwww.sandiegouniontribune.com%2f2026%2f06%2f26%2ffleet-science-center-renovation%2f&c=2026535705577697871&mkt=es-mx",
         "kind": "Source article"
       }
     ],
-    "updated_at": "2026-09-11T08:05:20+00:00",
-    "prediction": {
-      "window": "6–18 months",
-      "reason": "This is an early project signal; more procurement breadcrumbs are needed.",
-      "signals": [],
-      "fit_terms": [
-        "immersive",
-        "interactive",
-        "visitor experience"
-      ],
-      "source_count": 1,
-      "source_domains": [
-        "biztechmagazine.com"
-      ],
-      "source_diversity": 1,
-      "source_quality": 58,
-      "expected_next_signals": [
-        "funding or capital approval",
-        "architect / exhibition designer appointment",
-        "market engagement / procurement notice"
-      ],
-      "risk_flags": [
-        "single-source signal",
-        "no first-party/official source yet"
-      ],
-      "opening_years": [],
-      "investment_signals": [],
-      "why_now": "This is an early project signal; more procurement breadcrumbs are needed."
-    },
+    "updated_at": "2026-09-11T10:49:59+00:00",
     "evidence": [
       {
-        "date": "Mon, 01 Dec 2025",
-        "kind": "Project signal",
-        "title": "Museums Deploy Interactive Technology To Create More Immersive Experiences",
-        "detail": "The Griffin Museum of Science and Industry and other science centers are integrating projectors, touch screens and other technology to enhance the visitor experience. Wylie Wong is a freelance ...",
-        "source_url": "https://biztechmagazine.com/article/2025/12/museums-deploy-interactive-technology-create-more-immersive-experiences",
-        "source_label": "biztechmagazine.com",
-        "strength": 58
-      }
-    ]
-  },
-  {
-    "id": "agent-project-35fed33012e7fce960",
-    "project_id": "project-35fed33012e7fce960",
-    "title": "'Immersive' new Royal Marines Museum in Portsmouth honouring Commandos nears completion as funding sought",
-    "organization": "msn.com",
-    "country": "",
-    "city": "",
-    "stage": "Signal",
-    "score": 56,
-    "confidence": 57,
-    "currency": "EUR",
-    "deadline": null,
-    "procurement_window": "6–18 months",
-    "summary": "TV personalities Ross Kemp and Dan Snow have given their backing to help raise the final £2.5m needed to create a new museum aimed at paying tribute to the “courage, sacrifice, and service” of the ...",
-    "fit_rationale": "Upstream project intelligence matches museum/visitor-experience patterns associated with later exhibition, AV, interactive or interpretation procurement.",
-    "pitch_angle": "Investigate before procurement: map the project owner, funding, design team and likely specialist packages; approach only when the evidence supports useful early contact.",
-    "next_action": "Verify the strongest first-party source and watch for funding or capital approval, architect / exhibition designer appointment.",
-    "sample": false,
-    "verified": false,
-    "source_key": "research_agent",
-    "external_id": "project-35fed33012e7fce960",
-    "source_url": "https://www.msn.com/en-gb/news/uknews/immersive-new-royal-marines-museum-in-portsmouth-honouring-commandos-nears-completion-as-funding-sought/ar-AA1ZL4oW",
-    "source_label": "msn.com",
-    "documents": [
-      {
-        "title": "'Immersive' new Royal Marines Museum in Portsmouth honouring Commandos nears completion as funding sought",
-        "url": "https://www.msn.com/en-gb/news/uknews/immersive-new-royal-marines-museum-in-portsmouth-honouring-commandos-nears-completion-as-funding-sought/ar-AA1ZL4oW",
-        "kind": "Source article"
-      }
-    ],
-    "updated_at": "2026-09-11T08:05:20+00:00",
-    "prediction": {
-      "window": "6–18 months",
-      "reason": "This is an early project signal; more procurement breadcrumbs are needed.",
-      "signals": [
-        "project"
-      ],
-      "fit_terms": [
-        "immersive",
-        "interactive"
-      ],
-      "source_count": 1,
-      "source_domains": [
-        "msn.com"
-      ],
-      "source_diversity": 1,
-      "source_quality": 58,
-      "expected_next_signals": [
-        "funding or capital approval",
-        "architect / exhibition designer appointment",
-        "market engagement / procurement notice"
-      ],
-      "risk_flags": [
-        "single-source signal",
-        "no first-party/official source yet"
-      ],
-      "opening_years": [],
-      "investment_signals": [],
-      "why_now": "This is an early project signal; more procurement breadcrumbs are needed."
-    },
-    "evidence": [
-      {
-        "date": "Mon, 30 Mar 2026",
-        "kind": "Project signal",
-        "title": "'Immersive' new Royal Marines Museum in Portsmouth honouring Commandos nears completion as funding sought",
-        "detail": "TV personalities Ross Kemp and Dan Snow have given their backing to help raise the final £2.5m needed to create a new museum aimed at paying tribute to the “courage, sacrifice, and service” of the ...",
-        "source_url": "https://www.msn.com/en-gb/news/uknews/immersive-new-royal-marines-museum-in-portsmouth-honouring-commandos-nears-completion-as-funding-sought/ar-AA1ZL4oW",
-        "source_label": "msn.com",
-        "strength": 58
-      }
-    ]
-  },
-  {
-    "id": "agent-project-31327d830507241f3c",
-    "project_id": "project-31327d830507241f3c",
-    "title": "Tentacles, pointy teeth and the T-rex of the sea: the Natural History Museum on beasts that once ruled the oceans",
-    "organization": "Natural History Museum",
-    "country": "",
-    "city": "",
-    "stage": "Signal",
-    "score": 54,
-    "confidence": 54,
-    "currency": "EUR",
-    "deadline": null,
-    "procurement_window": "6–18 months",
-    "summary": "A new exhibition, Jurassic Oceans, showcases the fearsome creatures that lurked below the surface – and offers a stark warning about the impact of warming waters on marine ecosystems today Deep in the ...",
-    "fit_rationale": "Upstream project intelligence matches museum/visitor-experience patterns associated with later exhibition, AV, interactive or interpretation procurement.",
-    "pitch_angle": "Investigate before procurement: map the project owner, funding, design team and likely specialist packages; approach only when the evidence supports useful early contact.",
-    "next_action": "Verify the strongest first-party source and watch for funding or capital approval, architect / exhibition designer appointment.",
-    "sample": false,
-    "verified": false,
-    "source_key": "research_agent",
-    "external_id": "project-31327d830507241f3c",
-    "source_url": "https://www.theguardian.com/environment/2026/may/21/natural-history-museum-jurassic-oceans-monsters-of-the-deep",
-    "source_label": "theguardian.com",
-    "documents": [
-      {
-        "title": "Tentacles, pointy teeth and the T-rex of the sea: the Natural History Museum on beasts that once ruled the oceans",
-        "url": "https://www.theguardian.com/environment/2026/may/21/natural-history-museum-jurassic-oceans-monsters-of-the-deep",
-        "kind": "Source article"
-      }
-    ],
-    "updated_at": "2026-09-11T08:17:50+00:00",
-    "prediction": {
-      "window": "6–18 months",
-      "reason": "This is an early project signal; more procurement breadcrumbs are needed.",
-      "signals": [
-        "project"
-      ],
-      "fit_terms": [],
-      "source_count": 1,
-      "source_domains": [
-        "theguardian.com"
-      ],
-      "source_diversity": 1,
-      "source_quality": 76,
-      "expected_next_signals": [
-        "funding or capital approval",
-        "architect / exhibition designer appointment",
-        "market engagement / procurement notice"
-      ],
-      "risk_flags": [
-        "single-source signal",
-        "no first-party/official source yet",
-        "specialist interactive/AV scope not explicit yet"
-      ],
-      "opening_years": [],
-      "investment_signals": [],
-      "why_now": "This is an early project signal; more procurement breadcrumbs are needed."
-    },
-    "evidence": [
-      {
-        "date": "Thu, 21 May 2026",
-        "kind": "Project signal",
-        "title": "Tentacles, pointy teeth and the T-rex of the sea: the Natural History Museum on beasts that once ruled the oceans",
-        "detail": "A new exhibition, Jurassic Oceans, showcases the fearsome creatures that lurked below the surface – and offers a stark warning about the impact of warming waters on marine ecosystems today Deep in the ...",
-        "source_url": "https://www.theguardian.com/environment/2026/may/21/natural-history-museum-jurassic-oceans-monsters-of-the-deep",
-        "source_label": "theguardian.com",
-        "strength": 65
-      }
-    ]
-  },
-  {
-    "id": "agent-project-512b72af709b9fd20a",
-    "project_id": "project-512b72af709b9fd20a",
-    "title": "The Natural History Museum is opening a room that has been closed to the public since World War II",
-    "organization": "Natural History Museum",
-    "country": "",
-    "city": "",
-    "stage": "Signal",
-    "score": 44,
-    "confidence": 51,
-    "currency": "EUR",
-    "deadline": null,
-    "procurement_window": "6–18 months",
-    "summary": "South Ken’s Natural History Museum (NHM) has just announced a new exhibition called ‘Nature and Us’, which features 50 objects exploring our evolving relationship with the natural world, and it’s ...",
-    "fit_rationale": "Upstream project intelligence matches museum/visitor-experience patterns associated with later exhibition, AV, interactive or interpretation procurement.",
-    "pitch_angle": "Investigate before procurement: map the project owner, funding, design team and likely specialist packages; approach only when the evidence supports useful early contact.",
-    "next_action": "Verify the strongest first-party source and watch for funding or capital approval, architect / exhibition designer appointment.",
-    "sample": false,
-    "verified": false,
-    "source_key": "research_agent",
-    "external_id": "project-512b72af709b9fd20a",
-    "source_url": "https://www.timeout.com/london/news/natural-history-museum-london-reopens-gallery-80-years-081926",
-    "source_label": "timeout.com",
-    "documents": [
-      {
-        "title": "The Natural History Museum is opening a room that has been closed to the public since World War II",
-        "url": "https://www.timeout.com/london/news/natural-history-museum-london-reopens-gallery-80-years-081926",
-        "kind": "Source article"
-      }
-    ],
-    "updated_at": "2026-09-11T08:17:50+00:00",
-    "prediction": {
-      "window": "6–18 months",
-      "reason": "This is an early project signal; more procurement breadcrumbs are needed.",
-      "signals": [
-        "project"
-      ],
-      "fit_terms": [],
-      "source_count": 1,
-      "source_domains": [
-        "timeout.com"
-      ],
-      "source_diversity": 1,
-      "source_quality": 58,
-      "expected_next_signals": [
-        "funding or capital approval",
-        "architect / exhibition designer appointment",
-        "market engagement / procurement notice"
-      ],
-      "risk_flags": [
-        "single-source signal",
-        "no first-party/official source yet",
-        "specialist interactive/AV scope not explicit yet"
-      ],
-      "opening_years": [],
-      "investment_signals": [],
-      "why_now": "This is an early project signal; more procurement breadcrumbs are needed."
-    },
-    "evidence": [
-      {
-        "date": "Wed, 19 Aug 2026",
-        "kind": "Project signal",
-        "title": "The Natural History Museum is opening a room that has been closed to the public since World War II",
-        "detail": "South Ken’s Natural History Museum (NHM) has just announced a new exhibition called ‘Nature and Us’, which features 50 objects exploring our evolving relationship with the natural world, and it’s ...",
-        "source_url": "https://www.timeout.com/london/news/natural-history-museum-london-reopens-gallery-80-years-081926",
-        "source_label": "timeout.com",
-        "strength": 54
-      }
-    ]
-  },
-  {
-    "id": "agent-project-d8ab4b8d83ed67b945",
-    "project_id": "project-d8ab4b8d83ed67b945",
-    "title": "Danger in the deep: Prehistoric predators emerge at London's Natural History Museum",
-    "organization": "Natural History Museum",
-    "country": "",
-    "city": "",
-    "stage": "Signal",
-    "score": 44,
-    "confidence": 51,
-    "currency": "EUR",
-    "deadline": null,
-    "procurement_window": "6–18 months",
-    "summary": "Fearsome enormous creatures lay beneath the waves while dinosaurs roamed the Earth, now a new exhibition at London's Natural History Museum explores what lessons we can learn about climate change from ...",
-    "fit_rationale": "Upstream project intelligence matches museum/visitor-experience patterns associated with later exhibition, AV, interactive or interpretation procurement.",
-    "pitch_angle": "Investigate before procurement: map the project owner, funding, design team and likely specialist packages; approach only when the evidence supports useful early contact.",
-    "next_action": "Verify the strongest first-party source and watch for funding or capital approval, architect / exhibition designer appointment.",
-    "sample": false,
-    "verified": false,
-    "source_key": "research_agent",
-    "external_id": "project-d8ab4b8d83ed67b945",
-    "source_url": "https://www.euronews.com/culture/2026/05/22/danger-in-the-deep-prehistoric-predators-emerge-at-londons-natural-history-museum",
-    "source_label": "euronews.com",
-    "documents": [
-      {
-        "title": "Danger in the deep: Prehistoric predators emerge at London's Natural History Museum",
-        "url": "https://www.euronews.com/culture/2026/05/22/danger-in-the-deep-prehistoric-predators-emerge-at-londons-natural-history-museum",
-        "kind": "Source article"
-      }
-    ],
-    "updated_at": "2026-09-11T08:17:50+00:00",
-    "prediction": {
-      "window": "6–18 months",
-      "reason": "This is an early project signal; more procurement breadcrumbs are needed.",
-      "signals": [
-        "project"
-      ],
-      "fit_terms": [],
-      "source_count": 1,
-      "source_domains": [
-        "euronews.com"
-      ],
-      "source_diversity": 1,
-      "source_quality": 58,
-      "expected_next_signals": [
-        "funding or capital approval",
-        "architect / exhibition designer appointment",
-        "market engagement / procurement notice"
-      ],
-      "risk_flags": [
-        "single-source signal",
-        "no first-party/official source yet",
-        "specialist interactive/AV scope not explicit yet"
-      ],
-      "opening_years": [],
-      "investment_signals": [],
-      "why_now": "This is an early project signal; more procurement breadcrumbs are needed."
-    },
-    "evidence": [
-      {
-        "date": "Fri, 22 May 2026",
-        "kind": "Project signal",
-        "title": "Danger in the deep: Prehistoric predators emerge at London's Natural History Museum",
-        "detail": "Fearsome enormous creatures lay beneath the waves while dinosaurs roamed the Earth, now a new exhibition at London's Natural History Museum explores what lessons we can learn about climate change from ...",
-        "source_url": "https://www.euronews.com/culture/2026/05/22/danger-in-the-deep-prehistoric-predators-emerge-at-londons-natural-history-museum",
-        "source_label": "euronews.com",
-        "strength": 54
+        "date": "Fri, 26 Jun 2026",
+        "kind": "Web source",
+        "title": "Fleet Science Center unveils two new exhibition spaces after renovation",
+        "detail": "The Fleet Science Center in Balboa Park has introduced two new exhibition spaces and new interactive features after nearly a year of partial closure for a $5.6 million renovation. The project, which ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa3dcd75d284a7ca9486d0911b46e78&url=https%3a%2f%2fwww.sandiegouniontribune.com%2f2026%2f06%2f26%2ffleet-science-center-renovation%2f&c=2026535705577697871&mkt=es-mx",
+        "source_label": "Science centre signals",
+        "strength": 62
       }
     ]
   }

@@ -1,17 +1,22 @@
 {
   "status": "healthy",
   "mode": "ChatGPT Research Agent",
-  "architecture": "Web research runs in ChatGPT every 6 hours; GitHub Actions separately verifies structured procurement sources.",
-  "last_run": "2026-09-11T10:54:07+00:00",
+  "architecture": "Web research runs in ChatGPT; GitHub Actions separately verifies structured procurement sources.",
+  "last_run": "2026-09-11T16:48:55+00:00",
   "duration_seconds": null,
-  "bootstrap_run": true,
-  "queries_ok": 13,
+  "bootstrap_run": false,
+  "queries_ok": 16,
   "queries_failed": 0,
-  "raw_signals": 5,
-  "project_clusters": 5,
-  "predicted_leads_added": 5,
-  "high_conviction": 5,
-  "candidate_sources_found": 0,
+  "raw_signals": 8,
+  "project_clusters": 7,
+  "predicted_leads_added": 2,
+  "high_conviction": 7,
+  "candidate_sources_found": 1,
+  "verified_source_discoveries": 1,
   "errors": [],
-  "next_schedule": "Every 6 hours (Europe/Amsterdam)"
+  "notes": [
+    "Added National Gallery Project Domani and GAM Torino as upstream leads after first-party/corroborating verification.",
+    "Verified GeBIZ as a high-value procurement source for recurring Science Centre Singapore exhibit and interactive work.",
+    "Rejected already-open exhibition news, stale closed French tenders, and generic museum technology stories as non-actionable intelligence."
+  ]
 }

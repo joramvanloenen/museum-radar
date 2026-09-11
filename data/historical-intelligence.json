@@ -1,0 +1,207 @@
+{
+  "source": "Museum Insider historical snapshot supplied by user",
+  "generated_from_records": 2000,
+  "date_start": "2026-07-14",
+  "date_end": "2026-09-10",
+  "fit_counts": {
+    "irrelevant": 1685,
+    "high": 123,
+    "adjacent": 192
+  },
+  "project_types": [
+    {
+      "name": "Exhibition design / build",
+      "total": 136,
+      "high": 40,
+      "adjacent": 81,
+      "irrelevant": 15
+    },
+    {
+      "name": "Interactive / digital media",
+      "total": 61,
+      "high": 61,
+      "adjacent": 0,
+      "irrelevant": 0
+    },
+    {
+      "name": "Interpretation / content",
+      "total": 62,
+      "high": 4,
+      "adjacent": 33,
+      "irrelevant": 25
+    },
+    {
+      "name": "AV / technical systems",
+      "total": 35,
+      "high": 4,
+      "adjacent": 9,
+      "irrelevant": 22
+    },
+    {
+      "name": "Digital product / software",
+      "total": 29,
+      "high": 2,
+      "adjacent": 0,
+      "irrelevant": 27
+    },
+    {
+      "name": "Exhibition fabrication / furniture",
+      "total": 58,
+      "high": 0,
+      "adjacent": 3,
+      "irrelevant": 55
+    }
+  ],
+  "top_buyers": [
+    {
+      "buyer": "US Fish and Wildlife Service",
+      "total": 17,
+      "high": 6,
+      "adjacent": 2
+    },
+    {
+      "buyer": "Administrative Office of the US Courts",
+      "total": 5,
+      "high": 5,
+      "adjacent": 0
+    },
+    {
+      "buyer": "Science Museum Group",
+      "total": 23,
+      "high": 3,
+      "adjacent": 3
+    },
+    {
+      "buyer": "National Park Service",
+      "total": 125,
+      "high": 2,
+      "adjacent": 21
+    },
+    {
+      "buyer": "Imperial War Museums",
+      "total": 14,
+      "high": 2,
+      "adjacent": 1
+    },
+    {
+      "buyer": "Natural History Museum",
+      "total": 10,
+      "high": 2,
+      "adjacent": 1
+    },
+    {
+      "buyer": "Louvre Museum",
+      "total": 7,
+      "high": 2,
+      "adjacent": 1
+    },
+    {
+      "buyer": "Deutsches Museum, Munich",
+      "total": 6,
+      "high": 2,
+      "adjacent": 1
+    },
+    {
+      "buyer": "National Gallery Singapore",
+      "total": 12,
+      "high": 2,
+      "adjacent": 0
+    },
+    {
+      "buyer": "National Museum of Finland",
+      "total": 2,
+      "high": 2,
+      "adjacent": 0
+    }
+  ],
+  "learned_terms": [
+    "interactive",
+    "interactives",
+    "immersive",
+    "multimedia",
+    "audiovisual",
+    "audio visual",
+    "projection mapping",
+    "digital exhibition",
+    "digital interactive",
+    "media production",
+    "media design",
+    "media station",
+    "visitor guide",
+    "museum app",
+    "augmented reality",
+    "virtual reality",
+    "hologram",
+    "sensor",
+    "software development",
+    "exhibit design",
+    "exhibition design",
+    "exhibit fabrication",
+    "interpretive exhibit",
+    "hands-on exhibits",
+    "museum experience",
+    "visitor experience",
+    "content production",
+    "digital components",
+    "interactive educational exhibits",
+    "exhibition build",
+    "scenography",
+    "museographic",
+    "interpretation consultant",
+    "wayfinding",
+    "exhibition lighting"
+  ],
+  "negative_terms": [
+    "hvac",
+    "roofing",
+    "cleaning",
+    "security services",
+    "catering",
+    "artworks transportation",
+    "conservation services",
+    "archaeological survey",
+    "window replacement",
+    "boiler",
+    "ventilation",
+    "fire protection",
+    "payroll",
+    "insurance",
+    "waste management",
+    "janitorial",
+    "moving services",
+    "storage",
+    "shelving"
+  ],
+  "high_fit_examples": [
+    {
+      "title": "National Maritime Museum: Audio Visual Hardware for “First Light” Exhibitions",
+      "buyer": "National Maritime Museum",
+      "date": "2026-09-09",
+      "fit": "high"
+    },
+    {
+      "title": "Science Museum Group: Science and Industry Museum Wonderlab Group 2 Interactives Makers",
+      "buyer": "Science Museum Group",
+      "date": "2026-09-04",
+      "fit": "high"
+    },
+    {
+      "title": "Natural History Museum: AV Hardware Integrator for NHM150 Western Galleries",
+      "buyer": "Natural History Museum",
+      "date": "2026-09-07",
+      "fit": "high"
+    },
+    {
+      "title": "Communauté d’Agglomération Grand Cognac: Creation of Immersive and Evolving Museum",
+      "buyer": "Communauté d’Agglomération Grand Cognac",
+      "date": "2026-09-04",
+      "fit": "high"
+    },
+    {
+      "title": "The Washington State Historical Society: Digital Interactive Media Production",
+      "buyer": "The Washington State Historical Society",
+      "date": "2026-08-10",
+      "fit": "high"
+    }
+  ]
+}

@@ -84,7 +84,7 @@ def bing_html_search(query, limit=15):
     url='https://www.bing.com/search?'+urllib.parse.urlencode({'q':query,'count':limit})
     raw=get_text(url,20)
     out=[]
-    for block in re.findall(r'<li[^>]+class=["\\'][^"\\']*b_algo[^"\\']*["\\'][^>]*>.*?</li>',raw,re.I|re.S):
+    for block in re.findall("<li[^>]+class=[\"'][^\"']*b_algo[^\"']*[\"'][^>]*>.*?</li>",raw,re.I|re.S):
         m=re.search(r'<h2[^>]*>\\s*<a[^>]+href=["\\']([^"\\']+)["\\'][^>]*>(.*?)</a>',block,re.I|re.S)
         if not m: continue
         href=unwrap_search_url(m.group(1))
@@ -99,7 +99,7 @@ def ddg_search(query, limit=15):
     url='https://html.duckduckgo.com/html/?'+urllib.parse.urlencode({'q':query})
     raw=get_text(url,20)
     out=[]
-    for m in re.finditer(r'<a[^>]+class=["\\']result__a["\\'][^>]+href=["\\']([^"\\']+)["\\'][^>]*>(.*?)</a>',raw,re.I|re.S):
+    for m in re.finditer("<a[^>]+class=[\"']result__a[\"'][^>]+href=[\"']([^\"']+)[\"'][^>]*>(.*?)</a>",raw,re.I|re.S):
         href=m.group(1).replace('&amp;','&')
         try:
             p=urllib.parse.urlparse(href)

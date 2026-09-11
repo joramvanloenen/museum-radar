@@ -1,19 +1,79 @@
 {
-  "keywords": [
-    "museum",
-    "visitor centre",
-    "visitor center",
-    "exhibition",
-    "interactive",
-    "interpretation",
-    "heritage",
-    "science centre",
-    "science center",
-    "gallery",
-    "immersive",
-    "multimedia",
-    "digital experience"
-  ],
+  "max_items_per_source": 100,
+  "minimum_score": 35,
   "rss_feeds": [],
-  "max_items_per_source": 100
+  "search_queries": [
+    {
+      "name": "Museum tenders",
+      "query": "museum exhibition tender OR procurement OR RFP OR RFQ interactive multimedia",
+      "country": "Worldwide",
+      "mode": "tender"
+    },
+    {
+      "name": "Visitor experience tenders",
+      "query": "visitor centre visitor center exhibition design tender interactive experience procurement",
+      "country": "Worldwide",
+      "mode": "tender"
+    },
+    {
+      "name": "Museum digital tenders",
+      "query": "museum digital interactive multimedia AV tender exhibition",
+      "country": "Worldwide",
+      "mode": "tender"
+    },
+    {
+      "name": "Museum expansion signals",
+      "query": "museum expansion renovation new permanent exhibition funding architect appointed",
+      "country": "Worldwide",
+      "mode": "pitch"
+    },
+    {
+      "name": "Visitor centre signals",
+      "query": "new visitor centre funding exhibition design architect appointed heritage",
+      "country": "Worldwide",
+      "mode": "pitch"
+    },
+    {
+      "name": "Science centre signals",
+      "query": "science centre expansion new gallery funding exhibition interactive",
+      "country": "Worldwide",
+      "mode": "pitch"
+    },
+    {
+      "name": "German museum procurement",
+      "query": "Museum Ausstellung Ausschreibung Vergabe Medientechnik interaktiv",
+      "country": "Germany",
+      "mode": "tender"
+    },
+    {
+      "name": "German future projects",
+      "query": "Museum Sanierung neue Dauerausstellung Förderung Architekt Ausstellungsgestaltung",
+      "country": "Germany",
+      "mode": "pitch"
+    },
+    {
+      "name": "Dutch museum procurement",
+      "query": "museum tentoonstelling aanbesteding interactieve media bezoekerscentrum",
+      "country": "Netherlands",
+      "mode": "tender"
+    },
+    {
+      "name": "Dutch future projects",
+      "query": "museum verbouwing nieuwe tentoonstelling financiering architect bezoekerscentrum",
+      "country": "Netherlands",
+      "mode": "pitch"
+    },
+    {
+      "name": "French museum procurement",
+      "query": "musée exposition appel d'offres scénographie multimédia interactif",
+      "country": "France",
+      "mode": "tender"
+    },
+    {
+      "name": "French future projects",
+      "query": "musée rénovation nouvelle exposition financement architecte scénographie",
+      "country": "France",
+      "mode": "pitch"
+    }
+  ]
 }

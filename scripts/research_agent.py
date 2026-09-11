@@ -39,16 +39,38 @@ def get_text(url, timeout=18):
     with urllib.request.urlopen(req,timeout=timeout) as r:
         raw=r.read(MAX_PAGE_BYTES)
         return raw.decode('utf-8','replace')
+def parse_xml(raw):
+    try: return ET.fromstring(raw)
+    except ET.ParseError:
+        fixed=re.sub(r'&(?!amp;|lt;|gt;|quot;|apos;|#\\d+;|#x[0-9a-fA-F]+;)','&amp;',raw)
+        return ET.fromstring(fixed)
+
+def unwrap_search_url(url):
+    try:
+        p=urllib.parse.urlparse(url)
+        qs=urllib.parse.parse_qs(p.query)
+        if 'url' in qs and qs['url']:
+            return canonical_url(urllib.parse.unquote(qs['url'][0]))
+        if hostname(url).endswith('bing.com'):
+            req=urllib.request.Request(url,headers={'User-Agent':UA},method='GET')
+            with urllib.request.urlopen(req,timeout=8) as r:
+                final=r.geturl()
+                if final and not hostname(final).endswith('bing.com'):
+                    return canonical_url(final)
+    except Exception:
+        pass
+    return canonical_url(url)
+
 def bing_search(query, limit=20, news=True):
     base='https://www.bing.com/news/search' if news else 'https://www.bing.com/search'
     url=base+'?'+urllib.parse.urlencode({'q':query,'format':'rss'})
-    root=ET.fromstring(get_text(url,20))
+    root=parse_xml(get_text(url,20))
     rows=[]
     for i in root.findall('.//item')[:limit]:
         rows.append({
             'title':clean_html(i.findtext('title') or ''),
             'description':clean_html(i.findtext('description') or ''),
-            'url':canonical_url((i.findtext('link') or '').strip()),
+            'url':unwrap_search_url((i.findtext('link') or '').strip()),
             'date':(i.findtext('pubDate') or '').strip()
         })
     return rows
@@ -94,6 +116,8 @@ def normalize_org(org):
     s=re.sub(r'\\b(the|city of|municipality of|council of|department of|office of)\\b',' ',s)
     return re.sub(r'\\s+',' ',s).strip()
 def org_from_result(title,url):
+    m=re.search(r"\\b((?:[A-Z][A-Za-z0-9&'’.-]+\\s+){0,6}(?:Museum|Museums|Gallery|Galleries|Science Centre|Science Center|Visitor Centre|Visitor Center|Aquarium|Zoo))\\b",title or '')
+    if m and 3<len(m.group(1))<120: return m.group(1).strip()
     if ':' in title:
         p=title.split(':',1)[0].strip()
         if 3<len(p)<120: return p
@@ -223,8 +247,10 @@ def ingest(rows,query_name):
         raw.append({**r,'organization':org,'base_score':score,'signals':tags,'fit_terms':fit,'query':query_name,'quality':source_quality(u)})
 
 for name,q in lead_queries:
-    try: ingest(bing_search(q,18,True),name)
-    except Exception as e: errors.append(f'lead:{name}: {e}')
+    try: ingest(bing_search(q,18,True),name+' news')
+    except Exception as e: errors.append(f'lead-news:{name}: {e}')
+    try: ingest(bing_search(q,14,False),name+' web')
+    except Exception as e: errors.append(f'lead-web:{name}: {e}')
 for buyer in watch_buyers[:18]:
     try: ingest(bing_search(f'"{buyer}" (exhibition OR gallery OR interactive OR multimedia OR renovation OR funding OR procurement)',10,True),'Buyer watch')
     except Exception as e: errors.append(f'buyer:{buyer}: {e}')

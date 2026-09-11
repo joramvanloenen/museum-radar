@@ -1,5 +1,13 @@
 [
   {
+    "name": "TenderNed",
+    "region": "Netherlands",
+    "type": "Official procurement platform",
+    "status": "Active",
+    "url": "https://www.tenderned.nl/aankondigingen",
+    "notes": "Radar searches TenderNed public publication endpoints for relevant current notices. TenderNed also offers an authenticated real-time XML API (credentials currently waitlisted), RSS/TNS, and quarterly open JSON/Excel datasets."
+  },
+  {
     "name": "TED — Tenders Electronic Daily",
     "region": "EU / EEA",
     "type": "Official API",

@@ -1,14 +1,13 @@
-name: Museum Radar Intelligence Scout
+name: Museum Radar Verified Tender Scout
 
 on:
   workflow_dispatch:
   push:
     branches: ["main"]
     paths:
-      - "scripts/research_agent.py"
       - "scripts/scout_static.py"
       - "data/scout-config.json"
-      - "data/historical-intelligence.json"
+      - "data/sources.json"
       - ".github/workflows/scout.yml"
   schedule:
     - cron: "17 */6 * * *"
@@ -17,13 +16,13 @@ permissions:
   contents: write
 
 concurrency:
-  group: museum-radar-scout
+  group: museum-radar-verified-scout
   cancel-in-progress: true
 
 jobs:
-  research:
+  scout:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
 
@@ -32,24 +31,19 @@ jobs:
           python-version: "3.12"
 
       - name: Validate Scout code
-        run: python -m py_compile scripts/research_agent.py scripts/scout_static.py
-
-      - name: Run autonomous Research Agent
-        continue-on-error: true
-        timeout-minutes: 6
-        run: python scripts/research_agent.py
+        run: python -m py_compile scripts/scout_static.py
 
       - name: Refresh verified opportunity data
         continue-on-error: true
         timeout-minutes: 5
         run: python scripts/scout_static.py
 
-      - name: Persist intelligence
+      - name: Persist verified intelligence
         run: |
           git config user.name "museum-radar-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/opportunities.json data/discovered-sources.json data/project-graph.json data/research-agent-meta.json data/meta.json
+          git add data/opportunities.json data/meta.json
           if ! git diff --cached --quiet; then
-            git commit -m "chore: refresh radar intelligence"
+            git commit -m "chore: refresh verified radar intelligence"
             git push origin HEAD:main
           fi

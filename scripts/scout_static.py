@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import json, re, hashlib, urllib.request, urllib.parse, xml.etree.ElementTree as ET
+import json, re, hashlib, urllib.request, urllib.parse, xml.etree.ElementTree as ET, html
 from pathlib import Path
 from datetime import datetime, timezone, timedelta
 
@@ -192,6 +192,87 @@ def tenderned_search(limit=60):
             })
     return out
 
+
+def parse_portal_date(value):
+    value=(value or '').strip()
+    for fmt in ('%d %B %Y','%d %b %Y','%d/%m/%Y','%d-%m-%Y','%d-%b-%y'):
+        try: return datetime.strptime(value,fmt).replace(tzinfo=timezone.utc)
+        except Exception: pass
+    return None
+
+def portal_category_search(base_url, source_key, source_name, country, cpv_codes, limit=24):
+    found=[]; seen=set()
+    for cpv in cpv_codes:
+        try:
+            raw=get_text(base_url.rstrip('/')+'/search/search_category.aspx?ID='+urllib.parse.quote(str(cpv)))
+        except Exception:
+            continue
+        for m in re.finditer(r'href=["\']([^"\']*search_view\.aspx\?ID=([A-Za-z0-9_-]+)[^"\']*)["\'][^>]*>(.*?)</a>',raw,re.I|re.S):
+            ref=m.group(2)
+            title=html.unescape(re.sub('<[^>]+>',' ',m.group(3)))
+            title=re.sub(r'\s+',' ',title).strip()
+            if not title or ref in seen: continue
+            score,_=relevance(title,'museum exhibition audiovisual interactive immersive interpretation','')
+            if score<35: continue
+            seen.add(ref)
+            url=urllib.parse.urljoin(base_url.rstrip('/')+'/',m.group(1))
+            try: detail=get_text(url)
+            except Exception: continue
+            plain=html.unescape(re.sub('<[^>]+>',' ',detail))
+            plain=re.sub(r'\s+',' ',plain).strip()
+            low=plain.lower()
+            if 'contract award notice' in low or 'you are viewing an expired notice' in low:
+                continue
+            org=''
+            mm=re.search(r'Published by:\s*(.*?)\s+(?:Authority ID:|Publication date:)',plain,re.I)
+            if mm: org=mm.group(1).strip()
+            deadline=None
+            for pat in (
+                r'Deadline date:\s*(\d{1,2}\s+[A-Za-z]+\s+\d{4})',
+                r'Tender submission deadline\s*(\d{1,2}\s+[A-Za-z]+\s+\d{4})',
+                r'Expression of interest deadline\s*(\d{1,2}\s+[A-Za-z]+\s+\d{4})'
+            ):
+                dm=re.search(pat,plain,re.I)
+                if dm:
+                    dt=parse_portal_date(dm.group(1))
+                    if dt: deadline=dt.strftime('%Y-%m-%d'); break
+            if deadline:
+                try:
+                    if datetime.strptime(deadline,'%Y-%m-%d').date() < datetime.now(timezone.utc).date():
+                        continue
+                except Exception: pass
+            elif not any(x in low for x in ['prior information','preliminary market','market engagement','future opportunity']):
+                continue
+            score,_=relevance(title,plain[:5000],org)
+            if score<35: continue
+            stage='Pre-market' if any(x in low for x in ['prior information','preliminary market','market engagement']) else 'Live Tender'
+            value_min=value_max=None
+            vm=re.search(r'Total value.*?([0-9][0-9,\.]+)\s*(?:GBP|EUR)',plain,re.I)
+            if vm:
+                try: value_min=value_max=float(vm.group(1).replace(',',''))
+                except Exception: pass
+            currency='GBP' if country=='United Kingdom' else 'EUR'
+            found.append({
+                'id':source_key+'-'+ref.lower(),
+                'title':title,
+                'organization':org or source_name,
+                'country':country,'city':'','stage':stage,
+                'score':min(score,98),'confidence':94,
+                'budget_min':value_min,'budget_max':value_max,'currency':currency,
+                'deadline':deadline,'procurement_window':None if deadline else 'Pre-market',
+                'summary':plain[:900],
+                'fit_rationale':'Official procurement notice matched museum, exhibition, AV or interactive experience terms.',
+                'pitch_angle':'Review the official notice and decide whether to bid directly or with a delivery partner.',
+                'next_action':'Open the official procurement notice and review scope, documents, deadline and eligibility.',
+                'sample':False,'verified':True,'source_key':source_key,'external_id':ref,
+                'source_url':url,'source_label':source_name,
+                'documents':[{'title':'Official procurement notice','url':url,'kind':'Contract notice'}],
+                'updated_at':now(),
+                'evidence':[{'date':'','kind':'Procurement','title':'Official procurement notice','detail':'Automatically discovered on '+source_name+'.','source_url':url,'source_label':source_name,'strength':94}]
+            })
+            if len(found)>=limit: return found
+    return found
+
 def search_feed(query, name='', country='', mode='pitch', limit=40):
     encoded=urllib.parse.quote_plus(query)
     url=f'https://www.bing.com/news/search?q={encoded}&format=rss'
@@ -265,7 +346,7 @@ def merge(existing,incoming):
         has_source=bool(o.get('source_url')) or any((e or {}).get('source_url') for e in (o.get('evidence') or []))
         if not has_source:
             continue
-        trusted_tender_sources={'ted','contracts_finder','evergabe','tenderned'}
+        trusted_tender_sources={'ted','contracts_finder','evergabe','tenderned','sell2wales','public_contracts_scotland','find_a_tender','etenders_ie','etendersni'}
         if o.get('stage') in ['Live Tender','Pre-market'] and o.get('source_key') not in trusted_tender_sources:
             continue
         o['verified']=True
@@ -282,6 +363,14 @@ def main():
         found.extend(tenderned_search(60))
     except Exception as e:
         errors.append(f'TenderNed: {e}')
+    for portal in cfg.get('official_portal_searches',[]):
+        try:
+            found.extend(portal_category_search(
+                portal.get('base_url',''),portal.get('source_key','official_portal'),
+                portal.get('name','Official procurement portal'),portal.get('country',''),
+                portal.get('cpv_codes',cfg.get('cpv_codes',[])),24))
+        except Exception as e:
+            errors.append(f"Portal {portal.get('name','')}: {e}")
     for feed in cfg.get('rss_feeds',[]):
         try: found.extend(rss(feed['url'],feed.get('name',''),feed.get('country',''),cfg.get('max_items_per_source',100)))
         except Exception as e: errors.append(f"RSS {feed.get('name',feed.get('url',''))}: {e}")

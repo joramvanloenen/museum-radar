@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-11T16:48:55+00:00",
-  "project_count": 7,
-  "high_conviction": 7,
+  "generated_at": "2026-09-11T22:53:19+00:00",
+  "project_count": 9,
+  "high_conviction": 9,
   "projects": [
     {
       "project_id": "project-nhm150-western-av",
@@ -79,6 +79,28 @@
       "procurement_window": "Downstream exhibition, public-engagement and technical packages likely as the winning design progresses",
       "prediction": {"window":"6–18 months","reason":"A public design competition has selected the redevelopment team and the project is now in progress, with adaptable exhibition systems and public-engagement spaces central to the design.","signals":["design","project"],"fit_terms":["exhibition design","visitor experience","public engagement","adaptable display systems"],"source_count":2,"source_domains":["fondazionetorinomusei.it","mvrdv.com"],"source_diversity":2,"source_quality":91,"expected_next_signals":["detailed design approval","museum fit-out packages","media / interpretation procurement"],"risk_flags":["digital/interactive scope is not explicit yet","procurement route and package timing are not yet published"],"opening_years":[],"investment_signals":[]},
       "source_url": "https://www.mvrdv.com/projects/1265/gam-torino"
+    },
+    {
+      "project_id": "project-liberty-supernova",
+      "title": "Liberty Science Center – Project Supernova transformation",
+      "organization": "Liberty Science Center",
+      "stage": "Pitch",
+      "score": 94,
+      "confidence": 97,
+      "procurement_window": "Active delivery through 2026–2028; specialist exhibit, AV and experience packages may still emerge during phased implementation",
+      "prediction": {"window":"0–12 months","reason":"The $40m programme broke ground on 10 September 2026 and explicitly includes immersive, interactive and educational environments, a major River Rising gallery renovation, planetarium technology upgrades, Science on a Sphere upgrades, hands-on physics mini-golf and other exhibition enhancements.","signals":["funding","project","delivery"],"fit_terms":["interactive","immersive","audiovisual","hands-on exhibits","visitor experience","planetarium technology"],"source_count":3,"source_domains":["lsc.org","njeda.gov"],"source_diversity":2,"source_quality":98,"expected_next_signals":["specialist exhibit-fabrication or media appointments","planetarium / AV supplier announcements","remaining phased construction or experience packages"],"risk_flags":["construction has started, so some major packages may already be committed","no public specialist procurement notice identified yet"],"opening_years":[2028],"investment_signals":["$40 million expansion","up to $39.8 million NJEDA support"]},
+      "source_url": "https://lsc.org/media-information/91026-supernova-groundbreaking"
+    },
+    {
+      "project_id": "project-dali-expansion",
+      "title": "The Dalí Museum – Dreaming Forward expansion",
+      "organization": "The Dalí Museum",
+      "stage": "Lead",
+      "score": 93,
+      "confidence": 97,
+      "procurement_window": "Construction begins in 2026; immersive-gallery and digital-experience packages likely during 2026–2028 fit-out",
+      "prediction": {"window":"3–15 months","reason":"The museum has a funded/active 35,000 sq ft expansion opening in fall 2028, with flexible galleries explicitly designed for immersive experiences blending art and technology. The Beck Group is appointed as design-build architect, while experience/media delivery remains a plausible downstream specialist scope.","signals":["funding","design","project","delivery"],"fit_terms":["immersive","interactive art","digital experience","multimedia","visitor experience","exhibition design"],"source_count":4,"source_domains":["thedali.org","expansion.thedali.org","beckgroup.com"],"source_diversity":3,"source_quality":97,"expected_next_signals":["immersive-gallery experience-design appointment","digital / AV integrator package","exhibition media-production procurement"],"risk_flags":["The Beck Group is design-build lead and may control or bundle downstream packages","no public specialist procurement notice identified yet"],"opening_years":[2028],"investment_signals":["approximately $70 million expansion"]},
+      "source_url": "https://expansion.thedali.org/design"
     }
   ]
 }

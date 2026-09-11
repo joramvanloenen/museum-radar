@@ -37,7 +37,22 @@ function sc(s){return s>=80?'good':'mid'}
 function localPrefs(){return store.get('radarPrefs',{})}
 function mergedOpps(){const prefs=localPrefs();const manual=store.get('radarManual',[]);return [...state.opps,...manual].map(o=>({...o,...(prefs[o.id]||{})})).sort((a,b)=>(b.score||0)-(a.score||0))}
 function stats(){const o=mergedOpps().filter(x=>!x.rejected);return {act_now:o.filter(x=>x.score>=85||x.stage==='Live Tender').length,live:o.filter(x=>x.stage==='Live Tender').length,expected:o.filter(x=>['Expected','Pre-market'].includes(x.stage)).length,signals:o.filter(x=>['Signal','Lead'].includes(x.stage)).length}}
-async function load(){const [opps,sources,meta]=await Promise.all([fetch('./data/opportunities.json').then(r=>r.json()),fetch('./data/sources.json').then(r=>r.json()),fetch('./data/meta.json').then(r=>r.json())]);state.opps=opps;state.sources=sources;state.meta=meta;state.settings=store.get('radarSettings',{company_name:'Museum Radar',capability_profile:'Interactive museum experiences, physical-digital installations, projection, realtime 3D, sensors, playful learning.',weight_fit:25,weight_budget:10,weight_geo:10,weight_timing:15,weight_confidence:15,weight_strategy:25});render()}
+function scrubLegacyBranding(v){
+  if(typeof v==='string')return v.replace(/YIPP/gi,'Museum Radar');
+  if(Array.isArray(v))return v.map(scrubLegacyBranding);
+  if(v&&typeof v==='object'){const out={};for(const [k,val] of Object.entries(v))out[k]=scrubLegacyBranding(val);return out}
+  return v;
+}
+function migrateLocalData(){
+  for(const key of ['radarSettings','radarManual','radarPrefs']){
+    const current=store.get(key,null);
+    if(current!==null){
+      const clean=scrubLegacyBranding(current);
+      if(JSON.stringify(clean)!==JSON.stringify(current))store.set(key,clean);
+    }
+  }
+}
+async function load(){migrateLocalData();const [opps,sources,meta]=await Promise.all([fetch('./data/opportunities.json').then(r=>r.json()),fetch('./data/sources.json').then(r=>r.json()),fetch('./data/meta.json').then(r=>r.json())]);state.opps=opps;state.sources=sources;state.meta=meta;state.settings=store.get('radarSettings',{company_name:'Museum Radar',capability_profile:'Interactive museum experiences, physical-digital installations, projection, realtime 3D, sensors, playful learning.',weight_fit:25,weight_budget:10,weight_geo:10,weight_timing:15,weight_confidence:15,weight_strategy:25});render()}
 function nav(){
   const desktop=[['overview','Overview'],['opportunities','Opportunities'],['future','Future Radar'],['pitch','Pitch Opportunities'],['organizations','Organizations'],['sources','Sources'],['scout','Scout'],['activity','Intelligence'],['settings','Settings']];
   return `<div class="sidebar"><div class="brand"><span class="brandword">Museum Radar</span><span class="brandsub">radar</span></div><div class="nav">${desktop.map(([id,n])=>`<button class="${state.page===id?'active':''}" data-nav="${id}" aria-label="${n}" aria-current="${state.page===id?'page':'false'}">${n}</button>`).join('')}</div><div class="sidefoot">GitHub Pages edition<br><span class="status">● ${escapeHtml(state.meta.status||'Static')}</span></div></div>

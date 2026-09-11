@@ -1,6 +1,213 @@
 {
-  "generated_at": "2026-09-11T10:49:30+00:00",
-  "project_count": 0,
-  "high_conviction": 0,
-  "projects": []
+  "generated_at": "2026-09-11T10:54:07+00:00",
+  "project_count": 5,
+  "high_conviction": 5,
+  "projects": [
+    {
+      "project_id": "project-nhm150-western-av",
+      "title": "NHM150 Western Galleries – AV Hardware Integrator",
+      "organization": "Natural History Museum",
+      "stage": "Expected",
+      "score": 98,
+      "confidence": 99,
+      "procurement_window": "Formal procurement expected after September 2026 market engagement",
+      "prediction": {
+        "window": "0–3 months",
+        "reason": "A formal AV/integration requirement is already defined and preliminary market engagement was published in September 2026.",
+        "signals": [
+          "procurement",
+          "project",
+          "design"
+        ],
+        "fit_terms": [
+          "audiovisual",
+          "interactive",
+          "exhibition design",
+          "exhibition build"
+        ],
+        "source_count": 2,
+        "source_domains": [
+          "sell2wales.gov.wales",
+          "find-tender.service.gov.uk"
+        ],
+        "source_diversity": 2,
+        "source_quality": 97,
+        "expected_next_signals": [
+          "formal tender notice",
+          "supplier brief / tender documents"
+        ],
+        "risk_flags": [
+          "market-engagement response window has just closed"
+        ],
+        "opening_years": [],
+        "investment_signals": [
+          "£290,000"
+        ]
+      },
+      "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=SEP654811"
+    },
+    {
+      "project_id": "project-pendine-through-time",
+      "title": "Museum of Land Speed – “Pendine Through Time” permanent exhibition, wayfinding & building interactives",
+      "organization": "Carmarthenshire County Council",
+      "stage": "Expected",
+      "score": 97,
+      "confidence": 98,
+      "procurement_window": "Planned procurement; delivery indicated for late 2026–2028",
+      "prediction": {
+        "window": "0–6 months",
+        "reason": "A planned procurement notice is already published and the scope/value are substantially defined.",
+        "signals": [
+          "procurement",
+          "project",
+          "design"
+        ],
+        "fit_terms": [
+          "interactive",
+          "audiovisual",
+          "exhibition design",
+          "visitor experience"
+        ],
+        "source_count": 2,
+        "source_domains": [
+          "find-tender.service.gov.uk"
+        ],
+        "source_diversity": 1,
+        "source_quality": 99,
+        "expected_next_signals": [
+          "formal tender documents",
+          "submission deadline"
+        ],
+        "risk_flags": [
+          "planned procurement; final packaging/timing may still change"
+        ],
+        "opening_years": [],
+        "investment_signals": [
+          "£350,000"
+        ]
+      },
+      "source_url": "https://www.find-tender.service.gov.uk/Notice/067059-2026"
+    },
+    {
+      "project_id": "project-andrejs-pumpurs",
+      "title": "Andrejs Pumpurs Lielvārde Museum – new permanent exhibition concept & content",
+      "organization": "Ogres novada pašvaldība",
+      "stage": "Expected",
+      "score": 95,
+      "confidence": 93,
+      "procurement_window": "Market consultation open to 9 Nov 2026; formal procurement expected afterwards",
+      "prediction": {
+        "window": "1–6 months",
+        "reason": "A formal market consultation for a defined permanent-exhibition concept is active and closes in November 2026.",
+        "signals": [
+          "procurement",
+          "design",
+          "project"
+        ],
+        "fit_terms": [
+          "exhibition design",
+          "scenography",
+          "visitor experience"
+        ],
+        "source_count": 2,
+        "source_domains": [
+          "eis.gov.lv",
+          "tedas.eu"
+        ],
+        "source_diversity": 2,
+        "source_quality": 91,
+        "expected_next_signals": [
+          "formal procurement notice",
+          "technical brief"
+        ],
+        "risk_flags": [
+          "consultation scope may change before tender"
+        ],
+        "opening_years": [],
+        "investment_signals": []
+      },
+      "source_url": "https://www.eis.gov.lv/EKEIS/Supplier/Procurement/180665"
+    },
+    {
+      "project_id": "project-ontario-science-centre",
+      "title": "New Ontario Science Centre at Ontario Place",
+      "organization": "Ontario Science Centre / Government of Ontario",
+      "stage": "Lead",
+      "score": 91,
+      "confidence": 94,
+      "procurement_window": "Specialist exhibition packages likely during 2026–2028 ahead of 2029 opening",
+      "prediction": {
+        "window": "6–18 months",
+        "reason": "Construction is underway for a 2029 opening and the government explicitly confirms new interactive exhibits, making future specialist exhibit packages highly plausible.",
+        "signals": [
+          "project",
+          "delivery",
+          "opening"
+        ],
+        "fit_terms": [
+          "interactive",
+          "visitor experience"
+        ],
+        "source_count": 2,
+        "source_domains": [
+          "news.ontario.ca",
+          "ontariosciencecentre.ca"
+        ],
+        "source_diversity": 2,
+        "source_quality": 94,
+        "expected_next_signals": [
+          "exhibit-package procurement",
+          "AV / interactive design appointments",
+          "fabrication tenders"
+        ],
+        "risk_flags": [
+          "no specialist procurement notice identified yet"
+        ],
+        "opening_years": [
+          2029
+        ],
+        "investment_signals": []
+      },
+      "source_url": "https://news.ontario.ca/en/release/1007497/ontario_breaks_ground_on_new_science_centre_at_ontario_place"
+    },
+    {
+      "project_id": "project-louvre-nouvelle-renaissance",
+      "title": "Louvre – Nouvelle Renaissance transformation programme",
+      "organization": "Musée du Louvre",
+      "stage": "Lead",
+      "score": 89,
+      "confidence": 95,
+      "procurement_window": "Multi-year specialist packages expected as design develops from 2026 onward",
+      "prediction": {
+        "window": "6–24 months",
+        "reason": "The architecture team is appointed and the Louvre states that project refinement and stakeholder consultation are now beginning.",
+        "signals": [
+          "design",
+          "project"
+        ],
+        "fit_terms": [
+          "visitor experience",
+          "exhibition design",
+          "scenography"
+        ],
+        "source_count": 2,
+        "source_domains": [
+          "louvre.fr"
+        ],
+        "source_diversity": 1,
+        "source_quality": 96,
+        "expected_next_signals": [
+          "detailed design packages",
+          "scenography / mediation procurement",
+          "technical and digital packages"
+        ],
+        "risk_flags": [
+          "very large programme; relevant packages may be bundled through the appointed design consortium"
+        ],
+        "opening_years": [],
+        "investment_signals": []
+      },
+      "source_url": "https://www.louvre.fr/en/explore/life-at-the-museum/louvre-nouvelle-renaissance-international-architecture-competition"
+    }
+  ]
 }

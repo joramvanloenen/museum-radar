@@ -114,6 +114,84 @@ def rss(url,name='',country='',limit=100):
         out.append({'id':'rss-'+fp(url or title,pub),'title':title,'organization':name or 'Web signal','country':country,'city':'','stage':stage_from(title+' '+clean),'score':min(score,78),'confidence':58,'currency':'EUR','deadline':None,'procurement_window':'Unknown — investigate','summary':clean[:900],'fit_rationale':'Early web signal matching museum / exhibition / interactive project language.','pitch_angle':'Investigate before contacting; this may be upstream of formal procurement.','next_action':'Follow the source, identify project owner, funding, design team and expected opening date.','sample':False,'source_key':'rss','external_id':url or fp(title,pub),'source_url':url,'source_label':name or 'Original article','documents':[{'title':'Original article','url':url,'kind':classify_document('Original article',url,'Source article')}] if url else [],'updated_at':now(),'evidence':[{'date':pub[:10],'kind':'Web signal','title':'Relevant project signal detected','detail':clean[:500],'source_url':url,'source_label':name or 'Original article','strength':58}]})
     return out
 
+
+def tenderned_search(limit=60):
+    queries=[
+        'site:tenderned.nl/papi/tenderned-rs-tns/v2/publicaties museum tentoonstelling aanbesteding',
+        'site:tenderned.nl/papi/tenderned-rs-tns/v2/publicaties museum multimedia interactief',
+        'site:tenderned.nl/papi/tenderned-rs-tns/v2/publicaties bezoekerscentrum tentoonstelling',
+        'site:tenderned.nl/papi/tenderned-rs-tns/v2/publicaties scenografie museum'
+    ]
+    out=[]
+    seen=set()
+    for q in queries:
+        try:
+            root=ET.fromstring(get_text('https://www.bing.com/search?q='+urllib.parse.quote_plus(q)+'&format=rss'))
+        except Exception:
+            continue
+        for i in root.findall('.//item')[:limit]:
+            title=(i.findtext('title') or '').strip()
+            desc=re.sub('<[^>]+>',' ',(i.findtext('description') or '')).strip()
+            link=(i.findtext('link') or '').strip()
+            if 'tenderned.nl/' not in link.lower():
+                continue
+            m=re.search(r'/publicaties/(\d+)',link)
+            if not m:
+                m=re.search(r'/overzicht/(\d+)',link)
+            if not m:
+                continue
+            pub_id=m.group(1)
+            if pub_id in seen:
+                continue
+            seen.add(pub_id)
+            score,hits=relevance(title,desc,'TenderNed')
+            if score<30:
+                continue
+            text=(title+' '+desc).lower()
+            stage=stage_from(text,'auto')
+            if stage not in ['Live Tender','Pre-market']:
+                stage='Live Tender'
+            canonical=f'https://www.tenderned.nl/aankondigingen/overzicht/{pub_id}'
+            pdf=f'https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties/{pub_id}/pdf'
+            out.append({
+                'id':'tenderned-'+pub_id,
+                'title':title or f'TenderNed publicatie {pub_id}',
+                'organization':'TenderNed publicatie',
+                'country':'Netherlands',
+                'city':'',
+                'stage':stage,
+                'score':min(score,96),
+                'confidence':88,
+                'currency':'EUR',
+                'deadline':None,
+                'procurement_window':None,
+                'summary':desc[:900] or 'Relevante Nederlandse aanbesteding gevonden via TenderNed.',
+                'fit_rationale':'De openbare TenderNed-publicatie matcht op museum-, tentoonstellings- of interactieve ervaringstermen.',
+                'pitch_angle':'Controleer de officiële publicatie en aanbestedingsstukken voordat u besluit in te schrijven.',
+                'next_action':'Open TenderNed en controleer scope, sluitingsdatum, documenten en geschiktheidseisen.',
+                'sample':False,
+                'verified':True,
+                'source_key':'tenderned',
+                'external_id':pub_id,
+                'source_url':canonical,
+                'source_label':'Officiële TenderNed-publicatie',
+                'documents':[
+                    {'title':'TenderNed publicatie','url':canonical,'kind':'Contract notice'},
+                    {'title':'Officiële publicatie PDF','url':pdf,'kind':'Tender PDF'}
+                ],
+                'updated_at':now(),
+                'evidence':[{
+                    'date':'',
+                    'kind':'Procurement',
+                    'title':'TenderNed publicatie gevonden',
+                    'detail':desc[:500],
+                    'source_url':canonical,
+                    'source_label':'TenderNed',
+                    'strength':88
+                }]
+            })
+    return out
+
 def search_feed(query, name='', country='', mode='pitch', limit=40):
     encoded=urllib.parse.quote_plus(query)
     url=f'https://www.bing.com/news/search?q={encoded}&format=rss'
@@ -187,7 +265,7 @@ def merge(existing,incoming):
         has_source=bool(o.get('source_url')) or any((e or {}).get('source_url') for e in (o.get('evidence') or []))
         if not has_source:
             continue
-        trusted_tender_sources={'ted','contracts_finder','evergabe'}
+        trusted_tender_sources={'ted','contracts_finder','evergabe','tenderned'}
         if o.get('stage') in ['Live Tender','Pre-market'] and o.get('source_key') not in trusted_tender_sources:
             continue
         o['verified']=True
@@ -200,6 +278,10 @@ def main():
     for name,fn in [('TED',lambda:ted(cfg.get('max_items_per_source',100))),('Contracts Finder',lambda:contracts_finder(cfg.get('max_items_per_source',100),21))]:
         try: found.extend(fn())
         except Exception as e: errors.append(f'{name}: {e}')
+    try:
+        found.extend(tenderned_search(60))
+    except Exception as e:
+        errors.append(f'TenderNed: {e}')
     for feed in cfg.get('rss_feeds',[]):
         try: found.extend(rss(feed['url'],feed.get('name',''),feed.get('country',''),cfg.get('max_items_per_source',100)))
         except Exception as e: errors.append(f"RSS {feed.get('name',feed.get('url',''))}: {e}")

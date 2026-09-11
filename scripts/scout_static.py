@@ -31,11 +31,12 @@ def relevance(title, desc='', org=''):
     if not any(w in text for w in strong): score//=2
     return score, hits
 
-def stage_from(text):
+def stage_from(text, mode='auto'):
     t=text.lower()
     if any(x in t for x in ['market engagement','market consultation','prior information','pre-market']): return 'Pre-market'
-    if any(x in t for x in ['tender','procurement','request for proposal','rfp','contract notice']): return 'Live Tender'
-    if any(x in t for x in ['funding approved','funding secured','appointed','masterplan','master plan']): return 'Lead'
+    if any(x in t for x in ['tender','procurement','request for proposal','rfp','rfq','contract notice','call for tenders','appel d\'offres','aanbesteding','ausschreibung','vergabe']): return 'Live Tender'
+    if mode=='pitch' and any(x in t for x in ['funding','funded','renovation','expansion','new gallery','new museum','visitor centre','visitor center','appointed','masterplan','master plan','architect','exhibition designer','scenography','new permanent exhibition','neue dauerausstellung','verbouwing','rénovation']): return 'Pitch'
+    if any(x in t for x in ['funding approved','funding secured','appointed','masterplan','master plan','renovation','expansion']): return 'Lead'
     return 'Signal'
 
 def classify_document(title='', url='', kind=''):
@@ -113,6 +114,57 @@ def rss(url,name='',country='',limit=100):
         out.append({'id':'rss-'+fp(url or title,pub),'title':title,'organization':name or 'Web signal','country':country,'city':'','stage':stage_from(title+' '+clean),'score':min(score,78),'confidence':58,'currency':'EUR','deadline':None,'procurement_window':'Unknown — investigate','summary':clean[:900],'fit_rationale':'Early web signal matching museum / exhibition / interactive project language.','pitch_angle':'Investigate before contacting; this may be upstream of formal procurement.','next_action':'Follow the source, identify project owner, funding, design team and expected opening date.','sample':False,'source_key':'rss','external_id':url or fp(title,pub),'source_url':url,'source_label':name or 'Original article','documents':[{'title':'Original article','url':url,'kind':classify_document('Original article',url,'Source article')}] if url else [],'updated_at':now(),'evidence':[{'date':pub[:10],'kind':'Web signal','title':'Relevant project signal detected','detail':clean[:500],'source_url':url,'source_label':name or 'Original article','strength':58}]})
     return out
 
+def search_feed(query, name='', country='', mode='pitch', limit=40):
+    encoded=urllib.parse.quote_plus(query)
+    url=f'https://www.bing.com/news/search?q={encoded}&format=rss'
+    root=ET.fromstring(get_text(url))
+    out=[]
+    for i in root.findall('.//item')[:limit]:
+        title=(i.findtext('title') or '').strip()
+        desc=re.sub('<[^>]+>',' ',(i.findtext('description') or '')).strip()
+        link=(i.findtext('link') or '').strip()
+        pub=(i.findtext('pubDate') or '').strip()
+        if not link: 
+            continue
+        score,hits=relevance(title,desc,name)
+        if mode=='pitch':
+            early=['funding','renovation','expansion','new museum','new gallery','new permanent exhibition','visitor centre','visitor center','architect','appointed','masterplan','exhibition designer','scenography','redevelopment','redevelop','verbouwing','sanierung','rénovation']
+            score=min(92,score+8*sum(x in (title+' '+desc).lower() for x in early))
+        if score<25:
+            continue
+        stage=stage_from(title+' '+desc,mode)
+        if mode=='tender' and stage not in ['Live Tender','Pre-market']:
+            continue
+        if mode=='pitch' and stage=='Live Tender':
+            continue
+        out.append({
+            'id':'search-'+fp(link,title),
+            'title':title or 'Museum opportunity',
+            'organization':name or 'Web discovery',
+            'country':country,
+            'city':'',
+            'stage':stage,
+            'score':min(score,92 if mode=='pitch' else 96),
+            'confidence':62 if mode=='pitch' else 72,
+            'currency':'EUR',
+            'deadline':None,
+            'procurement_window':'Investigate' if mode=='pitch' else None,
+            'summary':desc[:900] or 'Relevant opportunity discovered by autonomous search.',
+            'fit_rationale':'Autonomous search matched museum / exhibition / interactive opportunity language.',
+            'pitch_angle':'Investigate the project owner, design team, funding and procurement route before outreach.' if mode=='pitch' else 'Review the formal notice and participation requirements.',
+            'next_action':'Open the source and verify the project, owner and timing.' if mode=='pitch' else 'Open the source and verify scope, deadline and bidder requirements.',
+            'sample':False,
+            'verified':True,
+            'source_key':'search_'+mode,
+            'external_id':link,
+            'source_url':link,
+            'source_label':name or 'Search result',
+            'documents':[{'title':title or 'Source article','url':link,'kind':classify_document(title,link,'Source article')}],
+            'updated_at':now(),
+            'evidence':[{'date':pub[:16],'kind':'Web source','title':title or 'Search result','detail':desc[:500],'source_url':link,'source_label':name or 'Search result','strength':62 if mode=='pitch' else 72}]
+        })
+    return out
+
 def merge(existing,incoming):
     bykey={}
     for o in existing:
@@ -126,9 +178,17 @@ def merge(existing,incoming):
         else:
             bykey[key]=o; created+=1
     vals=list(bykey.values())
-    samples=[o for o in vals if o.get('sample')]
-    live=sorted([o for o in vals if not o.get('sample')],key=lambda x:(x.get('score',0),x.get('updated_at','')),reverse=True)[:500]
-    return samples+live,created
+    verified=[]
+    for o in vals:
+        if o.get('sample'):
+            continue
+        has_source=bool(o.get('source_url')) or any((e or {}).get('source_url') for e in (o.get('evidence') or []))
+        if not has_source:
+            continue
+        o['verified']=True
+        verified.append(o)
+    live=sorted(verified,key=lambda x:(x.get('score',0),x.get('updated_at','')),reverse=True)[:500]
+    return live,created
 
 def main():
     cfg=json.loads(CFG.read_text(encoding='utf8')); existing=json.loads(OPPS.read_text(encoding='utf8')); found=[]; errors=[]
@@ -138,6 +198,13 @@ def main():
     for feed in cfg.get('rss_feeds',[]):
         try: found.extend(rss(feed['url'],feed.get('name',''),feed.get('country',''),cfg.get('max_items_per_source',100)))
         except Exception as e: errors.append(f"RSS {feed.get('name',feed.get('url',''))}: {e}")
+    for search in cfg.get('search_queries',[]):
+        try:
+            found.extend(search_feed(search.get('query',''),search.get('name',''),search.get('country',''),search.get('mode','pitch'),40))
+        except Exception as e:
+            errors.append(f"Search {search.get('name',search.get('query',''))}: {e}")
+    min_score=int(cfg.get('minimum_score',35))
+    found=[o for o in found if o.get('score',0)>=min_score and o.get('source_url')]
     merged,created=merge(existing,found)
     OPPS.write_text(json.dumps(merged,ensure_ascii=False,indent=2),encoding='utf8')
     meta=json.loads(META.read_text(encoding='utf8'))

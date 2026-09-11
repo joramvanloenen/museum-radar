@@ -273,3 +273,66 @@ body.modal-open .modalback{inset:0!important;padding:0!important;z-index:9999!im
     border-radius:0;
   }
 }
+
+.loginPage{
+  min-height:100dvh;
+  display:grid;
+  place-items:center;
+  padding:24px;
+  background:var(--paper);
+}
+.loginCard{
+  width:min(100%,420px);
+  border-top:3px solid var(--ink);
+  padding-top:18px;
+}
+.loginBrand{
+  font-weight:900;
+  font-size:14px;
+  letter-spacing:-.02em;
+  margin-bottom:34px;
+}
+.loginCard h1{
+  margin:0 0 8px;
+  font-size:clamp(34px,8vw,56px);
+  line-height:.95;
+  letter-spacing:-.05em;
+}
+.loginCard p{
+  margin:0 0 28px;
+  color:var(--muted);
+}
+.loginCard form{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+.loginCard label{
+  font-size:11px;
+  font-weight:900;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+}
+.loginCard input{
+  width:100%;
+  box-sizing:border-box;
+  border:1.5px solid var(--ink);
+  background:var(--card);
+  padding:14px 15px;
+  font:inherit;
+  font-size:18px;
+  border-radius:0;
+}
+.loginCard input:focus{
+  outline:3px solid var(--lime);
+  outline-offset:2px;
+}
+.loginError{
+  min-height:20px;
+  font-size:12px;
+  font-weight:800;
+}
+.loginButton{
+  margin-top:4px;
+  width:100%;
+}

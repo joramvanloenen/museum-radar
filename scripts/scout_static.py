@@ -4,7 +4,7 @@ from pathlib import Path
 from datetime import datetime, timezone, timedelta
 
 ROOT=Path(__file__).resolve().parents[1]; DATA=ROOT/'data'
-OPPS=DATA/'opportunities.json'; META=DATA/'meta.json'; CFG=DATA/'scout-config.json'
+OPPS=DATA/'opportunities.json'; META=DATA/'meta.json'; CFG=DATA/'scout-config.json'; HIST=DATA/'historical-intelligence.json'
 UA='MuseumRadar/0.3 (+GitHub Pages scout)'
 
 def now(): return datetime.now(timezone.utc).isoformat(timespec='seconds')
@@ -21,15 +21,28 @@ def flat(x):
     if isinstance(x,list): return ' '.join(flat(v) for v in x)
     return str(x or '')
 
+def history_model():
+    try: return json.loads(HIST.read_text(encoding='utf8'))
+    except Exception: return {}
+HISTORY=history_model()
+HISTORY_BUYERS={x.get('buyer','').lower():x for x in HISTORY.get('top_buyers',[])}
+
 def relevance(title, desc='', org=''):
     text=(title+' '+desc+' '+org).lower()
     strong=['museum','visitor centre','visitor center','science centre','science center','heritage','exhibition','gallery']
     interactive=['interactive','multimedia','digital','immersive','interpretation','experience','projection','audiovisual','audio visual','av ','media installation']
     procurement=['tender','procurement','framework','rfp','request for proposal','market engagement','market consultation','contract']
+    learned=HISTORY.get('learned_terms',[])
+    negatives=HISTORY.get('negative_terms',[])
     hits=[w for w in strong+interactive+procurement if w in text]
-    score=min(98,20*sum(w in text for w in strong)+10*sum(w in text for w in interactive)+5*sum(w in text for w in procurement))
+    score=20*sum(w in text for w in strong)+10*sum(w in text for w in interactive)+5*sum(w in text for w in procurement)
+    score+=8*sum(w in text for w in learned)
+    score-=10*sum(w in text for w in negatives)
+    b=HISTORY_BUYERS.get(org.lower().strip())
+    if b:
+        score+=min(12,2*b.get('high',0)+b.get('adjacent',0))
     if not any(w in text for w in strong): score//=2
-    return score, hits
+    return max(0,min(98,score)), hits
 
 def stage_from(text, mode='auto'):
     t=text.lower()

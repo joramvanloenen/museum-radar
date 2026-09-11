@@ -121,24 +121,17 @@ def score_item(title,desc,org=''):
 def gdelt_search(query, limit=60):
     params={'query':query,'mode':'artlist','format':'json','maxrecords':min(limit,250),'timespan':'6months','sort':'datedesc'}
     url='https://api.gdeltproject.org/api/v2/doc/doc?'+urllib.parse.urlencode(params)
-    last=None
-    for attempt in range(2):
-        try:
-            raw=get_json(url,20)
-            out=[]
-            for x in raw.get('articles',[])[:limit]:
-                u=canonical_url(x.get('url',''))
-                if u and x.get('title'):
-                    out.append({'title':clean_html(x.get('title')),'description':'','url':u,'date':x.get('seendate',''),'engine':'GDELT'})
-            return out
-        except Exception as e:
-            last=e
-            time.sleep(1.5*(attempt+1))
-    raise last
+    raw=get_json(url,7)
+    out=[]
+    for x in raw.get('articles',[])[:limit]:
+        u=canonical_url(x.get('url',''))
+        if u and x.get('title'):
+            out.append({'title':clean_html(x.get('title')),'description':'','url':u,'date':x.get('seendate',''),'engine':'GDELT'})
+    return out
 
 def bing_html_search(query, limit=12):
     url='https://www.bing.com/search?'+urllib.parse.urlencode({'q':query,'count':limit})
-    raw=get_text(url,15)
+    raw=get_text(url,7)
     out=[]
     for block in re.findall("<li[^>]+class=[\"'][^\"']*b_algo[^\"']*[\"'][^>]*>.*?</li>",raw,re.I|re.S):
         m=re.search("<h2[^>]*>\\s*<a[^>]+href=[\"']([^\"']+)[\"'][^>]*>(.*?)</a>",block,re.I|re.S)
@@ -195,10 +188,10 @@ if len(raw)<8:
             queries_failed+=1; errors.append(f'Bing {label}: {e}')
 
 # Enrich only the most promising few pages.
-for r in sorted(raw,key=lambda x:(x['score'],x['quality']),reverse=True)[:10]:
+for r in sorted(raw,key=lambda x:(x['score'],x['quality']),reverse=True)[:5]:
     if r['url'].lower().endswith('.pdf'): continue
     try:
-        txt=clean_html(get_text(r['url'],8))[:6500]
+        txt=clean_html(get_text(r['url'],5))[:6500]
         if txt:
             sc,tags,fits=score_item(r['title'],r['description']+' '+txt,r['organization'])
             r['score']=max(r['score'],sc)

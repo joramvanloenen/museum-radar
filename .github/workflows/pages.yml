@@ -8,7 +8,7 @@ on:
     - cron: "17 */6 * * *"
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -36,6 +36,16 @@ jobs:
       - name: Refresh verified opportunity data
         continue-on-error: true
         run: python scripts/scout_static.py
+
+      - name: Persist substantive intelligence
+        run: |
+          git config user.name "museum-radar-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/opportunities.json data/discovered-sources.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: persist radar intelligence [skip ci]"
+            git push origin HEAD:main
+          fi
 
       - name: Configure and enable Pages
         uses: actions/configure-pages@v5

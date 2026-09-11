@@ -104,6 +104,42 @@
       "query": "site:museuminsider.co.uk museum new gallery renovation interactive exhibition tender",
       "country": "Worldwide",
       "mode": "pitch"
+    },
+    {
+      "name": "Singapore Science Centre exhibits",
+      "query": "site:gebiz.gov.sg Science Centre exhibit interactive immersive AR AV tender",
+      "country": "Singapore",
+      "mode": "pitch"
+    },
+    {
+      "name": "India science museum immersive",
+      "query": "site:eprocure.gov.in National Council of Science Museums immersive projection interactive multimedia tender",
+      "country": "India",
+      "mode": "pitch"
+    },
+    {
+      "name": "South Africa science centre exhibits",
+      "query": "site:etenders.gov.za science centre exhibit interactive AR VR museum tender",
+      "country": "South Africa",
+      "mode": "pitch"
+    },
+    {
+      "name": "In-Tend museum interactives",
+      "query": "site:in-tendhost.co.uk museum interactive exhibition AV tender",
+      "country": "United Kingdom",
+      "mode": "pitch"
+    },
+    {
+      "name": "Delta museum AV",
+      "query": "site:delta-esourcing.com museum exhibition AV interactive tender",
+      "country": "United Kingdom",
+      "mode": "pitch"
+    },
+    {
+      "name": "ProContract museum immersive",
+      "query": "site:procontract.due-north.com museum immersive interactive exhibition tender",
+      "country": "United Kingdom",
+      "mode": "pitch"
     }
   ],
   "cpv_codes": [

@@ -132,11 +132,13 @@ def search_feed(query, name='', country='', mode='pitch', limit=40):
             score=min(92,score+8*sum(x in (title+' '+desc).lower() for x in early))
         if score<25:
             continue
-        stage=stage_from(title+' '+desc,mode)
-        if mode=='tender' and stage not in ['Live Tender','Pre-market']:
+        stage=stage_from(title+' '+desc,'pitch')
+        if mode=='tender':
+            # Generic news/web search is discovery only. It may point us toward a real tender,
+            # but must never publish a formal tender without a trusted procurement-source record.
             continue
-        if mode=='pitch' and stage=='Live Tender':
-            continue
+        if stage=='Live Tender':
+            stage='Pitch'
         out.append({
             'id':'search-'+fp(link,title),
             'title':title or 'Museum opportunity',
@@ -184,6 +186,9 @@ def merge(existing,incoming):
             continue
         has_source=bool(o.get('source_url')) or any((e or {}).get('source_url') for e in (o.get('evidence') or []))
         if not has_source:
+            continue
+        trusted_tender_sources={'ted','contracts_finder','evergabe'}
+        if o.get('stage') in ['Live Tender','Pre-market'] and o.get('source_key') not in trusted_tender_sources:
             continue
         o['verified']=True
         verified.append(o)

@@ -46,5 +46,61 @@
     "status": "Planned",
     "url": "",
     "notes": "Future layer for following weak signals through funding, architects, council records and museum news."
+  },
+  {
+    "name": "Find a Tender",
+    "region": "United Kingdom",
+    "type": "Official procurement platform",
+    "status": "Active",
+    "url": "https://www.find-tender.service.gov.uk/Search",
+    "notes": "Primary UK above-threshold procurement source. Radar targets museum, exhibition, AV, software and interactive notices."
+  },
+  {
+    "name": "Sell2Wales",
+    "region": "United Kingdom / Wales",
+    "type": "Official procurement platform",
+    "status": "Active",
+    "url": "https://www.sell2wales.gov.wales",
+    "notes": "Excellent official index for museum-exhibition, AV, immersive and interpretation opportunities across UK buyers."
+  },
+  {
+    "name": "Public Contracts Scotland",
+    "region": "Scotland",
+    "type": "Official procurement platform",
+    "status": "Active",
+    "url": "https://www.publiccontractsscotland.gov.uk",
+    "notes": "Monitored for museum, heritage, exhibition design/build, interpretation and AV opportunities."
+  },
+  {
+    "name": "eTenders Ireland",
+    "region": "Ireland",
+    "type": "Official procurement platform",
+    "status": "Active",
+    "url": "https://www.etenders.gov.ie",
+    "notes": "Monitored for museum-exhibition services, visitor experiences, exhibition design and multimedia opportunities."
+  },
+  {
+    "name": "eTendersNI",
+    "region": "Northern Ireland",
+    "type": "Official procurement platform",
+    "status": "Active",
+    "url": "https://etendersni.gov.uk",
+    "notes": "Monitored for National Museums NI, heritage, visitor experience, AV and exhibition-production opportunities."
+  },
+  {
+    "name": "eVergabe Online",
+    "region": "Germany",
+    "type": "Official procurement platform",
+    "status": "Active",
+    "url": "https://www.evergabe-online.de",
+    "notes": "German federal procurement source for museum exhibition, media design and technical implementation tenders."
+  },
+  {
+    "name": "Museum Insider",
+    "region": "Worldwide",
+    "type": "Industry intelligence",
+    "status": "Monitored",
+    "url": "https://museuminsider.co.uk",
+    "notes": "Secondary discovery source for museum projects and tender documents. Never treated as formal procurement authority without verification."
   }
 ]

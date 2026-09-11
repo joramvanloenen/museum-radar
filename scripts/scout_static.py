@@ -313,7 +313,7 @@ def search_feed(query, name='', country='', mode='pitch', limit=40):
             'pitch_angle':'Investigate the project owner, design team, funding and procurement route before outreach.' if mode=='pitch' else 'Review the formal notice and participation requirements.',
             'next_action':'Open the source and verify the project, owner and timing.' if mode=='pitch' else 'Open the source and verify scope, deadline and bidder requirements.',
             'sample':False,
-            'verified':True,
+            'verified':False if mode=='pitch' else True,
             'source_key':'search_'+mode,
             'external_id':link,
             'source_url':link,
@@ -347,7 +347,12 @@ def merge(existing,incoming):
         trusted_tender_sources={'ted','contracts_finder','evergabe','tenderned','sell2wales','public_contracts_scotland','find_a_tender','etenders_ie','etendersni'}
         if o.get('stage') in ['Live Tender','Pre-market'] and o.get('source_key') not in trusted_tender_sources:
             continue
-        o['verified']=True
+        if o.get('source_key') in trusted_tender_sources:
+            o['verified']=True
+        elif o.get('source_key') in {'research_agent','search_pitch','rss'}:
+            o['verified']=False
+        else:
+            o['verified']=bool(o.get('verified',False))
         verified.append(o)
     live=sorted(verified,key=lambda x:(x.get('score',0),x.get('updated_at','')),reverse=True)[:500]
     return live,created

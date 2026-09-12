@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-12T00:30:00+00:00",
-  "project_count": 11,
-  "high_conviction": 11,
+  "generated_at": "2026-09-12T01:00:00+00:00",
+  "project_count": 12,
+  "high_conviction": 12,
   "projects": [
     {
       "project_id": "project-nhm150-western-av",
@@ -135,6 +135,23 @@
       "next_action": "Track CLAY 1A, Baylight Properties and Thing Studio for interactive exhibit, immersive-media, lighting/control and digital-production appointments; consider direct early outreach.",
       "prediction": {"window":"0–12 months","reason":"Funding is secured, the building transformation is underway, public test-exhibit sessions ran in July and September 2026, and the attraction is targeting a spring 2028 opening with explicitly interactive and immersive experiences.","signals":["funding","design","prototype testing","opening"],"fit_terms":["interactive displays","immersive show","multisensory experience","hands-on exhibits","visitor experience","technology"],"source_count":4,"source_domains":["clay1a.org","ipswich.gov.uk","studiojouan.com","aim-museums.co.uk"],"source_diversity":4,"source_quality":96,"expected_next_signals":["experience-design appointment","interactive / immersive production brief","AV / lighting / control systems package","exhibit fabrication package"],"risk_flags":["Thing Studio and specialist consultants are already involved","some exhibit concepts may already be assigned or developed in-house"],"opening_years":[2028],"investment_signals":["£20 million philanthropic lead gift","£2.28 million Towns Fund grant"]},
       "source_url": "https://www.clay1a.org/"
+    },
+    {
+      "project_id": "project-la-brea-tar-pits-reimagine",
+      "title": "La Brea Tar Pits – Reimagine campus and museum transformation",
+      "organization": "Natural History Museums of Los Angeles County",
+      "country": "United States",
+      "city": "Los Angeles",
+      "stage": "Pitch",
+      "score": 94,
+      "confidence": 96,
+      "procurement_window": "Construction active through 2026–2028; downstream interactive-media, immersive-theater, exhibit-production and systems packages may still emerge during exhibition delivery",
+      "summary": "La Brea Tar Pits is undergoing a major transformation scheduled to reopen in 2028. In August 2026 California IBank closed $236.03m in bond financing for the project. The scheme includes reconfigured galleries, visible science labs, new learning spaces and an immersive theater, with the visitor experience integrated across museum, landscape and active excavation areas.",
+      "fit_rationale": "Strong fit for immersive interpretation, interactive science storytelling, realtime/AV media and technical exhibit production. The project is large, fully financed and explicitly visitor-experience led rather than generic building works.",
+      "pitch_angle": "Do not pitch general exhibition design: Kossmanndejong already leads that scope. Position specifically for downstream interactive-media production, realtime content, immersive theater technology, sensor-driven interpretation or specialist systems integration where the lead designer needs delivery partners.",
+      "next_action": "Track NHMLAC, Kossmanndejong, WEISS/MANFREDI, Landmark PM and Clark Construction for specialist media-production, AV/controls, interactive fabrication and immersive-theater packages or subcontractor appointments.",
+      "prediction": {"window":"0–12 months","reason":"The museum closed for construction in July 2026, $236.03m of bond financing closed in August, the visitor-experience programme includes an immersive theater and reconfigured exhibition areas, and reopening is targeted for 2028. With architecture, general contracting and exhibition design already appointed, the remaining opportunity is specifically downstream specialist delivery.","signals":["financing","construction","exhibition design","opening"],"fit_terms":["immersive theater","interactive science storytelling","audiovisual","media production","visitor experience","systems integration"],"source_count":4,"source_domains":["ibank.ca.gov","nhm.org","nhmlac.org","kossmanndejong.nl"],"source_diversity":4,"source_quality":98,"expected_next_signals":["interactive media / AV subcontract awards","immersive theater technical package","exhibit fabrication appointments","media-production partner announcements"],"risk_flags":["Kossmanndejong already leads exhibition design and visitor-experience development","Clark Construction is already general contractor, so relevant work may be packaged as subcontracts rather than public tenders","some downstream packages may already be in procurement privately"],"opening_years":[2028],"investment_signals":["$236.03 million California IBank bond financing","approximately $240 million overall transformation"]},
+      "source_url": "https://ibank.ca.gov/ibank-closes-236-million-in-bond-financing-for-la-brea-tar-pits-reimagine-project/"
     }
   ]
 }

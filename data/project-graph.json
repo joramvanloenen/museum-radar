@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-12T01:00:00+00:00",
-  "project_count": 12,
-  "high_conviction": 12,
+  "generated_at": "2026-09-12T22:53:28+00:00",
+  "project_count": 13,
+  "high_conviction": 13,
   "projects": [
     {
       "project_id": "project-nhm150-western-av",
@@ -152,6 +152,23 @@
       "next_action": "Track NHMLAC, Kossmanndejong, WEISS/MANFREDI, Landmark PM and Clark Construction for specialist media-production, AV/controls, interactive fabrication and immersive-theater packages or subcontractor appointments.",
       "prediction": {"window":"0–12 months","reason":"The museum closed for construction in July 2026, $236.03m of bond financing closed in August, the visitor-experience programme includes an immersive theater and reconfigured exhibition areas, and reopening is targeted for 2028. With architecture, general contracting and exhibition design already appointed, the remaining opportunity is specifically downstream specialist delivery.","signals":["financing","construction","exhibition design","opening"],"fit_terms":["immersive theater","interactive science storytelling","audiovisual","media production","visitor experience","systems integration"],"source_count":4,"source_domains":["ibank.ca.gov","nhm.org","nhmlac.org","kossmanndejong.nl"],"source_diversity":4,"source_quality":98,"expected_next_signals":["interactive media / AV subcontract awards","immersive theater technical package","exhibit fabrication appointments","media-production partner announcements"],"risk_flags":["Kossmanndejong already leads exhibition design and visitor-experience development","Clark Construction is already general contractor, so relevant work may be packaged as subcontracts rather than public tenders","some downstream packages may already be in procurement privately"],"opening_years":[2028],"investment_signals":["$236.03 million California IBank bond financing","approximately $240 million overall transformation"]},
       "source_url": "https://ibank.ca.gov/ibank-closes-236-million-in-bond-financing-for-la-brea-tar-pits-reimagine-project/"
+    },
+    {
+      "project_id": "project-pro-football-hof-evolve-2030",
+      "title": "Pro Football Hall of Fame – Evolve 2030 museum transformation",
+      "organization": "Pro Football Hall of Fame",
+      "country": "United States",
+      "city": "Canton, Ohio",
+      "stage": "Pitch",
+      "score": 95,
+      "confidence": 98,
+      "procurement_window": "Phase III acceleration from late 2026; interactive exhibit and media delivery opportunities likely across Phase III and later museum phases through 2030",
+      "summary": "The Pro Football Hall of Fame is accelerating Phase III of its six-phase Evolve 2030 modernization after NFL owners approved additional funding on 26 August 2026. Phase III is approximately $33m and includes an 8,000 sq ft museum expansion, a new broadcast studio and interactive exhibits about the NFL's first 100 years and member clubs. The full six-phase programme is approximately $102m, with the final three phases explicitly focused on new or reimagined museum exhibits.",
+      "fit_rationale": "Very strong fit for interactive storytelling, realtime/media-rich exhibits, broadcast-inspired visitor experiences, physical-digital installations and robust permanent museum systems. The project is funded, phased and explicitly includes interactive exhibits rather than only building works.",
+      "pitch_angle": "Approach early around interactive exhibit systems, realtime content, media production, sensors and technical prototyping. The strongest angle is specialist experience delivery within the phased modernization, not general construction.",
+      "next_action": "Track the Hall's Phase III design and delivery team for exhibit designer, fabrication, AV/media and interactive-technology appointments; identify whether packages are museum-direct or routed through a lead contractor.",
+      "prediction": {"window":"0–12 months","reason":"NFL owners approved funding on 26 August 2026 specifically allowing Phase III to move forward aggressively. The phase includes interactive exhibits and a broadcast studio, while later Evolve 2030 phases will create or reimagine additional museum exhibits.","signals":["funding","project","interactive exhibits","phased modernization"],"fit_terms":["interactive exhibits","visitor experience","media production","broadcast studio","physical-digital installations","realtime content"],"source_count":2,"source_domains":["profootballhof.com"],"source_diversity":1,"source_quality":99,"expected_next_signals":["Phase III design-team appointment","interactive exhibit / AV package","exhibit fabrication partner","media-production or systems-integration appointment"],"risk_flags":["procurement route is not public yet","some Phase III design scopes may already be under development","US delivery may favor local fabrication or integration partners"],"opening_years":[2030],"investment_signals":["approximately $33 million Phase III","approximately $102 million six-phase Evolve 2030 programme"]},
+      "source_url": "https://www.profootballhof.com/news/nfl-owners-approve-funding-for-pro-football-hall-of-fame-s-transformation-plan"
     }
   ]
 }

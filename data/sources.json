@@ -1,210 +1,44 @@
 [
-  {
-    "name": "TenderNed",
-    "region": "Netherlands",
-    "type": "Official procurement platform",
-    "status": "Active",
-    "url": "https://www.tenderned.nl/aankondigingen",
-    "notes": "Radar searches TenderNed public publication endpoints for relevant current notices. TenderNed also offers an authenticated real-time XML API (credentials currently waitlisted), RSS/TNS, and quarterly open JSON/Excel datasets."
-  },
-  {
-    "name": "TED — Tenders Electronic Daily",
-    "region": "EU / EEA",
-    "type": "Official API",
-    "status": "Active",
-    "url": "https://ted.europa.eu",
-    "notes": "Scheduled Scout supports the TED Search API."
-  },
-  {
-    "name": "Contracts Finder",
-    "region": "United Kingdom",
-    "type": "Official API",
-    "status": "Active",
-    "url": "https://www.contractsfinder.service.gov.uk",
-    "notes": "Scheduled Scout supports OCDS procurement search."
-  },
-  {
-    "name": "Custom RSS / Atom feeds",
-    "region": "Worldwide",
-    "type": "Feed",
-    "status": "Configurable",
-    "url": "",
-    "notes": "Add museum, heritage, architecture and funding feeds in data/scout-config.json."
-  },
-  {
-    "name": "SAM.gov",
-    "region": "United States",
-    "type": "Official API",
-    "status": "Optional",
-    "url": "https://sam.gov",
-    "notes": "Reserved for a later API-key connector."
-  },
-  {
-    "name": "Web research agent",
-    "region": "Worldwide",
-    "type": "Agent",
-    "status": "Planned",
-    "url": "",
-    "notes": "Future layer for following weak signals through funding, architects, council records and museum news."
-  },
-  {
-    "name": "Find a Tender",
-    "region": "United Kingdom",
-    "type": "Official procurement platform",
-    "status": "Active",
-    "url": "https://www.find-tender.service.gov.uk/Search",
-    "notes": "Primary UK above-threshold procurement source. Radar targets museum, exhibition, AV, software and interactive notices."
-  },
-  {
-    "name": "Sell2Wales",
-    "region": "United Kingdom / Wales",
-    "type": "Official procurement platform",
-    "status": "Active",
-    "url": "https://www.sell2wales.gov.wales",
-    "notes": "Excellent official index for museum-exhibition, AV, immersive and interpretation opportunities across UK buyers."
-  },
-  {
-    "name": "Public Contracts Scotland",
-    "region": "Scotland",
-    "type": "Official procurement platform",
-    "status": "Active",
-    "url": "https://www.publiccontractsscotland.gov.uk",
-    "notes": "Monitored for museum, heritage, exhibition design/build, interpretation and AV opportunities."
-  },
-  {
-    "name": "eTenders Ireland",
-    "region": "Ireland",
-    "type": "Official procurement platform",
-    "status": "Active",
-    "url": "https://www.etenders.gov.ie",
-    "notes": "Monitored for museum-exhibition services, visitor experiences, exhibition design and multimedia opportunities."
-  },
-  {
-    "name": "eTendersNI",
-    "region": "Northern Ireland",
-    "type": "Official procurement platform",
-    "status": "Active",
-    "url": "https://etendersni.gov.uk",
-    "notes": "Monitored for National Museums NI, heritage, visitor experience, AV and exhibition-production opportunities."
-  },
-  {
-    "name": "eVergabe Online",
-    "region": "Germany",
-    "type": "Official procurement platform",
-    "status": "Active",
-    "url": "https://www.evergabe-online.de",
-    "notes": "German federal procurement source for museum exhibition, media design and technical implementation tenders."
-  },
-  {
-    "name": "Museum Insider",
-    "region": "Worldwide",
-    "type": "Industry intelligence",
-    "status": "Monitored",
-    "url": "https://museuminsider.co.uk",
-    "notes": "Secondary discovery source for museum projects and tender documents. Never treated as formal procurement authority without verification."
-  },
-  {
-    "name": "BOAMP",
-    "region": "France",
-    "type": "Official procurement API",
-    "status": "Candidate",
-    "url": "https://www.boamp.fr",
-    "notes": "French official procurement bulletin with open data and a public API. Strong candidate for automated museum, scenography, multimedia and AV searches."
-  },
-  {
-    "name": "SIMAP",
-    "region": "Switzerland",
-    "type": "Official procurement API",
-    "status": "Candidate",
-    "url": "https://www.simap.ch",
-    "notes": "Swiss public procurement platform. Public search works without authentication and the platform documents JSON API access for publication search."
-  },
-  {
-    "name": "Doffin",
-    "region": "Norway",
-    "type": "Official procurement platform",
-    "status": "Candidate",
-    "url": "https://doffin.no",
-    "notes": "Norway's official public procurement database. Useful for museums, science centres, visitor attractions, AV and exhibition-production opportunities."
-  },
-  {
-    "name": "HILMA",
-    "region": "Finland",
-    "type": "Official procurement platform",
-    "status": "Candidate",
-    "url": "https://www.hankintailmoitukset.fi",
-    "notes": "Finland's official public procurement notice service, including upcoming and ongoing tenders and market-dialogue notices."
-  },
-  {
-    "name": "USP Ausschreibungssuche",
-    "region": "Austria",
-    "type": "Official procurement search",
-    "status": "Candidate",
-    "url": "https://www.usp.gv.at/en/services/ausschreibungssuche.html",
-    "notes": "Central Austrian public-sector tender search, free to use and updated daily across procurement sources."
-  },
-  {
-    "name": "PLACSP",
-    "region": "Spain",
-    "type": "Official procurement platform",
-    "status": "Candidate",
-    "url": "https://contrataciondelestado.es",
-    "notes": "Spain's national public-sector procurement platform with tender search, market consultations and public documentation."
-  },
-  {
-    "name": "Udbud.dk",
-    "region": "Denmark",
-    "type": "Official procurement platform",
-    "status": "Candidate",
-    "url": "https://udbud.dk",
-    "notes": "Danish national procurement overview covering current tenders, expected purchases, prior notices and contract awards; updated daily."
-  },
-  {
-    "name": "GeBIZ",
-    "region": "Singapore",
-    "type": "Official procurement platform",
-    "status": "Candidate",
-    "url": "https://www.gebiz.gov.sg",
-    "notes": "Singapore government procurement portal. Science Centre Board repeatedly publishes exhibit design/build, interactive, AR and AV opportunities here."
-  },
-  {
-    "name": "India eProcure (CPPP)",
-    "region": "India",
-    "type": "Official procurement platform",
-    "status": "Candidate",
-    "url": "https://eprocure.gov.in/eprocure/app",
-    "notes": "Central Public Procurement Portal. Particularly useful for National Council of Science Museums immersive projection, multimedia and science-centre procurements."
-  },
-  {
-    "name": "South Africa eTenders",
-    "region": "South Africa",
-    "type": "Official procurement platform",
-    "status": "Candidate",
-    "url": "https://www.etenders.gov.za",
-    "notes": "National tender portal. Has carried SANSA science-centre exhibit development, interactive models, coding, AR/VR and hologram requirements."
-  },
-  {
-    "name": "In-Tend supplier portals",
-    "region": "United Kingdom",
-    "type": "Supplier procurement portal",
-    "status": "Monitored",
-    "url": "https://in-tendhost.co.uk",
-    "notes": "Used by museum buyers including Science Museum Group. Useful for official tender packs and submissions after discovery on UK notices."
-  },
-  {
-    "name": "Delta eSourcing",
-    "region": "United Kingdom",
-    "type": "Supplier procurement portal",
-    "status": "Monitored",
-    "url": "https://www.delta-esourcing.com",
-    "notes": "Frequently used for museum frameworks, exhibition build, AV and interpretation procurements. Treat as tender-document/submission source."
-  },
-  {
-    "name": "ProContract / Due North",
-    "region": "United Kingdom",
-    "type": "Supplier procurement portal",
-    "status": "Monitored",
-    "url": "https://procontract.due-north.com",
-    "notes": "Used by councils and museums for exhibit, visitor-experience and immersive installation tenders."
-  }
+  {"name":"TenderNed","region":"Netherlands","type":"Official procurement platform","status":"Active","url":"https://www.tenderned.nl/aankondigingen","notes":"Primary Dutch procurement source. Search museum, exhibition, interpretation, interactive and visitor-experience notices."},
+  {"name":"TED — Tenders Electronic Daily","region":"EU / EEA","type":"Official procurement API","status":"Active","url":"https://ted.europa.eu","notes":"Primary EU above-threshold procurement source; scheduled Scout supports the TED Search API."},
+  {"name":"Find a Tender","region":"United Kingdom","type":"Official procurement platform","status":"Active","url":"https://www.find-tender.service.gov.uk/Search","notes":"Primary UK above-threshold source for live notices and planned procurement."},
+  {"name":"Contracts Finder","region":"United Kingdom","type":"Official procurement API","status":"Active","url":"https://www.contractsfinder.service.gov.uk","notes":"UK procurement discovery, especially useful below Find a Tender thresholds."},
+  {"name":"Sell2Wales","region":"United Kingdom / Wales","type":"Official procurement platform","status":"Active","url":"https://www.sell2wales.gov.wales","notes":"Strong source for exhibition, interpretation, immersive, interactive and AV opportunities."},
+  {"name":"Public Contracts Scotland","region":"Scotland","type":"Official procurement platform","status":"Active","url":"https://www.publiccontractsscotland.gov.uk","notes":"Museum, heritage, exhibition design/build, interpretation and interactive technology."},
+  {"name":"eTenders Ireland","region":"Ireland","type":"Official procurement platform","status":"Active","url":"https://www.etenders.gov.ie","notes":"Museum exhibition, visitor experience, design and multimedia procurement."},
+  {"name":"eTendersNI","region":"Northern Ireland","type":"Official procurement platform","status":"Active","url":"https://etendersni.gov.uk","notes":"Museums, heritage, visitor experience, AV and exhibition production."},
+  {"name":"eVergabe Online","region":"Germany","type":"Official procurement platform","status":"Active","url":"https://www.evergabe-online.de","notes":"Federal German exhibition, media-design and technical-implementation notices."},
+  {"name":"BOAMP","region":"France","type":"Official procurement / open data","status":"Monitored","url":"https://www.boamp.fr","notes":"French public procurement bulletin. Search musée, scénographie, multimédia, interactif and exposition."},
+  {"name":"PLACSP","region":"Spain","type":"Official procurement platform","status":"Monitored","url":"https://contrataciondelestado.es","notes":"Spanish national procurement platform including tenders, preliminary market consultations and documentation."},
+  {"name":"ANAC / Italian public procurement","region":"Italy","type":"Official procurement ecosystem","status":"Candidate","url":"https://www.anticorruzione.it","notes":"Use for Italian museum fit-out, exhibition, multimedia and interactive procurement discovery; verify individual contracting-authority notices."},
+  {"name":"SIMAP","region":"Switzerland","type":"Official procurement platform","status":"Candidate","url":"https://www.simap.ch","notes":"Swiss public procurement search for museum, cultural and visitor-experience packages."},
+  {"name":"Doffin","region":"Norway","type":"Official procurement platform","status":"Candidate","url":"https://doffin.no","notes":"Norwegian official procurement database for museums, science centres and visitor attractions."},
+  {"name":"HILMA","region":"Finland","type":"Official procurement platform","status":"Candidate","url":"https://www.hankintailmoitukset.fi","notes":"Finnish procurement notices and market-dialogue notices."},
+  {"name":"USP Ausschreibungssuche","region":"Austria","type":"Official procurement search","status":"Candidate","url":"https://www.usp.gv.at/en/services/ausschreibungssuche.html","notes":"Central Austrian tender search, useful for museum and exhibition work."},
+  {"name":"Udbud.dk","region":"Denmark","type":"Official procurement platform","status":"Candidate","url":"https://udbud.dk","notes":"Danish current and expected procurement, prior notices and awards."},
+  {"name":"GeBIZ","region":"Singapore","type":"Official procurement platform","status":"Monitored","url":"https://www.gebiz.gov.sg","notes":"High-value source for Science Centre exhibit design/build, interactives, AR and AV."},
+  {"name":"India eProcure (CPPP)","region":"India","type":"Official procurement platform","status":"Candidate","url":"https://eprocure.gov.in/eprocure/app","notes":"Useful for National Council of Science Museums immersive, multimedia and science-centre work."},
+  {"name":"South Africa eTenders","region":"South Africa","type":"Official procurement platform","status":"Candidate","url":"https://www.etenders.gov.za","notes":"National portal with science-centre, exhibit, AR/VR and interactive opportunities."},
+
+  {"name":"DCMS/Wolfson Museums and Galleries Improvement Fund","region":"England","type":"Funding award intelligence","status":"Monitored","url":"https://www.gov.uk/guidance/dcmswolfson-museums-and-galleries-improvement-fund-2025-27","notes":"Very early lead source. Awards target permanent displays, interpretation, accessibility and visitor-experience improvements; successful museums can become future exhibition/interactive prospects."},
+  {"name":"EU Culture & Creativity — Cultural Heritage Funding","region":"Europe","type":"Funding intelligence hub","status":"Monitored","url":"https://culture.ec.europa.eu/cultural-heritage/funding-opportunities-for-cultural-heritage","notes":"Tracks cultural-heritage funding across Creative Europe and other EU programmes. Use awarded/funded projects as early project signals, not as tenders."},
+  {"name":"EU Funding & Tenders / Horizon cultural heritage","region":"Europe","type":"Funding award intelligence","status":"Monitored","url":"https://ec.europa.eu/info/funding-tenders/opportunities/portal/","notes":"Search funded cultural-heritage and creative-industry projects for museums, digital heritage, interpretation and visitor-facing technology."},
+  {"name":"National Lottery Heritage Fund","region":"United Kingdom","type":"Funding award intelligence","status":"Candidate","url":"https://www.heritagefund.org.uk","notes":"Monitor major museum, heritage and visitor-attraction awards. Funding announcements can precede exhibition and digital procurement by months or years."},
+
+  {"name":"ACE / ARCH-E Architecture Design Competitions","region":"Europe","type":"Architecture competition intelligence","status":"Monitored","url":"https://ace-cae.eu/adcs-in-europe/","notes":"Early-project source mapping architecture competitions and national competition ecosystems. Museum competition results and architect appointments are strong downstream procurement signals."},
+  {"name":"Architect & exhibition-design studio announcements","region":"Worldwide","type":"Design appointment intelligence","status":"Monitored","url":"","notes":"Research agent should track museum/science-centre/visitor-centre project wins and appointments. Correlate architect or exhibition-designer appointments with funding and opening dates."},
+  {"name":"Planning applications & planning portals","region":"Worldwide","type":"Planning intelligence","status":"Monitored","url":"","notes":"Search museum, gallery, science-centre and visitor-centre extensions, refurbishments and change-of-use applications. Planning approval is an early project-stage signal."},
+  {"name":"Council agendas, committee papers & capital programmes","region":"Worldwide","type":"Public decision intelligence","status":"Monitored","url":"","notes":"Track approvals, budgets, business cases, funding decisions and project milestones before procurement is published."},
+  {"name":"Museum annual reports, strategies & masterplans","region":"Worldwide","type":"Institution intelligence","status":"Monitored","url":"","notes":"Search for gallery renewal, capital programme, new permanent exhibitions, digital interpretation and visitor-experience plans with future dates."},
+  {"name":"Individual museum procurement / supplier pages","region":"Worldwide","type":"Institution procurement intelligence","status":"Monitored","url":"","notes":"Discover and monitor buyer-specific tender, supplier and quotation pages. These can expose smaller specialist packages that never surface prominently on international aggregators."},
+
+  {"name":"Museum Insider","region":"Worldwide","type":"Industry intelligence","status":"Monitored","url":"https://museuminsider.co.uk","notes":"Secondary museum-project and tender discovery. Always trace procurement claims to an authoritative source."},
+  {"name":"Tender Impulse","region":"Worldwide","type":"Tender aggregator / discovery","status":"Needs verification","url":"https://tenderimpulse.com/","notes":"Secondary discovery only. Use notice metadata to find the original procurement authority before classifying anything as Live Tender."},
+  {"name":"Custom RSS / Atom feeds","region":"Worldwide","type":"Feed","status":"Configurable","url":"","notes":"For museum, heritage, architecture, funding and institutional procurement feeds."},
+
+  {"name":"In-Tend supplier portals","region":"United Kingdom","type":"Supplier procurement portal","status":"Monitored","url":"https://in-tendhost.co.uk","notes":"Tender packs/submissions used by museum buyers including Science Museum Group."},
+  {"name":"Delta eSourcing","region":"United Kingdom","type":"Supplier procurement portal","status":"Monitored","url":"https://www.delta-esourcing.com","notes":"Museum frameworks, exhibition build, AV and interpretation procurement documents."},
+  {"name":"ProContract / Due North","region":"United Kingdom","type":"Supplier procurement portal","status":"Monitored","url":"https://procontract.due-north.com","notes":"Council and museum exhibit, visitor-experience and immersive-installation tenders."},
+  {"name":"SAM.gov","region":"United States","type":"Official procurement API","status":"Optional","url":"https://sam.gov","notes":"US federal procurement source; API-key connector can be added later."},
+  {"name":"Web research agent","region":"Worldwide","type":"Cross-source project intelligence","status":"Active","url":"","notes":"Correlates funding → planning → architecture/masterplan → exhibition design → market engagement → tender → award/delivery. General web evidence may create Signal/Lead/Expected/Pre-market/Pitch only; Live Tender requires an official procurement source."}
 ]

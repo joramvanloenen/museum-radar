@@ -25,7 +25,7 @@
     "type": "Tender aggregator / discovery source",
     "status": "Needs verification",
     "url": "https://tenderimpulse.com/",
-    "notes": "Useful secondary discovery layer for international museum, exhibition, immersive, interactive, multimedia, science-centre and heritage procurements. Radar must not treat Tender Impulse itself as procurement authority: use its source/notice number to locate and verify the original official procurement notice before classifying a record as Live Tender. Search results have surfaced relevant notices sourced from Find a Tender, TED Europa, Spain's PLACSP, Korea G2B, Vietnam MUASAMCONG and other national systems. Apply strict YIPP relevance filtering to reject generic museum services, collection moves, facilities, IT/hardware and unrelated AV supply.",
+    "notes": "Useful secondary discovery layer for international museum, exhibition, immersive, interactive, multimedia, science-centre and heritage procurements. Radar must not treat Tender Impulse itself as procurement authority: use its source/notice number to locate and verify the original official procurement notice before classifying a record as Live Tender. Search results have surfaced relevant notices sourced from Find a Tender, TED Europa, Spain's PLACSP, Korea G2B, Vietnam MUASAMCONG and other national systems. Apply strict interactive-experience relevance filtering to reject generic museum services, collection moves, facilities, IT/hardware and unrelated AV supply.",
     "confidence": 90,
     "discovered_at": "2026-09-12T21:00:00+00:00",
     "examples": [

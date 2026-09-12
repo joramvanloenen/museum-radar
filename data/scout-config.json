@@ -3,181 +3,55 @@
   "minimum_score": 35,
   "rss_feeds": [],
   "search_queries": [
-    {
-      "name": "Museum tenders",
-      "query": "museum exhibition tender OR procurement OR RFP OR RFQ interactive multimedia",
-      "country": "Worldwide",
-      "mode": "tender"
-    },
-    {
-      "name": "Visitor experience tenders",
-      "query": "visitor centre visitor center exhibition design tender interactive experience procurement",
-      "country": "Worldwide",
-      "mode": "tender"
-    },
-    {
-      "name": "Museum digital tenders",
-      "query": "museum digital interactive multimedia AV tender exhibition",
-      "country": "Worldwide",
-      "mode": "tender"
-    },
-    {
-      "name": "Museum expansion signals",
-      "query": "museum expansion renovation new permanent exhibition funding architect appointed",
-      "country": "Worldwide",
-      "mode": "pitch"
-    },
-    {
-      "name": "Visitor centre signals",
-      "query": "new visitor centre funding exhibition design architect appointed heritage",
-      "country": "Worldwide",
-      "mode": "pitch"
-    },
-    {
-      "name": "Science centre signals",
-      "query": "science centre expansion new gallery funding exhibition interactive",
-      "country": "Worldwide",
-      "mode": "pitch"
-    },
-    {
-      "name": "German museum procurement",
-      "query": "Museum Ausstellung Ausschreibung Vergabe Medientechnik interaktiv",
-      "country": "Germany",
-      "mode": "tender"
-    },
-    {
-      "name": "German future projects",
-      "query": "Museum Sanierung neue Dauerausstellung Förderung Architekt Ausstellungsgestaltung",
-      "country": "Germany",
-      "mode": "pitch"
-    },
-    {
-      "name": "Dutch museum procurement",
-      "query": "museum tentoonstelling aanbesteding interactieve media bezoekerscentrum",
-      "country": "Netherlands",
-      "mode": "tender"
-    },
-    {
-      "name": "Dutch future projects",
-      "query": "museum verbouwing nieuwe tentoonstelling financiering architect bezoekerscentrum",
-      "country": "Netherlands",
-      "mode": "pitch"
-    },
-    {
-      "name": "French museum procurement",
-      "query": "musée exposition appel d'offres scénographie multimédia interactif",
-      "country": "France",
-      "mode": "tender"
-    },
-    {
-      "name": "French future projects",
-      "query": "musée rénovation nouvelle exposition financement architecte scénographie",
-      "country": "France",
-      "mode": "pitch"
-    },
-    {
-      "name": "AV integration museum",
-      "query": "museum exhibition AV hardware integrator projection multimedia tender",
-      "country": "Worldwide",
-      "mode": "tender"
-    },
-    {
-      "name": "Immersive museum installations",
-      "query": "museum immersive projection mapping sensors interactive tender",
-      "country": "Worldwide",
-      "mode": "tender"
-    },
-    {
-      "name": "Exhibit makers",
-      "query": "museum interactive exhibit makers tender science centre",
-      "country": "Worldwide",
-      "mode": "tender"
-    },
-    {
-      "name": "Museum software interactives",
-      "query": "museum interactive software custom software exhibition tender",
-      "country": "Worldwide",
-      "mode": "tender"
-    },
-    {
-      "name": "Museum Insider project signals",
-      "query": "site:museuminsider.co.uk museum new gallery renovation interactive exhibition tender",
-      "country": "Worldwide",
-      "mode": "pitch"
-    },
-    {
-      "name": "Singapore Science Centre exhibits",
-      "query": "site:gebiz.gov.sg Science Centre exhibit interactive immersive AR AV tender",
-      "country": "Singapore",
-      "mode": "pitch"
-    },
-    {
-      "name": "India science museum immersive",
-      "query": "site:eprocure.gov.in National Council of Science Museums immersive projection interactive multimedia tender",
-      "country": "India",
-      "mode": "pitch"
-    },
-    {
-      "name": "South Africa science centre exhibits",
-      "query": "site:etenders.gov.za science centre exhibit interactive AR VR museum tender",
-      "country": "South Africa",
-      "mode": "pitch"
-    },
-    {
-      "name": "In-Tend museum interactives",
-      "query": "site:in-tendhost.co.uk museum interactive exhibition AV tender",
-      "country": "United Kingdom",
-      "mode": "pitch"
-    },
-    {
-      "name": "Delta museum AV",
-      "query": "site:delta-esourcing.com museum exhibition AV interactive tender",
-      "country": "United Kingdom",
-      "mode": "pitch"
-    },
-    {
-      "name": "ProContract museum immersive",
-      "query": "site:procontract.due-north.com museum immersive interactive exhibition tender",
-      "country": "United Kingdom",
-      "mode": "pitch"
-    }
+    {"name":"Museum tenders","query":"museum exhibition tender OR procurement OR RFP OR RFQ interactive multimedia","country":"Worldwide","mode":"tender"},
+    {"name":"Visitor experience tenders","query":"visitor centre visitor center exhibition design tender interactive experience procurement","country":"Worldwide","mode":"tender"},
+    {"name":"Museum digital tenders","query":"museum digital interactive multimedia AV tender exhibition","country":"Worldwide","mode":"tender"},
+    {"name":"Museum expansion signals","query":"museum expansion renovation new permanent exhibition funding architect appointed","country":"Worldwide","mode":"pitch"},
+    {"name":"Visitor centre signals","query":"new visitor centre funding exhibition design architect appointed heritage","country":"Worldwide","mode":"pitch"},
+    {"name":"Science centre signals","query":"science centre expansion new gallery funding exhibition interactive","country":"Worldwide","mode":"pitch"},
+    {"name":"Museum funding awards","query":"museum gallery science centre heritage funding awarded grant capital redevelopment permanent gallery visitor experience","country":"Worldwide","mode":"pitch"},
+    {"name":"EU cultural heritage funding","query":"site:ec.europa.eu museum cultural heritage funding awarded project visitor experience exhibition Creative Europe ERDF Interreg","country":"Europe","mode":"pitch"},
+    {"name":"UK museum capital funding","query":"museum gallery capital grant awarded permanent display interpretation visitor experience DCMS Wolfson National Lottery Heritage Fund","country":"United Kingdom","mode":"pitch"},
+    {"name":"Architecture competition museum signals","query":"museum science centre visitor centre architecture competition winner appointed redevelopment new gallery","country":"Worldwide","mode":"pitch"},
+    {"name":"ARCH-E museum competitions","query":"site:ace-cae.eu museum gallery cultural architecture design competition ARCH-E","country":"Europe","mode":"pitch"},
+    {"name":"Museum planning applications","query":"museum gallery visitor centre planning application redevelopment extension permanent exhibition","country":"Worldwide","mode":"pitch"},
+    {"name":"Council museum capital projects","query":"council committee museum visitor centre capital project gallery redevelopment interpretation funding approved","country":"Worldwide","mode":"pitch"},
+    {"name":"Museum masterplans","query":"museum masterplan gallery renewal visitor experience digital interpretation permanent exhibition capital programme","country":"Worldwide","mode":"pitch"},
+    {"name":"Museum annual reports future projects","query":"museum annual report future gallery redevelopment capital programme visitor experience digital interpretation","country":"Worldwide","mode":"pitch"},
+    {"name":"Architect museum appointments","query":"architect appointed museum gallery science centre visitor centre redevelopment exhibition spaces","country":"Worldwide","mode":"pitch"},
+    {"name":"Exhibition designer appointments","query":"exhibition designer appointed museum permanent gallery visitor experience scenography media design","country":"Worldwide","mode":"pitch"},
+    {"name":"Museum supplier pages","query":"museum tenders procurement supplier opportunities exhibition design interactive multimedia AV","country":"Worldwide","mode":"pitch"},
+    {"name":"German museum procurement","query":"Museum Ausstellung Ausschreibung Vergabe Medientechnik interaktiv","country":"Germany","mode":"tender"},
+    {"name":"German future projects","query":"Museum Sanierung neue Dauerausstellung Förderung Architekt Ausstellungsgestaltung","country":"Germany","mode":"pitch"},
+    {"name":"Dutch museum procurement","query":"museum tentoonstelling aanbesteding interactieve media bezoekerscentrum","country":"Netherlands","mode":"tender"},
+    {"name":"Dutch future projects","query":"museum verbouwing nieuwe tentoonstelling financiering architect bezoekerscentrum","country":"Netherlands","mode":"pitch"},
+    {"name":"French museum procurement","query":"musée exposition appel d'offres scénographie multimédia interactif","country":"France","mode":"tender"},
+    {"name":"French future projects","query":"musée rénovation nouvelle exposition financement architecte scénographie","country":"France","mode":"pitch"},
+    {"name":"AV integration museum","query":"museum exhibition AV hardware integrator projection multimedia tender","country":"Worldwide","mode":"tender"},
+    {"name":"Immersive museum installations","query":"museum immersive projection mapping sensors interactive tender","country":"Worldwide","mode":"tender"},
+    {"name":"Exhibit makers","query":"museum interactive exhibit makers tender science centre","country":"Worldwide","mode":"tender"},
+    {"name":"Museum software interactives","query":"museum interactive software custom software exhibition tender","country":"Worldwide","mode":"tender"},
+    {"name":"Museum Insider project signals","query":"site:museuminsider.co.uk museum new gallery renovation interactive exhibition tender","country":"Worldwide","mode":"pitch"},
+    {"name":"Tender Impulse discovery","query":"site:tenderimpulse.com museum exhibition interactive immersive multimedia science centre tender","country":"Worldwide","mode":"pitch"},
+    {"name":"BOAMP museum scenography","query":"site:boamp.fr musée scénographie multimédia interactif exposition marché public","country":"France","mode":"pitch"},
+    {"name":"Spanish museum procurement","query":"site:contrataciondelestado.es museo exposición museografía multimedia interactivo licitación","country":"Spain","mode":"pitch"},
+    {"name":"Italian museum procurement","query":"museo allestimento multimediale interattivo gara appalto ANAC","country":"Italy","mode":"pitch"},
+    {"name":"Singapore Science Centre exhibits","query":"site:gebiz.gov.sg Science Centre exhibit interactive immersive AR AV tender","country":"Singapore","mode":"pitch"},
+    {"name":"India science museum immersive","query":"site:eprocure.gov.in National Council of Science Museums immersive projection interactive multimedia tender","country":"India","mode":"pitch"},
+    {"name":"South Africa science centre exhibits","query":"site:etenders.gov.za science centre exhibit interactive AR VR museum tender","country":"South Africa","mode":"pitch"},
+    {"name":"In-Tend museum interactives","query":"site:in-tendhost.co.uk museum interactive exhibition AV tender","country":"United Kingdom","mode":"pitch"},
+    {"name":"Delta museum AV","query":"site:delta-esourcing.com museum exhibition AV interactive tender","country":"United Kingdom","mode":"pitch"},
+    {"name":"ProContract museum immersive","query":"site:procontract.due-north.com museum immersive interactive exhibition tender","country":"United Kingdom","mode":"pitch"}
   ],
-  "cpv_codes": [
-    "92521100",
-    "92521000",
-    "32321200",
-    "32322000",
-    "51310000",
-    "39154000",
-    "79930000",
-    "72230000",
-    "72212783",
-    "71220000"
-  ],
+  "lead_lifecycle": {
+    "stages": ["Funding","Planning","Architecture / masterplan","Exhibition design","Market engagement","Tender","Award / delivery"],
+    "promotion_logic": "Correlate multiple breadcrumbs about the same institution/project. Funding or planning alone creates a Signal; confirmed design appointments and explicit visitor-experience scope raise confidence; market engagement becomes Expected/Pre-market; only an official procurement notice can become Live Tender.",
+    "high_value_terms": ["permanent exhibition","new gallery","visitor experience","interpretation","interactive","immersive","multimedia","digital experience","scenography","exhibition design","AV integration","projection","sensors","realtime","hands-on","learning experience"],
+    "negative_terms": ["collection relocation only","routine maintenance","generic IT","office equipment","events equipment","security only","storage only","generic AV supply without exhibition context"]
+  },
+  "cpv_codes": ["92521100","92521000","32321200","32322000","51310000","39154000","79930000","72230000","72212783","71220000"],
   "official_portal_searches": [
-    {
-      "name": "Sell2Wales museum exhibition",
-      "base_url": "https://www.sell2wales.gov.wales",
-      "country": "United Kingdom",
-      "source_key": "sell2wales",
-      "cpv_codes": [
-        "92521100",
-        "92521000",
-        "39154000",
-        "79930000"
-      ]
-    },
-    {
-      "name": "Public Contracts Scotland museum exhibition",
-      "base_url": "https://www.publiccontractsscotland.gov.uk",
-      "country": "United Kingdom",
-      "source_key": "public_contracts_scotland",
-      "cpv_codes": [
-        "92521100",
-        "92521000",
-        "39154000",
-        "32321200"
-      ]
-    }
+    {"name":"Sell2Wales museum exhibition","base_url":"https://www.sell2wales.gov.wales","country":"United Kingdom","source_key":"sell2wales","cpv_codes":["92521100","92521000","39154000","79930000"]},
+    {"name":"Public Contracts Scotland museum exhibition","base_url":"https://www.publiccontractsscotland.gov.uk","country":"United Kingdom","source_key":"public_contracts_scotland","cpv_codes":["92521100","92521000","39154000","32321200"]}
   ]
 }

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-11T22:53:19+00:00",
-  "project_count": 9,
-  "high_conviction": 9,
+  "generated_at": "2026-09-12T00:30:00+00:00",
+  "project_count": 11,
+  "high_conviction": 11,
   "projects": [
     {
       "project_id": "project-nhm150-western-av",
@@ -101,6 +101,40 @@
       "procurement_window": "Construction begins in 2026; immersive-gallery and digital-experience packages likely during 2026–2028 fit-out",
       "prediction": {"window":"3–15 months","reason":"The museum has a funded/active 35,000 sq ft expansion opening in fall 2028, with flexible galleries explicitly designed for immersive experiences blending art and technology. The Beck Group is appointed as design-build architect, while experience/media delivery remains a plausible downstream specialist scope.","signals":["funding","design","project","delivery"],"fit_terms":["immersive","interactive art","digital experience","multimedia","visitor experience","exhibition design"],"source_count":4,"source_domains":["thedali.org","expansion.thedali.org","beckgroup.com"],"source_diversity":3,"source_quality":97,"expected_next_signals":["immersive-gallery experience-design appointment","digital / AV integrator package","exhibition media-production procurement"],"risk_flags":["The Beck Group is design-build lead and may control or bundle downstream packages","no public specialist procurement notice identified yet"],"opening_years":[2028],"investment_signals":["approximately $70 million expansion"]},
       "source_url": "https://expansion.thedali.org/design"
+    },
+    {
+      "project_id": "project-migration-museum-london",
+      "title": "Migration Museum – permanent City of London home",
+      "organization": "Migration Museum",
+      "country": "United Kingdom",
+      "city": "London",
+      "stage": "Pitch",
+      "score": 96,
+      "confidence": 98,
+      "procurement_window": "Fit-out and content development active from 2026; specialist immersive, digital-storytelling and media packages likely during 2026–2027 ahead of spring 2028 opening",
+      "summary": "The Migration Museum is building its first permanent home in the City of London for a spring 2028 opening. The museum explicitly promises an immersive, story-led visitor experience and has just secured £600,000 from the Wolfson Foundation for fit-out and content development.",
+      "fit_rationale": "Excellent fit for interactive storytelling, immersive media, digital collections, participatory visitor experiences and technically integrated permanent exhibitions.",
+      "pitch_angle": "Approach before specialist packages are locked: position around human-centred interactive storytelling, realtime/digital media and robust museum technology rather than generic AV supply.",
+      "next_action": "Track the Migration Museum, Unknown Works and fit-out team for exhibition-media, digital-storytelling, interactive and systems-integration appointments.",
+      "prediction": {"window":"0–12 months","reason":"The building is in delivery, the museum opens in spring 2028, community/content development is active, and an August 2026 £600k grant is explicitly earmarked for fit-out and story-led exhibition content.","signals":["funding","fit-out","content","opening"],"fit_terms":["immersive experience","digital storytelling","interactive learning","visitor experience","story-led exhibitions","digital collection"],"source_count":4,"source_domains":["migrationmuseum.org","wolfson.org.uk","news.cityoflondon.gov.uk"],"source_diversity":3,"source_quality":98,"expected_next_signals":["exhibition design / fit-out appointments","interactive media production brief","AV / systems integration package","digital collection platform procurement"],"risk_flags":["Unknown Works is already involved in the museum vision/interiors","building contractor is already appointed, so opportunity is downstream specialist scope"],"opening_years":[2028],"investment_signals":["£600,000 Wolfson fit-out/content grant","£500,000 Portal Trust education support","permanent museum fit-out fundraising programme"]},
+      "source_url": "https://www.migrationmuseum.org/wolfson-foundation-commits-600000-to-the-uks-missing-museum/"
+    },
+    {
+      "project_id": "project-clay1a-ipswich",
+      "title": "CLAY 1A – new interactive clay museum and visitor attraction",
+      "organization": "CLAY 1A / Baylight Properties",
+      "country": "United Kingdom",
+      "city": "Ipswich",
+      "stage": "Pitch",
+      "score": 95,
+      "confidence": 97,
+      "procurement_window": "Experience development active now; specialist immersive, interactive and media delivery packages likely during 2026–2027 ahead of spring 2028 opening",
+      "summary": "CLAY 1A is transforming a historic Ipswich waterfront grain warehouse into a new cultural attraction opening in 2028, backed by a £20m philanthropic commitment plus £2.28m Towns Fund support. The concept is explicitly hands-on, multisensory and interactive, including a dedicated immersive-show area.",
+      "fit_rationale": "Near-direct fit for playful physical-digital interaction, immersive show design, sensors, realtime media and family-oriented hands-on exhibition experiences.",
+      "pitch_angle": "This is an unusually good pre-procurement pitch target: the project is testing exhibition concepts with visitors now, while the specialist experience-delivery stack still appears to be evolving.",
+      "next_action": "Track CLAY 1A, Baylight Properties and Thing Studio for interactive exhibit, immersive-media, lighting/control and digital-production appointments; consider direct early outreach.",
+      "prediction": {"window":"0–12 months","reason":"Funding is secured, the building transformation is underway, public test-exhibit sessions ran in July and September 2026, and the attraction is targeting a spring 2028 opening with explicitly interactive and immersive experiences.","signals":["funding","design","prototype testing","opening"],"fit_terms":["interactive displays","immersive show","multisensory experience","hands-on exhibits","visitor experience","technology"],"source_count":4,"source_domains":["clay1a.org","ipswich.gov.uk","studiojouan.com","aim-museums.co.uk"],"source_diversity":4,"source_quality":96,"expected_next_signals":["experience-design appointment","interactive / immersive production brief","AV / lighting / control systems package","exhibit fabrication package"],"risk_flags":["Thing Studio and specialist consultants are already involved","some exhibit concepts may already be assigned or developed in-house"],"opening_years":[2028],"investment_signals":["£20 million philanthropic lead gift","£2.28 million Towns Fund grant"]},
+      "source_url": "https://www.clay1a.org/"
     }
   ]
 }

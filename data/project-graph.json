@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T04:49:23+00:00",
-  "project_count": 14,
-  "high_conviction": 14,
+  "generated_at": "2026-09-13T10:51:25+00:00",
+  "project_count": 15,
+  "high_conviction": 15,
   "projects": [
     {
       "project_id": "project-nhm150-western-av",
@@ -186,6 +186,24 @@
       "next_action": "Track McWane's Dropping Science implementation for exhibit-fabrication, interactive technology, interpretive-media, sound-design and traveling-system partners; determine which production packages remain unassigned.",
       "prediction": {"window":"0–9 months","reason":"IMLS has awarded $300,000 in FY2026 specifically for fabrication, installation and implementation. The scope names interactive exhibit components, interpretive media, prototyping, music production and sound design, indicating near-term specialist delivery work rather than an early concept-only project.","signals":["funding","fabrication","interactive exhibits","media production"],"fit_terms":["interactive exhibits","immersive exhibition","interpretive media","sound design","prototyping","traveling exhibition"],"source_count":3,"source_domains":["imls.gov","mcwane.org","birminghamtimes.com"],"source_diversity":3,"source_quality":98,"expected_next_signals":["fabrication vendor appointment","interactive technology partner","media / sound production supplier","installation schedule"],"risk_flags":["some design development already predates the 2026 implementation grant","local fabrication may be preferred","no public procurement notice identified yet"],"opening_years":[],"investment_signals":["$300,000 FY2026 IMLS grant","$170,000 Birmingham City Council support announced in 2025"]},
       "source_url": "https://www.imls.gov/grants/awarded/ma-260003-oms-26"
+    },
+    {
+      "project_id": "project-galway-city-museum-redevelopment",
+      "title": "Galway City Museum – immersive redevelopment and expansion",
+      "organization": "Galway City Council / Galway City Museum",
+      "country": "Ireland",
+      "city": "Galway",
+      "stage": "Pitch",
+      "score": 94,
+      "confidence": 98,
+      "source_key": "research_agent",
+      "procurement_window": "Construction started September 2026; specialist exhibition, interpretation, digital-media and AV packages may emerge during fit-out",
+      "summary": "Galway City Council has started construction on a €19m redevelopment of Galway City Museum, backed by €12.6m from Fáilte Ireland. The project expands the museum with a new three-storey extension and enhanced exhibition and education spaces, while the funded visitor vision explicitly calls for state-of-the-art galleries, immersive exhibition spaces, interactive storytelling and digital technology.",
+      "fit_rationale": "Strong fit for immersive interpretation, interactive storytelling, digital media, AV integration and technically integrated permanent galleries. The building contractor is appointed, but no public specialist interactive/media delivery partner was identified in the current research.",
+      "pitch_angle": "Treat this as a downstream specialist-delivery opportunity. Position around interactive storytelling, digital interpretation, realtime/media systems and robust museum AV rather than general construction or full exhibition fit-out.",
+      "next_action": "Track Galway City Council, Galway City Museum, Fáilte Ireland and Carey Building Contractors for exhibition-design, interpretation, digital-media, AV/integration and exhibit-fabrication appointments; identify whether specialist packages are council-direct or routed through the main contractor.",
+      "prediction": {"window":"0–12 months","reason":"The €19m capital project is fully moving into construction as of 7 September 2026, the visitor proposition explicitly includes immersive galleries and interactive/digital storytelling, and specialist exhibition delivery will need to align with the active building programme.","signals":["funding","construction","immersive visitor experience","interactive storytelling"],"fit_terms":["immersive exhibitions","interactive storytelling","digital technology","interpretation","audiovisual","visitor experience"],"source_count":3,"source_domains":["galwaycity.ie","failteireland.ie","constructionireland.ie"],"source_diversity":3,"source_quality":98,"expected_next_signals":["exhibition / interpretation designer appointment","digital media or interactive package","AV / systems integration package","exhibit fabrication appointment"],"risk_flags":["Carey Building Contractors is already appointed for the main works","some exhibition-design scope may already be assigned but is not publicly visible","specialist packages may be routed privately through the main contractor or design team"],"opening_years":[],"investment_signals":["€19 million redevelopment","€12.6 million Fáilte Ireland investment"]},
+      "source_url": "https://www.galwaycity.ie/news/2026/galway-city-museum-redevelopment-works-commence"
     }
   ]
 }

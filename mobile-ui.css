@@ -22,7 +22,7 @@
   .actionRoute { font-size:9px!important; line-height:1!important; padding:6px 9px!important; border-radius:8px!important; }
   .actionScore { font-size:20px!important; line-height:1!important; font-weight:850!important; }
   .actionCard h3 { font-size:18px!important; line-height:1.12!important; letter-spacing:-.018em; margin:9px 0 5px!important; padding-right:2px; }
-  .actionOrg { font-size:11px!important; line-height:1.2; color:#777!important; }
+  .actionOrg { font-size:14px!important; line-height:1.2; font-weight:650!important; color:#555!important; letter-spacing:-.01em; }
 
   .actionWhy { display:grid!important; grid-template-columns:auto auto 1fr; align-items:center; gap:5px 16px!important; margin:10px 0 0!important; font-size:10px!important; color:#666!important; }
   .actionWhy span { position:relative; white-space:nowrap; }

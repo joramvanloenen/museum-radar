@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-12T22:53:28+00:00",
-  "project_count": 13,
-  "high_conviction": 13,
+  "generated_at": "2026-09-13T04:49:23+00:00",
+  "project_count": 14,
+  "high_conviction": 14,
   "projects": [
     {
       "project_id": "project-nhm150-western-av",
@@ -169,6 +169,23 @@
       "next_action": "Track the Hall's Phase III design and delivery team for exhibit designer, fabrication, AV/media and interactive-technology appointments; identify whether packages are museum-direct or routed through a lead contractor.",
       "prediction": {"window":"0–12 months","reason":"NFL owners approved funding on 26 August 2026 specifically allowing Phase III to move forward aggressively. The phase includes interactive exhibits and a broadcast studio, while later Evolve 2030 phases will create or reimagine additional museum exhibits.","signals":["funding","project","interactive exhibits","phased modernization"],"fit_terms":["interactive exhibits","visitor experience","media production","broadcast studio","physical-digital installations","realtime content"],"source_count":2,"source_domains":["profootballhof.com"],"source_diversity":1,"source_quality":99,"expected_next_signals":["Phase III design-team appointment","interactive exhibit / AV package","exhibit fabrication partner","media-production or systems-integration appointment"],"risk_flags":["procurement route is not public yet","some Phase III design scopes may already be under development","US delivery may favor local fabrication or integration partners"],"opening_years":[2030],"investment_signals":["approximately $33 million Phase III","approximately $102 million six-phase Evolve 2030 programme"]},
       "source_url": "https://www.profootballhof.com/news/nfl-owners-approve-funding-for-pro-football-hall-of-fame-s-transformation-plan"
+    },
+    {
+      "project_id": "project-mcwane-dropping-science",
+      "title": "McWane Science Center – Dropping Science immersive STEM exhibition",
+      "organization": "McWane Science Center",
+      "country": "United States",
+      "city": "Birmingham, Alabama",
+      "stage": "Pitch",
+      "score": 94,
+      "confidence": 98,
+      "procurement_window": "Fabrication and implementation funded in FY2026; specialist interactive fabrication, media, sound and exhibit-production work likely during 2026–2027",
+      "summary": "McWane Science Center has received a $300,000 FY2026 Museums for America grant to fabricate, install and implement Dropping Science, an immersive STEM exhibition exploring the science, innovation and artistry of hip-hop. The funded scope explicitly includes fabrication of interactive exhibit components, interpretive media, prototyping, music production, sound design and conversion into a durable traveling exhibition.",
+      "fit_rationale": "Excellent fit for interactive exhibit development, physical-digital prototyping, sound and media integration, playful STEM interpretation and robust touring-exhibition systems. Unlike generic capital work, the funded activities directly name interactive components and interpretive media.",
+      "pitch_angle": "Approach around interactive prototyping, realtime/media-rich exhibit systems, sound-responsive interaction and technically robust touring-exhibit delivery. The strongest route is specialist exhibit/media production rather than general exhibition design.",
+      "next_action": "Track McWane's Dropping Science implementation for exhibit-fabrication, interactive technology, interpretive-media, sound-design and traveling-system partners; determine which production packages remain unassigned.",
+      "prediction": {"window":"0–9 months","reason":"IMLS has awarded $300,000 in FY2026 specifically for fabrication, installation and implementation. The scope names interactive exhibit components, interpretive media, prototyping, music production and sound design, indicating near-term specialist delivery work rather than an early concept-only project.","signals":["funding","fabrication","interactive exhibits","media production"],"fit_terms":["interactive exhibits","immersive exhibition","interpretive media","sound design","prototyping","traveling exhibition"],"source_count":3,"source_domains":["imls.gov","mcwane.org","birminghamtimes.com"],"source_diversity":3,"source_quality":98,"expected_next_signals":["fabrication vendor appointment","interactive technology partner","media / sound production supplier","installation schedule"],"risk_flags":["some design development already predates the 2026 implementation grant","local fabrication may be preferred","no public procurement notice identified yet"],"opening_years":[],"investment_signals":["$300,000 FY2026 IMLS grant","$170,000 Birmingham City Council support announced in 2025"]},
+      "source_url": "https://www.imls.gov/grants/awarded/ma-260003-oms-26"
     }
   ]
 }

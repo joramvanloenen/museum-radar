@@ -1,0 +1,55 @@
+/* Mobile polish inspired by the compact card-first dashboard direction. */
+@media (max-width: 520px) {
+  body { background:#f7f6f1; }
+  .main { padding:0 16px 96px!important; }
+  .topbar { padding-top:16px!important; margin-bottom:16px!important; }
+  .topbar .title { font-size:28px!important; line-height:1.02!important; letter-spacing:-.035em; }
+  .topbar .sub { margin-top:6px!important; font-size:14px!important; color:#777!important; }
+
+  .actionMetrics { gap:7px!important; margin:8px 0 24px!important; }
+  .actionMetrics button { min-width:0; padding:11px 3px 10px!important; border-radius:11px!important; background:rgba(255,255,255,.34)!important; }
+  .actionMetrics b { font-size:23px!important; line-height:1!important; margin-bottom:6px!important; }
+  .actionMetrics span { font-size:10px!important; font-weight:750!important; line-height:1.05!important; }
+
+  .homeActions { margin-top:0!important; }
+  .priorityBar { margin:0 0 10px!important; }
+  .priorityBar .sectionKicker { font-size:10px!important; letter-spacing:.16em!important; }
+  .priorityBar .textBtn { font-size:12px!important; font-weight:750!important; text-decoration:underline; text-underline-offset:2px; }
+
+  .actionList,.compactCards { gap:8px!important; }
+  .actionCard { position:relative; padding:13px 18px 12px!important; border-radius:13px!important; background:rgba(255,255,255,.28)!important; border-color:rgba(0,0,0,.16)!important; box-shadow:none!important; }
+  .actionTop { min-height:26px; padding-right:0; }
+  .actionRoute { font-size:9px!important; line-height:1!important; padding:6px 9px!important; border-radius:8px!important; }
+  .actionScore { font-size:20px!important; line-height:1!important; font-weight:850!important; }
+  .actionCard h3 { font-size:18px!important; line-height:1.12!important; letter-spacing:-.018em; margin:9px 0 5px!important; padding-right:2px; }
+  .actionOrg { font-size:11px!important; line-height:1.2; color:#777!important; }
+
+  .actionWhy { display:grid!important; grid-template-columns:auto auto 1fr; align-items:center; gap:5px 16px!important; margin:10px 0 0!important; font-size:10px!important; color:#666!important; }
+  .actionWhy span { position:relative; white-space:nowrap; }
+  .actionWhy span:nth-child(1)::before { content:'◇'; margin-right:5px; font-size:12px; color:#222; }
+  .actionWhy span:nth-child(2)::before { content:'▥'; margin-right:5px; font-size:11px; color:#222; }
+  .actionWhy span:nth-child(3)::before { content:'□'; margin-right:5px; font-size:11px; color:#222; }
+  .actionWhy b { font-size:10px!important; }
+
+  .actionCard p { margin:10px 0 0!important; padding:9px 44px 0 0; border-top:1px solid rgba(0,0,0,.1); font-size:11px!important; line-height:1.28!important; color:#666!important; -webkit-line-clamp:2!important; }
+  .actionOpen { position:absolute; right:13px; bottom:11px; width:30px; height:30px; padding:0!important; border:0!important; border-radius:50%; background:rgba(0,0,0,.055); font-size:0!important; opacity:1!important; align-items:center!important; justify-content:center!important; }
+  .actionOpen span { font-size:20px!important; line-height:1; color:#111; transform:translateY(-1px); }
+
+  .compactCards .actionCard p { display:-webkit-box!important; }
+  .compactCards .actionWhy { margin-bottom:0!important; }
+
+  .section { margin-top:24px!important; }
+  .sectionhead { margin-bottom:10px!important; }
+  .sectionhead h2 { font-size:20px!important; letter-spacing:-.02em; }
+  .sectionKicker { font-size:9px!important; }
+
+  .updateStrip { gap:7px!important; }
+  .updateStrip button { padding:12px 13px!important; border-radius:11px!important; background:rgba(255,255,255,.25)!important; }
+  .updateStrip b { font-size:14px!important; line-height:1.18!important; }
+  .updateStrip span { margin-top:4px; font-size:10px!important; }
+
+  .bottomnav { min-height:72px!important; padding-top:6px!important; }
+  .bottomnav button,.bottomnav a { font-size:11px!important; }
+
+  .decisionBox { border-radius:13px!important; }
+}

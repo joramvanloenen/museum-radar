@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T10:51:25+00:00",
-  "project_count": 15,
-  "high_conviction": 15,
+  "generated_at": "2026-09-13T16:50:31+00:00",
+  "project_count": 16,
+  "high_conviction": 16,
   "projects": [
     {
       "project_id": "project-nhm150-western-av",
@@ -204,6 +204,24 @@
       "next_action": "Track Galway City Council, Galway City Museum, Fáilte Ireland and Carey Building Contractors for exhibition-design, interpretation, digital-media, AV/integration and exhibit-fabrication appointments; identify whether specialist packages are council-direct or routed through the main contractor.",
       "prediction": {"window":"0–12 months","reason":"The €19m capital project is fully moving into construction as of 7 September 2026, the visitor proposition explicitly includes immersive galleries and interactive/digital storytelling, and specialist exhibition delivery will need to align with the active building programme.","signals":["funding","construction","immersive visitor experience","interactive storytelling"],"fit_terms":["immersive exhibitions","interactive storytelling","digital technology","interpretation","audiovisual","visitor experience"],"source_count":3,"source_domains":["galwaycity.ie","failteireland.ie","constructionireland.ie"],"source_diversity":3,"source_quality":98,"expected_next_signals":["exhibition / interpretation designer appointment","digital media or interactive package","AV / systems integration package","exhibit fabrication appointment"],"risk_flags":["Carey Building Contractors is already appointed for the main works","some exhibition-design scope may already be assigned but is not publicly visible","specialist packages may be routed privately through the main contractor or design team"],"opening_years":[],"investment_signals":["€19 million redevelopment","€12.6 million Fáilte Ireland investment"]},
       "source_url": "https://www.galwaycity.ie/news/2026/galway-city-museum-redevelopment-works-commence"
+    },
+    {
+      "project_id": "project-carter-county-museum-expansion",
+      "title": "Carter County Museum – Ekalaktic Dome and museum expansion",
+      "organization": "Carter County Museum / Carter County",
+      "country": "United States",
+      "city": "Ekalaka, Montana",
+      "stage": "Pitch",
+      "score": 95,
+      "confidence": 98,
+      "source_key": "research_agent",
+      "procurement_window": "Groundbreaking targeted for fall 2026; specialist planetarium, immersive AV, exhibit and interactive packages likely during 2026–2028 construction",
+      "summary": "Carter County Museum is moving into construction on a major expansion that adds roughly 15,000 sq ft to the existing museum and is expected to open in mid-2028. A newly awarded $300,000 FY2026 Museums for America grant specifically supports the Ekalaktic Dome planetarium, including projection, audio, assistive-listening, immersive lighting and event-presentation technology. The larger expansion also adds new exhibit space, a paleontology lab, research/library functions and interactive displays.",
+      "fit_rationale": "Excellent fit for immersive projection, interactive learning, AV systems, lighting, media playback/control and family-oriented science interpretation. The grant names concrete technology systems rather than only building work, while the wider expansion remains early enough for downstream specialist delivery opportunities.",
+      "pitch_angle": "Approach around the dome as a complete immersive learning system and around interactive exhibit/media delivery for the broader expansion. The strongest route is specialist technology and experience integration, potentially with a US fabrication or installation partner.",
+      "next_action": "Track Carter County Museum, Carter County, Cushing Terrell and the planetarium design team for projection, audio, lighting/control, exhibit fabrication and interactive-media appointments; determine whether the $300k technology scope is museum-direct or packaged through the construction team.",
+      "prediction": {"window":"0–12 months","reason":"Design is complete, the project is described as shovel-ready with a fall 2026 groundbreaking, construction is expected through mid-2028, and a fresh $300,000 federal award explicitly funds planetarium projection, audio, assistive listening, immersive lighting and presentation equipment.","signals":["funding","design complete","construction","immersive technology"],"fit_terms":["planetarium projection","immersive lighting","audio","interactive displays","science interpretation","systems integration"],"source_count":4,"source_domains":["imls.gov","ekalakaeagle.com","naco.org","ypradio.org"],"source_diversity":4,"source_quality":97,"expected_next_signals":["planetarium technology vendor appointment","projection / AV integration package","interactive exhibit fabrication package","construction award / subcontract announcements"],"risk_flags":["a planetarium consultant is already advising the project","US delivery may favor local integrators or fabricators","some technology specifications may already be embedded in the completed design"],"opening_years":[2028],"investment_signals":["$300,000 FY2026 IMLS planetarium grant","$1.25 million Montana tourism grant","approximately $6 million raised by April 2026","$1 million county PILT allocation"]},
+      "source_url": "https://www.imls.gov/grants/awarded/ma-259864-oms-26"
     }
   ]
 }

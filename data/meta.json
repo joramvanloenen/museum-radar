@@ -1,9 +1,9 @@
 {
   "status": "GitHub Actions scout",
-  "generated_at": "2026-09-17T04:59:49+00:00",
-  "last_scan_at": "2026-09-17T04:59:49+00:00",
+  "generated_at": "2026-09-17T11:50:36+00:00",
+  "last_scan_at": "2026-09-17T11:50:36+00:00",
   "last_scan_found": 10,
   "last_scan_relevant": 10,
-  "total_opportunities": 38,
-  "last_error": ""
+  "total_opportunities": 39,
+  "last_error": "Search Museum tenders: not well-formed (invalid token): line 1, column 41 | Search Museum digital tenders: not well-formed (invalid token): line 1, column 41 | Search Museum expansion signals: not well-formed (invalid token): line 1, column 41 | Search Science centre signals: not well-formed (invalid token): line 1, column 41 | Search Architecture competition museum signals: not well-formed (invalid token): line 1, column 41 | Search Museum masterplans: not well-formed (invalid token): line 1, column 41 | Search Exhibition designer appointments: not well-formed (invalid token): line 1, column 41 | Search Museum supplier pages: not well-formed (invalid token): line 1, column 41 | Search German museum procurement: not well-formed (invalid token): line 1, column 41 | Search Dutch future projects: not well-formed (invalid token): line 1, column 41 | Search French museum procurement: not well-formed (invalid token): line 1, column 41 | Search AV integration museum: not well-formed (invalid token): line 1, column 41 | Search BOAMP museum scenography: not well-formed (invalid token): line 1, column 41 | Search Singapore Science Centre exhibits: not well-formed (invalid token): line 1, column 41 | Search South Africa science centre exhibits: not well-formed (invalid token): line 1, column 41 | Search Delta museum AV: not well-formed (invalid token): line 1, column 41 | Search ProContract museum immersive: not well-formed (invalid token): line 1, column 41"
 }

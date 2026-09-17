@@ -1,9 +1,9 @@
 {
   "status": "GitHub Actions scout",
-  "generated_at": "2026-09-17T17:07:28+00:00",
-  "last_scan_at": "2026-09-17T17:07:28+00:00",
-  "last_scan_found": 9,
-  "last_scan_relevant": 9,
-  "total_opportunities": 39,
-  "last_error": "Search Museum tenders: not well-formed (invalid token): line 1, column 41 | Search Visitor experience tenders: not well-formed (invalid token): line 1, column 41 | Search Museum digital tenders: not well-formed (invalid token): line 1, column 41 | Search Museum funding awards: not well-formed (invalid token): line 1, column 41 | Search Museum planning applications: not well-formed (invalid token): line 1, column 41 | Search Architect museum appointments: not well-formed (invalid token): line 1, column 41 | Search Dutch future projects: not well-formed (invalid token): line 1, column 41 | Search French future projects: not well-formed (invalid token): line 1, column 41 | Search Immersive museum installations: not well-formed (invalid token): line 1, column 41 | Search Exhibit makers: not well-formed (invalid token): line 1, column 41 | Search BOAMP museum scenography: not well-formed (invalid token): line 1, column 41 | Search Spanish museum procurement: not well-formed (invalid token): line 1, column 41 | Search India science museum immersive: not well-formed (invalid token): line 1, column 41 | Search In-Tend museum interactives: not well-formed (invalid token): line 1, column 41 | Search Delta museum AV: not well-formed (invalid token): line 1, column 41"
+  "generated_at": "2026-09-17T21:28:30+00:00",
+  "last_scan_at": "2026-09-17T21:28:30+00:00",
+  "last_scan_found": 10,
+  "last_scan_relevant": 10,
+  "total_opportunities": 40,
+  "last_error": "Search EU cultural heritage funding: not well-formed (invalid token): line 1, column 41 | Search Council museum capital projects: not well-formed (invalid token): line 1, column 41 | Search Dutch future projects: not well-formed (invalid token): line 1, column 41 | Search French future projects: not well-formed (invalid token): line 1, column 41 | Search AV integration museum: not well-formed (invalid token): line 1, column 41 | Search Museum Insider project signals: not well-formed (invalid token): line 1, column 41"
 }

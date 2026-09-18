@@ -1,9 +1,9 @@
 {
   "status": "GitHub Actions scout",
-  "generated_at": "2026-09-17T21:28:30+00:00",
-  "last_scan_at": "2026-09-17T21:28:30+00:00",
+  "generated_at": "2026-09-18T04:52:33+00:00",
+  "last_scan_at": "2026-09-18T04:52:33+00:00",
   "last_scan_found": 10,
   "last_scan_relevant": 10,
-  "total_opportunities": 40,
-  "last_error": "Search EU cultural heritage funding: not well-formed (invalid token): line 1, column 41 | Search Council museum capital projects: not well-formed (invalid token): line 1, column 41 | Search Dutch future projects: not well-formed (invalid token): line 1, column 41 | Search French future projects: not well-formed (invalid token): line 1, column 41 | Search AV integration museum: not well-formed (invalid token): line 1, column 41 | Search Museum Insider project signals: not well-formed (invalid token): line 1, column 41"
+  "total_opportunities": 41,
+  "last_error": "Search Museum supplier pages: not well-formed (invalid token): line 1, column 41 | Search German future projects: not well-formed (invalid token): line 1, column 41 | Search Dutch museum procurement: not well-formed (invalid token): line 1, column 41 | Search French museum procurement: not well-formed (invalid token): line 1, column 41 | Search AV integration museum: not well-formed (invalid token): line 1, column 41 | Search Museum software interactives: not well-formed (invalid token): line 1, column 41 | Search Spanish museum procurement: not well-formed (invalid token): line 1, column 41 | Search Italian museum procurement: not well-formed (invalid token): line 1, column 41 | Search South Africa science centre exhibits: not well-formed (invalid token): line 1, column 41 | Search ProContract museum immersive: not well-formed (invalid token): line 1, column 41"
 }

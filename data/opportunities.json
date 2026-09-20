@@ -175,7 +175,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-20T16:14:13+00:00",
+    "updated_at": "2026-09-20T20:54:44+00:00",
     "evidence": [
       {
         "date": "",
@@ -218,7 +218,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-20T16:14:13+00:00",
+    "updated_at": "2026-09-20T20:54:44+00:00",
     "evidence": [
       {
         "date": "",
@@ -261,7 +261,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-20T16:14:10+00:00",
+    "updated_at": "2026-09-20T20:54:41+00:00",
     "evidence": [
       {
         "date": "",
@@ -304,7 +304,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-20T16:14:10+00:00",
+    "updated_at": "2026-09-20T20:54:41+00:00",
     "evidence": [
       {
         "date": "",
@@ -347,7 +347,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-20T16:14:10+00:00",
+    "updated_at": "2026-09-20T20:54:41+00:00",
     "evidence": [
       {
         "date": "",
@@ -390,7 +390,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-20T16:14:09+00:00",
+    "updated_at": "2026-09-20T20:54:39+00:00",
     "evidence": [
       {
         "date": "",
@@ -433,7 +433,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-20T16:14:04+00:00",
+    "updated_at": "2026-09-20T20:54:35+00:00",
     "evidence": [
       {
         "date": "",
@@ -476,7 +476,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-20T16:14:02+00:00",
+    "updated_at": "2026-09-20T20:54:34+00:00",
     "evidence": [
       {
         "date": "",
@@ -519,7 +519,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-20T16:14:02+00:00",
+    "updated_at": "2026-09-20T20:54:34+00:00",
     "evidence": [
       {
         "date": "",
@@ -1404,6 +1404,90 @@
     ]
   },
   {
+    "id": "search-dcfb14ff11aef91b14",
+    "title": "Creative Europe drives billions in investments and boosts visibility of EU works",
+    "organization": "EU cultural heritage funding",
+    "country": "Europe",
+    "city": "",
+    "stage": "Signal",
+    "score": 38,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "Creative Europe has successfully contributed to safeguarding cultural diversity, strengthening competitiveness and empowering the cultural and creative sector as well as the audiovisual sector to ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab0481590414bdaadf2c40bdc8cc176&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcreative-europe-drives-billions-investments-and-boosts-visibility-eu-works&c=13154779194254474701&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab0481590414bdaadf2c40bdc8cc176&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcreative-europe-drives-billions-investments-and-boosts-visibility-eu-works&c=13154779194254474701&mkt=en-us",
+    "source_label": "EU cultural heritage funding",
+    "documents": [
+      {
+        "title": "Creative Europe drives billions in investments and boosts visibility of EU works",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab0481590414bdaadf2c40bdc8cc176&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcreative-europe-drives-billions-investments-and-boosts-visibility-eu-works&c=13154779194254474701&mkt=en-us",
+        "kind": "Source article"
+      }
+    ],
+    "updated_at": "2026-09-20T20:54:45+00:00",
+    "evidence": [
+      {
+        "date": "Tue, 16 Dec 2025",
+        "kind": "Web source",
+        "title": "Creative Europe drives billions in investments and boosts visibility of EU works",
+        "detail": "Creative Europe has successfully contributed to safeguarding cultural diversity, strengthening competitiveness and empowering the cultural and creative sector as well as the audiovisual sector to ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab0481590414bdaadf2c40bdc8cc176&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcreative-europe-drives-billions-investments-and-boosts-visibility-eu-works&c=13154779194254474701&mkt=en-us",
+        "source_label": "EU cultural heritage funding",
+        "strength": 62
+      }
+    ]
+  },
+  {
+    "id": "search-cd03d69f487173eb59",
+    "title": "Creative Innovation Lab",
+    "organization": "EU cultural heritage funding",
+    "country": "Europe",
+    "city": "",
+    "stage": "Signal",
+    "score": 38,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "Creative Innovation Lab aims to improve the competitiveness of the European audiovisual and other cultural and creative sectors through cross sector collaboration. Initiated as a pilot project in 2021 ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab0481590414bdaadf2c40bdc8cc176&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2ffunding%2fcreative-innovation-lab&c=6795989186076005330&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab0481590414bdaadf2c40bdc8cc176&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2ffunding%2fcreative-innovation-lab&c=6795989186076005330&mkt=en-us",
+    "source_label": "EU cultural heritage funding",
+    "documents": [
+      {
+        "title": "Creative Innovation Lab",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab0481590414bdaadf2c40bdc8cc176&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2ffunding%2fcreative-innovation-lab&c=6795989186076005330&mkt=en-us",
+        "kind": "Budget / funding"
+      }
+    ],
+    "updated_at": "2026-09-20T20:54:45+00:00",
+    "evidence": [
+      {
+        "date": "Mon, 28 Feb 2022",
+        "kind": "Web source",
+        "title": "Creative Innovation Lab",
+        "detail": "Creative Innovation Lab aims to improve the competitiveness of the European audiovisual and other cultural and creative sectors through cross sector collaboration. Initiated as a pilot project in 2021 ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab0481590414bdaadf2c40bdc8cc176&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2ffunding%2fcreative-innovation-lab&c=6795989186076005330&mkt=en-us",
+        "source_label": "EU cultural heritage funding",
+        "strength": 62
+      }
+    ]
+  },
+  {
     "id": "search-4cb85550ad7cae2eb3",
     "title": "Creative Europe drives billions in investments and boosts visibility of EU works",
     "organization": "EU cultural heritage funding",
@@ -1567,6 +1651,48 @@
         "detail": "Creative Innovation Lab aims to improve the competitiveness of the European audiovisual and other cultural and creative sectors through cross sector collaboration. Initiated as a pilot project in 2021 ...",
         "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aafc48d27474d11988ab3e7dc42d03b&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2ffunding%2fcreative-innovation-lab&c=6795989186076005330&mkt=en-us",
         "source_label": "EU cultural heritage funding",
+        "strength": 62
+      }
+    ]
+  },
+  {
+    "id": "search-80c82ec61c5fd55b9b",
+    "title": "Hammerstein Museum Awarded $1 Million PA State Grant for Highland Farm Redevelopment",
+    "organization": "Museum funding awards",
+    "country": "Worldwide",
+    "city": "",
+    "stage": "Signal",
+    "score": 36,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "The Oscar Hammerstein Museum and Theatre Education Center has been awarded a $1 million Redevelopment Assistance Capital Program (RACP) grant from the Commonwealth of Pennsylvania to support the ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab04815a1c545c9b0c96399abc3497b&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab04815a1c545c9b0c96399abc3497b&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
+    "source_label": "Museum funding awards",
+    "documents": [
+      {
+        "title": "Hammerstein Museum Awarded $1 Million PA State Grant for Highland Farm Redevelopment",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab04815a1c545c9b0c96399abc3497b&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
+        "kind": "Budget / funding"
+      }
+    ],
+    "updated_at": "2026-09-20T20:54:45+00:00",
+    "evidence": [
+      {
+        "date": "Sun, 19 Jul 2026",
+        "kind": "Web source",
+        "title": "Hammerstein Museum Awarded $1 Million PA State Grant for Highland Farm Redevelopment",
+        "detail": "The Oscar Hammerstein Museum and Theatre Education Center has been awarded a $1 million Redevelopment Assistance Capital Program (RACP) grant from the Commonwealth of Pennsylvania to support the ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab04815a1c545c9b0c96399abc3497b&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
+        "source_label": "Museum funding awards",
         "strength": 62
       }
     ]

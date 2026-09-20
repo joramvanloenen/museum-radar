@@ -175,7 +175,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-19T20:48:15+00:00",
+    "updated_at": "2026-09-20T05:00:00+00:00",
     "evidence": [
       {
         "date": "",
@@ -218,7 +218,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-19T20:48:15+00:00",
+    "updated_at": "2026-09-20T05:00:00+00:00",
     "evidence": [
       {
         "date": "",
@@ -261,7 +261,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-19T20:48:12+00:00",
+    "updated_at": "2026-09-20T04:59:57+00:00",
     "evidence": [
       {
         "date": "",
@@ -304,7 +304,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-19T20:48:12+00:00",
+    "updated_at": "2026-09-20T04:59:57+00:00",
     "evidence": [
       {
         "date": "",
@@ -347,7 +347,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-19T20:48:12+00:00",
+    "updated_at": "2026-09-20T04:59:57+00:00",
     "evidence": [
       {
         "date": "",
@@ -390,7 +390,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-19T20:48:11+00:00",
+    "updated_at": "2026-09-20T04:59:57+00:00",
     "evidence": [
       {
         "date": "",
@@ -433,7 +433,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-19T20:48:05+00:00",
+    "updated_at": "2026-09-20T04:59:53+00:00",
     "evidence": [
       {
         "date": "",
@@ -476,7 +476,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-19T20:48:03+00:00",
+    "updated_at": "2026-09-20T04:59:51+00:00",
     "evidence": [
       {
         "date": "",
@@ -519,7 +519,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-19T20:48:03+00:00",
+    "updated_at": "2026-09-20T04:59:51+00:00",
     "evidence": [
       {
         "date": "",
@@ -1399,6 +1399,48 @@
         "detail": "The Fleet Science Center in Balboa Park has introduced two new exhibition spaces and new interactive features after nearly a year of partial closure for a $5.6 million renovation. The project, which ...",
         "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa3dcd75d284a7ca9486d0911b46e78&url=https%3a%2f%2fwww.sandiegouniontribune.com%2f2026%2f06%2f26%2ffleet-science-center-renovation%2f&c=2026535705577697871&mkt=es-mx",
         "source_label": "Science centre signals",
+        "strength": 62
+      }
+    ]
+  },
+  {
+    "id": "search-34854c9d200acd7608",
+    "title": "Hammerstein Museum Awarded $1 Million PA State Grant for Highland Farm Redevelopment",
+    "organization": "Museum funding awards",
+    "country": "Worldwide",
+    "city": "",
+    "stage": "Signal",
+    "score": 36,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "The Oscar Hammerstein Museum and Theatre Education Center has been awarded a $1 million Redevelopment Assistance Capital Program (RACP) grant from the Commonwealth of Pennsylvania to support the ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaf6851e1894162a243509099cb6cb2&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaf6851e1894162a243509099cb6cb2&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
+    "source_label": "Museum funding awards",
+    "documents": [
+      {
+        "title": "Hammerstein Museum Awarded $1 Million PA State Grant for Highland Farm Redevelopment",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaf6851e1894162a243509099cb6cb2&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
+        "kind": "Budget / funding"
+      }
+    ],
+    "updated_at": "2026-09-20T05:00:02+00:00",
+    "evidence": [
+      {
+        "date": "Sun, 19 Jul 2026",
+        "kind": "Web source",
+        "title": "Hammerstein Museum Awarded $1 Million PA State Grant for Highland Farm Redevelopment",
+        "detail": "The Oscar Hammerstein Museum and Theatre Education Center has been awarded a $1 million Redevelopment Assistance Capital Program (RACP) grant from the Commonwealth of Pennsylvania to support the ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaf6851e1894162a243509099cb6cb2&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
+        "source_label": "Museum funding awards",
         "strength": 62
       }
     ]

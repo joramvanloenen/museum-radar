@@ -175,7 +175,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-20T05:00:00+00:00",
+    "updated_at": "2026-09-20T11:33:31+00:00",
     "evidence": [
       {
         "date": "",
@@ -218,7 +218,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-20T05:00:00+00:00",
+    "updated_at": "2026-09-20T11:33:31+00:00",
     "evidence": [
       {
         "date": "",
@@ -261,7 +261,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-20T04:59:57+00:00",
+    "updated_at": "2026-09-20T11:33:29+00:00",
     "evidence": [
       {
         "date": "",
@@ -304,7 +304,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-20T04:59:57+00:00",
+    "updated_at": "2026-09-20T11:33:29+00:00",
     "evidence": [
       {
         "date": "",
@@ -347,7 +347,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-20T04:59:57+00:00",
+    "updated_at": "2026-09-20T11:33:29+00:00",
     "evidence": [
       {
         "date": "",
@@ -390,7 +390,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-20T04:59:57+00:00",
+    "updated_at": "2026-09-20T11:33:28+00:00",
     "evidence": [
       {
         "date": "",
@@ -433,7 +433,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-20T04:59:53+00:00",
+    "updated_at": "2026-09-20T11:33:24+00:00",
     "evidence": [
       {
         "date": "",
@@ -476,7 +476,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-20T04:59:51+00:00",
+    "updated_at": "2026-09-20T11:33:23+00:00",
     "evidence": [
       {
         "date": "",
@@ -519,7 +519,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-20T04:59:51+00:00",
+    "updated_at": "2026-09-20T11:33:23+00:00",
     "evidence": [
       {
         "date": "",
@@ -1399,6 +1399,132 @@
         "detail": "The Fleet Science Center in Balboa Park has introduced two new exhibition spaces and new interactive features after nearly a year of partial closure for a $5.6 million renovation. The project, which ...",
         "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa3dcd75d284a7ca9486d0911b46e78&url=https%3a%2f%2fwww.sandiegouniontribune.com%2f2026%2f06%2f26%2ffleet-science-center-renovation%2f&c=2026535705577697871&mkt=es-mx",
         "source_label": "Science centre signals",
+        "strength": 62
+      }
+    ]
+  },
+  {
+    "id": "search-a2aba2d0fe1bac9cd2",
+    "title": "Creative Europe drives billions in investments and boosts visibility of EU works",
+    "organization": "EU cultural heritage funding",
+    "country": "Europe",
+    "city": "",
+    "stage": "Signal",
+    "score": 38,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "Creative Europe has successfully contributed to safeguarding cultural diversity, strengthening competitiveness and empowering the cultural and creative sector as well as the audiovisual sector to ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aafc48d27474d11988ab3e7dc42d03b&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcreative-europe-drives-billions-investments-and-boosts-visibility-eu-works&c=13154779194254474701&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aafc48d27474d11988ab3e7dc42d03b&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcreative-europe-drives-billions-investments-and-boosts-visibility-eu-works&c=13154779194254474701&mkt=en-us",
+    "source_label": "EU cultural heritage funding",
+    "documents": [
+      {
+        "title": "Creative Europe drives billions in investments and boosts visibility of EU works",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aafc48d27474d11988ab3e7dc42d03b&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcreative-europe-drives-billions-investments-and-boosts-visibility-eu-works&c=13154779194254474701&mkt=en-us",
+        "kind": "Source article"
+      }
+    ],
+    "updated_at": "2026-09-20T11:33:33+00:00",
+    "evidence": [
+      {
+        "date": "Tue, 16 Dec 2025",
+        "kind": "Web source",
+        "title": "Creative Europe drives billions in investments and boosts visibility of EU works",
+        "detail": "Creative Europe has successfully contributed to safeguarding cultural diversity, strengthening competitiveness and empowering the cultural and creative sector as well as the audiovisual sector to ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aafc48d27474d11988ab3e7dc42d03b&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcreative-europe-drives-billions-investments-and-boosts-visibility-eu-works&c=13154779194254474701&mkt=en-us",
+        "source_label": "EU cultural heritage funding",
+        "strength": 62
+      }
+    ]
+  },
+  {
+    "id": "search-8913c05eb61f83c699",
+    "title": "Creative Innovation Lab",
+    "organization": "EU cultural heritage funding",
+    "country": "Europe",
+    "city": "",
+    "stage": "Signal",
+    "score": 38,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "Creative Innovation Lab aims to improve the competitiveness of the European audiovisual and other cultural and creative sectors through cross sector collaboration. Initiated as a pilot project in 2021 ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aafc48d27474d11988ab3e7dc42d03b&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2ffunding%2fcreative-innovation-lab&c=6795989186076005330&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aafc48d27474d11988ab3e7dc42d03b&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2ffunding%2fcreative-innovation-lab&c=6795989186076005330&mkt=en-us",
+    "source_label": "EU cultural heritage funding",
+    "documents": [
+      {
+        "title": "Creative Innovation Lab",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aafc48d27474d11988ab3e7dc42d03b&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2ffunding%2fcreative-innovation-lab&c=6795989186076005330&mkt=en-us",
+        "kind": "Budget / funding"
+      }
+    ],
+    "updated_at": "2026-09-20T11:33:33+00:00",
+    "evidence": [
+      {
+        "date": "Mon, 28 Feb 2022",
+        "kind": "Web source",
+        "title": "Creative Innovation Lab",
+        "detail": "Creative Innovation Lab aims to improve the competitiveness of the European audiovisual and other cultural and creative sectors through cross sector collaboration. Initiated as a pilot project in 2021 ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aafc48d27474d11988ab3e7dc42d03b&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2ffunding%2fcreative-innovation-lab&c=6795989186076005330&mkt=en-us",
+        "source_label": "EU cultural heritage funding",
+        "strength": 62
+      }
+    ]
+  },
+  {
+    "id": "search-ac446d44e32d864b4d",
+    "title": "Hammerstein Museum Awarded $1 Million PA State Grant for Highland Farm Redevelopment",
+    "organization": "Museum funding awards",
+    "country": "Worldwide",
+    "city": "",
+    "stage": "Signal",
+    "score": 36,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "The Oscar Hammerstein Museum and Theatre Education Center has been awarded a $1 million Redevelopment Assistance Capital Program (RACP) grant from the Commonwealth of Pennsylvania to support the ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aafc48d72f045e6b3656b519ca66f78&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aafc48d72f045e6b3656b519ca66f78&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
+    "source_label": "Museum funding awards",
+    "documents": [
+      {
+        "title": "Hammerstein Museum Awarded $1 Million PA State Grant for Highland Farm Redevelopment",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aafc48d72f045e6b3656b519ca66f78&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
+        "kind": "Budget / funding"
+      }
+    ],
+    "updated_at": "2026-09-20T11:33:33+00:00",
+    "evidence": [
+      {
+        "date": "Sun, 19 Jul 2026",
+        "kind": "Web source",
+        "title": "Hammerstein Museum Awarded $1 Million PA State Grant for Highland Farm Redevelopment",
+        "detail": "The Oscar Hammerstein Museum and Theatre Education Center has been awarded a $1 million Redevelopment Assistance Capital Program (RACP) grant from the Commonwealth of Pennsylvania to support the ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aafc48d72f045e6b3656b519ca66f78&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
+        "source_label": "Museum funding awards",
         "strength": 62
       }
     ]

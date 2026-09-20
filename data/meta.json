@@ -1,9 +1,9 @@
 {
   "status": "GitHub Actions scout",
-  "generated_at": "2026-09-20T11:33:38+00:00",
-  "last_scan_at": "2026-09-20T11:33:38+00:00",
-  "last_scan_found": 12,
-  "last_scan_relevant": 12,
-  "total_opportunities": 51,
-  "last_error": ""
+  "generated_at": "2026-09-20T16:14:21+00:00",
+  "last_scan_at": "2026-09-20T16:14:21+00:00",
+  "last_scan_found": 11,
+  "last_scan_relevant": 11,
+  "total_opportunities": 53,
+  "last_error": "Search Museum tenders: not well-formed (invalid token): line 1, column 41 | Search Museum digital tenders: not well-formed (invalid token): line 1, column 41 | Search Visitor centre signals: not well-formed (invalid token): line 1, column 41 | Search Museum funding awards: not well-formed (invalid token): line 1, column 41 | Search Architecture competition museum signals: not well-formed (invalid token): line 1, column 41 | Search Museum planning applications: not well-formed (invalid token): line 1, column 41 | Search Council museum capital projects: not well-formed (invalid token): line 1, column 41 | Search Museum supplier pages: not well-formed (invalid token): line 1, column 41 | Search German museum procurement: not well-formed (invalid token): line 1, column 41 | Search German future projects: not well-formed (invalid token): line 1, column 41 | Search Dutch future projects: not well-formed (invalid token): line 1, column 41 | Search French future projects: not well-formed (invalid token): line 1, column 41 | Search AV integration museum: not well-formed (invalid token): line 1, column 41 | Search Exhibit makers: not well-formed (invalid token): line 1, column 41 | Search Tender Impulse discovery: not well-formed (invalid token): line 1, column 41 | Search BOAMP museum scenography: not well-formed (invalid token): line 1, column 41 | Search Italian museum procurement: not well-formed (invalid token): line 1, column 41 | Search Singapore Science Centre exhibits: not well-formed (invalid token): line 1, column 41 | Search South Africa science centre exhibits: not well-formed (invalid token): line 1, column 41 | Search Delta museum AV: not well-formed (invalid token): line 1, column 41"
 }

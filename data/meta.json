@@ -1,9 +1,9 @@
 {
   "status": "GitHub Actions scout",
-  "generated_at": "2026-09-20T20:54:51+00:00",
-  "last_scan_at": "2026-09-20T20:54:51+00:00",
-  "last_scan_found": 12,
-  "last_scan_relevant": 12,
-  "total_opportunities": 56,
-  "last_error": ""
+  "generated_at": "2026-09-21T05:05:47+00:00",
+  "last_scan_at": "2026-09-21T05:05:47+00:00",
+  "last_scan_found": 11,
+  "last_scan_relevant": 11,
+  "total_opportunities": 58,
+  "last_error": "Search Visitor experience tenders: not well-formed (invalid token): line 1, column 41 | Search Exhibit makers: not well-formed (invalid token): line 1, column 41 | Search ProContract museum immersive: not well-formed (invalid token): line 1, column 41"
 }

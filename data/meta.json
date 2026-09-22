@@ -1,9 +1,9 @@
 {
   "status": "GitHub Actions scout",
-  "generated_at": "2026-09-22T11:48:26+00:00",
-  "last_scan_at": "2026-09-22T11:48:26+00:00",
-  "last_scan_found": 9,
-  "last_scan_relevant": 9,
-  "total_opportunities": 64,
-  "last_error": "Search EU cultural heritage funding: not well-formed (invalid token): line 1, column 41 | Search Museum planning applications: not well-formed (invalid token): line 1, column 41 | Search Exhibit makers: not well-formed (invalid token): line 1, column 41 | Search Museum Insider project signals: not well-formed (invalid token): line 1, column 41 | Search Tender Impulse discovery: not well-formed (invalid token): line 1, column 41 | Search India science museum immersive: not well-formed (invalid token): line 1, column 41"
+  "generated_at": "2026-09-22T17:02:31+00:00",
+  "last_scan_at": "2026-09-22T17:02:31+00:00",
+  "last_scan_found": 12,
+  "last_scan_relevant": 12,
+  "total_opportunities": 67,
+  "last_error": "Search Visitor experience tenders: not well-formed (invalid token): line 1, column 41 | Search Science centre signals: not well-formed (invalid token): line 1, column 41 | Search Museum funding awards: not well-formed (invalid token): line 1, column 41 | Search UK museum capital funding: not well-formed (invalid token): line 1, column 41 | Search Architecture competition museum signals: not well-formed (invalid token): line 1, column 41 | Search Museum supplier pages: not well-formed (invalid token): line 1, column 41 | Search Dutch museum procurement: not well-formed (invalid token): line 1, column 41 | Search Dutch future projects: not well-formed (invalid token): line 1, column 41 | Search French museum procurement: not well-formed (invalid token): line 1, column 41 | Search Immersive museum installations: not well-formed (invalid token): line 1, column 41 | Search Exhibit makers: not well-formed (invalid token): line 1, column 41 | Search Museum Insider project signals: not well-formed (invalid token): line 1, column 41 | Search South Africa science centre exhibits: not well-formed (invalid token): line 1, column 41 | Search In-Tend museum interactives: not well-formed (invalid token): line 1, column 41 | Search ProContract museum immersive: not well-formed (invalid token): line 1, column 41"
 }

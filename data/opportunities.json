@@ -175,7 +175,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-22T11:48:16+00:00",
+    "updated_at": "2026-09-22T17:02:25+00:00",
     "evidence": [
       {
         "date": "",
@@ -218,7 +218,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-22T11:48:16+00:00",
+    "updated_at": "2026-09-22T17:02:25+00:00",
     "evidence": [
       {
         "date": "",
@@ -261,7 +261,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-22T11:48:13+00:00",
+    "updated_at": "2026-09-22T17:02:20+00:00",
     "evidence": [
       {
         "date": "",
@@ -304,7 +304,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-22T11:48:13+00:00",
+    "updated_at": "2026-09-22T17:02:20+00:00",
     "evidence": [
       {
         "date": "",
@@ -347,7 +347,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-22T11:48:13+00:00",
+    "updated_at": "2026-09-22T17:02:20+00:00",
     "evidence": [
       {
         "date": "",
@@ -390,7 +390,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-22T11:48:12+00:00",
+    "updated_at": "2026-09-22T17:02:18+00:00",
     "evidence": [
       {
         "date": "",
@@ -433,7 +433,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-22T11:48:06+00:00",
+    "updated_at": "2026-09-22T17:02:12+00:00",
     "evidence": [
       {
         "date": "",
@@ -476,7 +476,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-22T11:48:04+00:00",
+    "updated_at": "2026-09-22T17:02:07+00:00",
     "evidence": [
       {
         "date": "",
@@ -519,7 +519,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-22T11:48:04+00:00",
+    "updated_at": "2026-09-22T17:02:07+00:00",
     "evidence": [
       {
         "date": "",
@@ -532,6 +532,48 @@
       }
     ],
     "watched": false
+  },
+  {
+    "id": "cf-1cadf88a041b2c4421",
+    "title": "Project Tullie Phase 3: Digital Installation Design - Request for Quotation",
+    "organization": "TULLIE HOUSE MUSEUM AND ART GALLERY TRUST",
+    "country": "United Kingdom",
+    "city": "",
+    "stage": "Live Tender",
+    "score": 98,
+    "confidence": 82,
+    "currency": "GBP",
+    "deadline": "2026-10-29",
+    "procurement_window": null,
+    "summary": "Tullie House Museum and Art Gallery Trust (the Trust) in Carlisle (brand name: Tullie) is seeking an experienced Digital Installation Designer to plan and deliver an immersive digital space within a new 'Active Gallery', as part of Project Tullie Phase 3: Breaking Down Barriers.\r\n\r\nWe're looking for an individual or organisation to deliver a 360-degree 'Immersive Art' experience. Six paintings from Tullie's fine art collection should each be brought to life through digital projection and interpretation, which may incorporate animation, cinemagraphs, soundscapes, and interactive elements. The services must include expertise both in software and hardware design and the appointed professional must be able to take the concept through to full delivery within the timeframes stated.\r\n\r\nDetails can be found at: https://tullie.org.uk/project-tullie-phase-3-fine-art-digital-installation-design-rfq",
+    "fit_rationale": "Matched museum / exhibition / visitor-experience language.",
+    "pitch_angle": "Review the procurement notice and qualification requirements.",
+    "next_action": "Open source and triage scope, budget, deadline and bidder requirements.",
+    "sample": false,
+    "source_key": "contracts_finder",
+    "external_id": "ocds-b5fd17-a19cfc84-da33-4d1f-9430-65f4affc931e",
+    "source_url": "https://www.contractsfinder.service.gov.uk/Notice/a64c3ffe-9b90-4d78-ba49-01674d5c46ed",
+    "source_label": "Contracts Finder notice",
+    "documents": [
+      {
+        "title": "Opportunity notice on Contracts Finder",
+        "url": "https://www.contractsfinder.service.gov.uk/Notice/a64c3ffe-9b90-4d78-ba49-01674d5c46ed",
+        "kind": "tenderNotice"
+      }
+    ],
+    "updated_at": "2026-09-22T17:02:03+00:00",
+    "evidence": [
+      {
+        "date": "2026-09-22",
+        "kind": "Procurement",
+        "title": "Contracts Finder notice detected",
+        "detail": "Automated discovery. Verify against the original procurement notice.",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/a64c3ffe-9b90-4d78-ba49-01674d5c46ed",
+        "source_label": "Contracts Finder notice",
+        "strength": 82
+      }
+    ],
+    "verified": true
   },
   {
     "id": "agent-project-nhm150-western-av",
@@ -1399,6 +1441,90 @@
         "detail": "The Fleet Science Center in Balboa Park has introduced two new exhibition spaces and new interactive features after nearly a year of partial closure for a $5.6 million renovation. The project, which ...",
         "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa3dcd75d284a7ca9486d0911b46e78&url=https%3a%2f%2fwww.sandiegouniontribune.com%2f2026%2f06%2f26%2ffleet-science-center-renovation%2f&c=2026535705577697871&mkt=es-mx",
         "source_label": "Science centre signals",
+        "strength": 62
+      }
+    ]
+  },
+  {
+    "id": "search-4441097122360373eb",
+    "title": "Creative Europe drives billions in investments and boosts visibility of EU works",
+    "organization": "EU cultural heritage funding",
+    "country": "Europe",
+    "city": "",
+    "stage": "Signal",
+    "score": 38,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "Creative Europe has successfully contributed to safeguarding cultural diversity, strengthening competitiveness and empowering the cultural and creative sector as well as the audiovisual sector to ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab2b4a2b32b44bca7e4447362b00513&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcreative-europe-drives-billions-investments-and-boosts-visibility-eu-works&c=13154779194254474701&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab2b4a2b32b44bca7e4447362b00513&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcreative-europe-drives-billions-investments-and-boosts-visibility-eu-works&c=13154779194254474701&mkt=en-us",
+    "source_label": "EU cultural heritage funding",
+    "documents": [
+      {
+        "title": "Creative Europe drives billions in investments and boosts visibility of EU works",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab2b4a2b32b44bca7e4447362b00513&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcreative-europe-drives-billions-investments-and-boosts-visibility-eu-works&c=13154779194254474701&mkt=en-us",
+        "kind": "Source article"
+      }
+    ],
+    "updated_at": "2026-09-22T17:02:26+00:00",
+    "evidence": [
+      {
+        "date": "Tue, 16 Dec 2025",
+        "kind": "Web source",
+        "title": "Creative Europe drives billions in investments and boosts visibility of EU works",
+        "detail": "Creative Europe has successfully contributed to safeguarding cultural diversity, strengthening competitiveness and empowering the cultural and creative sector as well as the audiovisual sector to ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab2b4a2b32b44bca7e4447362b00513&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcreative-europe-drives-billions-investments-and-boosts-visibility-eu-works&c=13154779194254474701&mkt=en-us",
+        "source_label": "EU cultural heritage funding",
+        "strength": 62
+      }
+    ]
+  },
+  {
+    "id": "search-a0581d4b90c8509f1c",
+    "title": "Creative Innovation Lab",
+    "organization": "EU cultural heritage funding",
+    "country": "Europe",
+    "city": "",
+    "stage": "Signal",
+    "score": 38,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "Creative Innovation Lab aims to improve the competitiveness of the European audiovisual and other cultural and creative sectors through cross sector collaboration. Initiated as a pilot project in 2021 ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab2b4a2b32b44bca7e4447362b00513&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2ffunding%2fcreative-innovation-lab&c=6795989186076005330&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab2b4a2b32b44bca7e4447362b00513&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2ffunding%2fcreative-innovation-lab&c=6795989186076005330&mkt=en-us",
+    "source_label": "EU cultural heritage funding",
+    "documents": [
+      {
+        "title": "Creative Innovation Lab",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab2b4a2b32b44bca7e4447362b00513&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2ffunding%2fcreative-innovation-lab&c=6795989186076005330&mkt=en-us",
+        "kind": "Budget / funding"
+      }
+    ],
+    "updated_at": "2026-09-22T17:02:26+00:00",
+    "evidence": [
+      {
+        "date": "Mon, 28 Feb 2022",
+        "kind": "Web source",
+        "title": "Creative Innovation Lab",
+        "detail": "Creative Innovation Lab aims to improve the competitiveness of the European audiovisual and other cultural and creative sectors through cross sector collaboration. Initiated as a pilot project in 2021 ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab2b4a2b32b44bca7e4447362b00513&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2ffunding%2fcreative-innovation-lab&c=6795989186076005330&mkt=en-us",
+        "source_label": "EU cultural heritage funding",
         "strength": 62
       }
     ]

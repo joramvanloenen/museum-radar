@@ -1,9 +1,9 @@
 {
   "status": "GitHub Actions scout",
-  "generated_at": "2026-09-22T17:02:31+00:00",
-  "last_scan_at": "2026-09-22T17:02:31+00:00",
-  "last_scan_found": 12,
-  "last_scan_relevant": 12,
+  "generated_at": "2026-09-22T21:25:38+00:00",
+  "last_scan_at": "2026-09-22T21:25:38+00:00",
+  "last_scan_found": 10,
+  "last_scan_relevant": 10,
   "total_opportunities": 67,
-  "last_error": "Search Visitor experience tenders: not well-formed (invalid token): line 1, column 41 | Search Science centre signals: not well-formed (invalid token): line 1, column 41 | Search Museum funding awards: not well-formed (invalid token): line 1, column 41 | Search UK museum capital funding: not well-formed (invalid token): line 1, column 41 | Search Architecture competition museum signals: not well-formed (invalid token): line 1, column 41 | Search Museum supplier pages: not well-formed (invalid token): line 1, column 41 | Search Dutch museum procurement: not well-formed (invalid token): line 1, column 41 | Search Dutch future projects: not well-formed (invalid token): line 1, column 41 | Search French museum procurement: not well-formed (invalid token): line 1, column 41 | Search Immersive museum installations: not well-formed (invalid token): line 1, column 41 | Search Exhibit makers: not well-formed (invalid token): line 1, column 41 | Search Museum Insider project signals: not well-formed (invalid token): line 1, column 41 | Search South Africa science centre exhibits: not well-formed (invalid token): line 1, column 41 | Search In-Tend museum interactives: not well-formed (invalid token): line 1, column 41 | Search ProContract museum immersive: not well-formed (invalid token): line 1, column 41"
+  "last_error": "Search Museum tenders: not well-formed (invalid token): line 1, column 41 | Search Visitor experience tenders: not well-formed (invalid token): line 1, column 41 | Search EU cultural heritage funding: not well-formed (invalid token): line 1, column 41 | Search Council museum capital projects: not well-formed (invalid token): line 1, column 41 | Search Museum masterplans: not well-formed (invalid token): line 1, column 41 | Search Dutch future projects: not well-formed (invalid token): line 1, column 41 | Search French future projects: not well-formed (invalid token): line 1, column 41 | Search Immersive museum installations: not well-formed (invalid token): line 1, column 41 | Search In-Tend museum interactives: junk after document element: line 1, column 1805 | Search ProContract museum immersive: not well-formed (invalid token): line 1, column 41"
 }

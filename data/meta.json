@@ -1,9 +1,9 @@
 {
   "status": "GitHub Actions scout",
-  "generated_at": "2026-09-22T05:07:34+00:00",
-  "last_scan_at": "2026-09-22T05:07:34+00:00",
-  "last_scan_found": 11,
-  "last_scan_relevant": 11,
+  "generated_at": "2026-09-22T11:48:26+00:00",
+  "last_scan_at": "2026-09-22T11:48:26+00:00",
+  "last_scan_found": 9,
+  "last_scan_relevant": 9,
   "total_opportunities": 64,
-  "last_error": "Search Exhibit makers: not well-formed (invalid token): line 1, column 41"
+  "last_error": "Search EU cultural heritage funding: not well-formed (invalid token): line 1, column 41 | Search Museum planning applications: not well-formed (invalid token): line 1, column 41 | Search Exhibit makers: not well-formed (invalid token): line 1, column 41 | Search Museum Insider project signals: not well-formed (invalid token): line 1, column 41 | Search Tender Impulse discovery: not well-formed (invalid token): line 1, column 41 | Search India science museum immersive: not well-formed (invalid token): line 1, column 41"
 }

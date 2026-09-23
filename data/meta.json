@@ -1,9 +1,9 @@
 {
   "status": "GitHub Actions scout",
-  "generated_at": "2026-09-23T17:11:47+00:00",
-  "last_scan_at": "2026-09-23T17:11:47+00:00",
+  "generated_at": "2026-09-23T21:35:04+00:00",
+  "last_scan_at": "2026-09-23T21:35:04+00:00",
   "last_scan_found": 11,
   "last_scan_relevant": 11,
-  "total_opportunities": 73,
-  "last_error": "Search Museum funding awards: not well-formed (invalid token): line 1, column 41 | Search ARCH-E museum competitions: not well-formed (invalid token): line 1, column 41 | Search Museum planning applications: not well-formed (invalid token): line 1, column 41 | Search German museum procurement: not well-formed (invalid token): line 1, column 41 | Search Dutch future projects: not well-formed (invalid token): line 1, column 41 | Search French museum procurement: not well-formed (invalid token): line 1, column 41 | Search Delta museum AV: not well-formed (invalid token): line 1, column 41"
+  "total_opportunities": 75,
+  "last_error": ""
 }

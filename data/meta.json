@@ -1,9 +1,9 @@
 {
   "status": "GitHub Actions scout",
-  "generated_at": "2026-09-22T21:25:38+00:00",
-  "last_scan_at": "2026-09-22T21:25:38+00:00",
-  "last_scan_found": 10,
-  "last_scan_relevant": 10,
-  "total_opportunities": 67,
-  "last_error": "Search Museum tenders: not well-formed (invalid token): line 1, column 41 | Search Visitor experience tenders: not well-formed (invalid token): line 1, column 41 | Search EU cultural heritage funding: not well-formed (invalid token): line 1, column 41 | Search Council museum capital projects: not well-formed (invalid token): line 1, column 41 | Search Museum masterplans: not well-formed (invalid token): line 1, column 41 | Search Dutch future projects: not well-formed (invalid token): line 1, column 41 | Search French future projects: not well-formed (invalid token): line 1, column 41 | Search Immersive museum installations: not well-formed (invalid token): line 1, column 41 | Search In-Tend museum interactives: junk after document element: line 1, column 1805 | Search ProContract museum immersive: not well-formed (invalid token): line 1, column 41"
+  "generated_at": "2026-09-23T04:52:28+00:00",
+  "last_scan_at": "2026-09-23T04:52:28+00:00",
+  "last_scan_found": 12,
+  "last_scan_relevant": 12,
+  "total_opportunities": 69,
+  "last_error": ""
 }

@@ -175,7 +175,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-24T05:00:37+00:00",
+    "updated_at": "2026-09-24T11:56:04+00:00",
     "evidence": [
       {
         "date": "",
@@ -218,7 +218,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-24T05:00:37+00:00",
+    "updated_at": "2026-09-24T11:56:04+00:00",
     "evidence": [
       {
         "date": "",
@@ -261,7 +261,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-24T05:00:35+00:00",
+    "updated_at": "2026-09-24T11:56:00+00:00",
     "evidence": [
       {
         "date": "",
@@ -304,7 +304,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-24T05:00:35+00:00",
+    "updated_at": "2026-09-24T11:56:00+00:00",
     "evidence": [
       {
         "date": "",
@@ -347,7 +347,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-24T05:00:35+00:00",
+    "updated_at": "2026-09-24T11:56:00+00:00",
     "evidence": [
       {
         "date": "",
@@ -390,7 +390,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-24T05:00:34+00:00",
+    "updated_at": "2026-09-24T11:55:59+00:00",
     "evidence": [
       {
         "date": "",
@@ -433,7 +433,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-24T05:00:28+00:00",
+    "updated_at": "2026-09-24T11:55:53+00:00",
     "evidence": [
       {
         "date": "",
@@ -476,7 +476,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-24T05:00:25+00:00",
+    "updated_at": "2026-09-24T11:55:49+00:00",
     "evidence": [
       {
         "date": "",
@@ -519,7 +519,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-09-24T05:00:25+00:00",
+    "updated_at": "2026-09-24T11:55:49+00:00",
     "evidence": [
       {
         "date": "",
@@ -1442,6 +1442,48 @@
         "detail": "The Fleet Science Center in Balboa Park has introduced two new exhibition spaces and new interactive features after nearly a year of partial closure for a $5.6 million renovation. The project, which ...",
         "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa3dcd75d284a7ca9486d0911b46e78&url=https%3a%2f%2fwww.sandiegouniontribune.com%2f2026%2f06%2f26%2ffleet-science-center-renovation%2f&c=2026535705577697871&mkt=es-mx",
         "source_label": "Science centre signals",
+        "strength": 62
+      }
+    ]
+  },
+  {
+    "id": "search-d87056808a1b9eafcf",
+    "title": "Creative Europe drives billions in investments and boosts visibility of EU works",
+    "organization": "EU cultural heritage funding",
+    "country": "Europe",
+    "city": "",
+    "stage": "Signal",
+    "score": 38,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "Creative Europe has successfully contributed to safeguarding cultural diversity, strengthening competitiveness and empowering the cultural and creative sector as well as the audiovisual sector to ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab50fd634be4c019e747aca14048930&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcreative-europe-drives-billions-investments-and-boosts-visibility-eu-works&c=13154779194254474701&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab50fd634be4c019e747aca14048930&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcreative-europe-drives-billions-investments-and-boosts-visibility-eu-works&c=13154779194254474701&mkt=en-us",
+    "source_label": "EU cultural heritage funding",
+    "documents": [
+      {
+        "title": "Creative Europe drives billions in investments and boosts visibility of EU works",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab50fd634be4c019e747aca14048930&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcreative-europe-drives-billions-investments-and-boosts-visibility-eu-works&c=13154779194254474701&mkt=en-us",
+        "kind": "Source article"
+      }
+    ],
+    "updated_at": "2026-09-24T11:56:06+00:00",
+    "evidence": [
+      {
+        "date": "Tue, 16 Dec 2025",
+        "kind": "Web source",
+        "title": "Creative Europe drives billions in investments and boosts visibility of EU works",
+        "detail": "Creative Europe has successfully contributed to safeguarding cultural diversity, strengthening competitiveness and empowering the cultural and creative sector as well as the audiovisual sector to ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab50fd634be4c019e747aca14048930&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcreative-europe-drives-billions-investments-and-boosts-visibility-eu-works&c=13154779194254474701&mkt=en-us",
+        "source_label": "EU cultural heritage funding",
         "strength": 62
       }
     ]

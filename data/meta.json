@@ -1,9 +1,9 @@
 {
   "status": "GitHub Actions scout",
-  "generated_at": "2026-10-02T05:49:35+00:00",
-  "last_scan_at": "2026-10-02T05:49:35+00:00",
+  "generated_at": "2026-10-02T12:48:03+00:00",
+  "last_scan_at": "2026-10-02T12:48:03+00:00",
   "last_scan_found": 10,
   "last_scan_relevant": 10,
-  "total_opportunities": 91,
-  "last_error": ""
+  "total_opportunities": 92,
+  "last_error": "Search Museum digital tenders: not well-formed (invalid token): line 1, column 41 | Search Museum funding awards: not well-formed (invalid token): line 1, column 41 | Search EU cultural heritage funding: not well-formed (invalid token): line 1, column 41 | Search ARCH-E museum competitions: not well-formed (invalid token): line 1, column 41 | Search Council museum capital projects: not well-formed (invalid token): line 1, column 41 | Search Architect museum appointments: not well-formed (invalid token): line 1, column 41 | Search AV integration museum: not well-formed (invalid token): line 1, column 41 | Search Museum software interactives: not well-formed (invalid token): line 1, column 41 | Search BOAMP museum scenography: not well-formed (invalid token): line 1, column 41 | Search Italian museum procurement: not well-formed (invalid token): line 1, column 41 | Search Singapore Science Centre exhibits: not well-formed (invalid token): line 1, column 41 | Search India science museum immersive: not well-formed (invalid token): line 1, column 41 | Search In-Tend museum interactives: not well-formed (invalid token): line 1, column 41 | Search Delta museum AV: not well-formed (invalid token): line 1, column 41 | Search ProContract museum immersive: not well-formed (invalid token): line 1, column 41"
 }

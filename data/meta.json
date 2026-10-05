@@ -1,9 +1,9 @@
 {
   "status": "GitHub Actions scout",
-  "generated_at": "2026-10-05T05:51:40+00:00",
-  "last_scan_at": "2026-10-05T05:51:40+00:00",
-  "last_scan_found": 11,
-  "last_scan_relevant": 11,
-  "total_opportunities": 102,
-  "last_error": ""
+  "generated_at": "2026-10-05T14:54:06+00:00",
+  "last_scan_at": "2026-10-05T14:54:06+00:00",
+  "last_scan_found": 10,
+  "last_scan_relevant": 10,
+  "total_opportunities": 103,
+  "last_error": "Search Science centre signals: not well-formed (invalid token): line 1, column 41 | Search EU cultural heritage funding: not well-formed (invalid token): line 1, column 41 | Search Council museum capital projects: not well-formed (invalid token): line 1, column 41 | Search Museum masterplans: not well-formed (invalid token): line 1, column 41 | Search Architect museum appointments: not well-formed (invalid token): line 1, column 41 | Search Exhibition designer appointments: not well-formed (invalid token): line 1, column 41 | Search German museum procurement: not well-formed (invalid token): line 1, column 41 | Search Dutch future projects: not well-formed (invalid token): line 1, column 41 | Search French museum procurement: not well-formed (invalid token): line 1, column 41 | Search Exhibit makers: not well-formed (invalid token): line 1, column 41 | Search BOAMP museum scenography: not well-formed (invalid token): line 1, column 41 | Search Delta museum AV: not well-formed (invalid token): line 1, column 41"
 }

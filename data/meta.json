@@ -1,9 +1,9 @@
 {
   "status": "GitHub Actions scout",
-  "generated_at": "2026-10-06T06:30:29+00:00",
-  "last_scan_at": "2026-10-06T06:30:29+00:00",
-  "last_scan_found": 13,
-  "last_scan_relevant": 13,
-  "total_opportunities": 108,
-  "last_error": ""
+  "generated_at": "2026-10-06T18:27:55+00:00",
+  "last_scan_at": "2026-10-06T18:27:55+00:00",
+  "last_scan_found": 10,
+  "last_scan_relevant": 10,
+  "total_opportunities": 109,
+  "last_error": "Search Science centre signals: not well-formed (invalid token): line 1, column 41 | Search Exhibition designer appointments: not well-formed (invalid token): line 1, column 41 | Search Museum supplier pages: not well-formed (invalid token): line 1, column 41 | Search India science museum immersive: not well-formed (invalid token): line 1, column 41"
 }

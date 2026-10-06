@@ -175,7 +175,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-10-06T06:30:21+00:00",
+    "updated_at": "2026-10-06T18:27:45+00:00",
     "evidence": [
       {
         "date": "",
@@ -218,7 +218,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-10-06T06:30:21+00:00",
+    "updated_at": "2026-10-06T18:27:45+00:00",
     "evidence": [
       {
         "date": "",
@@ -261,7 +261,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-10-06T06:30:17+00:00",
+    "updated_at": "2026-10-06T18:27:42+00:00",
     "evidence": [
       {
         "date": "",
@@ -304,7 +304,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-10-06T06:30:17+00:00",
+    "updated_at": "2026-10-06T18:27:42+00:00",
     "evidence": [
       {
         "date": "",
@@ -347,7 +347,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-10-06T06:30:17+00:00",
+    "updated_at": "2026-10-06T18:27:42+00:00",
     "evidence": [
       {
         "date": "",
@@ -390,7 +390,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-10-06T06:30:16+00:00",
+    "updated_at": "2026-10-06T18:27:40+00:00",
     "evidence": [
       {
         "date": "",
@@ -433,7 +433,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-10-06T06:30:10+00:00",
+    "updated_at": "2026-10-06T18:27:37+00:00",
     "evidence": [
       {
         "date": "",
@@ -476,7 +476,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-10-06T06:30:09+00:00",
+    "updated_at": "2026-10-06T18:27:35+00:00",
     "evidence": [
       {
         "date": "",
@@ -519,7 +519,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-10-06T06:30:09+00:00",
+    "updated_at": "2026-10-06T18:27:35+00:00",
     "evidence": [
       {
         "date": "",
@@ -1540,6 +1540,48 @@
     ],
     "watched": false,
     "verified": true
+  },
+  {
+    "id": "search-f03ad8e00e3e226c17",
+    "title": "With help from data, art museums are reframing the visitor experience",
+    "organization": "Museum masterplans",
+    "country": "Worldwide",
+    "city": "",
+    "stage": "Signal",
+    "score": 38,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "Giovanni Kanter goes to at least one art museum whenever he visits a new city. That’s on top of his regular exploration of galleries in New York, where the 25-year-old ICU nurse lives and studies. He ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac53da478054b598b98f53e6b001e36&url=https%3a%2f%2farstechnica.com%2fculture%2f2026%2f07%2fwith-help-from-data-art-museums-are-reframing-the-visitor-experience%2f&c=9405080875889595589&mkt=es-mx",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac53da478054b598b98f53e6b001e36&url=https%3a%2f%2farstechnica.com%2fculture%2f2026%2f07%2fwith-help-from-data-art-museums-are-reframing-the-visitor-experience%2f&c=9405080875889595589&mkt=es-mx",
+    "source_label": "Museum masterplans",
+    "documents": [
+      {
+        "title": "With help from data, art museums are reframing the visitor experience",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac53da478054b598b98f53e6b001e36&url=https%3a%2f%2farstechnica.com%2fculture%2f2026%2f07%2fwith-help-from-data-art-museums-are-reframing-the-visitor-experience%2f&c=9405080875889595589&mkt=es-mx",
+        "kind": "Source article"
+      }
+    ],
+    "updated_at": "2026-10-06T18:27:49+00:00",
+    "evidence": [
+      {
+        "date": "Fri, 24 Jul 2026",
+        "kind": "Web source",
+        "title": "With help from data, art museums are reframing the visitor experience",
+        "detail": "Giovanni Kanter goes to at least one art museum whenever he visits a new city. That’s on top of his regular exploration of galleries in New York, where the 25-year-old ICU nurse lives and studies. He ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac53da478054b598b98f53e6b001e36&url=https%3a%2f%2farstechnica.com%2fculture%2f2026%2f07%2fwith-help-from-data-art-museums-are-reframing-the-visitor-experience%2f&c=9405080875889595589&mkt=es-mx",
+        "source_label": "Museum masterplans",
+        "strength": 62
+      }
+    ]
   },
   {
     "id": "search-1d54c62ce555a8deec",

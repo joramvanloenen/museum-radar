@@ -175,7 +175,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-10-06T00:08:20+00:00",
+    "updated_at": "2026-10-06T06:30:21+00:00",
     "evidence": [
       {
         "date": "",
@@ -218,7 +218,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-10-06T00:08:20+00:00",
+    "updated_at": "2026-10-06T06:30:21+00:00",
     "evidence": [
       {
         "date": "",
@@ -261,7 +261,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-10-06T00:08:17+00:00",
+    "updated_at": "2026-10-06T06:30:17+00:00",
     "evidence": [
       {
         "date": "",
@@ -304,7 +304,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-10-06T00:08:17+00:00",
+    "updated_at": "2026-10-06T06:30:17+00:00",
     "evidence": [
       {
         "date": "",
@@ -347,7 +347,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-10-06T00:08:17+00:00",
+    "updated_at": "2026-10-06T06:30:17+00:00",
     "evidence": [
       {
         "date": "",
@@ -390,7 +390,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-10-06T00:08:16+00:00",
+    "updated_at": "2026-10-06T06:30:16+00:00",
     "evidence": [
       {
         "date": "",
@@ -433,7 +433,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-10-06T00:08:11+00:00",
+    "updated_at": "2026-10-06T06:30:10+00:00",
     "evidence": [
       {
         "date": "",
@@ -476,7 +476,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-10-06T00:08:08+00:00",
+    "updated_at": "2026-10-06T06:30:09+00:00",
     "evidence": [
       {
         "date": "",
@@ -519,7 +519,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-10-06T00:08:08+00:00",
+    "updated_at": "2026-10-06T06:30:09+00:00",
     "evidence": [
       {
         "date": "",
@@ -1447,6 +1447,48 @@
     ]
   },
   {
+    "id": "search-1b1e4433eb655a59a6",
+    "title": "Cultural Heritage @home",
+    "organization": "EU cultural heritage funding",
+    "country": "Europe",
+    "city": "",
+    "stage": "Signal",
+    "score": 40,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "Museums, opera houses and tourist attractions across Europe and the world are making more and more content available online to make the self-isolation and social distancing more enjoyable and relaxing ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac4957e19d0452bb678d9ad52c33406&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac4957e19d0452bb678d9ad52c33406&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+    "source_label": "EU cultural heritage funding",
+    "documents": [
+      {
+        "title": "Cultural Heritage @home",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac4957e19d0452bb678d9ad52c33406&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+        "kind": "Source article"
+      }
+    ],
+    "updated_at": "2026-10-06T06:30:22+00:00",
+    "evidence": [
+      {
+        "date": "Tue, 31 Mar 2020",
+        "kind": "Web source",
+        "title": "Cultural Heritage @home",
+        "detail": "Museums, opera houses and tourist attractions across Europe and the world are making more and more content available online to make the self-isolation and social distancing more enjoyable and relaxing ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac4957e19d0452bb678d9ad52c33406&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+        "source_label": "EU cultural heritage funding",
+        "strength": 62
+      }
+    ]
+  },
+  {
     "id": "cf-7e26ae387b77606d16",
     "title": "Window to 1913: Activity Plan Delivery Lead",
     "organization": "North East Lincolnshire Borough Council",
@@ -1484,7 +1526,7 @@
         "kind": "Document"
       }
     ],
-    "updated_at": "2026-10-06T00:08:05+00:00",
+    "updated_at": "2026-10-06T06:30:05+00:00",
     "evidence": [
       {
         "date": "2026-10-05",
@@ -1496,7 +1538,50 @@
         "strength": 82
       }
     ],
+    "watched": false,
     "verified": true
+  },
+  {
+    "id": "search-1d54c62ce555a8deec",
+    "title": "EU funding for digitalising and greening the energy system",
+    "organization": "EU cultural heritage funding",
+    "country": "Europe",
+    "city": "",
+    "stage": "Pitch",
+    "score": 38,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "The EU leads the energy sector's digital and green transformation through key initiatives on research, innovation, and cross-border infrastructure, essential for digital integration. The European ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac4957e19d0452bb678d9ad52c33406&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac4957e19d0452bb678d9ad52c33406&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
+    "source_label": "EU cultural heritage funding",
+    "documents": [
+      {
+        "title": "EU funding for digitalising and greening the energy system",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac4957e19d0452bb678d9ad52c33406&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
+        "kind": "Budget / funding"
+      }
+    ],
+    "updated_at": "2026-10-06T06:30:22+00:00",
+    "evidence": [
+      {
+        "date": "Wed, 17 Jun 2026",
+        "kind": "Web source",
+        "title": "EU funding for digitalising and greening the energy system",
+        "detail": "The EU leads the energy sector's digital and green transformation through key initiatives on research, innovation, and cross-border infrastructure, essential for digital integration. The European ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac4957e19d0452bb678d9ad52c33406&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
+        "source_label": "EU cultural heritage funding",
+        "strength": 62
+      }
+    ]
   },
   {
     "id": "search-8b75f4767a49eb167d",
@@ -3300,6 +3385,48 @@
         "detail": "Creative Innovation Lab aims to improve the competitiveness of the European audiovisual and other cultural and creative sectors through cross sector collaboration. Initiated as a pilot project in 2021 ...",
         "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aafc48d27474d11988ab3e7dc42d03b&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2ffunding%2fcreative-innovation-lab&c=6795989186076005330&mkt=en-us",
         "source_label": "EU cultural heritage funding",
+        "strength": 62
+      }
+    ]
+  },
+  {
+    "id": "search-0342393d5f20f5e5ed",
+    "title": "Florida Museum to reopen in November after major renovation, expansion",
+    "organization": "Museum expansion signals",
+    "country": "Worldwide",
+    "city": "",
+    "stage": "Pitch",
+    "score": 36,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "Renovations updated the museum's entrance, lobby, classrooms, restrooms and information desk, plus the gift shop and picnic area.",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac4957d8f0d42bd8c0fb86396439c65&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fother%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=17754296698912003094&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac4957d8f0d42bd8c0fb86396439c65&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fother%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=17754296698912003094&mkt=en-us",
+    "source_label": "Museum expansion signals",
+    "documents": [
+      {
+        "title": "Florida Museum to reopen in November after major renovation, expansion",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac4957d8f0d42bd8c0fb86396439c65&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fother%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=17754296698912003094&mkt=en-us",
+        "kind": "Source article"
+      }
+    ],
+    "updated_at": "2026-10-06T06:30:22+00:00",
+    "evidence": [
+      {
+        "date": "Wed, 30 Sep 2026",
+        "kind": "Web source",
+        "title": "Florida Museum to reopen in November after major renovation, expansion",
+        "detail": "Renovations updated the museum's entrance, lobby, classrooms, restrooms and information desk, plus the gift shop and picnic area.",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac4957d8f0d42bd8c0fb86396439c65&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fother%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=17754296698912003094&mkt=en-us",
+        "source_label": "Museum expansion signals",
         "strength": 62
       }
     ]

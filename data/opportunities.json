@@ -175,7 +175,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-10-09T06:18:20+00:00",
+    "updated_at": "2026-10-09T18:24:36+00:00",
     "evidence": [
       {
         "date": "",
@@ -218,7 +218,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-10-09T06:18:20+00:00",
+    "updated_at": "2026-10-09T18:24:36+00:00",
     "evidence": [
       {
         "date": "",
@@ -261,7 +261,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-10-09T06:18:16+00:00",
+    "updated_at": "2026-10-09T18:24:33+00:00",
     "evidence": [
       {
         "date": "",
@@ -304,7 +304,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-10-09T06:18:16+00:00",
+    "updated_at": "2026-10-09T18:24:33+00:00",
     "evidence": [
       {
         "date": "",
@@ -347,7 +347,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-10-09T06:18:16+00:00",
+    "updated_at": "2026-10-09T18:24:33+00:00",
     "evidence": [
       {
         "date": "",
@@ -356,49 +356,6 @@
         "detail": "07/01/2026 Project Managers: to deliver creative programming Reference No: JAN546606 Published By: National Trust for Scotland Deadline Date: Notice Type: 01 Prior Information Notices (below FTS threshold or call offs of any value)",
         "source_url": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=JAN546606&amp;catID=",
         "source_label": "Public Contracts Scotland museum exhibition",
-        "strength": 93
-      }
-    ],
-    "watched": false
-  },
-  {
-    "id": "sell2wales-jul637317",
-    "title": "Inner Moray Firth Housing & Property Maintenance Framework - 2026",
-    "organization": "Highland Council",
-    "country": "United Kingdom",
-    "city": "",
-    "stage": "Pre-market",
-    "score": 98,
-    "confidence": 93,
-    "currency": "GBP",
-    "deadline": null,
-    "procurement_window": "Pre-market",
-    "summary": "Official procurement listing discovered in a museum / exhibition / AV category.",
-    "fit_rationale": "Official procurement notice matched museum, exhibition, AV or interactive experience terms.",
-    "pitch_angle": "Review the official notice and decide whether to bid directly or with a delivery partner.",
-    "next_action": "Open the official procurement notice and review scope, documents, deadline and eligibility.",
-    "sample": false,
-    "verified": true,
-    "source_key": "sell2wales",
-    "external_id": "JUL637317",
-    "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUL637317&amp;catID=",
-    "source_label": "Sell2Wales museum exhibition",
-    "documents": [
-      {
-        "title": "Official procurement notice",
-        "url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUL637317&amp;catID=",
-        "kind": "Contract notice"
-      }
-    ],
-    "updated_at": "2026-10-09T06:18:15+00:00",
-    "evidence": [
-      {
-        "date": "",
-        "kind": "Procurement",
-        "title": "Official procurement listing",
-        "detail": "15/07/2026 Inner Moray Firth Housing & Property Maintenance Framework - 2026 Reference No: JUL637317 Published By: Highland Council Deadline Date: Notice Type: Prior Information Notice",
-        "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUL637317&amp;catID=",
-        "source_label": "Sell2Wales museum exhibition",
         "strength": 93
       }
     ],
@@ -433,7 +390,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-10-09T06:18:10+00:00",
+    "updated_at": "2026-10-09T18:24:28+00:00",
     "evidence": [
       {
         "date": "",
@@ -476,7 +433,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-10-09T06:18:07+00:00",
+    "updated_at": "2026-10-09T18:24:26+00:00",
     "evidence": [
       {
         "date": "",
@@ -519,7 +476,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-10-09T06:18:07+00:00",
+    "updated_at": "2026-10-09T18:24:26+00:00",
     "evidence": [
       {
         "date": "",
@@ -527,6 +484,49 @@
         "title": "Official procurement listing",
         "detail": "26/06/2026 Museum Interpretation Services Reference No: JUN631313 Published By: Amgueddfa Cymru - National Museum Wales Deadline Date: Notice Type: Speculative Notice",
         "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUN631313&amp;catID=",
+        "source_label": "Sell2Wales museum exhibition",
+        "strength": 93
+      }
+    ],
+    "watched": false
+  },
+  {
+    "id": "sell2wales-jul637317",
+    "title": "Inner Moray Firth Housing & Property Maintenance Framework - 2026",
+    "organization": "Highland Council",
+    "country": "United Kingdom",
+    "city": "",
+    "stage": "Pre-market",
+    "score": 98,
+    "confidence": 93,
+    "currency": "GBP",
+    "deadline": null,
+    "procurement_window": "Pre-market",
+    "summary": "Official procurement listing discovered in a museum / exhibition / AV category.",
+    "fit_rationale": "Official procurement notice matched museum, exhibition, AV or interactive experience terms.",
+    "pitch_angle": "Review the official notice and decide whether to bid directly or with a delivery partner.",
+    "next_action": "Open the official procurement notice and review scope, documents, deadline and eligibility.",
+    "sample": false,
+    "verified": true,
+    "source_key": "sell2wales",
+    "external_id": "JUL637317",
+    "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUL637317&amp;catID=",
+    "source_label": "Sell2Wales museum exhibition",
+    "documents": [
+      {
+        "title": "Official procurement notice",
+        "url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUL637317&amp;catID=",
+        "kind": "Contract notice"
+      }
+    ],
+    "updated_at": "2026-10-09T06:18:15+00:00",
+    "evidence": [
+      {
+        "date": "",
+        "kind": "Procurement",
+        "title": "Official procurement listing",
+        "detail": "15/07/2026 Inner Moray Firth Housing & Property Maintenance Framework - 2026 Reference No: JUL637317 Published By: Highland Council Deadline Date: Notice Type: Prior Information Notice",
+        "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUL637317&amp;catID=",
         "source_label": "Sell2Wales museum exhibition",
         "strength": 93
       }
@@ -1447,6 +1447,48 @@
     ]
   },
   {
+    "id": "search-089e71bdad38863822",
+    "title": "Florida Museum to reopen in November after major renovation, expansion",
+    "organization": "Museum expansion signals",
+    "country": "Worldwide",
+    "city": "",
+    "stage": "Pitch",
+    "score": 56,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "The Florida Museum of Natural History plans to reopen its Ken and Linda McGurn Exhibition Hall to the public on Nov. 23 following a large-scale renovation and expansion project, according to a museum ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9316484fe4dfbb59dbbd8d930c72c&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9316484fe4dfbb59dbbd8d930c72c&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
+    "source_label": "Museum expansion signals",
+    "documents": [
+      {
+        "title": "Florida Museum to reopen in November after major renovation, expansion",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9316484fe4dfbb59dbbd8d930c72c&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
+        "kind": "Source article"
+      }
+    ],
+    "updated_at": "2026-10-09T18:24:36+00:00",
+    "evidence": [
+      {
+        "date": "Wed, 30 Sep 2026",
+        "kind": "Web source",
+        "title": "Florida Museum to reopen in November after major renovation, expansion",
+        "detail": "The Florida Museum of Natural History plans to reopen its Ken and Linda McGurn Exhibition Hall to the public on Nov. 23 following a large-scale renovation and expansion project, according to a museum ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9316484fe4dfbb59dbbd8d930c72c&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
+        "source_label": "Museum expansion signals",
+        "strength": 62
+      }
+    ]
+  },
+  {
     "id": "search-9d61456b473c54bdbb",
     "title": "Florida Museum to reopen in November after major renovation, expansion",
     "organization": "Museum expansion signals",
@@ -1694,6 +1736,48 @@
         "detail": "The Florida Museum of Natural History plans to reopen its Ken and Linda McGurn Exhibition Hall to the public on Nov. 23 following a large-scale renovation and expansion project, according to a museum ...",
         "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac5e20ec0614314940f84dc119a4815&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
         "source_label": "Museum expansion signals",
+        "strength": 62
+      }
+    ]
+  },
+  {
+    "id": "search-95e2106252fff71579",
+    "title": "Cultural Heritage @home",
+    "organization": "EU cultural heritage funding",
+    "country": "Europe",
+    "city": "",
+    "stage": "Signal",
+    "score": 40,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "Museums, opera houses and tourist attractions across Europe and the world are making more and more content available online to make the self-isolation and social distancing more enjoyable and relaxing ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac93165dc2e46d296b44352c79e1aa4&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac93165dc2e46d296b44352c79e1aa4&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+    "source_label": "EU cultural heritage funding",
+    "documents": [
+      {
+        "title": "Cultural Heritage @home",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac93165dc2e46d296b44352c79e1aa4&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+        "kind": "Source article"
+      }
+    ],
+    "updated_at": "2026-10-09T18:24:37+00:00",
+    "evidence": [
+      {
+        "date": "Tue, 31 Mar 2020",
+        "kind": "Web source",
+        "title": "Cultural Heritage @home",
+        "detail": "Museums, opera houses and tourist attractions across Europe and the world are making more and more content available online to make the self-isolation and social distancing more enjoyable and relaxing ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac93165dc2e46d296b44352c79e1aa4&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+        "source_label": "EU cultural heritage funding",
         "strength": 62
       }
     ]
@@ -2086,6 +2170,48 @@
     ],
     "watched": false,
     "verified": true
+  },
+  {
+    "id": "search-55dfc5a8bd1067c172",
+    "title": "EU funding for digitalising and greening the energy system",
+    "organization": "EU cultural heritage funding",
+    "country": "Europe",
+    "city": "",
+    "stage": "Pitch",
+    "score": 38,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "The EU leads the energy sector's digital and green transformation through key initiatives on research, innovation, and cross-border infrastructure, essential for digital integration. The European ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac93165dc2e46d296b44352c79e1aa4&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac93165dc2e46d296b44352c79e1aa4&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
+    "source_label": "EU cultural heritage funding",
+    "documents": [
+      {
+        "title": "EU funding for digitalising and greening the energy system",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac93165dc2e46d296b44352c79e1aa4&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
+        "kind": "Budget / funding"
+      }
+    ],
+    "updated_at": "2026-10-09T18:24:37+00:00",
+    "evidence": [
+      {
+        "date": "Wed, 17 Jun 2026",
+        "kind": "Web source",
+        "title": "EU funding for digitalising and greening the energy system",
+        "detail": "The EU leads the energy sector's digital and green transformation through key initiatives on research, innovation, and cross-border infrastructure, essential for digital integration. The European ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac93165dc2e46d296b44352c79e1aa4&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
+        "source_label": "EU cultural heritage funding",
+        "strength": 62
+      }
+    ]
   },
   {
     "id": "search-3cf7a62e43bd300138",

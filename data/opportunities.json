@@ -175,7 +175,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-10-11T13:03:06+00:00",
+    "updated_at": "2026-10-11T22:05:46+00:00",
     "evidence": [
       {
         "date": "",
@@ -218,7 +218,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-10-11T13:03:06+00:00",
+    "updated_at": "2026-10-11T22:05:46+00:00",
     "evidence": [
       {
         "date": "",
@@ -261,7 +261,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-10-11T13:03:01+00:00",
+    "updated_at": "2026-10-11T22:05:43+00:00",
     "evidence": [
       {
         "date": "",
@@ -304,7 +304,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-10-11T13:03:01+00:00",
+    "updated_at": "2026-10-11T22:05:43+00:00",
     "evidence": [
       {
         "date": "",
@@ -347,7 +347,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-10-11T13:03:01+00:00",
+    "updated_at": "2026-10-11T22:05:43+00:00",
     "evidence": [
       {
         "date": "",
@@ -390,7 +390,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-10-11T13:02:53+00:00",
+    "updated_at": "2026-10-11T22:05:38+00:00",
     "evidence": [
       {
         "date": "",
@@ -433,7 +433,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-10-11T13:02:49+00:00",
+    "updated_at": "2026-10-11T22:05:36+00:00",
     "evidence": [
       {
         "date": "",
@@ -476,7 +476,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-10-11T13:02:49+00:00",
+    "updated_at": "2026-10-11T22:05:36+00:00",
     "evidence": [
       {
         "date": "",
@@ -1442,6 +1442,48 @@
         "detail": "The Fleet Science Center in Balboa Park has introduced two new exhibition spaces and new interactive features after nearly a year of partial closure for a $5.6 million renovation. The project, which ...",
         "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa3dcd75d284a7ca9486d0911b46e78&url=https%3a%2f%2fwww.sandiegouniontribune.com%2f2026%2f06%2f26%2ffleet-science-center-renovation%2f&c=2026535705577697871&mkt=es-mx",
         "source_label": "Science centre signals",
+        "strength": 62
+      }
+    ]
+  },
+  {
+    "id": "search-29d2163951588fe2e9",
+    "title": "Kistefos Museum opened new visitor centre on Saturday, June 20th",
+    "organization": "Visitor centre signals",
+    "country": "Worldwide",
+    "city": "",
+    "stage": "Pitch",
+    "score": 74,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "Kistefos Museum is welcoming visitors to a striking new visitor centre, designed by architecture firm Lundhagem. The building serves as an inviting gateway to the museum experience – and offers ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc083b143b41a0a40e3bb14b5befd8&url=https%3a%2f%2fwww.mynewsdesk.com%2fno%2fkistefosmuseum%2fpressreleases%2fkistefos-museum-opened-new-visitor-centre-on-saturday-june-20th-3455162&c=6876426998342124081&mkt=en-ca",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc083b143b41a0a40e3bb14b5befd8&url=https%3a%2f%2fwww.mynewsdesk.com%2fno%2fkistefosmuseum%2fpressreleases%2fkistefos-museum-opened-new-visitor-centre-on-saturday-june-20th-3455162&c=6876426998342124081&mkt=en-ca",
+    "source_label": "Visitor centre signals",
+    "documents": [
+      {
+        "title": "Kistefos Museum opened new visitor centre on Saturday, June 20th",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc083b143b41a0a40e3bb14b5befd8&url=https%3a%2f%2fwww.mynewsdesk.com%2fno%2fkistefosmuseum%2fpressreleases%2fkistefos-museum-opened-new-visitor-centre-on-saturday-june-20th-3455162&c=6876426998342124081&mkt=en-ca",
+        "kind": "Source article"
+      }
+    ],
+    "updated_at": "2026-10-11T22:05:47+00:00",
+    "evidence": [
+      {
+        "date": "Mon, 27 Jul 2026",
+        "kind": "Web source",
+        "title": "Kistefos Museum opened new visitor centre on Saturday, June 20th",
+        "detail": "Kistefos Museum is welcoming visitors to a striking new visitor centre, designed by architecture firm Lundhagem. The building serves as an inviting gateway to the museum experience – and offers ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc083b143b41a0a40e3bb14b5befd8&url=https%3a%2f%2fwww.mynewsdesk.com%2fno%2fkistefosmuseum%2fpressreleases%2fkistefos-museum-opened-new-visitor-centre-on-saturday-june-20th-3455162&c=6876426998342124081&mkt=en-ca",
+        "source_label": "Visitor centre signals",
         "strength": 62
       }
     ]

@@ -1,9 +1,9 @@
 {
   "status": "GitHub Actions scout",
-  "generated_at": "2026-10-14T05:02:04+00:00",
-  "last_scan_at": "2026-10-14T05:02:04+00:00",
+  "generated_at": "2026-10-14T12:03:52+00:00",
+  "last_scan_at": "2026-10-14T12:03:52+00:00",
   "last_scan_found": 11,
   "last_scan_relevant": 11,
-  "total_opportunities": 167,
-  "last_error": ""
+  "total_opportunities": 170,
+  "last_error": "Search Visitor experience tenders: not well-formed (invalid token): line 1, column 41 | Search Spanish museum procurement: not well-formed (invalid token): line 1, column 41"
 }

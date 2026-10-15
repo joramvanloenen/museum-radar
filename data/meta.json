@@ -1,9 +1,9 @@
 {
   "status": "GitHub Actions scout",
-  "generated_at": "2026-10-15T11:41:00+00:00",
-  "last_scan_at": "2026-10-15T11:41:00+00:00",
+  "generated_at": "2026-10-15T17:08:55+00:00",
+  "last_scan_at": "2026-10-15T17:08:55+00:00",
   "last_scan_found": 10,
   "last_scan_relevant": 10,
-  "total_opportunities": 178,
-  "last_error": "Search Museum tenders: not well-formed (invalid token): line 1, column 41 | Search Architect museum appointments: not well-formed (invalid token): line 1, column 41 | Search German museum procurement: not well-formed (invalid token): line 1, column 41 | Search French future projects: not well-formed (invalid token): line 1, column 41 | Search AV integration museum: not well-formed (invalid token): line 1, column 41 | Search Tender Impulse discovery: not well-formed (invalid token): line 1, column 41 | Search BOAMP museum scenography: not well-formed (invalid token): line 1, column 41 | Search India science museum immersive: not well-formed (invalid token): line 1, column 41 | Search In-Tend museum interactives: not well-formed (invalid token): line 1, column 41"
+  "total_opportunities": 180,
+  "last_error": ""
 }

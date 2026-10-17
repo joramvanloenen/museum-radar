@@ -1,9 +1,9 @@
 {
   "status": "GitHub Actions scout",
-  "generated_at": "2026-10-17T10:57:58+00:00",
-  "last_scan_at": "2026-10-17T10:57:58+00:00",
-  "last_scan_found": 2,
-  "last_scan_relevant": 2,
-  "total_opportunities": 194,
-  "last_error": "Search Museum expansion signals: not well-formed (invalid token): line 1, column 41 | Search Museum planning applications: not well-formed (invalid token): line 1, column 41 | Search Council museum capital projects: not well-formed (invalid token): line 1, column 41 | Search Architect museum appointments: not well-formed (invalid token): line 1, column 41 | Search German museum procurement: not well-formed (invalid token): line 1, column 41 | Search French future projects: not well-formed (invalid token): line 1, column 41 | Search Immersive museum installations: not well-formed (invalid token): line 1, column 41 | Search Tender Impulse discovery: not well-formed (invalid token): line 1, column 41 | Search Spanish museum procurement: not well-formed (invalid token): line 1, column 41 | Search In-Tend museum interactives: not well-formed (invalid token): line 1, column 41 | Search ProContract museum immersive: not well-formed (invalid token): line 1, column 41"
+  "generated_at": "2026-10-17T15:46:04+00:00",
+  "last_scan_at": "2026-10-17T15:46:04+00:00",
+  "last_scan_found": 4,
+  "last_scan_relevant": 4,
+  "total_opportunities": 198,
+  "last_error": "Search Museum tenders: not well-formed (invalid token): line 1, column 41 | Search Visitor experience tenders: not well-formed (invalid token): line 1, column 41 | Search Architecture competition museum signals: not well-formed (invalid token): line 1, column 41 | Search Museum supplier pages: not well-formed (invalid token): line 1, column 41 | Search AV integration museum: not well-formed (invalid token): line 1, column 41 | Search Museum software interactives: not well-formed (invalid token): line 1, column 41 | Search Museum Insider project signals: not well-formed (invalid token): line 1, column 41 | Search Tender Impulse discovery: not well-formed (invalid token): line 1, column 41 | Search Spanish museum procurement: not well-formed (invalid token): line 1, column 41 | Search Singapore Science Centre exhibits: not well-formed (invalid token): line 1, column 41 | Search Delta museum AV: not well-formed (invalid token): line 1, column 41 | Search ProContract museum immersive: not well-formed (invalid token): line 1, column 41"
 }

@@ -1,5 +1,38 @@
 [
   {
+    "id": "uk-wonderlab-group2-makers-2-2026",
+    "title": "Science and Industry Museum Wonderlab Group 2 Interactives Makers 2",
+    "organization": "Science Museum Group",
+    "country": "United Kingdom",
+    "city": "Manchester",
+    "stage": "Live Tender",
+    "source_key": "research_agent",
+    "score": 96,
+    "confidence": 99,
+    "budget_min": 155000,
+    "budget_max": 155000,
+    "currency": "GBP",
+    "deadline": "2026-10-23",
+    "procurement_window": "Bids due 23 October 2026 at 23:59 BST",
+    "summary": "Five-lot procurement for the design and delivery of playful, inclusive, intuitive hands-on interactives for Wonderlab at the Science and Industry Museum. Exhibits should support open-ended inquiry and work without written instructions.",
+    "fit_rationale": "Directly procures specialist interactive exhibits, with separate lots and a lead gallery designer. Strong direct-bid fit; review each lot's requirements and eligibility.",
+    "next_action": "Urgent: inspect the five lots and submit via Science Museum Group's In-Tend portal by 23 October 2026, 23:59 BST. Clarification deadline was 15 October.",
+    "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=SEP661633&catID=",
+    "sources": [
+      {
+        "url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=SEP661633&catID=",
+        "title": "Official Sell2Wales procurement notice, OCID ocds-h6vhtk-0779ec",
+        "kind": "Official procurement"
+      },
+      {
+        "url": "https://supplier.in-tend.co.uk/sciencemuseumgroup/aspx/Tenders/Current",
+        "title": "Science Museum Group official tender portal",
+        "kind": "Official buyer portal"
+      }
+    ],
+    "updated_at": "2026-10-18T16:36:00Z"
+  },
+  {
     "id": "uk-sep655817",
     "title": "ROG First Light Exhibitions Audio Visual Hardware Contractor",
     "organization": "National Maritime Museum",

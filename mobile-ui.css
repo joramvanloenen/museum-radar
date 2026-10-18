@@ -53,3 +53,64 @@
 
   .decisionBox { border-radius:13px!important; }
 }
+
+/* Readability-first mobile layout. Overrides older density rules. */
+@media(max-width:700px){
+ html{-webkit-text-size-adjust:100%}
+ body{font-size:16px;line-height:1.5;overflow-x:hidden}
+ .layout,.main,.topbar,.section,.card,.actionCard,.detailModal{min-width:0}
+ .main{padding:14px 16px calc(112px + env(safe-area-inset-bottom))!important}
+ .topbar{margin-bottom:18px!important}
+ .topbar .title{font-size:clamp(29px,8vw,38px)!important;line-height:1.05!important}
+ .topbar .sub{font-size:14px!important;line-height:1.4!important;color:#555!important}
+ .actionMetrics{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:9px!important;margin:12px 0 22px!important}
+ .actionMetrics button{padding:13px 12px!important;text-align:left!important;min-height:84px;background:#fffef9!important;border:1px solid #d1cbc0!important}
+ .actionMetrics b{font-size:30px!important;margin-bottom:6px!important}
+ .actionMetrics span{font-size:13px!important;line-height:1.2!important}
+ .actionList,.compactCards,.cards,.updateStrip{grid-template-columns:minmax(0,1fr)!important;gap:11px!important}
+ .actionCard{padding:17px!important;background:#fffef9!important;border:1px solid #c9c3b8!important;border-radius:14px!important}
+ .actionRoute{font-size:11px!important;line-height:1.2!important;padding:6px 9px!important}
+ .actionScore{font-size:23px!important}
+ .actionCard h3{font-size:21px!important;line-height:1.22!important;margin:11px 0 7px!important;overflow-wrap:anywhere}
+ .actionOrg{font-size:13px!important;line-height:1.4!important;white-space:normal!important;overflow:visible!important;color:#4c4a45!important}
+ .actionWhy{display:flex!important;gap:7px 14px!important;flex-wrap:wrap!important;margin-top:13px!important;font-size:12px!important;line-height:1.45!important;color:#484640!important}
+ .actionWhy span{white-space:normal!important}
+ .actionWhy b{font-size:12px!important}
+ .actionCard p,.compactCards .actionCard p{display:block!important;overflow:visible!important;-webkit-line-clamp:unset!important;padding:11px 0 0!important;margin:12px 0 0!important;font-size:14px!important;line-height:1.5!important;color:#373630!important}
+ .actionOpen{position:static!important;width:auto!important;height:auto!important;background:none!important;border-top:1px solid #ded9cf!important;border-radius:0!important;margin-top:13px!important;padding-top:10px!important;font-size:13px!important;font-weight:800!important;display:flex!important;justify-content:space-between!important}
+ .actionOpen span{font-size:21px!important}
+ .section{margin-top:27px!important}
+ .sectionhead h2{font-size:23px!important;line-height:1.15!important}
+ .sectionKicker{font-size:11px!important}
+ .updateStrip button{padding:15px!important;background:#fffef9!important}
+ .updateStrip b{font-size:17px!important;line-height:1.3!important}
+ .updateStrip span{font-size:13px!important;line-height:1.4!important}
+ .filters{grid-template-columns:minmax(0,1fr) minmax(0,1fr)!important;gap:9px!important}
+ .filters input{grid-column:1/-1!important}
+ .filters select,.filters input,.filters button{min-width:0;min-height:46px;font-size:14px}
+ .oppTable tr{grid-template-columns:45px minmax(0,1fr)!important;padding:16px 24px 16px 0!important;gap:7px 12px!important}
+ .oppTable .name{font-size:18px!important;line-height:1.3!important;overflow-wrap:anywhere}
+ .oppTable .muted,.oppTable td:nth-child(4){font-size:12px!important;line-height:1.4!important}
+ .oppTable .score{font-size:25px!important}
+ .oppcard{min-height:0!important;padding:16px!important}
+ .oppcard h3{font-size:21px!important;line-height:1.25!important}
+ .oppcard p{display:block!important;font-size:14px!important;line-height:1.45!important}
+ .resourceLink b{white-space:normal!important;overflow-wrap:anywhere!important;font-size:14px!important;line-height:1.4!important}
+ .detailModal{padding:16px 17px calc(36px + env(safe-area-inset-bottom))!important}
+ .detailMain h1{font-size:clamp(30px,8vw,42px)!important;line-height:1.1!important;overflow-wrap:anywhere}
+ .detailMain .sub{font-size:16px!important;line-height:1.55!important}
+ .detailSection p,.predictionBox p{font-size:15px!important;line-height:1.6!important}
+ .detailSection h3,.detailFacts h3{font-size:12px!important}
+ .detailFacts{position:static!important}
+ .decisionGrid{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+ .decisionGrid span{font-size:12px!important}
+ .decisionGrid b{font-size:22px!important}
+ .fact>div{overflow-wrap:anywhere}
+ .btn,.mobileNav button,.bottomnav button{min-height:44px}
+}
+@media(max-width:350px){
+ .main{padding-left:12px!important;padding-right:12px!important}
+ .actionMetrics button{padding:11px 9px!important}
+ .actionCard{padding:14px!important}
+ .actionCard h3{font-size:19px!important}
+}

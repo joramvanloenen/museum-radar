@@ -2455,6 +2455,48 @@
     ]
   },
   {
+    "id": "search-d62aba3809ca2024c1",
+    "title": "Cultural Heritage @home",
+    "organization": "EU cultural heritage funding",
+    "country": "Europe",
+    "city": "",
+    "stage": "Signal",
+    "score": 40,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "Museums, opera houses and tourist attractions across Europe and the world are making more and more content available online to make the self-isolation and social distancing more enjoyable and relaxing ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad44f47a73742bb8e3025b6312ad087&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad44f47a73742bb8e3025b6312ad087&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+    "source_label": "EU cultural heritage funding",
+    "documents": [
+      {
+        "title": "Cultural Heritage @home",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad44f47a73742bb8e3025b6312ad087&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+        "kind": "Source article"
+      }
+    ],
+    "updated_at": "2026-10-18T04:47:03+00:00",
+    "evidence": [
+      {
+        "date": "Tue, 31 Mar 2020",
+        "kind": "Web source",
+        "title": "Cultural Heritage @home",
+        "detail": "Museums, opera houses and tourist attractions across Europe and the world are making more and more content available online to make the self-isolation and social distancing more enjoyable and relaxing ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad44f47a73742bb8e3025b6312ad087&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+        "source_label": "EU cultural heritage funding",
+        "strength": 62
+      }
+    ]
+  },
+  {
     "id": "search-df33f2397aca24cbf3",
     "title": "Cultural Heritage @home",
     "organization": "EU cultural heritage funding",
@@ -3892,6 +3934,48 @@
     ],
     "watched": false,
     "verified": true
+  },
+  {
+    "id": "search-2dad892210f75e604f",
+    "title": "EU funding for digitalising and greening the energy system",
+    "organization": "EU cultural heritage funding",
+    "country": "Europe",
+    "city": "",
+    "stage": "Pitch",
+    "score": 38,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "The EU leads the energy sector's digital and green transformation through key initiatives on research, innovation, and cross-border infrastructure, essential for digital integration. The European ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad44f47a73742bb8e3025b6312ad087&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad44f47a73742bb8e3025b6312ad087&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
+    "source_label": "EU cultural heritage funding",
+    "documents": [
+      {
+        "title": "EU funding for digitalising and greening the energy system",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad44f47a73742bb8e3025b6312ad087&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
+        "kind": "Budget / funding"
+      }
+    ],
+    "updated_at": "2026-10-18T04:47:03+00:00",
+    "evidence": [
+      {
+        "date": "Wed, 17 Jun 2026",
+        "kind": "Web source",
+        "title": "EU funding for digitalising and greening the energy system",
+        "detail": "The EU leads the energy sector's digital and green transformation through key initiatives on research, innovation, and cross-border infrastructure, essential for digital integration. The European ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad44f47a73742bb8e3025b6312ad087&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
+        "source_label": "EU cultural heritage funding",
+        "strength": 62
+      }
+    ]
   },
   {
     "id": "search-f646b3ea21a7538987",

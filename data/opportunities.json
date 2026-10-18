@@ -1,74 +1,5 @@
 [
   {
-    "id": "uk-smg-apollo-simulator-fitout-2026",
-    "title": "Apollo Mission Simulator Gallery — fit-out main contractor",
-    "organization": "Science Museum Group",
-    "country": "United Kingdom",
-    "stage": "Live Tender",
-    "score": 72,
-    "confidence": 99,
-    "budget_min": 700000,
-    "budget_max": 700000,
-    "currency": "GBP",
-    "deadline": "2026-11-02",
-    "source_key": "official_procurement",
-    "summary": "Official UK procurement notice SCM4231M, published 8 October 2026, seeks a £700,000 main fit-out contractor for the Apollo Mission Simulator Gallery. Interactive/software scope is not established by the published notice.",
-    "fit_rationale": "Potential downstream simulation-gallery interactive or AV opportunity; current published package is construction/fit-out, not confirmed specialist interactive procurement.",
-    "next_action": "Check tender documentation for specialist packages and track award/main contractor; do not treat £700,000 as an interactive budget. Official notice has conflicting summary and submission dates; use 2 November 12:00 as the earlier deadline.",
-    "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=OCT665667&catID=",
-    "updated_at": "2026-10-18T16:36:00Z"
-  },
-  {
-    "id": "be-kmska-rubens-world-2026",
-    "title": "KMSKA — Rubens and the World exhibition scenography and interactive multimedia",
-    "organization": "Royal Museum of Fine Arts Antwerp (KMSKA)",
-    "country": "Belgium",
-    "city": "Antwerp",
-    "stage": "Live Tender",
-    "score": 85,
-    "confidence": 99,
-    "deadline": "2026-11-23",
-    "source_key": "official_procurement",
-    "summary": "Official EU procurement notice KMSKA_26_30 published 16 October 2026. Integrated exhibition design, production, installation and dismantling; expressly includes interactive AV/multimedia applications and possible software development.",
-    "fit_rationale": "Strong specialist interactive/AV scope, but contract combines full scenography and exhibition construction. Partner with exhibition lead or consortium rather than assuming direct specialist bid.",
-    "next_action": "Review official tender documents and identify lead scenography bidders for specialist interactive, multimedia and software packages before 23 November.",
-    "source_url": "https://op.europa.eu/en/web/public-procurement/procurement-details/-/procurement/3b9d67db-f931-46aa-b98c-e6e58d149589",
-    "updated_at": "2026-10-18T16:36:00Z"
-  },
-  {
-    "id": "uk-wonderlab-group2-makers-2-2026",
-    "title": "Science and Industry Museum Wonderlab Group 2 Interactives Makers 2",
-    "organization": "Science Museum Group",
-    "country": "United Kingdom",
-    "city": "Manchester",
-    "stage": "Live Tender",
-    "source_key": "research_agent",
-    "score": 96,
-    "confidence": 99,
-    "budget_min": 155000,
-    "budget_max": 155000,
-    "currency": "GBP",
-    "deadline": "2026-10-23",
-    "procurement_window": "Bids due 23 October 2026 at 23:59 BST",
-    "summary": "Five-lot procurement for the design and delivery of playful, inclusive, intuitive hands-on interactives for Wonderlab at the Science and Industry Museum. Exhibits should support open-ended inquiry and work without written instructions.",
-    "fit_rationale": "Directly procures specialist interactive exhibits, with separate lots and a lead gallery designer. Strong direct-bid fit; review each lot's requirements and eligibility.",
-    "next_action": "Urgent: inspect the five lots and submit via Science Museum Group's In-Tend portal by 23 October 2026, 23:59 BST. Clarification deadline was 15 October.",
-    "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=SEP661633&catID=",
-    "sources": [
-      {
-        "url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=SEP661633&catID=",
-        "title": "Official Sell2Wales procurement notice, OCID ocds-h6vhtk-0779ec",
-        "kind": "Official procurement"
-      },
-      {
-        "url": "https://supplier.in-tend.co.uk/sciencemuseumgroup/aspx/Tenders/Current",
-        "title": "Science Museum Group official tender portal",
-        "kind": "Official buyer portal"
-      }
-    ],
-    "updated_at": "2026-10-18T16:36:00Z"
-  },
-  {
     "id": "uk-sep655817",
     "title": "ROG First Light Exhibitions Audio Visual Hardware Contractor",
     "organization": "National Maritime Museum",
@@ -1558,6 +1489,48 @@
     ]
   },
   {
+    "id": "search-f4a8c6749372e030b1",
+    "title": "Florida Museum to reopen in November after major renovation, expansion",
+    "organization": "Museum expansion signals",
+    "country": "Worldwide",
+    "city": "",
+    "stage": "Pitch",
+    "score": 56,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "The Florida Museum of Natural History plans to reopen its Ken and Linda McGurn Exhibition Hall to the public on Nov. 23 following a large-scale renovation and expansion project, according to a museum ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad532706de44c918ec2582857f7f2f4&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad532706de44c918ec2582857f7f2f4&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
+    "source_label": "Museum expansion signals",
+    "documents": [
+      {
+        "title": "Florida Museum to reopen in November after major renovation, expansion",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad532706de44c918ec2582857f7f2f4&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
+        "kind": "Source article"
+      }
+    ],
+    "updated_at": "2026-10-18T20:56:16+00:00",
+    "evidence": [
+      {
+        "date": "Wed, 30 Sep 2026",
+        "kind": "Web source",
+        "title": "Florida Museum to reopen in November after major renovation, expansion",
+        "detail": "The Florida Museum of Natural History plans to reopen its Ken and Linda McGurn Exhibition Hall to the public on Nov. 23 following a large-scale renovation and expansion project, according to a museum ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad532706de44c918ec2582857f7f2f4&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
+        "source_label": "Museum expansion signals",
+        "strength": 62
+      }
+    ]
+  },
+  {
     "id": "search-779715f8af4f1badd0",
     "title": "Florida Museum to reopen in November after major renovation, expansion",
     "organization": "Museum expansion signals",
@@ -2603,6 +2576,48 @@
         "detail": "The Longmont Museum is set to reopen October 17 following a major expansion that gives the facility 70% more public gallery space.",
         "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad39832a6ad48f0891bc8f6c8c6d0cd&url=https%3a%2f%2fwww.longmontleader.com%2flocal-news%2finside-longmont-museums-nearly-10m-expansion-12851684&c=8460159237135211109&mkt=en-us",
         "source_label": "Museum expansion signals",
+        "strength": 62
+      }
+    ]
+  },
+  {
+    "id": "search-e7803634754c89c4ff",
+    "title": "Cultural Heritage @home",
+    "organization": "EU cultural heritage funding",
+    "country": "Europe",
+    "city": "",
+    "stage": "Signal",
+    "score": 40,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "Museums, opera houses and tourist attractions across Europe and the world are making more and more content available online to make the self-isolation and social distancing more enjoyable and relaxing ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad53271c6ca497da38dd53590b2116d&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad53271c6ca497da38dd53590b2116d&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+    "source_label": "EU cultural heritage funding",
+    "documents": [
+      {
+        "title": "Cultural Heritage @home",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad53271c6ca497da38dd53590b2116d&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+        "kind": "Source article"
+      }
+    ],
+    "updated_at": "2026-10-18T20:56:17+00:00",
+    "evidence": [
+      {
+        "date": "Tue, 31 Mar 2020",
+        "kind": "Web source",
+        "title": "Cultural Heritage @home",
+        "detail": "Museums, opera houses and tourist attractions across Europe and the world are making more and more content available online to make the self-isolation and social distancing more enjoyable and relaxing ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad53271c6ca497da38dd53590b2116d&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+        "source_label": "EU cultural heritage funding",
         "strength": 62
       }
     ]

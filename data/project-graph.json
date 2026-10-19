@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T22:50:19+00:00",
-  "project_count": 20,
-  "high_conviction": 20,
+  "generated_at": "2026-10-19T05:50:00Z",
+  "project_count": 24,
+  "high_conviction": 24,
   "projects": [
     {
       "project_id": "project-nhm150-western-av",
@@ -11,7 +11,39 @@
       "score": 98,
       "confidence": 99,
       "procurement_window": "Formal procurement expected after September 2026 market engagement",
-      "prediction": {"window":"0–3 months","reason":"A formal AV/integration requirement is already defined and preliminary market engagement was published in September 2026.","signals":["procurement","project","design"],"fit_terms":["audiovisual","interactive","exhibition design","exhibition build"],"source_count":2,"source_domains":["sell2wales.gov.wales","find-tender.service.gov.uk"],"source_diversity":2,"source_quality":97,"expected_next_signals":["formal tender notice","supplier brief / tender documents"],"risk_flags":["market-engagement response window has just closed"],"opening_years":[],"investment_signals":["£290,000"]},
+      "prediction": {
+        "window": "0–3 months",
+        "reason": "A formal AV/integration requirement is already defined and preliminary market engagement was published in September 2026.",
+        "signals": [
+          "procurement",
+          "project",
+          "design"
+        ],
+        "fit_terms": [
+          "audiovisual",
+          "interactive",
+          "exhibition design",
+          "exhibition build"
+        ],
+        "source_count": 2,
+        "source_domains": [
+          "sell2wales.gov.wales",
+          "find-tender.service.gov.uk"
+        ],
+        "source_diversity": 2,
+        "source_quality": 97,
+        "expected_next_signals": [
+          "formal tender notice",
+          "supplier brief / tender documents"
+        ],
+        "risk_flags": [
+          "market-engagement response window has just closed"
+        ],
+        "opening_years": [],
+        "investment_signals": [
+          "£290,000"
+        ]
+      },
       "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=SEP654811"
     },
     {
@@ -22,7 +54,38 @@
       "score": 97,
       "confidence": 98,
       "procurement_window": "Planned procurement; delivery indicated for late 2026–2028",
-      "prediction": {"window":"0–6 months","reason":"A planned procurement notice is already published and the scope/value are substantially defined.","signals":["procurement","project","design"],"fit_terms":["interactive","audiovisual","exhibition design","visitor experience"],"source_count":2,"source_domains":["find-tender.service.gov.uk"],"source_diversity":1,"source_quality":99,"expected_next_signals":["formal tender documents","submission deadline"],"risk_flags":["planned procurement; final packaging/timing may still change"],"opening_years":[],"investment_signals":["£350,000"]},
+      "prediction": {
+        "window": "0–6 months",
+        "reason": "A planned procurement notice is already published and the scope/value are substantially defined.",
+        "signals": [
+          "procurement",
+          "project",
+          "design"
+        ],
+        "fit_terms": [
+          "interactive",
+          "audiovisual",
+          "exhibition design",
+          "visitor experience"
+        ],
+        "source_count": 2,
+        "source_domains": [
+          "find-tender.service.gov.uk"
+        ],
+        "source_diversity": 1,
+        "source_quality": 99,
+        "expected_next_signals": [
+          "formal tender documents",
+          "submission deadline"
+        ],
+        "risk_flags": [
+          "planned procurement; final packaging/timing may still change"
+        ],
+        "opening_years": [],
+        "investment_signals": [
+          "£350,000"
+        ]
+      },
       "source_url": "https://www.find-tender.service.gov.uk/Notice/067059-2026"
     },
     {
@@ -33,7 +96,36 @@
       "score": 95,
       "confidence": 93,
       "procurement_window": "Market consultation open to 9 Nov 2026; formal procurement expected afterwards",
-      "prediction": {"window":"1–6 months","reason":"A formal market consultation for a defined permanent-exhibition concept is active and closes in November 2026.","signals":["procurement","design","project"],"fit_terms":["exhibition design","scenography","visitor experience"],"source_count":2,"source_domains":["eis.gov.lv","tedas.eu"],"source_diversity":2,"source_quality":91,"expected_next_signals":["formal procurement notice","technical brief"],"risk_flags":["consultation scope may change before tender"],"opening_years":[],"investment_signals":[]},
+      "prediction": {
+        "window": "1–6 months",
+        "reason": "A formal market consultation for a defined permanent-exhibition concept is active and closes in November 2026.",
+        "signals": [
+          "procurement",
+          "design",
+          "project"
+        ],
+        "fit_terms": [
+          "exhibition design",
+          "scenography",
+          "visitor experience"
+        ],
+        "source_count": 2,
+        "source_domains": [
+          "eis.gov.lv",
+          "tedas.eu"
+        ],
+        "source_diversity": 2,
+        "source_quality": 91,
+        "expected_next_signals": [
+          "formal procurement notice",
+          "technical brief"
+        ],
+        "risk_flags": [
+          "consultation scope may change before tender"
+        ],
+        "opening_years": [],
+        "investment_signals": []
+      },
       "source_url": "https://www.eis.gov.lv/EKEIS/Supplier/Procurement/180665"
     },
     {
@@ -44,7 +136,38 @@
       "score": 91,
       "confidence": 94,
       "procurement_window": "Specialist exhibition packages likely during 2026–2028 ahead of 2029 opening",
-      "prediction": {"window":"6–18 months","reason":"Construction is underway for a 2029 opening and the government explicitly confirms new interactive exhibits, making future specialist exhibit packages highly plausible.","signals":["project","delivery","opening"],"fit_terms":["interactive","visitor experience"],"source_count":2,"source_domains":["news.ontario.ca","ontariosciencecentre.ca"],"source_diversity":2,"source_quality":94,"expected_next_signals":["exhibit-package procurement","AV / interactive design appointments","fabrication tenders"],"risk_flags":["no specialist procurement notice identified yet"],"opening_years":[2029],"investment_signals":[]},
+      "prediction": {
+        "window": "6–18 months",
+        "reason": "Construction is underway for a 2029 opening and the government explicitly confirms new interactive exhibits, making future specialist exhibit packages highly plausible.",
+        "signals": [
+          "project",
+          "delivery",
+          "opening"
+        ],
+        "fit_terms": [
+          "interactive",
+          "visitor experience"
+        ],
+        "source_count": 2,
+        "source_domains": [
+          "news.ontario.ca",
+          "ontariosciencecentre.ca"
+        ],
+        "source_diversity": 2,
+        "source_quality": 94,
+        "expected_next_signals": [
+          "exhibit-package procurement",
+          "AV / interactive design appointments",
+          "fabrication tenders"
+        ],
+        "risk_flags": [
+          "no specialist procurement notice identified yet"
+        ],
+        "opening_years": [
+          2029
+        ],
+        "investment_signals": []
+      },
       "source_url": "https://news.ontario.ca/en/release/1007497/ontario_breaks_ground_on_new_science_centre_at_ontario_place"
     },
     {
@@ -55,7 +178,35 @@
       "score": 89,
       "confidence": 95,
       "procurement_window": "Multi-year specialist packages expected as design develops from 2026 onward",
-      "prediction": {"window":"6–24 months","reason":"The architecture team is appointed and the Louvre states that project refinement and stakeholder consultation are now beginning.","signals":["design","project"],"fit_terms":["visitor experience","exhibition design","scenography"],"source_count":2,"source_domains":["louvre.fr"],"source_diversity":1,"source_quality":96,"expected_next_signals":["detailed design packages","scenography / mediation procurement","technical and digital packages"],"risk_flags":["very large programme; relevant packages may be bundled through the appointed design consortium"],"opening_years":[],"investment_signals":[]},
+      "prediction": {
+        "window": "6–24 months",
+        "reason": "The architecture team is appointed and the Louvre states that project refinement and stakeholder consultation are now beginning.",
+        "signals": [
+          "design",
+          "project"
+        ],
+        "fit_terms": [
+          "visitor experience",
+          "exhibition design",
+          "scenography"
+        ],
+        "source_count": 2,
+        "source_domains": [
+          "louvre.fr"
+        ],
+        "source_diversity": 1,
+        "source_quality": 96,
+        "expected_next_signals": [
+          "detailed design packages",
+          "scenography / mediation procurement",
+          "technical and digital packages"
+        ],
+        "risk_flags": [
+          "very large programme; relevant packages may be bundled through the appointed design consortium"
+        ],
+        "opening_years": [],
+        "investment_signals": []
+      },
       "source_url": "https://www.louvre.fr/en/explore/life-at-the-museum/louvre-nouvelle-renaissance-international-architecture-competition"
     },
     {
@@ -66,7 +217,41 @@
       "score": 90,
       "confidence": 96,
       "procurement_window": "Specialist visitor-experience, interpretation and gallery packages likely as design develops from late 2026 onward",
-      "prediction": {"window":"6–18 months","reason":"The £750m transformation is funded to a substantial degree and the architectural team has been appointed, moving the project from ambition into active design development.","signals":["funding","design","project"],"fit_terms":["visitor experience","exhibition design","interpretation","public engagement"],"source_count":2,"source_domains":["nationalgallery.org.uk"],"source_diversity":1,"source_quality":98,"expected_next_signals":["detailed gallery-design packages","interpretation / digital-media appointments","specialist exhibition procurement"],"risk_flags":["interactive or AV specialist scope is not explicit yet","relevant packages may be led through the appointed architecture consortium"],"opening_years":[],"investment_signals":["£750 million programme","£375 million already committed"]},
+      "prediction": {
+        "window": "6–18 months",
+        "reason": "The £750m transformation is funded to a substantial degree and the architectural team has been appointed, moving the project from ambition into active design development.",
+        "signals": [
+          "funding",
+          "design",
+          "project"
+        ],
+        "fit_terms": [
+          "visitor experience",
+          "exhibition design",
+          "interpretation",
+          "public engagement"
+        ],
+        "source_count": 2,
+        "source_domains": [
+          "nationalgallery.org.uk"
+        ],
+        "source_diversity": 1,
+        "source_quality": 98,
+        "expected_next_signals": [
+          "detailed gallery-design packages",
+          "interpretation / digital-media appointments",
+          "specialist exhibition procurement"
+        ],
+        "risk_flags": [
+          "interactive or AV specialist scope is not explicit yet",
+          "relevant packages may be led through the appointed architecture consortium"
+        ],
+        "opening_years": [],
+        "investment_signals": [
+          "£750 million programme",
+          "£375 million already committed"
+        ]
+      },
       "source_url": "https://www.nationalgallery.org.uk/about-us/project-domani"
     },
     {
@@ -77,7 +262,38 @@
       "score": 87,
       "confidence": 92,
       "procurement_window": "Downstream exhibition, public-engagement and technical packages likely as the winning design progresses",
-      "prediction": {"window":"6–18 months","reason":"A public design competition has selected the redevelopment team and the project is now in progress, with adaptable exhibition systems and public-engagement spaces central to the design.","signals":["design","project"],"fit_terms":["exhibition design","visitor experience","public engagement","adaptable display systems"],"source_count":2,"source_domains":["fondazionetorinomusei.it","mvrdv.com"],"source_diversity":2,"source_quality":91,"expected_next_signals":["detailed design approval","museum fit-out packages","media / interpretation procurement"],"risk_flags":["digital/interactive scope is not explicit yet","procurement route and package timing are not yet published"],"opening_years":[],"investment_signals":[]},
+      "prediction": {
+        "window": "6–18 months",
+        "reason": "A public design competition has selected the redevelopment team and the project is now in progress, with adaptable exhibition systems and public-engagement spaces central to the design.",
+        "signals": [
+          "design",
+          "project"
+        ],
+        "fit_terms": [
+          "exhibition design",
+          "visitor experience",
+          "public engagement",
+          "adaptable display systems"
+        ],
+        "source_count": 2,
+        "source_domains": [
+          "fondazionetorinomusei.it",
+          "mvrdv.com"
+        ],
+        "source_diversity": 2,
+        "source_quality": 91,
+        "expected_next_signals": [
+          "detailed design approval",
+          "museum fit-out packages",
+          "media / interpretation procurement"
+        ],
+        "risk_flags": [
+          "digital/interactive scope is not explicit yet",
+          "procurement route and package timing are not yet published"
+        ],
+        "opening_years": [],
+        "investment_signals": []
+      },
       "source_url": "https://www.mvrdv.com/projects/1265/gam-torino"
     },
     {
@@ -88,7 +304,46 @@
       "score": 94,
       "confidence": 97,
       "procurement_window": "Active delivery through 2026–2028; specialist exhibit, AV and experience packages may still emerge during phased implementation",
-      "prediction": {"window":"0–12 months","reason":"The $40m programme broke ground on 10 September 2026 and explicitly includes immersive, interactive and educational environments, a major River Rising gallery renovation, planetarium technology upgrades, Science on a Sphere upgrades, hands-on physics mini-golf and other exhibition enhancements.","signals":["funding","project","delivery"],"fit_terms":["interactive","immersive","audiovisual","hands-on exhibits","visitor experience","planetarium technology"],"source_count":3,"source_domains":["lsc.org","njeda.gov"],"source_diversity":2,"source_quality":98,"expected_next_signals":["specialist exhibit-fabrication or media appointments","planetarium / AV supplier announcements","remaining phased construction or experience packages"],"risk_flags":["construction has started, so some major packages may already be committed","no public specialist procurement notice identified yet"],"opening_years":[2028],"investment_signals":["$40 million expansion","up to $39.8 million NJEDA support"]},
+      "prediction": {
+        "window": "0–12 months",
+        "reason": "The $40m programme broke ground on 10 September 2026 and explicitly includes immersive, interactive and educational environments, a major River Rising gallery renovation, planetarium technology upgrades, Science on a Sphere upgrades, hands-on physics mini-golf and other exhibition enhancements.",
+        "signals": [
+          "funding",
+          "project",
+          "delivery"
+        ],
+        "fit_terms": [
+          "interactive",
+          "immersive",
+          "audiovisual",
+          "hands-on exhibits",
+          "visitor experience",
+          "planetarium technology"
+        ],
+        "source_count": 3,
+        "source_domains": [
+          "lsc.org",
+          "njeda.gov"
+        ],
+        "source_diversity": 2,
+        "source_quality": 98,
+        "expected_next_signals": [
+          "specialist exhibit-fabrication or media appointments",
+          "planetarium / AV supplier announcements",
+          "remaining phased construction or experience packages"
+        ],
+        "risk_flags": [
+          "construction has started, so some major packages may already be committed",
+          "no public specialist procurement notice identified yet"
+        ],
+        "opening_years": [
+          2028
+        ],
+        "investment_signals": [
+          "$40 million expansion",
+          "up to $39.8 million NJEDA support"
+        ]
+      },
       "source_url": "https://lsc.org/media-information/91026-supernova-groundbreaking"
     },
     {
@@ -99,7 +354,47 @@
       "score": 93,
       "confidence": 97,
       "procurement_window": "Construction begins in 2026; immersive-gallery and digital-experience packages likely during 2026–2028 fit-out",
-      "prediction": {"window":"3–15 months","reason":"The museum has a funded/active 35,000 sq ft expansion opening in fall 2028, with flexible galleries explicitly designed for immersive experiences blending art and technology. The Beck Group is appointed as design-build architect, while experience/media delivery remains a plausible downstream specialist scope.","signals":["funding","design","project","delivery"],"fit_terms":["immersive","interactive art","digital experience","multimedia","visitor experience","exhibition design"],"source_count":4,"source_domains":["thedali.org","expansion.thedali.org","beckgroup.com"],"source_diversity":3,"source_quality":97,"expected_next_signals":["immersive-gallery experience-design appointment","digital / AV integrator package","exhibition media-production procurement"],"risk_flags":["The Beck Group is design-build lead and may control or bundle downstream packages","no public specialist procurement notice identified yet"],"opening_years":[2028],"investment_signals":["approximately $70 million expansion"]},
+      "prediction": {
+        "window": "3–15 months",
+        "reason": "The museum has a funded/active 35,000 sq ft expansion opening in fall 2028, with flexible galleries explicitly designed for immersive experiences blending art and technology. The Beck Group is appointed as design-build architect, while experience/media delivery remains a plausible downstream specialist scope.",
+        "signals": [
+          "funding",
+          "design",
+          "project",
+          "delivery"
+        ],
+        "fit_terms": [
+          "immersive",
+          "interactive art",
+          "digital experience",
+          "multimedia",
+          "visitor experience",
+          "exhibition design"
+        ],
+        "source_count": 4,
+        "source_domains": [
+          "thedali.org",
+          "expansion.thedali.org",
+          "beckgroup.com"
+        ],
+        "source_diversity": 3,
+        "source_quality": 97,
+        "expected_next_signals": [
+          "immersive-gallery experience-design appointment",
+          "digital / AV integrator package",
+          "exhibition media-production procurement"
+        ],
+        "risk_flags": [
+          "The Beck Group is design-build lead and may control or bundle downstream packages",
+          "no public specialist procurement notice identified yet"
+        ],
+        "opening_years": [
+          2028
+        ],
+        "investment_signals": [
+          "approximately $70 million expansion"
+        ]
+      },
       "source_url": "https://expansion.thedali.org/design"
     },
     {
@@ -116,7 +411,50 @@
       "fit_rationale": "Excellent fit for interactive storytelling, immersive media, digital collections, participatory visitor experiences and technically integrated permanent exhibitions.",
       "pitch_angle": "Approach before specialist packages are locked: position around human-centred interactive storytelling, realtime/digital media and robust museum technology rather than generic AV supply.",
       "next_action": "Track the Migration Museum, Unknown Works and fit-out team for exhibition-media, digital-storytelling, interactive and systems-integration appointments.",
-      "prediction": {"window":"0–12 months","reason":"The building is in delivery, the museum opens in spring 2028, community/content development is active, and an August 2026 £600k grant is explicitly earmarked for fit-out and story-led exhibition content.","signals":["funding","fit-out","content","opening"],"fit_terms":["immersive experience","digital storytelling","interactive learning","visitor experience","story-led exhibitions","digital collection"],"source_count":4,"source_domains":["migrationmuseum.org","wolfson.org.uk","news.cityoflondon.gov.uk"],"source_diversity":3,"source_quality":98,"expected_next_signals":["exhibition design / fit-out appointments","interactive media production brief","AV / systems integration package","digital collection platform procurement"],"risk_flags":["Unknown Works is already involved in the museum vision/interiors","building contractor is already appointed, so opportunity is downstream specialist scope"],"opening_years":[2028],"investment_signals":["£600,000 Wolfson fit-out/content grant","£500,000 Portal Trust education support","permanent museum fit-out fundraising programme"]},
+      "prediction": {
+        "window": "0–12 months",
+        "reason": "The building is in delivery, the museum opens in spring 2028, community/content development is active, and an August 2026 £600k grant is explicitly earmarked for fit-out and story-led exhibition content.",
+        "signals": [
+          "funding",
+          "fit-out",
+          "content",
+          "opening"
+        ],
+        "fit_terms": [
+          "immersive experience",
+          "digital storytelling",
+          "interactive learning",
+          "visitor experience",
+          "story-led exhibitions",
+          "digital collection"
+        ],
+        "source_count": 4,
+        "source_domains": [
+          "migrationmuseum.org",
+          "wolfson.org.uk",
+          "news.cityoflondon.gov.uk"
+        ],
+        "source_diversity": 3,
+        "source_quality": 98,
+        "expected_next_signals": [
+          "exhibition design / fit-out appointments",
+          "interactive media production brief",
+          "AV / systems integration package",
+          "digital collection platform procurement"
+        ],
+        "risk_flags": [
+          "Unknown Works is already involved in the museum vision/interiors",
+          "building contractor is already appointed, so opportunity is downstream specialist scope"
+        ],
+        "opening_years": [
+          2028
+        ],
+        "investment_signals": [
+          "£600,000 Wolfson fit-out/content grant",
+          "£500,000 Portal Trust education support",
+          "permanent museum fit-out fundraising programme"
+        ]
+      },
       "source_url": "https://www.migrationmuseum.org/wolfson-foundation-commits-600000-to-the-uks-missing-museum/"
     },
     {
@@ -133,7 +471,50 @@
       "fit_rationale": "Near-direct fit for playful physical-digital interaction, immersive show design, sensors, realtime media and family-oriented hands-on exhibition experiences.",
       "pitch_angle": "This is an unusually good pre-procurement pitch target: the project is testing exhibition concepts with visitors now, while the specialist experience-delivery stack still appears to be evolving.",
       "next_action": "Track CLAY 1A, Baylight Properties and Thing Studio for interactive exhibit, immersive-media, lighting/control and digital-production appointments; consider direct early outreach.",
-      "prediction": {"window":"0–12 months","reason":"Funding is secured, the building transformation is underway, public test-exhibit sessions ran in July and September 2026, and the attraction is targeting a spring 2028 opening with explicitly interactive and immersive experiences.","signals":["funding","design","prototype testing","opening"],"fit_terms":["interactive displays","immersive show","multisensory experience","hands-on exhibits","visitor experience","technology"],"source_count":4,"source_domains":["clay1a.org","ipswich.gov.uk","studiojouan.com","aim-museums.co.uk"],"source_diversity":4,"source_quality":96,"expected_next_signals":["experience-design appointment","interactive / immersive production brief","AV / lighting / control systems package","exhibit fabrication package"],"risk_flags":["Thing Studio and specialist consultants are already involved","some exhibit concepts may already be assigned or developed in-house"],"opening_years":[2028],"investment_signals":["£20 million philanthropic lead gift","£2.28 million Towns Fund grant"]},
+      "prediction": {
+        "window": "0–12 months",
+        "reason": "Funding is secured, the building transformation is underway, public test-exhibit sessions ran in July and September 2026, and the attraction is targeting a spring 2028 opening with explicitly interactive and immersive experiences.",
+        "signals": [
+          "funding",
+          "design",
+          "prototype testing",
+          "opening"
+        ],
+        "fit_terms": [
+          "interactive displays",
+          "immersive show",
+          "multisensory experience",
+          "hands-on exhibits",
+          "visitor experience",
+          "technology"
+        ],
+        "source_count": 4,
+        "source_domains": [
+          "clay1a.org",
+          "ipswich.gov.uk",
+          "studiojouan.com",
+          "aim-museums.co.uk"
+        ],
+        "source_diversity": 4,
+        "source_quality": 96,
+        "expected_next_signals": [
+          "experience-design appointment",
+          "interactive / immersive production brief",
+          "AV / lighting / control systems package",
+          "exhibit fabrication package"
+        ],
+        "risk_flags": [
+          "Thing Studio and specialist consultants are already involved",
+          "some exhibit concepts may already be assigned or developed in-house"
+        ],
+        "opening_years": [
+          2028
+        ],
+        "investment_signals": [
+          "£20 million philanthropic lead gift",
+          "£2.28 million Towns Fund grant"
+        ]
+      },
       "source_url": "https://www.clay1a.org/"
     },
     {
@@ -150,7 +531,51 @@
       "fit_rationale": "Strong fit for immersive interpretation, interactive science storytelling, realtime/AV media and technical exhibit production. The project is large, fully financed and explicitly visitor-experience led rather than generic building works.",
       "pitch_angle": "Do not pitch general exhibition design: Kossmanndejong already leads that scope. Position specifically for downstream interactive-media production, realtime content, immersive theater technology, sensor-driven interpretation or specialist systems integration where the lead designer needs delivery partners.",
       "next_action": "Track NHMLAC, Kossmanndejong, WEISS/MANFREDI, Landmark PM and Clark Construction for specialist media-production, AV/controls, interactive fabrication and immersive-theater packages or subcontractor appointments.",
-      "prediction": {"window":"0–12 months","reason":"The museum closed for construction in July 2026, $236.03m of bond financing closed in August, the visitor-experience programme includes an immersive theater and reconfigured exhibition areas, and reopening is targeted for 2028. With architecture, general contracting and exhibition design already appointed, the remaining opportunity is specifically downstream specialist delivery.","signals":["financing","construction","exhibition design","opening"],"fit_terms":["immersive theater","interactive science storytelling","audiovisual","media production","visitor experience","systems integration"],"source_count":4,"source_domains":["ibank.ca.gov","nhm.org","nhmlac.org","kossmanndejong.nl"],"source_diversity":4,"source_quality":98,"expected_next_signals":["interactive media / AV subcontract awards","immersive theater technical package","exhibit fabrication appointments","media-production partner announcements"],"risk_flags":["Kossmanndejong already leads exhibition design and visitor-experience development","Clark Construction is already general contractor, so relevant work may be packaged as subcontracts rather than public tenders","some downstream packages may already be in procurement privately"],"opening_years":[2028],"investment_signals":["$236.03 million California IBank bond financing","approximately $240 million overall transformation"]},
+      "prediction": {
+        "window": "0–12 months",
+        "reason": "The museum closed for construction in July 2026, $236.03m of bond financing closed in August, the visitor-experience programme includes an immersive theater and reconfigured exhibition areas, and reopening is targeted for 2028. With architecture, general contracting and exhibition design already appointed, the remaining opportunity is specifically downstream specialist delivery.",
+        "signals": [
+          "financing",
+          "construction",
+          "exhibition design",
+          "opening"
+        ],
+        "fit_terms": [
+          "immersive theater",
+          "interactive science storytelling",
+          "audiovisual",
+          "media production",
+          "visitor experience",
+          "systems integration"
+        ],
+        "source_count": 4,
+        "source_domains": [
+          "ibank.ca.gov",
+          "nhm.org",
+          "nhmlac.org",
+          "kossmanndejong.nl"
+        ],
+        "source_diversity": 4,
+        "source_quality": 98,
+        "expected_next_signals": [
+          "interactive media / AV subcontract awards",
+          "immersive theater technical package",
+          "exhibit fabrication appointments",
+          "media-production partner announcements"
+        ],
+        "risk_flags": [
+          "Kossmanndejong already leads exhibition design and visitor-experience development",
+          "Clark Construction is already general contractor, so relevant work may be packaged as subcontracts rather than public tenders",
+          "some downstream packages may already be in procurement privately"
+        ],
+        "opening_years": [
+          2028
+        ],
+        "investment_signals": [
+          "$236.03 million California IBank bond financing",
+          "approximately $240 million overall transformation"
+        ]
+      },
       "source_url": "https://ibank.ca.gov/ibank-closes-236-million-in-bond-financing-for-la-brea-tar-pits-reimagine-project/"
     },
     {
@@ -167,7 +592,48 @@
       "fit_rationale": "Very strong fit for interactive storytelling, realtime/media-rich exhibits, broadcast-inspired visitor experiences, physical-digital installations and robust permanent museum systems. The project is funded, phased and explicitly includes interactive exhibits rather than only building works.",
       "pitch_angle": "Approach early around interactive exhibit systems, realtime content, media production, sensors and technical prototyping. The strongest angle is specialist experience delivery within the phased modernization, not general construction.",
       "next_action": "Track the Hall's Phase III design and delivery team for exhibit designer, fabrication, AV/media and interactive-technology appointments; identify whether packages are museum-direct or routed through a lead contractor.",
-      "prediction": {"window":"0–12 months","reason":"NFL owners approved funding on 26 August 2026 specifically allowing Phase III to move forward aggressively. The phase includes interactive exhibits and a broadcast studio, while later Evolve 2030 phases will create or reimagine additional museum exhibits.","signals":["funding","project","interactive exhibits","phased modernization"],"fit_terms":["interactive exhibits","visitor experience","media production","broadcast studio","physical-digital installations","realtime content"],"source_count":2,"source_domains":["profootballhof.com"],"source_diversity":1,"source_quality":99,"expected_next_signals":["Phase III design-team appointment","interactive exhibit / AV package","exhibit fabrication partner","media-production or systems-integration appointment"],"risk_flags":["procurement route is not public yet","some Phase III design scopes may already be under development","US delivery may favor local fabrication or integration partners"],"opening_years":[2030],"investment_signals":["approximately $33 million Phase III","approximately $102 million six-phase Evolve 2030 programme"]},
+      "prediction": {
+        "window": "0–12 months",
+        "reason": "NFL owners approved funding on 26 August 2026 specifically allowing Phase III to move forward aggressively. The phase includes interactive exhibits and a broadcast studio, while later Evolve 2030 phases will create or reimagine additional museum exhibits.",
+        "signals": [
+          "funding",
+          "project",
+          "interactive exhibits",
+          "phased modernization"
+        ],
+        "fit_terms": [
+          "interactive exhibits",
+          "visitor experience",
+          "media production",
+          "broadcast studio",
+          "physical-digital installations",
+          "realtime content"
+        ],
+        "source_count": 2,
+        "source_domains": [
+          "profootballhof.com"
+        ],
+        "source_diversity": 1,
+        "source_quality": 99,
+        "expected_next_signals": [
+          "Phase III design-team appointment",
+          "interactive exhibit / AV package",
+          "exhibit fabrication partner",
+          "media-production or systems-integration appointment"
+        ],
+        "risk_flags": [
+          "procurement route is not public yet",
+          "some Phase III design scopes may already be under development",
+          "US delivery may favor local fabrication or integration partners"
+        ],
+        "opening_years": [
+          2030
+        ],
+        "investment_signals": [
+          "approximately $33 million Phase III",
+          "approximately $102 million six-phase Evolve 2030 programme"
+        ]
+      },
       "source_url": "https://www.profootballhof.com/news/nfl-owners-approve-funding-for-pro-football-hall-of-fame-s-transformation-plan"
     },
     {
@@ -184,7 +650,48 @@
       "fit_rationale": "Excellent fit for interactive exhibit development, physical-digital prototyping, sound and media integration, playful STEM interpretation and robust touring-exhibition systems. Unlike generic capital work, the funded activities directly name interactive components and interpretive media.",
       "pitch_angle": "Approach around interactive prototyping, realtime/media-rich exhibit systems, sound-responsive interaction and technically robust touring-exhibit delivery. The strongest route is specialist exhibit/media production rather than general exhibition design.",
       "next_action": "Track McWane's Dropping Science implementation for exhibit-fabrication, interactive technology, interpretive-media, sound-design and traveling-system partners; determine which production packages remain unassigned.",
-      "prediction": {"window":"0–9 months","reason":"IMLS has awarded $300,000 in FY2026 specifically for fabrication, installation and implementation. The scope names interactive exhibit components, interpretive media, prototyping, music production and sound design, indicating near-term specialist delivery work rather than an early concept-only project.","signals":["funding","fabrication","interactive exhibits","media production"],"fit_terms":["interactive exhibits","immersive exhibition","interpretive media","sound design","prototyping","traveling exhibition"],"source_count":3,"source_domains":["imls.gov","mcwane.org","birminghamtimes.com"],"source_diversity":3,"source_quality":98,"expected_next_signals":["fabrication vendor appointment","interactive technology partner","media / sound production supplier","installation schedule"],"risk_flags":["some design development already predates the 2026 implementation grant","local fabrication may be preferred","no public procurement notice identified yet"],"opening_years":[],"investment_signals":["$300,000 FY2026 IMLS grant","$170,000 Birmingham City Council support announced in 2025"]},
+      "prediction": {
+        "window": "0–9 months",
+        "reason": "IMLS has awarded $300,000 in FY2026 specifically for fabrication, installation and implementation. The scope names interactive exhibit components, interpretive media, prototyping, music production and sound design, indicating near-term specialist delivery work rather than an early concept-only project.",
+        "signals": [
+          "funding",
+          "fabrication",
+          "interactive exhibits",
+          "media production"
+        ],
+        "fit_terms": [
+          "interactive exhibits",
+          "immersive exhibition",
+          "interpretive media",
+          "sound design",
+          "prototyping",
+          "traveling exhibition"
+        ],
+        "source_count": 3,
+        "source_domains": [
+          "imls.gov",
+          "mcwane.org",
+          "birminghamtimes.com"
+        ],
+        "source_diversity": 3,
+        "source_quality": 98,
+        "expected_next_signals": [
+          "fabrication vendor appointment",
+          "interactive technology partner",
+          "media / sound production supplier",
+          "installation schedule"
+        ],
+        "risk_flags": [
+          "some design development already predates the 2026 implementation grant",
+          "local fabrication may be preferred",
+          "no public procurement notice identified yet"
+        ],
+        "opening_years": [],
+        "investment_signals": [
+          "$300,000 FY2026 IMLS grant",
+          "$170,000 Birmingham City Council support announced in 2025"
+        ]
+      },
       "source_url": "https://www.imls.gov/grants/awarded/ma-260003-oms-26"
     },
     {
@@ -202,7 +709,48 @@
       "fit_rationale": "Strong fit for immersive interpretation, interactive storytelling, digital media, AV integration and technically integrated permanent galleries. The building contractor is appointed, but no public specialist interactive/media delivery partner was identified in the current research.",
       "pitch_angle": "Treat this as a downstream specialist-delivery opportunity. Position around interactive storytelling, digital interpretation, realtime/media systems and robust museum AV rather than general construction or full exhibition fit-out.",
       "next_action": "Track Galway City Council, Galway City Museum, Fáilte Ireland and Carey Building Contractors for exhibition-design, interpretation, digital-media, AV/integration and exhibit-fabrication appointments; identify whether specialist packages are council-direct or routed through the main contractor.",
-      "prediction": {"window":"0–12 months","reason":"The €19m capital project is fully moving into construction as of 7 September 2026, the visitor proposition explicitly includes immersive galleries and interactive/digital storytelling, and specialist exhibition delivery will need to align with the active building programme.","signals":["funding","construction","immersive visitor experience","interactive storytelling"],"fit_terms":["immersive exhibitions","interactive storytelling","digital technology","interpretation","audiovisual","visitor experience"],"source_count":3,"source_domains":["galwaycity.ie","failteireland.ie","constructionireland.ie"],"source_diversity":3,"source_quality":98,"expected_next_signals":["exhibition / interpretation designer appointment","digital media or interactive package","AV / systems integration package","exhibit fabrication appointment"],"risk_flags":["Carey Building Contractors is already appointed for the main works","some exhibition-design scope may already be assigned but is not publicly visible","specialist packages may be routed privately through the main contractor or design team"],"opening_years":[],"investment_signals":["€19 million redevelopment","€12.6 million Fáilte Ireland investment"]},
+      "prediction": {
+        "window": "0–12 months",
+        "reason": "The €19m capital project is fully moving into construction as of 7 September 2026, the visitor proposition explicitly includes immersive galleries and interactive/digital storytelling, and specialist exhibition delivery will need to align with the active building programme.",
+        "signals": [
+          "funding",
+          "construction",
+          "immersive visitor experience",
+          "interactive storytelling"
+        ],
+        "fit_terms": [
+          "immersive exhibitions",
+          "interactive storytelling",
+          "digital technology",
+          "interpretation",
+          "audiovisual",
+          "visitor experience"
+        ],
+        "source_count": 3,
+        "source_domains": [
+          "galwaycity.ie",
+          "failteireland.ie",
+          "constructionireland.ie"
+        ],
+        "source_diversity": 3,
+        "source_quality": 98,
+        "expected_next_signals": [
+          "exhibition / interpretation designer appointment",
+          "digital media or interactive package",
+          "AV / systems integration package",
+          "exhibit fabrication appointment"
+        ],
+        "risk_flags": [
+          "Carey Building Contractors is already appointed for the main works",
+          "some exhibition-design scope may already be assigned but is not publicly visible",
+          "specialist packages may be routed privately through the main contractor or design team"
+        ],
+        "opening_years": [],
+        "investment_signals": [
+          "€19 million redevelopment",
+          "€12.6 million Fáilte Ireland investment"
+        ]
+      },
       "source_url": "https://www.galwaycity.ie/news/2026/galway-city-museum-redevelopment-works-commence"
     },
     {
@@ -220,7 +768,53 @@
       "fit_rationale": "Excellent fit for immersive projection, interactive learning, AV systems, lighting, media playback/control and family-oriented science interpretation. The grant names concrete technology systems rather than only building work, while the wider expansion remains early enough for downstream specialist delivery opportunities.",
       "pitch_angle": "Approach around the dome as a complete immersive learning system and around interactive exhibit/media delivery for the broader expansion. The strongest route is specialist technology and experience integration, potentially with a US fabrication or installation partner.",
       "next_action": "Track Carter County Museum, Carter County, Cushing Terrell and the planetarium design team for projection, audio, lighting/control, exhibit fabrication and interactive-media appointments; determine whether the $300k technology scope is museum-direct or packaged through the construction team.",
-      "prediction": {"window":"0–12 months","reason":"Design is complete, the project is described as shovel-ready with a fall 2026 groundbreaking, construction is expected through mid-2028, and a fresh $300,000 federal award explicitly funds planetarium projection, audio, assistive listening, immersive lighting and presentation equipment.","signals":["funding","design complete","construction","immersive technology"],"fit_terms":["planetarium projection","immersive lighting","audio","interactive displays","science interpretation","systems integration"],"source_count":4,"source_domains":["imls.gov","ekalakaeagle.com","naco.org","ypradio.org"],"source_diversity":4,"source_quality":97,"expected_next_signals":["planetarium technology vendor appointment","projection / AV integration package","interactive exhibit fabrication package","construction award / subcontract announcements"],"risk_flags":["a planetarium consultant is already advising the project","US delivery may favor local integrators or fabricators","some technology specifications may already be embedded in the completed design"],"opening_years":[2028],"investment_signals":["$300,000 FY2026 IMLS planetarium grant","$1.25 million Montana tourism grant","approximately $6 million raised by April 2026","$1 million county PILT allocation"]},
+      "prediction": {
+        "window": "0–12 months",
+        "reason": "Design is complete, the project is described as shovel-ready with a fall 2026 groundbreaking, construction is expected through mid-2028, and a fresh $300,000 federal award explicitly funds planetarium projection, audio, assistive listening, immersive lighting and presentation equipment.",
+        "signals": [
+          "funding",
+          "design complete",
+          "construction",
+          "immersive technology"
+        ],
+        "fit_terms": [
+          "planetarium projection",
+          "immersive lighting",
+          "audio",
+          "interactive displays",
+          "science interpretation",
+          "systems integration"
+        ],
+        "source_count": 4,
+        "source_domains": [
+          "imls.gov",
+          "ekalakaeagle.com",
+          "naco.org",
+          "ypradio.org"
+        ],
+        "source_diversity": 4,
+        "source_quality": 97,
+        "expected_next_signals": [
+          "planetarium technology vendor appointment",
+          "projection / AV integration package",
+          "interactive exhibit fabrication package",
+          "construction award / subcontract announcements"
+        ],
+        "risk_flags": [
+          "a planetarium consultant is already advising the project",
+          "US delivery may favor local integrators or fabricators",
+          "some technology specifications may already be embedded in the completed design"
+        ],
+        "opening_years": [
+          2028
+        ],
+        "investment_signals": [
+          "$300,000 FY2026 IMLS planetarium grant",
+          "$1.25 million Montana tourism grant",
+          "approximately $6 million raised by April 2026",
+          "$1 million county PILT allocation"
+        ]
+      },
       "source_url": "https://www.imls.gov/grants/awarded/ma-259864-oms-26"
     },
     {
@@ -238,7 +832,45 @@
       "fit_rationale": "Strong, concrete fit for interactive interpretation and digital exhibit delivery. The project is funded and the brief explicitly includes digital interpretation and interactive experiences rather than generic refurbishment alone.",
       "pitch_angle": "Approach as a specialist delivery partner to the appointed exhibition-design team, focusing on interactive media, digital interpretation and robust family-oriented exhibit technology rather than competing for the lead design role.",
       "next_action": "Track Pontypridd Town Council, Pontypridd Museum and Headland Design Associates for interactive-media, digital-interpretation, AV and exhibit-fabrication packages as consultation moves into detailed design and installation.",
-      "prediction": {"window":"0–9 months","reason":"Funding is confirmed, the exhibition designer is appointed, development is beginning immediately and installation will follow. The project explicitly includes interactive exhibits and digital interpretation, making downstream specialist packages likely in the current design-to-delivery window.","signals":["funding","designer appointed","digital interpretation","interactive exhibits"],"fit_terms":["interactive exhibits","digital interpretation","visitor experience","bilingual interpretation","museum technology"],"source_count":2,"source_domains":["pontypriddtowncouncil.gov.uk","pontypriddmuseum.wales"],"source_diversity":2,"source_quality":99,"expected_next_signals":["detailed exhibition design","interactive / digital media subcontract","AV package","installation procurement"],"risk_flags":["Headland Design Associates already leads interpretation and exhibition design","total project funding is modest, so specialist digital scope may be relatively small or bundled","delivery may favor UK-based fabrication partners"],"opening_years":[],"investment_signals":["more than £257,000 Welsh Government capital grant"]},
+      "prediction": {
+        "window": "0–9 months",
+        "reason": "Funding is confirmed, the exhibition designer is appointed, development is beginning immediately and installation will follow. The project explicitly includes interactive exhibits and digital interpretation, making downstream specialist packages likely in the current design-to-delivery window.",
+        "signals": [
+          "funding",
+          "designer appointed",
+          "digital interpretation",
+          "interactive exhibits"
+        ],
+        "fit_terms": [
+          "interactive exhibits",
+          "digital interpretation",
+          "visitor experience",
+          "bilingual interpretation",
+          "museum technology"
+        ],
+        "source_count": 2,
+        "source_domains": [
+          "pontypriddtowncouncil.gov.uk",
+          "pontypriddmuseum.wales"
+        ],
+        "source_diversity": 2,
+        "source_quality": 99,
+        "expected_next_signals": [
+          "detailed exhibition design",
+          "interactive / digital media subcontract",
+          "AV package",
+          "installation procurement"
+        ],
+        "risk_flags": [
+          "Headland Design Associates already leads interpretation and exhibition design",
+          "total project funding is modest, so specialist digital scope may be relatively small or bundled",
+          "delivery may favor UK-based fabrication partners"
+        ],
+        "opening_years": [],
+        "investment_signals": [
+          "more than £257,000 Welsh Government capital grant"
+        ]
+      },
       "source_url": "https://www.pontypriddtowncouncil.gov.uk/pontypridd-town-council-welcomes-major-welsh-government-investment-in-pontypridd-museum"
     },
     {
@@ -256,7 +888,45 @@
       "fit_rationale": "Direct fit for AR, spatial storytelling, realtime 3D, interactive interpretation and prototype-to-installation delivery. This is a defined digital-experience project rather than a broad capital programme.",
       "pitch_angle": "Position around robust museum-grade AR, spatial storytelling and reusable portable digital interpretation. The clearest route is direct specialist digital-experience delivery or partnership with the museum's interpretive team.",
       "next_action": "Track the Taft Museum for AR platform, realtime 3D, prototype-development and installation partners; identify whether the museum is procuring an external experience studio or assembling the work through multiple specialists.",
-      "prediction": {"window":"0–9 months","reason":"Federal funding is awarded for a defined scope that moves from concept through prototype, beta testing and installation. The project therefore needs near-term specialist AR and interactive-experience capability rather than only future planning.","signals":["funding","augmented reality","prototype development","installation"],"fit_terms":["augmented reality","realtime 3D","interactive interpretation","immersive storytelling","digital experience"],"source_count":2,"source_domains":["imls.gov","taftmuseum.org"],"source_diversity":2,"source_quality":99,"expected_next_signals":["AR / digital-experience vendor appointment","prototype partner","technical platform selection","installation schedule"],"risk_flags":["the grant value is modest","museum staff or an incumbent digital partner may already be involved","US delivery may favor a local partner for installation and support"],"opening_years":[],"investment_signals":["$159,733 FY2026 Museums for America award"]},
+      "prediction": {
+        "window": "0–9 months",
+        "reason": "Federal funding is awarded for a defined scope that moves from concept through prototype, beta testing and installation. The project therefore needs near-term specialist AR and interactive-experience capability rather than only future planning.",
+        "signals": [
+          "funding",
+          "augmented reality",
+          "prototype development",
+          "installation"
+        ],
+        "fit_terms": [
+          "augmented reality",
+          "realtime 3D",
+          "interactive interpretation",
+          "immersive storytelling",
+          "digital experience"
+        ],
+        "source_count": 2,
+        "source_domains": [
+          "imls.gov",
+          "taftmuseum.org"
+        ],
+        "source_diversity": 2,
+        "source_quality": 99,
+        "expected_next_signals": [
+          "AR / digital-experience vendor appointment",
+          "prototype partner",
+          "technical platform selection",
+          "installation schedule"
+        ],
+        "risk_flags": [
+          "the grant value is modest",
+          "museum staff or an incumbent digital partner may already be involved",
+          "US delivery may favor a local partner for installation and support"
+        ],
+        "opening_years": [],
+        "investment_signals": [
+          "$159,733 FY2026 Museums for America award"
+        ]
+      },
       "source_url": "https://www.imls.gov/grants/awarded/ma-259865-oms-26"
     },
     {
@@ -274,7 +944,45 @@
       "fit_rationale": "Excellent early-stage fit for playful interactive exhibit design, prototyping, sensors, physical-digital learning and future technical fabrication. The grant creates a clear design-to-fabrication pipeline rather than a speculative concept.",
       "pitch_angle": "Engage during design or immediately before fabrication so interactive mechanics, digital systems and maintainability are shaped early. The likely commercial route is specialist exhibit/interactive design now, followed by fabrication and integration later.",
       "next_action": "Track SPARK Museum for the professional exhibit-designer appointment and the completed Wonderlab design package; watch next for fabrication, interactive-technology, control-system and exhibit-build procurement.",
-      "prediction": {"window":"3–12 months","reason":"The museum has funded the design phase and the stated deliverable is a complete exhibit design package and documentation for future fabrication. This creates a strong, explicit next procurement step once design and feasibility work are complete.","signals":["funding","interactive gallery","design phase","future fabrication"],"fit_terms":["hands-on exhibits","interactive science","exhibit design","prototyping","physical-digital interaction","fabrication"],"source_count":1,"source_domains":["imls.gov"],"source_diversity":1,"source_quality":99,"expected_next_signals":["exhibit designer appointment","completed schematic design","fabrication RFP or vendor selection","interactive technology package"],"risk_flags":["current federal award funds design rather than fabrication","professional exhibit designers may already be under selection","future build budget is not yet public"],"opening_years":[],"investment_signals":["$75,000 FY2026 Inspire! grant for design phase"]},
+      "prediction": {
+        "window": "3–12 months",
+        "reason": "The museum has funded the design phase and the stated deliverable is a complete exhibit design package and documentation for future fabrication. This creates a strong, explicit next procurement step once design and feasibility work are complete.",
+        "signals": [
+          "funding",
+          "interactive gallery",
+          "design phase",
+          "future fabrication"
+        ],
+        "fit_terms": [
+          "hands-on exhibits",
+          "interactive science",
+          "exhibit design",
+          "prototyping",
+          "physical-digital interaction",
+          "fabrication"
+        ],
+        "source_count": 1,
+        "source_domains": [
+          "imls.gov"
+        ],
+        "source_diversity": 1,
+        "source_quality": 99,
+        "expected_next_signals": [
+          "exhibit designer appointment",
+          "completed schematic design",
+          "fabrication RFP or vendor selection",
+          "interactive technology package"
+        ],
+        "risk_flags": [
+          "current federal award funds design rather than fabrication",
+          "professional exhibit designers may already be under selection",
+          "future build budget is not yet public"
+        ],
+        "opening_years": [],
+        "investment_signals": [
+          "$75,000 FY2026 Inspire! grant for design phase"
+        ]
+      },
       "source_url": "https://www.imls.gov/grants/awarded/igsm-259954-oms-26"
     },
     {
@@ -292,8 +1000,231 @@
       "fit_rationale": "Direct fit for large-format interactive media, collection exploration, realtime UI, display integration and museum-grade software. The project has a concrete digital deliverable rather than a generic exhibition ambition.",
       "pitch_angle": "Position around the interactive wall as a maintainable collection-exploration system: realtime interface, content pipeline, display hardware integration and analytics/evaluation support.",
       "next_action": "Track miSci for the interactive-wall software, display-system and integration partner; determine whether design/build is being handled internally or requires an external specialist studio.",
-      "prediction": {"window":"0–9 months","reason":"The grant directly funds design, build and exhibition of a defined 16.5-megapixel interactive wall, making this a near-term implementation opportunity rather than a long-range capital lead.","signals":["funding","interactive media","large-format display","implementation"],"fit_terms":["interactive wall","realtime UI","digital collections","display integration","museum software"],"source_count":1,"source_domains":["imls.gov"],"source_diversity":1,"source_quality":99,"expected_next_signals":["interactive software partner","display / hardware integrator","content-production appointment","installation schedule"],"risk_flags":["grant value is modest","hardware and software may be procured as a single local package","the museum may have internal digital capacity"],"opening_years":[],"investment_signals":["$94,987 FY2026 Museums for America award"]},
+      "prediction": {
+        "window": "0–9 months",
+        "reason": "The grant directly funds design, build and exhibition of a defined 16.5-megapixel interactive wall, making this a near-term implementation opportunity rather than a long-range capital lead.",
+        "signals": [
+          "funding",
+          "interactive media",
+          "large-format display",
+          "implementation"
+        ],
+        "fit_terms": [
+          "interactive wall",
+          "realtime UI",
+          "digital collections",
+          "display integration",
+          "museum software"
+        ],
+        "source_count": 1,
+        "source_domains": [
+          "imls.gov"
+        ],
+        "source_diversity": 1,
+        "source_quality": 99,
+        "expected_next_signals": [
+          "interactive software partner",
+          "display / hardware integrator",
+          "content-production appointment",
+          "installation schedule"
+        ],
+        "risk_flags": [
+          "grant value is modest",
+          "hardware and software may be procured as a single local package",
+          "the museum may have internal digital capacity"
+        ],
+        "opening_years": [],
+        "investment_signals": [
+          "$94,987 FY2026 Museums for America award"
+        ]
+      },
       "source_url": "https://www.imls.gov/grants/awarded/ma-259829-oms-26"
+    },
+    {
+      "project_id": "project-solingen-klingenmuseum-permanent",
+      "title": "Deutsches Klingenmuseum — new permanent exhibition design",
+      "organization": "Stadt Solingen / Deutsches Klingenmuseum",
+      "country": "Germany",
+      "city": "Solingen",
+      "stage": "Pre-market",
+      "score": 85,
+      "confidence": 96,
+      "source_key": "research_agent",
+      "procurement_window": "Current exhibition design team selection closes 9 November 2026; specialist production procurement after design appointment, timing unconfirmed",
+      "summary": "Official TED notice 695514-2026, published 8 October 2026, seeks architecture and scenography planning for a new permanent exhibition, including exhibition design phases under HOAS. This is an active design-team procurement, not an identified interactive software package.",
+      "fit_rationale": "Opportunity to join a design consortium or approach the appointed exhibition designer later for digital interpretation, interactive media and exhibit technology. No specific interactive package is confirmed.",
+      "pitch_angle": "Contact shortlisted exhibition-design teams to offer specialist digital and physical interactive capabilities.",
+      "next_action": "Review notice 695514-2026 and contact design teams; watch the award for the scenography lead and later media/interactive lots.",
+      "prediction": {
+        "window": "3–18 months (inferred)",
+        "reason": "Exhibition design procurement is active in October–November 2026, establishing the team that may define specialist exhibition packages.",
+        "signals": [
+          "official design tender",
+          "permanent exhibition",
+          "scenography"
+        ],
+        "fit_terms": [
+          "exhibition design",
+          "interactive interpretation potential"
+        ],
+        "source_count": 2,
+        "source_domains": [
+          "ted.europa.eu",
+          "bieterzugang.deutsche-evergabe.de"
+        ],
+        "source_diversity": 2,
+        "source_quality": 97,
+        "expected_next_signals": [
+          "exhibition designer appointment",
+          "interactive/media brief",
+          "production procurement"
+        ],
+        "risk_flags": [
+          "no confirmed specialist interactive scope",
+          "architecture and scenography package is not a direct interactive tender"
+        ]
+      },
+      "source_url": "https://ted.europa.eu/en/notice/-/detail/695514-2026"
+    },
+    {
+      "project_id": "project-malmo-art-museum-2026",
+      "title": "Malmö Art Museum — new museum and future exhibition programme",
+      "organization": "Malmö stad",
+      "country": "Sweden",
+      "city": "Malmö",
+      "stage": "Lead",
+      "score": 78,
+      "confidence": 97,
+      "source_key": "research_agent",
+      "procurement_window": "Main construction collaboration tender deadline 23 October 2026; architecture competition winner planned summer 2027; exhibition procurement not announced",
+      "summary": "Malmö's official procurement SN-2026-1654 concerns a new art museum combining an existing building with up to 6,500 m² of new construction, estimated SEK 750m. The municipality's separate architecture competition anticipates a winning team in summer 2027. Neither notice confirms a specialist interactive commission.",
+      "fit_rationale": "Substantial future visitor-experience and gallery opportunity; best accessed through museum design team and eventual exhibition contractors, not the construction tender.",
+      "pitch_angle": "Track the architectural and exhibition design appointments; pitch accessible, participatory gallery experiences and collection interpretation at programme-definition stage.",
+      "next_action": "Track main contractor award after 23 October and architecture competition result in summer 2027; monitor for separate exhibition and digital interpretation briefs.",
+      "prediction": {
+        "window": "12–36 months (inferred)",
+        "reason": "Construction procurement and design competition indicate a funded institutional programme, but exhibition packages are not yet public.",
+        "signals": [
+          "official construction procurement",
+          "museum expansion",
+          "architecture competition"
+        ],
+        "fit_terms": [
+          "visitor experience",
+          "exhibition interpretation potential"
+        ],
+        "source_count": 2,
+        "source_domains": [
+          "kommersannons.se",
+          "malmo.se"
+        ],
+        "source_diversity": 2,
+        "source_quality": 98,
+        "expected_next_signals": [
+          "construction contractor award",
+          "architect competition winner summer 2027",
+          "exhibition design brief",
+          "digital interpretation scope"
+        ],
+        "risk_flags": [
+          "SEK 750m is a construction budget, not interactive budget",
+          "no confirmed interactive tender"
+        ]
+      },
+      "source_url": "https://www.kommersannons.se/malmo/Notice/NoticeOverview.aspx?ProcurementId=58904"
+    },
+    {
+      "project_id": "project-gilleleje-1943-exhibition",
+      "title": "Gilleleje Museum — 1943 rescue exhibition",
+      "organization": "Museum Nordsjælland / KINN Studio",
+      "country": "Denmark",
+      "city": "Gilleleje",
+      "stage": "Pitch",
+      "score": 84,
+      "confidence": 97,
+      "source_key": "research_agent",
+      "procurement_window": "Design awarded June 2026; downstream specialist packages and opening date not publicly confirmed",
+      "summary": "KINN Studio announced it won the June 2026 exhibition-design tender for a new Gilleleje Museum exhibition about the escape of Danish Jews across Øresund in October 1943. The exhibition is part of At handle i mørket with the Danish Jewish Museum and public cultural support. Sensory storytelling is planned.",
+      "fit_rationale": "A named exhibition designer creates a concrete outreach route for sound, media and sensitive participatory storytelling, although external digital procurement has not been confirmed.",
+      "pitch_angle": "Offer subtle interactive storytelling, spatial audio and visitor-driven narrative moments that respect the historical subject.",
+      "next_action": "Approach KINN Studio to establish whether AV, sound, media or interactive subcontracts remain unassigned; watch fabrication and media appointments.",
+      "prediction": {
+        "window": "0–12 months (inferred)",
+        "reason": "Lead designer was selected in June 2026, making downstream delivery discussions plausible.",
+        "signals": [
+          "designer appointed",
+          "new exhibition",
+          "public cultural funding"
+        ],
+        "fit_terms": [
+          "spatial audio",
+          "interpretive media",
+          "interactive storytelling potential"
+        ],
+        "source_count": 2,
+        "source_domains": [
+          "kinnstudio.dk",
+          "museumns.dk"
+        ],
+        "source_diversity": 2,
+        "source_quality": 97,
+        "expected_next_signals": [
+          "media production partner",
+          "AV contractor",
+          "fabrication schedule"
+        ],
+        "risk_flags": [
+          "no confirmed separate specialist procurement",
+          "designer may deliver media in-house"
+        ]
+      },
+      "source_url": "https://kinnstudio.dk/journal/gilleleje"
+    },
+    {
+      "project_id": "project-norway-naturrom-lygra",
+      "title": "Naturrom Lygra — interactive coastal heritage exhibition",
+      "organization": "Museumssenteret i Hordaland / Lyngheisenteret",
+      "country": "Norway",
+      "city": "Lygra",
+      "stage": "Lead",
+      "score": 83,
+      "confidence": 96,
+      "source_key": "research_agent",
+      "procurement_window": "Funded development programme; exhibition design and procurement dates unconfirmed",
+      "summary": "Norwegian government 2026 budget documentation describes Naturrom Lygra, a new visitor building with an explicitly interactive exhibition on 5,000 years of coastal heathland heritage and sustainable futures. It identifies state participation of NOK 6.3m for the building, including future commitments; this is not an interactive budget.",
+      "fit_rationale": "Direct thematic fit for playful environmental and heritage interpretation, hands-on systems and experiential learning. Specific supplier requirements remain unannounced.",
+      "pitch_angle": "Offer visitor-controlled ecological landscape simulation and interactive comparisons of past and future land management.",
+      "next_action": "Contact Museumssenteret i Hordaland about exhibition-design status and watch for interpretation/media procurement and construction milestones.",
+      "prediction": {
+        "window": "6–24 months (inferred)",
+        "reason": "Government funding documentation explicitly identifies an interactive exhibition but gives no procurement schedule.",
+        "signals": [
+          "government funding",
+          "new visitor centre",
+          "interactive exhibition"
+        ],
+        "fit_terms": [
+          "interactive exhibition",
+          "environmental learning",
+          "heritage interpretation"
+        ],
+        "source_count": 1,
+        "source_domains": [
+          "regjeringen.no"
+        ],
+        "source_diversity": 1,
+        "source_quality": 99,
+        "expected_next_signals": [
+          "exhibition concept commission",
+          "digital interpretation tender",
+          "building programme update"
+        ],
+        "risk_flags": [
+          "procurement timing unknown",
+          "state contribution is not exhibition budget"
+        ]
+      },
+      "source_url": "https://www.regjeringen.no/no/dokumenter/prop.-1-s-20252026/id3123306/?ch=2"
     }
   ]
 }

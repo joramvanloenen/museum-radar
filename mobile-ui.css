@@ -140,3 +140,34 @@
 .main:has(.homeActions) .actionWhy b{color:#252525!important}
 .main:has(.homeActions) .mobileNav button.active{background:#e8e7e1!important;color:#111!important}
 }
+
+/* Opportunity detail: action-first, compact on mobile */
+.detailRefined .detailQuickInfo{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 14px}
+.detailRefined .detailQuickInfo span{padding:8px 11px;background:#eceae4;border-radius:7px;font-size:12px;color:#333}
+.detailRefined .detailQuickInfo b{font-weight:800}
+.detailRefined .detailSummary{margin:13px 0}
+.detailRefined .detailSummary summary,.detailRefined .detailScoreDetails summary{cursor:pointer;font-size:13px;font-weight:800;padding:10px 0}
+.detailRefined .detailScoreDetails{border-top:1px solid #d3cfc5;margin-top:12px}
+.detailRefined .detailScoreDetails .decisionGrid{margin-top:8px}
+.detailRefined .detailRecommended{margin:4px 0 10px!important;font-size:15px!important;line-height:1.45!important}
+.detailRefined .detailQuickActions{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}
+.detailRefined .detailQuickActions button{min-height:40px}
+.detailRefined .detailPrimarySource{display:inline-flex;padding:11px 14px;border-radius:8px;background:#171717;color:#fff!important;font-size:13px;font-weight:800;text-decoration:none;margin:5px 0}
+@media(max-width:700px){
+.detailRefined{padding:12px 17px 30px!important}
+.detailRefined .detailModalTop{margin-bottom:14px!important}
+.detailRefined .detailMain h1{font-size:clamp(26px,7.1vw,34px)!important;line-height:1.12!important;margin:10px 0!important;letter-spacing:-.035em}
+.detailRefined .detailOrg{font-size:11px!important;line-height:1.4!important}
+.detailRefined .decisionBox{padding:12px 13px!important;margin:12px 0!important}
+.detailRefined .decisionHead{margin:0!important}
+.detailRefined .detailRecommended{font-size:14px!important;margin:7px 0!important}
+.detailRefined .detailSummary .sub{font-size:14px!important;line-height:1.55!important;margin:6px 0 12px!important}
+.detailRefined .detailFacts{margin-top:12px!important}
+.detailRefined .detailQuickInfo{gap:5px;margin:10px 0}
+.detailRefined .detailQuickInfo span{font-size:11px;padding:7px 9px}
+.detailRefined .detailClose{width:40px!important;height:40px!important}
+.detailRefined .decisionGrid{grid-template-columns:repeat(4,minmax(0,1fr))!important}
+.detailRefined .decisionGrid>div{padding:7px 2px!important}
+.detailRefined .decisionGrid b{font-size:17px!important}
+.detailRefined .decisionGrid span{font-size:9px!important}
+}

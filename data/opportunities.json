@@ -1,5 +1,146 @@
 [
   {
+    "id": "de-dhm-exhibition-graphics-2026",
+    "title": "Deutsches Historisches Museum — exhibition and digital graphics framework",
+    "organization": "Stiftung Deutsches Historisches Museum",
+    "country": "Germany",
+    "city": "Berlin",
+    "stage": "Live Tender",
+    "score": 75,
+    "confidence": 98,
+    "currency": "EUR",
+    "budget_min": 995000,
+    "budget_max": 995000,
+    "deadline": "2026-10-30",
+    "source_key": "official_procurement",
+    "verified": true,
+    "summary": "Official EU procurement B202613006 for two-lot graphic design framework, including temporary exhibition graphics and digital applications. Estimated combined framework value €995,000 excluding VAT.",
+    "fit_rationale": "Adjacent graphics/digital opportunity, not a confirmed interactive installation contract; best for exhibition graphics or a specialist partnership.",
+    "next_action": "Review original official tender documents, confirm eligibility and submission requirements before the deadline.",
+    "source_url": "https://op.europa.eu/en/web/public-procurement/procurement-details/-/procurement/1feafcd6-7dc1-49dd-ab83-574517d5dceb",
+    "source_label": "Official procurement notice",
+    "documents": [
+      {
+        "title": "Original procurement notice",
+        "url": "https://op.europa.eu/en/web/public-procurement/procurement-details/-/procurement/1feafcd6-7dc1-49dd-ab83-574517d5dceb",
+        "kind": "Official procurement"
+      }
+    ],
+    "updated_at": "2026-10-19T05:50:00Z"
+  },
+  {
+    "id": "de-sophienhoehe-concept-2026",
+    "title": "BIZ Sophienhöhe — visitor-centre exhibition concept and curation",
+    "organization": "Starke Projekte GmbH",
+    "country": "Germany",
+    "city": "Niederzier",
+    "stage": "Live Tender",
+    "score": 85,
+    "confidence": 98,
+    "currency": "EUR",
+    "deadline": "2026-10-27",
+    "source_key": "official_procurement",
+    "verified": true,
+    "summary": "Official EU procurement SP26-057 for curatorial concept and exhibition planning for Sophienhöhe visitor and information centre, focused on landscape transformation and adaptable exhibition formats.",
+    "fit_rationale": "Design-led bid or exhibition consultant partnership. Specialist interactive production is not independently tendered at this stage.",
+    "next_action": "Review original official tender documents, confirm eligibility and submission requirements before the deadline.",
+    "source_url": "https://op.europa.eu/en/web/public-procurement/procurement-details/-/procurement/bdd4296b-3afd-45c1-8622-8f42aad386c7",
+    "source_label": "Official procurement notice",
+    "documents": [
+      {
+        "title": "Original procurement notice",
+        "url": "https://op.europa.eu/en/web/public-procurement/procurement-details/-/procurement/bdd4296b-3afd-45c1-8622-8f42aad386c7",
+        "kind": "Official procurement"
+      }
+    ],
+    "updated_at": "2026-10-19T05:50:00Z"
+  },
+  {
+    "id": "de-landshut-exhibition-2026",
+    "title": "Lernort Landshut — exhibition agency design and production",
+    "organization": "Federal Procurement Office (Beschaffungsamt des BMI)",
+    "country": "Germany",
+    "city": "Friedrichshafen",
+    "stage": "Live Tender",
+    "score": 84,
+    "confidence": 98,
+    "currency": "EUR",
+    "budget_min": 2100000,
+    "budget_max": 2100000,
+    "deadline": "2026-10-21",
+    "source_key": "official_procurement",
+    "verified": true,
+    "summary": "Official federal procurement for exhibition planning, design and production of the public visitor spaces; estimated contract value €2.1m excluding VAT. Separate from technical services lot.",
+    "fit_rationale": "Strong whole-exhibition contract; consortium or subcontract with exhibition lead. Deadline 21 October 11:30 German local time.",
+    "next_action": "Review original official tender documents, confirm eligibility and submission requirements before the deadline.",
+    "source_url": "https://www.evergabe-online.de/tenderdetails.html?6402=&id=883683",
+    "source_label": "Official procurement notice",
+    "documents": [
+      {
+        "title": "Original procurement notice",
+        "url": "https://www.evergabe-online.de/tenderdetails.html?6402=&id=883683",
+        "kind": "Official procurement"
+      }
+    ],
+    "updated_at": "2026-10-19T05:50:00Z"
+  },
+  {
+    "id": "de-landshut-technical-2026",
+    "title": "Lernort Landshut — technical exhibition services",
+    "organization": "Federal Procurement Office (Beschaffungsamt des BMI)",
+    "country": "Germany",
+    "city": "Friedrichshafen",
+    "stage": "Live Tender",
+    "score": 90,
+    "confidence": 98,
+    "currency": "EUR",
+    "budget_min": 260000,
+    "budget_max": 260000,
+    "deadline": "2026-10-21",
+    "source_key": "official_procurement",
+    "verified": true,
+    "summary": "Official federal procurement for technical service provider for the Lernort Landshut public exhibition; independent lot with estimated contract value €260,000 excluding VAT.",
+    "fit_rationale": "Direct technical exhibition contract. Review tender attachments immediately for AV, media integration and installation requirements; deadline 21 October 11:30 German local time.",
+    "next_action": "Review original official tender documents, confirm eligibility and submission requirements before the deadline.",
+    "source_url": "https://www.evergabe-online.de/tenderdetails.html?250=&id=883688",
+    "source_label": "Official procurement notice",
+    "documents": [
+      {
+        "title": "Original procurement notice",
+        "url": "https://www.evergabe-online.de/tenderdetails.html?250=&id=883688",
+        "kind": "Official procurement"
+      }
+    ],
+    "updated_at": "2026-10-19T05:50:00Z"
+  },
+  {
+    "id": "de-bauhaus-tactile-2026",
+    "title": "Bauhaus-Archiv — design and production of tactile interactive stations",
+    "organization": "Bauhaus-Archiv / Museum für Gestaltung",
+    "country": "Germany",
+    "city": "Berlin",
+    "stage": "Live Tender",
+    "score": 94,
+    "confidence": 98,
+    "currency": "EUR",
+    "deadline": "2026-11-09",
+    "source_key": "official_procurement",
+    "verified": true,
+    "summary": "Official DTVP notice CXP4DKAMWF2 describes accessible tactile interpretation stations: design development, mockups, prototypes, testing, fabrication, NFC integration and installation.",
+    "fit_rationale": "Direct specialist bid. Strong fit for tactile physical-digital interactive museum experiences; check the original portal for eligibility and exact scope.",
+    "next_action": "Review original official tender documents, confirm eligibility and submission requirements before the deadline.",
+    "source_url": "https://dtvp.de/ausschreibungen/bauhaus-archiv-entwicklung-produktion-taktile-stationen-cxp4dkamwf2/",
+    "source_label": "Official procurement notice",
+    "documents": [
+      {
+        "title": "Original procurement notice",
+        "url": "https://dtvp.de/ausschreibungen/bauhaus-archiv-entwicklung-produktion-taktile-stationen-cxp4dkamwf2/",
+        "kind": "Official procurement"
+      }
+    ],
+    "updated_at": "2026-10-19T05:50:00Z"
+  },
+  {
     "id": "uk-sep655817",
     "title": "ROG First Light Exhibitions Audio Visual Hardware Contractor",
     "organization": "National Maritime Museum",

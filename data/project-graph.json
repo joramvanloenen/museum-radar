@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-10-19T05:50:00Z",
-  "project_count": 24,
+  "project_count": 26,
   "high_conviction": 24,
   "projects": [
     {
@@ -1225,6 +1225,95 @@
         ]
       },
       "source_url": "https://www.regjeringen.no/no/dokumenter/prop.-1-s-20252026/id3123306/?ch=2"
+    },
+    {
+      "project_id": "project-rosenborg-kingdoms-treasury",
+      "title": "Rosenborg Castle — The Kingdom's Treasury exhibition production",
+      "organization": "Royal Danish Collection",
+      "country": "Denmark",
+      "city": "Copenhagen",
+      "stage": "Pitch",
+      "score": 90,
+      "confidence": 98,
+      "source_key": "research_agent",
+      "procurement_window": "Exhibition design tender closed 30 July 2026; official notice explicitly anticipates separate production and installation tender(s), timing not yet confirmed",
+      "summary": "Official EU exhibition design procurement estimated DKK 31.4m and states exhibition production and installation are expected to be tendered as a complete contract or partial contracts. Current design competition is closed; future fabrication and media procurement should be monitored.",
+      "fit_rationale": "Exceptional downstream production route. Directly documented future tender stages; specialist interactive and AV scope not yet confirmed.",
+      "pitch_angle": "Contact the Royal Danish Collection and selected lead exhibition designer for future interpretation, media and interactive production packages.",
+      "next_action": "Identify the winning exhibition designer and monitor RIB/Byggeweb for production and installation tenders.",
+      "prediction": {
+        "window": "6–24 months (inferred)",
+        "reason": "Official notice explicitly describes future production and installation tenders.",
+        "signals": [
+          "closed design tender",
+          "future production tender stated"
+        ],
+        "fit_terms": [
+          "exhibition production",
+          "interactive interpretation potential"
+        ],
+        "source_count": 1,
+        "source_domains": [
+          "op.europa.eu"
+        ],
+        "source_diversity": 1,
+        "source_quality": 99,
+        "expected_next_signals": [
+          "design award",
+          "production tender",
+          "AV scope"
+        ],
+        "risk_flags": [
+          "no open bid today",
+          "interactive scope not separately verified"
+        ]
+      },
+      "source_url": "https://op.europa.eu/en/web/public-procurement/procurement-details/-/procurement/8d0231ea-1e44-40b0-bd47-3430599ab4a9"
+    },
+    {
+      "project_id": "project-viga-kristiansand-exhibitions",
+      "title": "VIGA Cultural History Museum — maritime and regional exhibitions",
+      "organization": "Vest-Agder-Museet IKS",
+      "country": "Norway",
+      "city": "Kristiansand",
+      "stage": "Pitch",
+      "score": 87,
+      "confidence": 98,
+      "source_key": "research_agent",
+      "procurement_window": "Exhibition production tender closed 4 September 2026; planned opening 2028; contractor award and downstream specialist packages to track",
+      "summary": "Officially tendered NOK 44m exhibition design and production contract for VIGA's maritime and city/regional history galleries in two lots. Tender closed in September; future delivery partners may need digital exhibition specialists.",
+      "fit_rationale": "Large, confirmed museum exhibition programme, with a concrete design/fabrication team appointment route. No verified open specialist subcontract.",
+      "pitch_angle": "Approach awarded exhibition teams about interpretive media, physical interactives, projection and digital installations.",
+      "next_action": "Monitor the contract award and identify winning suppliers for the two exhibition lots.",
+      "prediction": {
+        "window": "0–18 months (inferred)",
+        "reason": "The 2028 opening and completed design/production tender suggest upcoming delivery activity.",
+        "signals": [
+          "closed NOK 44m exhibition tender",
+          "2028 opening"
+        ],
+        "fit_terms": [
+          "maritime interpretation",
+          "interactive museum potential"
+        ],
+        "source_count": 2,
+        "source_domains": [
+          "tenderwize.com",
+          "evergabe.com"
+        ],
+        "source_diversity": 2,
+        "source_quality": 94,
+        "expected_next_signals": [
+          "lot awards",
+          "media subcontractors",
+          "exhibition installation"
+        ],
+        "risk_flags": [
+          "bid deadline passed",
+          "interactive subcontract not confirmed"
+        ]
+      },
+      "source_url": "https://tenderwize.com/en/tenders/478751-2026"
     }
   ]
 }

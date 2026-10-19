@@ -1,146 +1,5 @@
 [
   {
-    "id": "de-dhm-exhibition-graphics-2026",
-    "title": "Deutsches Historisches Museum — exhibition and digital graphics framework",
-    "organization": "Stiftung Deutsches Historisches Museum",
-    "country": "Germany",
-    "city": "Berlin",
-    "stage": "Live Tender",
-    "score": 75,
-    "confidence": 98,
-    "currency": "EUR",
-    "budget_min": 995000,
-    "budget_max": 995000,
-    "deadline": "2026-10-30",
-    "source_key": "official_procurement",
-    "verified": true,
-    "summary": "Official EU procurement B202613006 for two-lot graphic design framework, including temporary exhibition graphics and digital applications. Estimated combined framework value €995,000 excluding VAT.",
-    "fit_rationale": "Adjacent graphics/digital opportunity, not a confirmed interactive installation contract; best for exhibition graphics or a specialist partnership.",
-    "next_action": "Review original official tender documents, confirm eligibility and submission requirements before the deadline.",
-    "source_url": "https://op.europa.eu/en/web/public-procurement/procurement-details/-/procurement/1feafcd6-7dc1-49dd-ab83-574517d5dceb",
-    "source_label": "Official procurement notice",
-    "documents": [
-      {
-        "title": "Original procurement notice",
-        "url": "https://op.europa.eu/en/web/public-procurement/procurement-details/-/procurement/1feafcd6-7dc1-49dd-ab83-574517d5dceb",
-        "kind": "Official procurement"
-      }
-    ],
-    "updated_at": "2026-10-19T05:50:00Z"
-  },
-  {
-    "id": "de-sophienhoehe-concept-2026",
-    "title": "BIZ Sophienhöhe — visitor-centre exhibition concept and curation",
-    "organization": "Starke Projekte GmbH",
-    "country": "Germany",
-    "city": "Niederzier",
-    "stage": "Live Tender",
-    "score": 85,
-    "confidence": 98,
-    "currency": "EUR",
-    "deadline": "2026-10-27",
-    "source_key": "official_procurement",
-    "verified": true,
-    "summary": "Official EU procurement SP26-057 for curatorial concept and exhibition planning for Sophienhöhe visitor and information centre, focused on landscape transformation and adaptable exhibition formats.",
-    "fit_rationale": "Design-led bid or exhibition consultant partnership. Specialist interactive production is not independently tendered at this stage.",
-    "next_action": "Review original official tender documents, confirm eligibility and submission requirements before the deadline.",
-    "source_url": "https://op.europa.eu/en/web/public-procurement/procurement-details/-/procurement/bdd4296b-3afd-45c1-8622-8f42aad386c7",
-    "source_label": "Official procurement notice",
-    "documents": [
-      {
-        "title": "Original procurement notice",
-        "url": "https://op.europa.eu/en/web/public-procurement/procurement-details/-/procurement/bdd4296b-3afd-45c1-8622-8f42aad386c7",
-        "kind": "Official procurement"
-      }
-    ],
-    "updated_at": "2026-10-19T05:50:00Z"
-  },
-  {
-    "id": "de-landshut-exhibition-2026",
-    "title": "Lernort Landshut — exhibition agency design and production",
-    "organization": "Federal Procurement Office (Beschaffungsamt des BMI)",
-    "country": "Germany",
-    "city": "Friedrichshafen",
-    "stage": "Live Tender",
-    "score": 84,
-    "confidence": 98,
-    "currency": "EUR",
-    "budget_min": 2100000,
-    "budget_max": 2100000,
-    "deadline": "2026-10-21",
-    "source_key": "official_procurement",
-    "verified": true,
-    "summary": "Official federal procurement for exhibition planning, design and production of the public visitor spaces; estimated contract value €2.1m excluding VAT. Separate from technical services lot.",
-    "fit_rationale": "Strong whole-exhibition contract; consortium or subcontract with exhibition lead. Deadline 21 October 11:30 German local time.",
-    "next_action": "Review original official tender documents, confirm eligibility and submission requirements before the deadline.",
-    "source_url": "https://www.evergabe-online.de/tenderdetails.html?6402=&id=883683",
-    "source_label": "Official procurement notice",
-    "documents": [
-      {
-        "title": "Original procurement notice",
-        "url": "https://www.evergabe-online.de/tenderdetails.html?6402=&id=883683",
-        "kind": "Official procurement"
-      }
-    ],
-    "updated_at": "2026-10-19T05:50:00Z"
-  },
-  {
-    "id": "de-landshut-technical-2026",
-    "title": "Lernort Landshut — technical exhibition services",
-    "organization": "Federal Procurement Office (Beschaffungsamt des BMI)",
-    "country": "Germany",
-    "city": "Friedrichshafen",
-    "stage": "Live Tender",
-    "score": 90,
-    "confidence": 98,
-    "currency": "EUR",
-    "budget_min": 260000,
-    "budget_max": 260000,
-    "deadline": "2026-10-21",
-    "source_key": "official_procurement",
-    "verified": true,
-    "summary": "Official federal procurement for technical service provider for the Lernort Landshut public exhibition; independent lot with estimated contract value €260,000 excluding VAT.",
-    "fit_rationale": "Direct technical exhibition contract. Review tender attachments immediately for AV, media integration and installation requirements; deadline 21 October 11:30 German local time.",
-    "next_action": "Review original official tender documents, confirm eligibility and submission requirements before the deadline.",
-    "source_url": "https://www.evergabe-online.de/tenderdetails.html?250=&id=883688",
-    "source_label": "Official procurement notice",
-    "documents": [
-      {
-        "title": "Original procurement notice",
-        "url": "https://www.evergabe-online.de/tenderdetails.html?250=&id=883688",
-        "kind": "Official procurement"
-      }
-    ],
-    "updated_at": "2026-10-19T05:50:00Z"
-  },
-  {
-    "id": "de-bauhaus-tactile-2026",
-    "title": "Bauhaus-Archiv — design and production of tactile interactive stations",
-    "organization": "Bauhaus-Archiv / Museum für Gestaltung",
-    "country": "Germany",
-    "city": "Berlin",
-    "stage": "Live Tender",
-    "score": 94,
-    "confidence": 98,
-    "currency": "EUR",
-    "deadline": "2026-11-09",
-    "source_key": "official_procurement",
-    "verified": true,
-    "summary": "Official DTVP notice CXP4DKAMWF2 describes accessible tactile interpretation stations: design development, mockups, prototypes, testing, fabrication, NFC integration and installation.",
-    "fit_rationale": "Direct specialist bid. Strong fit for tactile physical-digital interactive museum experiences; check the original portal for eligibility and exact scope.",
-    "next_action": "Review original official tender documents, confirm eligibility and submission requirements before the deadline.",
-    "source_url": "https://dtvp.de/ausschreibungen/bauhaus-archiv-entwicklung-produktion-taktile-stationen-cxp4dkamwf2/",
-    "source_label": "Official procurement notice",
-    "documents": [
-      {
-        "title": "Original procurement notice",
-        "url": "https://dtvp.de/ausschreibungen/bauhaus-archiv-entwicklung-produktion-taktile-stationen-cxp4dkamwf2/",
-        "kind": "Official procurement"
-      }
-    ],
-    "updated_at": "2026-10-19T05:50:00Z"
-  },
-  {
     "id": "uk-sep655817",
     "title": "ROG First Light Exhibitions Audio Visual Hardware Contractor",
     "organization": "National Maritime Museum",
@@ -286,6 +145,135 @@
         "strength": 99
       }
     ]
+  },
+  {
+    "id": "sell2wales-jul643195",
+    "title": "UK Participation at Expo 2030 Riyadh - Creative, Cultural, Retail and Hospitality Preliminary Market Engagement/Early Engagement Questionnaire",
+    "organization": "Department for Business & Trade",
+    "country": "United Kingdom",
+    "city": "",
+    "stage": "Pre-market",
+    "score": 98,
+    "confidence": 93,
+    "currency": "GBP",
+    "deadline": null,
+    "procurement_window": "Pre-market",
+    "summary": "Official procurement listing discovered in a museum / exhibition / AV category.",
+    "fit_rationale": "Official procurement notice matched museum, exhibition, AV or interactive experience terms.",
+    "pitch_angle": "Review the official notice and decide whether to bid directly or with a delivery partner.",
+    "next_action": "Open the official procurement notice and review scope, documents, deadline and eligibility.",
+    "sample": false,
+    "verified": true,
+    "source_key": "sell2wales",
+    "external_id": "JUL643195",
+    "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUL643195&amp;catID=",
+    "source_label": "Sell2Wales museum exhibition",
+    "documents": [
+      {
+        "title": "Official procurement notice",
+        "url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUL643195&amp;catID=",
+        "kind": "Contract notice"
+      }
+    ],
+    "updated_at": "2026-10-19T13:32:41+00:00",
+    "evidence": [
+      {
+        "date": "",
+        "kind": "Procurement",
+        "title": "Official procurement listing",
+        "detail": "31/07/2026 UK Participation at Expo 2030 Riyadh - Creative, Cultural, Retail and Hospitality Preliminary Market Engagement/Early Engagement Questionnaire Reference No: JUL643195 Published By: Department for Business & Trade Deadline Date: 01-Sep-26 Notice Type: Unknown",
+        "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUL643195&amp;catID=",
+        "source_label": "Sell2Wales museum exhibition",
+        "strength": 93
+      }
+    ],
+    "watched": false
+  },
+  {
+    "id": "sell2wales-jul639968",
+    "title": "Museum Design and Delivery Team",
+    "organization": "Glasgow Life (Culture & Sport Glasgow)",
+    "country": "United Kingdom",
+    "city": "",
+    "stage": "Pre-market",
+    "score": 98,
+    "confidence": 93,
+    "currency": "GBP",
+    "deadline": null,
+    "procurement_window": "Pre-market",
+    "summary": "Official procurement listing discovered in a museum / exhibition / AV category.",
+    "fit_rationale": "Official procurement notice matched museum, exhibition, AV or interactive experience terms.",
+    "pitch_angle": "Review the official notice and decide whether to bid directly or with a delivery partner.",
+    "next_action": "Open the official procurement notice and review scope, documents, deadline and eligibility.",
+    "sample": false,
+    "verified": true,
+    "source_key": "sell2wales",
+    "external_id": "JUL639968",
+    "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUL639968&amp;catID=",
+    "source_label": "Sell2Wales museum exhibition",
+    "documents": [
+      {
+        "title": "Official procurement notice",
+        "url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUL639968&amp;catID=",
+        "kind": "Contract notice"
+      }
+    ],
+    "updated_at": "2026-10-19T13:32:37+00:00",
+    "evidence": [
+      {
+        "date": "",
+        "kind": "Procurement",
+        "title": "Official procurement listing",
+        "detail": "23/07/2026 Museum Design and Delivery Team Reference No: JUL639968 Published By: Glasgow Life (Culture & Sport Glasgow) Deadline Date: Notice Type: Prior Information Notice",
+        "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUL639968&amp;catID=",
+        "source_label": "Sell2Wales museum exhibition",
+        "strength": 93
+      }
+    ],
+    "watched": false
+  },
+  {
+    "id": "sell2wales-jun631313",
+    "title": "Museum Interpretation Services",
+    "organization": "Amgueddfa Cymru - National Museum Wales",
+    "country": "United Kingdom",
+    "city": "",
+    "stage": "Pre-market",
+    "score": 98,
+    "confidence": 93,
+    "currency": "GBP",
+    "deadline": null,
+    "procurement_window": "Pre-market",
+    "summary": "Official procurement listing discovered in a museum / exhibition / AV category.",
+    "fit_rationale": "Official procurement notice matched museum, exhibition, AV or interactive experience terms.",
+    "pitch_angle": "Review the official notice and decide whether to bid directly or with a delivery partner.",
+    "next_action": "Open the official procurement notice and review scope, documents, deadline and eligibility.",
+    "sample": false,
+    "verified": true,
+    "source_key": "sell2wales",
+    "external_id": "JUN631313",
+    "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUN631313&amp;catID=",
+    "source_label": "Sell2Wales museum exhibition",
+    "documents": [
+      {
+        "title": "Official procurement notice",
+        "url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUN631313&amp;catID=",
+        "kind": "Contract notice"
+      }
+    ],
+    "updated_at": "2026-10-19T13:32:37+00:00",
+    "evidence": [
+      {
+        "date": "",
+        "kind": "Procurement",
+        "title": "Official procurement listing",
+        "detail": "26/06/2026 Museum Interpretation Services Reference No: JUN631313 Published By: Amgueddfa Cymru - National Museum Wales Deadline Date: Notice Type: Speculative Notice",
+        "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUN631313&amp;catID=",
+        "source_label": "Sell2Wales museum exhibition",
+        "strength": 93
+      }
+    ],
+    "watched": false
   },
   {
     "id": "public_contracts_scotland-jul560733",
@@ -497,135 +485,6 @@
         "detail": "07/01/2026 Project Managers: to deliver creative programming Reference No: JAN546606 Published By: National Trust for Scotland Deadline Date: Notice Type: 01 Prior Information Notices (below FTS threshold or call offs of any value)",
         "source_url": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=JAN546606&amp;catID=",
         "source_label": "Public Contracts Scotland museum exhibition",
-        "strength": 93
-      }
-    ],
-    "watched": false
-  },
-  {
-    "id": "sell2wales-jul643195",
-    "title": "UK Participation at Expo 2030 Riyadh - Creative, Cultural, Retail and Hospitality Preliminary Market Engagement/Early Engagement Questionnaire",
-    "organization": "Department for Business & Trade",
-    "country": "United Kingdom",
-    "city": "",
-    "stage": "Pre-market",
-    "score": 98,
-    "confidence": 93,
-    "currency": "GBP",
-    "deadline": null,
-    "procurement_window": "Pre-market",
-    "summary": "Official procurement listing discovered in a museum / exhibition / AV category.",
-    "fit_rationale": "Official procurement notice matched museum, exhibition, AV or interactive experience terms.",
-    "pitch_angle": "Review the official notice and decide whether to bid directly or with a delivery partner.",
-    "next_action": "Open the official procurement notice and review scope, documents, deadline and eligibility.",
-    "sample": false,
-    "verified": true,
-    "source_key": "sell2wales",
-    "external_id": "JUL643195",
-    "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUL643195&amp;catID=",
-    "source_label": "Sell2Wales museum exhibition",
-    "documents": [
-      {
-        "title": "Official procurement notice",
-        "url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUL643195&amp;catID=",
-        "kind": "Contract notice"
-      }
-    ],
-    "updated_at": "2026-10-16T16:45:25+00:00",
-    "evidence": [
-      {
-        "date": "",
-        "kind": "Procurement",
-        "title": "Official procurement listing",
-        "detail": "31/07/2026 UK Participation at Expo 2030 Riyadh - Creative, Cultural, Retail and Hospitality Preliminary Market Engagement/Early Engagement Questionnaire Reference No: JUL643195 Published By: Department for Business & Trade Deadline Date: 01-Sep-26 Notice Type: Unknown",
-        "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUL643195&amp;catID=",
-        "source_label": "Sell2Wales museum exhibition",
-        "strength": 93
-      }
-    ],
-    "watched": false
-  },
-  {
-    "id": "sell2wales-jul639968",
-    "title": "Museum Design and Delivery Team",
-    "organization": "Glasgow Life (Culture & Sport Glasgow)",
-    "country": "United Kingdom",
-    "city": "",
-    "stage": "Pre-market",
-    "score": 98,
-    "confidence": 93,
-    "currency": "GBP",
-    "deadline": null,
-    "procurement_window": "Pre-market",
-    "summary": "Official procurement listing discovered in a museum / exhibition / AV category.",
-    "fit_rationale": "Official procurement notice matched museum, exhibition, AV or interactive experience terms.",
-    "pitch_angle": "Review the official notice and decide whether to bid directly or with a delivery partner.",
-    "next_action": "Open the official procurement notice and review scope, documents, deadline and eligibility.",
-    "sample": false,
-    "verified": true,
-    "source_key": "sell2wales",
-    "external_id": "JUL639968",
-    "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUL639968&amp;catID=",
-    "source_label": "Sell2Wales museum exhibition",
-    "documents": [
-      {
-        "title": "Official procurement notice",
-        "url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUL639968&amp;catID=",
-        "kind": "Contract notice"
-      }
-    ],
-    "updated_at": "2026-10-16T16:45:22+00:00",
-    "evidence": [
-      {
-        "date": "",
-        "kind": "Procurement",
-        "title": "Official procurement listing",
-        "detail": "23/07/2026 Museum Design and Delivery Team Reference No: JUL639968 Published By: Glasgow Life (Culture & Sport Glasgow) Deadline Date: Notice Type: Prior Information Notice",
-        "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUL639968&amp;catID=",
-        "source_label": "Sell2Wales museum exhibition",
-        "strength": 93
-      }
-    ],
-    "watched": false
-  },
-  {
-    "id": "sell2wales-jun631313",
-    "title": "Museum Interpretation Services",
-    "organization": "Amgueddfa Cymru - National Museum Wales",
-    "country": "United Kingdom",
-    "city": "",
-    "stage": "Pre-market",
-    "score": 98,
-    "confidence": 93,
-    "currency": "GBP",
-    "deadline": null,
-    "procurement_window": "Pre-market",
-    "summary": "Official procurement listing discovered in a museum / exhibition / AV category.",
-    "fit_rationale": "Official procurement notice matched museum, exhibition, AV or interactive experience terms.",
-    "pitch_angle": "Review the official notice and decide whether to bid directly or with a delivery partner.",
-    "next_action": "Open the official procurement notice and review scope, documents, deadline and eligibility.",
-    "sample": false,
-    "verified": true,
-    "source_key": "sell2wales",
-    "external_id": "JUN631313",
-    "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUN631313&amp;catID=",
-    "source_label": "Sell2Wales museum exhibition",
-    "documents": [
-      {
-        "title": "Official procurement notice",
-        "url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUN631313&amp;catID=",
-        "kind": "Contract notice"
-      }
-    ],
-    "updated_at": "2026-10-16T16:45:22+00:00",
-    "evidence": [
-      {
-        "date": "",
-        "kind": "Procurement",
-        "title": "Official procurement listing",
-        "detail": "26/06/2026 Museum Interpretation Services Reference No: JUN631313 Published By: Amgueddfa Cymru - National Museum Wales Deadline Date: Notice Type: Speculative Notice",
-        "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUN631313&amp;catID=",
-        "source_label": "Sell2Wales museum exhibition",
         "strength": 93
       }
     ],
@@ -1625,6 +1484,48 @@
         "detail": "Kistefos Museum is welcoming visitors to a striking new visitor centre, designed by architecture firm Lundhagem. The building serves as an inviting gateway to the museum experience – and offers ...",
         "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc083b143b41a0a40e3bb14b5befd8&url=https%3a%2f%2fwww.mynewsdesk.com%2fno%2fkistefosmuseum%2fpressreleases%2fkistefos-museum-opened-new-visitor-centre-on-saturday-june-20th-3455162&c=6876426998342124081&mkt=en-ca",
         "source_label": "Visitor centre signals",
+        "strength": 62
+      }
+    ]
+  },
+  {
+    "id": "search-5cb420151a1156e33d",
+    "title": "Florida Museum to reopen in November after major renovation, expansion",
+    "organization": "Museum expansion signals",
+    "country": "Worldwide",
+    "city": "",
+    "stage": "Pitch",
+    "score": 56,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "The Florida Museum of Natural History plans to reopen its Ken and Linda McGurn Exhibition Hall to the public on Nov. 23 following a large-scale renovation and expansion project, according to a museum ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad61c02ba114040acd21ac59b2a6217&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad61c02ba114040acd21ac59b2a6217&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
+    "source_label": "Museum expansion signals",
+    "documents": [
+      {
+        "title": "Florida Museum to reopen in November after major renovation, expansion",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad61c02ba114040acd21ac59b2a6217&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
+        "kind": "Source article"
+      }
+    ],
+    "updated_at": "2026-10-19T13:32:50+00:00",
+    "evidence": [
+      {
+        "date": "Wed, 30 Sep 2026",
+        "kind": "Web source",
+        "title": "Florida Museum to reopen in November after major renovation, expansion",
+        "detail": "The Florida Museum of Natural History plans to reopen its Ken and Linda McGurn Exhibition Hall to the public on Nov. 23 following a large-scale renovation and expansion project, according to a museum ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad61c02ba114040acd21ac59b2a6217&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
+        "source_label": "Museum expansion signals",
         "strength": 62
       }
     ]
@@ -2759,6 +2660,48 @@
         "detail": "The Longmont Museum is set to reopen October 17 following a major expansion that gives the facility 70% more public gallery space.",
         "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad39832a6ad48f0891bc8f6c8c6d0cd&url=https%3a%2f%2fwww.longmontleader.com%2flocal-news%2finside-longmont-museums-nearly-10m-expansion-12851684&c=8460159237135211109&mkt=en-us",
         "source_label": "Museum expansion signals",
+        "strength": 62
+      }
+    ]
+  },
+  {
+    "id": "search-9dd52fdf36151b06d1",
+    "title": "Cultural Heritage @home",
+    "organization": "EU cultural heritage funding",
+    "country": "Europe",
+    "city": "",
+    "stage": "Signal",
+    "score": 40,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "Museums, opera houses and tourist attractions across Europe and the world are making more and more content available online to make the self-isolation and social distancing more enjoyable and relaxing ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad61c03d2bc40cd89a2b11792640309&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad61c03d2bc40cd89a2b11792640309&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+    "source_label": "EU cultural heritage funding",
+    "documents": [
+      {
+        "title": "Cultural Heritage @home",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad61c03d2bc40cd89a2b11792640309&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+        "kind": "Source article"
+      }
+    ],
+    "updated_at": "2026-10-19T13:32:51+00:00",
+    "evidence": [
+      {
+        "date": "Tue, 31 Mar 2020",
+        "kind": "Web source",
+        "title": "Cultural Heritage @home",
+        "detail": "Museums, opera houses and tourist attractions across Europe and the world are making more and more content available online to make the self-isolation and social distancing more enjoyable and relaxing ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad61c03d2bc40cd89a2b11792640309&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+        "source_label": "EU cultural heritage funding",
         "strength": 62
       }
     ]

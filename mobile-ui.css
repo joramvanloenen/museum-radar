@@ -114,3 +114,29 @@
  .actionCard{padding:14px!important}
  .actionCard h3{font-size:19px!important}
 }
+
+/* Compact, mobile-first homepage refinement */
+@media(max-width:700px){
+.main:has(.homeActions){padding-top:8px!important}
+.main:has(.homeActions) .topbar{margin-bottom:6px!important}
+.main:has(.homeActions) .topbar .title{font-size:28px!important}
+.main:has(.homeActions) .topbar .sub{display:none!important}
+.main:has(.homeActions) .inboxControls{margin:6px 0 10px!important;padding:8px 0!important}
+.main:has(.homeActions) .actionMetrics{grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:5px!important;margin:7px 0 13px!important}
+.main:has(.homeActions) .actionMetrics button{padding:9px 3px!important;min-height:57px!important;text-align:center!important;border-radius:8px!important}
+.main:has(.homeActions) .actionMetrics b{font-size:22px!important;margin-bottom:3px!important}
+.main:has(.homeActions) .actionMetrics span{font-size:10px!important}
+.main:has(.homeActions) .actionMetrics small{display:none!important}
+.main:has(.homeActions) .section{margin-top:14px!important}
+.main:has(.homeActions) .priorityBar{margin-bottom:8px!important}
+.main:has(.homeActions) .actionCard{padding:13px!important}
+.main:has(.homeActions) .actionCard h3{font-size:19px!important;margin:9px 0 5px!important}
+.main:has(.homeActions) .actionOrg{font-size:12px!important}
+.main:has(.homeActions) .actionWhy{margin-top:7px!important;font-size:11px!important}
+.main:has(.homeActions) .actionCard p{margin:7px 0 0!important;padding:0!important;font-size:13px!important;line-height:1.4!important}
+.main:has(.homeActions) .actionOpen{margin-top:9px!important;padding-top:7px!important}
+.main:has(.homeActions) .inboxHide{margin-top:7px!important;padding:5px 10px!important;min-height:30px!important;border:0!important;background:#eaeae8!important;border-radius:6px!important;font-size:11px!important}
+.main:has(.homeActions) .actionRoute{color:#26563e!important;background:#e0f0e5!important;font-size:10px!important}
+.main:has(.homeActions) .actionWhy b{color:#252525!important}
+.main:has(.homeActions) .mobileNav button.active{background:#e8e7e1!important;color:#111!important}
+}

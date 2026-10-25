@@ -175,7 +175,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-10-24T20:56:52+00:00",
+    "updated_at": "2026-10-25T04:53:01+00:00",
     "evidence": [
       {
         "date": "",
@@ -218,7 +218,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-10-24T20:56:50+00:00",
+    "updated_at": "2026-10-25T04:52:59+00:00",
     "evidence": [
       {
         "date": "",
@@ -261,7 +261,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-10-24T20:56:50+00:00",
+    "updated_at": "2026-10-25T04:52:59+00:00",
     "evidence": [
       {
         "date": "",
@@ -1484,6 +1484,48 @@
         "detail": "Kistefos Museum is welcoming visitors to a striking new visitor centre, designed by architecture firm Lundhagem. The building serves as an inviting gateway to the museum experience – and offers ...",
         "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc083b143b41a0a40e3bb14b5befd8&url=https%3a%2f%2fwww.mynewsdesk.com%2fno%2fkistefosmuseum%2fpressreleases%2fkistefos-museum-opened-new-visitor-centre-on-saturday-june-20th-3455162&c=6876426998342124081&mkt=en-ca",
         "source_label": "Visitor centre signals",
+        "strength": 62
+      }
+    ]
+  },
+  {
+    "id": "search-a2f483345056d5343d",
+    "title": "Florida Museum to reopen in November after major renovation, expansion",
+    "organization": "Museum expansion signals",
+    "country": "Worldwide",
+    "city": "",
+    "stage": "Pitch",
+    "score": 56,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "The Florida Museum of Natural History plans to reopen its Ken and Linda McGurn Exhibition Hall to the public on Nov. 23 following a large-scale renovation and expansion project, according to a museum ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6add8b32abd74f5d80ce7196837bbafa&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6add8b32abd74f5d80ce7196837bbafa&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
+    "source_label": "Museum expansion signals",
+    "documents": [
+      {
+        "title": "Florida Museum to reopen in November after major renovation, expansion",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6add8b32abd74f5d80ce7196837bbafa&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
+        "kind": "Source article"
+      }
+    ],
+    "updated_at": "2026-10-25T04:53:06+00:00",
+    "evidence": [
+      {
+        "date": "Wed, 30 Sep 2026",
+        "kind": "Web source",
+        "title": "Florida Museum to reopen in November after major renovation, expansion",
+        "detail": "The Florida Museum of Natural History plans to reopen its Ken and Linda McGurn Exhibition Hall to the public on Nov. 23 following a large-scale renovation and expansion project, according to a museum ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6add8b32abd74f5d80ce7196837bbafa&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
+        "source_label": "Museum expansion signals",
         "strength": 62
       }
     ]
@@ -3458,6 +3500,48 @@
         "detail": "The Longmont Museum is set to reopen October 17 following a major expansion that gives the facility 70% more public gallery space.",
         "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad39832a6ad48f0891bc8f6c8c6d0cd&url=https%3a%2f%2fwww.longmontleader.com%2flocal-news%2finside-longmont-museums-nearly-10m-expansion-12851684&c=8460159237135211109&mkt=en-us",
         "source_label": "Museum expansion signals",
+        "strength": 62
+      }
+    ]
+  },
+  {
+    "id": "search-b48f21597cfd4a61f4",
+    "title": "Cultural Heritage @home",
+    "organization": "EU cultural heritage funding",
+    "country": "Europe",
+    "city": "",
+    "stage": "Signal",
+    "score": 40,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "Museums, opera houses and tourist attractions across Europe and the world are making more and more content available online to make the self-isolation and social distancing more enjoyable and relaxing ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6add8b32e7c94784a393c6d68180d236&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6add8b32e7c94784a393c6d68180d236&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+    "source_label": "EU cultural heritage funding",
+    "documents": [
+      {
+        "title": "Cultural Heritage @home",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6add8b32e7c94784a393c6d68180d236&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+        "kind": "Source article"
+      }
+    ],
+    "updated_at": "2026-10-25T04:53:07+00:00",
+    "evidence": [
+      {
+        "date": "Tue, 31 Mar 2020",
+        "kind": "Web source",
+        "title": "Cultural Heritage @home",
+        "detail": "Museums, opera houses and tourist attractions across Europe and the world are making more and more content available online to make the self-isolation and social distancing more enjoyable and relaxing ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6add8b32e7c94784a393c6d68180d236&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+        "source_label": "EU cultural heritage funding",
         "strength": 62
       }
     ]

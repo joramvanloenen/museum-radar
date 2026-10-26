@@ -175,7 +175,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-10-26T04:57:07+00:00",
+    "updated_at": "2026-10-26T13:15:34+00:00",
     "evidence": [
       {
         "date": "",
@@ -218,7 +218,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-10-26T04:57:05+00:00",
+    "updated_at": "2026-10-26T13:15:33+00:00",
     "evidence": [
       {
         "date": "",
@@ -261,7 +261,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-10-26T04:57:05+00:00",
+    "updated_at": "2026-10-26T13:15:33+00:00",
     "evidence": [
       {
         "date": "",
@@ -274,6 +274,49 @@
       }
     ],
     "watched": false
+  },
+  {
+    "id": "cf-1cadf88a041b2c4421",
+    "title": "Project Tullie Phase 3: Digital Installation Design - Request for Quotation",
+    "organization": "TULLIE HOUSE MUSEUM AND ART GALLERY TRUST",
+    "country": "United Kingdom",
+    "city": "",
+    "stage": "Live Tender",
+    "score": 98,
+    "confidence": 82,
+    "currency": "GBP",
+    "deadline": "2026-10-26",
+    "procurement_window": null,
+    "summary": "Tullie House Museum and Art Gallery Trust (the Trust) in Carlisle (brand name: Tullie) is seeking an experienced Digital Installation Designer to plan and deliver an immersive digital space within a new 'Active Gallery', as part of Project Tullie Phase 3: Breaking Down Barriers.\r\n\r\nWe're looking for an individual or organisation to deliver a 360-degree 'Immersive Art' experience. Six paintings from Tullie's fine art collection should each be brought to life through digital projection and interpretation, which may incorporate animation, cinemagraphs, soundscapes, and interactive elements. The services must include expertise both in software and hardware design and the appointed professional must be able to take the concept through to full delivery within the timeframes stated.\r\n\r\nDetails can be found at: https://tullie.org.uk/project-tullie-phase-3-fine-art-digital-installation-design-rfq",
+    "fit_rationale": "Matched museum / exhibition / visitor-experience language.",
+    "pitch_angle": "Review the procurement notice and qualification requirements.",
+    "next_action": "Open source and triage scope, budget, deadline and bidder requirements.",
+    "sample": false,
+    "source_key": "contracts_finder",
+    "external_id": "ocds-b5fd17-a19cfc84-da33-4d1f-9430-65f4affc931e",
+    "source_url": "https://www.contractsfinder.service.gov.uk/Notice/a64c3ffe-9b90-4d78-ba49-01674d5c46ed",
+    "source_label": "Contracts Finder notice",
+    "documents": [
+      {
+        "title": "Opportunity notice on Contracts Finder",
+        "url": "https://www.contractsfinder.service.gov.uk/Notice/a64c3ffe-9b90-4d78-ba49-01674d5c46ed",
+        "kind": "tenderNotice"
+      }
+    ],
+    "updated_at": "2026-10-26T13:15:31+00:00",
+    "evidence": [
+      {
+        "date": "2026-10-26",
+        "kind": "Procurement",
+        "title": "Contracts Finder notice detected",
+        "detail": "Automated discovery. Verify against the original procurement notice.",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/a64c3ffe-9b90-4d78-ba49-01674d5c46ed",
+        "source_label": "Contracts Finder notice",
+        "strength": 82
+      }
+    ],
+    "watched": false,
+    "verified": true
   },
   {
     "id": "public_contracts_scotland-jul560733",
@@ -532,49 +575,6 @@
       }
     ],
     "watched": false
-  },
-  {
-    "id": "cf-1cadf88a041b2c4421",
-    "title": "Project Tullie Phase 3: Digital Installation Design - Request for Quotation",
-    "organization": "TULLIE HOUSE MUSEUM AND ART GALLERY TRUST",
-    "country": "United Kingdom",
-    "city": "",
-    "stage": "Live Tender",
-    "score": 98,
-    "confidence": 82,
-    "currency": "GBP",
-    "deadline": "2026-10-29",
-    "procurement_window": null,
-    "summary": "Tullie House Museum and Art Gallery Trust (the Trust) in Carlisle (brand name: Tullie) is seeking an experienced Digital Installation Designer to plan and deliver an immersive digital space within a new 'Active Gallery', as part of Project Tullie Phase 3: Breaking Down Barriers.\r\n\r\nWe're looking for an individual or organisation to deliver a 360-degree 'Immersive Art' experience. Six paintings from Tullie's fine art collection should each be brought to life through digital projection and interpretation, which may incorporate animation, cinemagraphs, soundscapes, and interactive elements. The services must include expertise both in software and hardware design and the appointed professional must be able to take the concept through to full delivery within the timeframes stated.\r\n\r\nDetails can be found at: https://tullie.org.uk/project-tullie-phase-3-fine-art-digital-installation-design-rfq",
-    "fit_rationale": "Matched museum / exhibition / visitor-experience language.",
-    "pitch_angle": "Review the procurement notice and qualification requirements.",
-    "next_action": "Open source and triage scope, budget, deadline and bidder requirements.",
-    "sample": false,
-    "source_key": "contracts_finder",
-    "external_id": "ocds-b5fd17-a19cfc84-da33-4d1f-9430-65f4affc931e",
-    "source_url": "https://www.contractsfinder.service.gov.uk/Notice/a64c3ffe-9b90-4d78-ba49-01674d5c46ed",
-    "source_label": "Contracts Finder notice",
-    "documents": [
-      {
-        "title": "Opportunity notice on Contracts Finder",
-        "url": "https://www.contractsfinder.service.gov.uk/Notice/a64c3ffe-9b90-4d78-ba49-01674d5c46ed",
-        "kind": "tenderNotice"
-      }
-    ],
-    "updated_at": "2026-09-23T04:52:06+00:00",
-    "evidence": [
-      {
-        "date": "2026-09-22",
-        "kind": "Procurement",
-        "title": "Contracts Finder notice detected",
-        "detail": "Automated discovery. Verify against the original procurement notice.",
-        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/a64c3ffe-9b90-4d78-ba49-01674d5c46ed",
-        "source_label": "Contracts Finder notice",
-        "strength": 82
-      }
-    ],
-    "watched": false,
-    "verified": true
   },
   {
     "id": "agent-project-nhm150-western-av",
@@ -1484,6 +1484,48 @@
         "detail": "Kistefos Museum is welcoming visitors to a striking new visitor centre, designed by architecture firm Lundhagem. The building serves as an inviting gateway to the museum experience – and offers ...",
         "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc083b143b41a0a40e3bb14b5befd8&url=https%3a%2f%2fwww.mynewsdesk.com%2fno%2fkistefosmuseum%2fpressreleases%2fkistefos-museum-opened-new-visitor-centre-on-saturday-june-20th-3455162&c=6876426998342124081&mkt=en-ca",
         "source_label": "Visitor centre signals",
+        "strength": 62
+      }
+    ]
+  },
+  {
+    "id": "search-671e7190ee489992b0",
+    "title": "Florida Museum to reopen in November after major renovation, expansion",
+    "organization": "Museum expansion signals",
+    "country": "Worldwide",
+    "city": "",
+    "stage": "Pitch",
+    "score": 56,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "The Florida Museum of Natural History plans to reopen its Ken and Linda McGurn Exhibition Hall to the public on Nov. 23 following a large-scale renovation and expansion project, according to a museum ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adf527b45454fb9bc29c9617fd5bb31&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adf527b45454fb9bc29c9617fd5bb31&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
+    "source_label": "Museum expansion signals",
+    "documents": [
+      {
+        "title": "Florida Museum to reopen in November after major renovation, expansion",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adf527b45454fb9bc29c9617fd5bb31&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
+        "kind": "Source article"
+      }
+    ],
+    "updated_at": "2026-10-26T13:15:40+00:00",
+    "evidence": [
+      {
+        "date": "Wed, 30 Sep 2026",
+        "kind": "Web source",
+        "title": "Florida Museum to reopen in November after major renovation, expansion",
+        "detail": "The Florida Museum of Natural History plans to reopen its Ken and Linda McGurn Exhibition Hall to the public on Nov. 23 following a large-scale renovation and expansion project, according to a museum ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adf527b45454fb9bc29c9617fd5bb31&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
+        "source_label": "Museum expansion signals",
         "strength": 62
       }
     ]
@@ -3668,6 +3710,48 @@
         "detail": "The Longmont Museum is set to reopen October 17 following a major expansion that gives the facility 70% more public gallery space.",
         "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad39832a6ad48f0891bc8f6c8c6d0cd&url=https%3a%2f%2fwww.longmontleader.com%2flocal-news%2finside-longmont-museums-nearly-10m-expansion-12851684&c=8460159237135211109&mkt=en-us",
         "source_label": "Museum expansion signals",
+        "strength": 62
+      }
+    ]
+  },
+  {
+    "id": "search-793379e96cd44696f8",
+    "title": "Cultural Heritage @home",
+    "organization": "EU cultural heritage funding",
+    "country": "Europe",
+    "city": "",
+    "stage": "Signal",
+    "score": 40,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "Museums, opera houses and tourist attractions across Europe and the world are making more and more content available online to make the self-isolation and social distancing more enjoyable and relaxing ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adf527c8c354ee2b844bdaf95143047&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adf527c8c354ee2b844bdaf95143047&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+    "source_label": "EU cultural heritage funding",
+    "documents": [
+      {
+        "title": "Cultural Heritage @home",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adf527c8c354ee2b844bdaf95143047&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+        "kind": "Source article"
+      }
+    ],
+    "updated_at": "2026-10-26T13:15:40+00:00",
+    "evidence": [
+      {
+        "date": "Tue, 31 Mar 2020",
+        "kind": "Web source",
+        "title": "Cultural Heritage @home",
+        "detail": "Museums, opera houses and tourist attractions across Europe and the world are making more and more content available online to make the self-isolation and social distancing more enjoyable and relaxing ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adf527c8c354ee2b844bdaf95143047&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+        "source_label": "EU cultural heritage funding",
         "strength": 62
       }
     ]

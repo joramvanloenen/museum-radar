@@ -175,7 +175,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-10-30T13:07:46+00:00",
+    "updated_at": "2026-10-30T22:28:20+00:00",
     "evidence": [
       {
         "date": "",
@@ -218,7 +218,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-10-30T13:07:43+00:00",
+    "updated_at": "2026-10-30T22:28:17+00:00",
     "evidence": [
       {
         "date": "",
@@ -4550,6 +4550,48 @@
         "detail": "The Longmont Museum is set to reopen October 17 following a major expansion that gives the facility 70% more public gallery space.",
         "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad39832a6ad48f0891bc8f6c8c6d0cd&url=https%3a%2f%2fwww.longmontleader.com%2flocal-news%2finside-longmont-museums-nearly-10m-expansion-12851684&c=8460159237135211109&mkt=en-us",
         "source_label": "Museum expansion signals",
+        "strength": 62
+      }
+    ]
+  },
+  {
+    "id": "search-f40d2385d18c26b4bb",
+    "title": "Cultural Heritage @home",
+    "organization": "EU cultural heritage funding",
+    "country": "Europe",
+    "city": "",
+    "stage": "Signal",
+    "score": 40,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "Museums, opera houses and tourist attractions across Europe and the world are making more and more content available online to make the self-isolation and social distancing more enjoyable and relaxing ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae51a08ff9b4bf099f3bf653df7b9a8&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae51a08ff9b4bf099f3bf653df7b9a8&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+    "source_label": "EU cultural heritage funding",
+    "documents": [
+      {
+        "title": "Cultural Heritage @home",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae51a08ff9b4bf099f3bf653df7b9a8&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+        "kind": "Source article"
+      }
+    ],
+    "updated_at": "2026-10-30T22:28:24+00:00",
+    "evidence": [
+      {
+        "date": "Tue, 31 Mar 2020",
+        "kind": "Web source",
+        "title": "Cultural Heritage @home",
+        "detail": "Museums, opera houses and tourist attractions across Europe and the world are making more and more content available online to make the self-isolation and social distancing more enjoyable and relaxing ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae51a08ff9b4bf099f3bf653df7b9a8&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+        "source_label": "EU cultural heritage funding",
         "strength": 62
       }
     ]

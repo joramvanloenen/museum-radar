@@ -1,9 +1,9 @@
 {
   "status": "GitHub Actions scout",
-  "generated_at": "2026-11-01T17:57:51+00:00",
-  "last_scan_at": "2026-11-01T17:57:51+00:00",
-  "last_scan_found": 2,
-  "last_scan_relevant": 2,
-  "total_opportunities": 305,
-  "last_error": "Search Museum expansion signals: not well-formed (invalid token): line 1, column 41 | Search Museum funding awards: not well-formed (invalid token): line 1, column 41 | Search EU cultural heritage funding: not well-formed (invalid token): line 1, column 41 | Search Museum masterplans: not well-formed (invalid token): line 1, column 41 | Search Architect museum appointments: not well-formed (invalid token): line 1, column 41 | Search Exhibition designer appointments: not well-formed (invalid token): line 1, column 41 | Search Museum supplier pages: not well-formed (invalid token): line 1, column 41 | Search French future projects: not well-formed (invalid token): line 1, column 41 | Search Immersive museum installations: not well-formed (invalid token): line 1, column 41 | Search Exhibit makers: not well-formed (invalid token): line 1, column 41 | Search Museum Insider project signals: not well-formed (invalid token): line 1, column 41 | Search South Africa science centre exhibits: not well-formed (invalid token): line 1, column 41"
+  "generated_at": "2026-11-01T22:09:41+00:00",
+  "last_scan_at": "2026-11-01T22:09:41+00:00",
+  "last_scan_found": 5,
+  "last_scan_relevant": 5,
+  "total_opportunities": 308,
+  "last_error": ""
 }

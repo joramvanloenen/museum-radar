@@ -9,14 +9,16 @@
   "limitations": [
     "No bulk live HTTP verification of all links was performed",
     "No claim-by-claim document inspection was performed",
-    "A source URL or verified boolean is not proof of current procurement status"
+    "A source URL or verified boolean is not proof of current procurement status",
+    "Domain counts are distinct hostnames, not proof of independent editorial or procurement verification."
   ],
   "flag_counts": {
     "past_deadline_labeled_live": 13,
     "verified_flag_without_verification_record": 23,
-    "claimed_independent_sources_not_linked": 31,
     "non_https_source": 305,
-    "no_verified_supporting_evidence": 26
+    "search_engine_redirect_source": 305,
+    "no_verified_supporting_evidence": 26,
+    "claimed_independent_sources_not_linked": 18
   },
   "duplicate_source_groups": [
     {
@@ -64,7 +66,7 @@
       "deadline": "2026-10-12",
       "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=SEP655817",
       "unique_links": 3,
-      "linked_domains": 0,
+      "linked_domains": 2,
       "flags": [
         "past_deadline_labeled_live",
         "verified_flag_without_verification_record"
@@ -78,7 +80,7 @@
       "deadline": "2026-10-08",
       "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=AUG652341",
       "unique_links": 2,
-      "linked_domains": 0,
+      "linked_domains": 2,
       "flags": [
         "past_deadline_labeled_live",
         "verified_flag_without_verification_record"
@@ -92,7 +94,7 @@
       "deadline": "2026-10-03",
       "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=SEP654439",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
         "past_deadline_labeled_live",
         "verified_flag_without_verification_record"
@@ -106,7 +108,7 @@
       "deadline": null,
       "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUN631313&amp;catID=",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
         "verified_flag_without_verification_record"
       ]
@@ -119,7 +121,7 @@
       "deadline": null,
       "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUL639968&amp;catID=",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
         "verified_flag_without_verification_record"
       ]
@@ -132,7 +134,7 @@
       "deadline": null,
       "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=NOV674573&amp;catID=",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
         "verified_flag_without_verification_record"
       ]
@@ -145,7 +147,7 @@
       "deadline": null,
       "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUL643195&amp;catID=",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
         "verified_flag_without_verification_record"
       ]
@@ -158,7 +160,7 @@
       "deadline": "2026-10-26",
       "source_url": "https://www.contractsfinder.service.gov.uk/Notice/a64c3ffe-9b90-4d78-ba49-01674d5c46ed",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
         "past_deadline_labeled_live",
         "verified_flag_without_verification_record"
@@ -172,7 +174,7 @@
       "deadline": null,
       "source_url": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=JUL560733&amp;catID=",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
         "verified_flag_without_verification_record"
       ]
@@ -185,7 +187,7 @@
       "deadline": null,
       "source_url": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=APR554400&amp;catID=",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
         "verified_flag_without_verification_record"
       ]
@@ -198,7 +200,7 @@
       "deadline": null,
       "source_url": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=JUL560676&amp;catID=",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
         "verified_flag_without_verification_record"
       ]
@@ -211,7 +213,7 @@
       "deadline": null,
       "source_url": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=MAR552523&amp;catID=",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
         "verified_flag_without_verification_record"
       ]
@@ -224,7 +226,7 @@
       "deadline": null,
       "source_url": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID=JAN546606&amp;catID=",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
         "verified_flag_without_verification_record"
       ]
@@ -237,7 +239,7 @@
       "deadline": null,
       "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUL637317&amp;catID=",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
         "verified_flag_without_verification_record"
       ]
@@ -250,10 +252,8 @@
       "deadline": null,
       "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=SEP654811",
       "unique_links": 2,
-      "linked_domains": 0,
-      "flags": [
-        "claimed_independent_sources_not_linked"
-      ]
+      "linked_domains": 2,
+      "flags": []
     },
     {
       "id": "agent-project-pendine-through-time",
@@ -263,10 +263,8 @@
       "deadline": null,
       "source_url": "https://www.find-tender.service.gov.uk/Notice/067059-2026",
       "unique_links": 2,
-      "linked_domains": 0,
-      "flags": [
-        "claimed_independent_sources_not_linked"
-      ]
+      "linked_domains": 1,
+      "flags": []
     },
     {
       "id": "ie-8901321",
@@ -276,7 +274,7 @@
       "deadline": "2026-09-18",
       "source_url": "https://www.etenders.gov.ie/epps/cft/prepareViewCfTWS.do?resourceId=8901321",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
         "past_deadline_labeled_live",
         "verified_flag_without_verification_record"
@@ -290,7 +288,7 @@
       "deadline": "2026-09-22",
       "source_url": "https://ted.europa.eu/en/notice/-/detail/608996-2026",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
         "past_deadline_labeled_live",
         "verified_flag_without_verification_record"
@@ -304,7 +302,7 @@
       "deadline": "2026-10-08",
       "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=AUG652022",
       "unique_links": 2,
-      "linked_domains": 0,
+      "linked_domains": 2,
       "flags": [
         "past_deadline_labeled_live",
         "verified_flag_without_verification_record"
@@ -318,10 +316,8 @@
       "deadline": null,
       "source_url": "https://www.eis.gov.lv/EKEIS/Supplier/Procurement/180665",
       "unique_links": 2,
-      "linked_domains": 0,
-      "flags": [
-        "claimed_independent_sources_not_linked"
-      ]
+      "linked_domains": 2,
+      "flags": []
     },
     {
       "id": "ted-607742-2026",
@@ -331,7 +327,7 @@
       "deadline": "2026-09-24",
       "source_url": "https://ted.europa.eu/en/notice/-/detail/607742-2026",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
         "past_deadline_labeled_live",
         "verified_flag_without_verification_record"
@@ -345,7 +341,7 @@
       "deadline": "2026-09-30",
       "source_url": "https://www.evergabe-online.de/tenderdetails.html?id=885869",
       "unique_links": 3,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
         "past_deadline_labeled_live",
         "verified_flag_without_verification_record"
@@ -359,10 +355,8 @@
       "deadline": null,
       "source_url": "https://news.ontario.ca/en/release/1007497/ontario_breaks_ground_on_new_science_centre_at_ontario_place",
       "unique_links": 2,
-      "linked_domains": 0,
-      "flags": [
-        "claimed_independent_sources_not_linked"
-      ]
+      "linked_domains": 2,
+      "flags": []
     },
     {
       "id": "uk-aug650869",
@@ -372,7 +366,7 @@
       "deadline": "2026-09-24",
       "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=AUG650869",
       "unique_links": 3,
-      "linked_domains": 0,
+      "linked_domains": 2,
       "flags": [
         "past_deadline_labeled_live",
         "verified_flag_without_verification_record"
@@ -386,7 +380,7 @@
       "deadline": "2026-10-03",
       "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=SEP653553",
       "unique_links": 2,
-      "linked_domains": 0,
+      "linked_domains": 2,
       "flags": [
         "past_deadline_labeled_live",
         "verified_flag_without_verification_record"
@@ -400,10 +394,8 @@
       "deadline": null,
       "source_url": "https://www.louvre.fr/en/explore/life-at-the-museum/louvre-nouvelle-renaissance-international-architecture-competition",
       "unique_links": 2,
-      "linked_domains": 0,
-      "flags": [
-        "claimed_independent_sources_not_linked"
-      ]
+      "linked_domains": 1,
+      "flags": []
     },
     {
       "id": "uk-aug653053",
@@ -413,7 +405,7 @@
       "deadline": "2026-09-23",
       "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=AUG653053",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
         "past_deadline_labeled_live",
         "verified_flag_without_verification_record"
@@ -427,9 +419,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa3dcd75d284a7ca9486d0911b46e78&url=https%3a%2f%2fwww.sandiegouniontribune.com%2f2026%2f06%2f26%2ffleet-science-center-renovation%2f&c=2026535705577697871&mkt=es-mx",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -440,9 +433,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc083b143b41a0a40e3bb14b5befd8&url=https%3a%2f%2fwww.mynewsdesk.com%2fno%2fkistefosmuseum%2fpressreleases%2fkistefos-museum-opened-new-visitor-centre-on-saturday-june-20th-3455162&c=6876426998342124081&mkt=en-ca",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -453,9 +447,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aec2906584d4d6b9b9af229fc5ed768&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -466,9 +461,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aec2906584d4d6b9b9af229fc5ed768&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fscience%2farticles%2fflorida-museum-reopen-november-major-151401280.html&c=8905575700437874638&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -479,9 +475,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aeb8ce8f5304d4482de32f774a3272e&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -492,9 +489,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aeb8ce8f5304d4482de32f774a3272e&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fscience%2farticles%2fflorida-museum-reopen-november-major-151401280.html&c=8905575700437874638&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -505,9 +503,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aead2f58c9b4f7ea1072d61d5655562&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -518,9 +517,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aead2f58c9b4f7ea1072d61d5655562&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fscience%2farticles%2fflorida-museum-reopen-november-major-151401280.html&c=8905575700437874638&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -531,9 +531,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aea3747c4e2463e9a463ae0c9353aee&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -544,9 +545,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aea3747c4e2463e9a463ae0c9353aee&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fscience%2farticles%2fflorida-museum-reopen-november-major-151401280.html&c=8905575700437874638&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -557,9 +559,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae985d000b9488eb240339df070da07&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -570,9 +573,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae985d000b9488eb240339df070da07&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fscience%2farticles%2fflorida-museum-reopen-november-major-151401280.html&c=8905575700437874638&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -583,9 +587,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae904a6ddc74d799e467e696c60c881&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -596,9 +601,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae904a6ddc74d799e467e696c60c881&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fscience%2farticles%2fflorida-museum-reopen-november-major-151401280.html&c=8905575700437874638&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -609,9 +615,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae82c0254764c70a07838e7715a6de7&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -622,9 +629,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae82c0254764c70a07838e7715a6de7&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fscience%2farticles%2fflorida-museum-reopen-november-major-151401280.html&c=8905575700437874638&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -635,9 +643,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae7b89d222149a58875f47ebf57dc18&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -648,9 +657,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae7b89d222149a58875f47ebf57dc18&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fscience%2farticles%2fflorida-museum-reopen-november-major-151401280.html&c=8905575700437874638&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -661,9 +671,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae6da46b0b44084b4baf1e23cae53dd&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -674,9 +685,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae6da46b0b44084b4baf1e23cae53dd&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fscience%2farticles%2fflorida-museum-reopen-november-major-151401280.html&c=8905575700437874638&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -687,9 +699,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae660b34255465db0f136428fd69341&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -700,9 +713,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae660b34255465db0f136428fd69341&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fscience%2farticles%2fflorida-museum-reopen-november-major-151401280.html&c=8905575700437874638&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -713,9 +727,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae5e2bb8fd24f5fb61b9b60498a806b&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -726,9 +741,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae5e2bb8fd24f5fb61b9b60498a806b&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fscience%2farticles%2fflorida-museum-reopen-november-major-151401280.html&c=8905575700437874638&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -739,9 +755,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae5829879c6427baf5078415f54da8f&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -752,9 +769,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae5829879c6427baf5078415f54da8f&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fscience%2farticles%2fflorida-museum-reopen-november-major-151401280.html&c=8905575700437874638&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -765,9 +783,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae496a7c2224dc1bf4be6d0bbe2dc54&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -778,9 +797,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae496a7c2224dc1bf4be6d0bbe2dc54&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fscience%2farticles%2fflorida-museum-reopen-november-major-151401280.html&c=8905575700437874638&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -791,9 +811,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae4320576cf4de89f7986ad78c5465b&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -804,9 +825,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae4320576cf4de89f7986ad78c5465b&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fscience%2farticles%2fflorida-museum-reopen-november-major-151401280.html&c=8905575700437874638&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -817,9 +839,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae3cdbe2471413cb7b515301376730e&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -830,9 +853,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae3cdbe2471413cb7b515301376730e&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fscience%2farticles%2fflorida-museum-reopen-november-major-151401280.html&c=8905575700437874638&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -843,9 +867,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae3471aeb0c440ea98c293083b4f057&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -856,9 +881,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae3471aeb0c440ea98c293083b4f057&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fscience%2farticles%2fflorida-museum-reopen-november-major-151401280.html&c=8905575700437874638&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -869,9 +895,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae2e047fac84c18bbdd435112de590f&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -882,9 +909,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae2e047fac84c18bbdd435112de590f&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fscience%2farticles%2fflorida-museum-reopen-november-major-151401280.html&c=8905575700437874638&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -895,9 +923,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae27a0b6f154ae19b399147be1e6c25&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -908,9 +937,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae27a0b6f154ae19b399147be1e6c25&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fscience%2farticles%2fflorida-museum-reopen-november-major-151401280.html&c=8905575700437874638&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -921,9 +951,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae1f3fccf434ffe859f1d4082129496&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -934,9 +965,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae18dc5613e4ffe96eb98053efb0fc9&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -947,9 +979,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae18dc5613e4ffe96eb98053efb0fc9&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fscience%2farticles%2fflorida-museum-reopen-november-major-151401280.html&c=8905575700437874638&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -960,9 +993,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae12422aad747059a71a5f6e9b1d5a6&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -973,9 +1007,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae12422aad747059a71a5f6e9b1d5a6&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fscience%2farticles%2fflorida-museum-reopen-november-major-151401280.html&c=8905575700437874638&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -986,9 +1021,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae097c679194869bd660991e06e3b99&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -999,9 +1035,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae03346e5f9455e96af7d4817ff0558&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1012,9 +1049,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adfd7f1fd294982bf3bde8fb21cea91&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1025,9 +1063,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adf527b45454fb9bc29c9617fd5bb31&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1038,9 +1077,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adedda832e240989cbe9216ce9e0033&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1051,9 +1091,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ade6d35ef13435eadcf25045bf87d20&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1064,9 +1105,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ade2eff082c4fe78287c9ab9ef181a6&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1077,9 +1119,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6addeb543e714787b3926252c440924f&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1090,9 +1133,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6add8b32abd74f5d80ce7196837bbafa&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1103,9 +1147,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6add1b9aeae14972919af3b67c41cb6d&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1116,9 +1161,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adcd6c7e5d144018090963c240e47aa&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1129,9 +1175,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adc92e4ebf14b6d9887c0a0de7f6bfe&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1142,9 +1189,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adc380ecec74fcaba06491e2cc64d48&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1155,9 +1203,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adbd1cb679e401a896ff943f2f5dffc&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1168,9 +1217,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adb962c07214238a9a21e4068445596&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1181,9 +1231,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adb497a4f5d49b3b97938fbf1612ef2&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1194,9 +1245,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adaea2c3bd64dbf916e693c65090505&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1207,9 +1259,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ada837d65734eb2a511b9fcef1f0845&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1220,9 +1273,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ada45631504462a9f11620a1af26499&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1233,9 +1287,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad9333c8bdb40e29529ffd3aaafe705&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1246,9 +1301,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad8f45833e3491c9f9e39d32d80a90c&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1259,9 +1315,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad8a952792b403f85cb90930a553640&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1272,9 +1329,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad8467e94f84fc89cc73506c98091ed&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1285,9 +1343,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad7e04e2d93459c9b6949de9c9487f0&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1298,9 +1357,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad7a2282f1247c8883e9eb75f9a29b9&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1311,9 +1371,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad7550c3cc643779f8d37691a92a4b7&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1324,9 +1385,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad6f526ac574c27bbdb370f6ba35e79&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1337,9 +1399,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad6993e80d3445e8e2861e5b770d8e6&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1350,9 +1413,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad61c02ba114040acd21ac59b2a6217&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1363,9 +1427,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5a2b0d0c549cba34495fcc95cd995&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1376,9 +1441,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad532706de44c918ec2582857f7f2f4&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1389,9 +1455,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad4ed59a3e24f2f9c524d54a8e740a7&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1402,9 +1469,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad4ac32309d47ac917a59b82852bee7&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1415,9 +1483,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad39832a6ad48f0891bc8f6c8c6d0cd&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1428,9 +1497,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad2fc7ea5cc484e97d82d588eec5086&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1441,9 +1511,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad295f191cd496b905d86b4b9eb1947&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1454,9 +1525,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acf6fa1b4e940ea900588b50371cba8&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1467,9 +1539,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acf0cc4a4b74f7ab67d8cc920b7787a&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1480,9 +1553,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aceb66cc6184ca0adbb567fc4fd5dd9&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1493,9 +1567,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ace3e6bbbd34b3aab204945bd2b9ee8&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1506,9 +1581,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acd7fde7813475ea5bcd0ada552d9a2&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1519,9 +1595,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6accff80d84249f5bd4cfc8777f80f8f&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1532,9 +1609,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc796fa8b549f2a9161fc10741094f&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1545,9 +1623,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acb890a57434c7c85e4ff848fe2f8f7&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1558,9 +1637,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acb256b6ab340e092e67f34ec004790&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1571,9 +1651,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acab337293c4a79affac0dab387f271&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1584,9 +1665,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca328df5524df5a0adbc21c47c153c&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1597,9 +1679,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9d4a3ed6d41e290ea3eaed7fe1631&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1610,9 +1693,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9316484fe4dfbb59dbbd8d930c72c&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1623,9 +1707,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8872d9b614614883c3e03057ac4e4&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1636,9 +1721,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac82689a51343b5b0cefd3ff9d3dc80&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1649,9 +1735,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7351d87ce487db0af065af6d190d2&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1662,9 +1749,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6d16baaa64c63a3317b39fb1b249c&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1675,9 +1763,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac64a78e1cf413eaa2506a52f47be32&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1688,9 +1777,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac5e20ec0614314940f84dc119a4815&url=https%3a%2f%2fwww.gainesville.com%2fstory%2fnews%2feducation%2fcampus%2f2026%2f09%2f30%2fflorida-museum-of-natural-history-at-uf-has-major-renovation-expansion%2f92020782007%2f&c=13020040624935417737&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1701,9 +1791,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aec2906584d4d6b9b9af229fc5ed768&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fother%2fperot-museum-eyes-4-acre-expansion-funded-by-185m-capital-campaign%2far-AA2fEe1A&c=10911233012615783022&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1714,9 +1805,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aeb8ce8f5304d4482de32f774a3272e&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fother%2fperot-museum-eyes-4-acre-expansion-funded-by-185m-capital-campaign%2far-AA2fEe1A&c=10911233012615783022&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1727,9 +1819,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aea3747c4e2463e9a463ae0c9353aee&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fother%2fperot-museum-eyes-4-acre-expansion-funded-by-185m-capital-campaign%2far-AA2fEe1A&c=10911233012615783022&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1740,9 +1833,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad39832a6ad48f0891bc8f6c8c6d0cd&url=https%3a%2f%2fwww.longmontleader.com%2flocal-news%2finside-longmont-museums-nearly-10m-expansion-12851684&c=8460159237135211109&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1753,9 +1847,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aec290764d945b1ba7e0e0a8b5c3342&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1766,9 +1861,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aeb8ce92bcc4b1489d6cfc776fa72ff&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1779,9 +1875,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aead2f698324c2aa809544d0ca08e58&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1792,9 +1889,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aea37487179467daf6dfbe9ac859bef&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1805,9 +1903,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae985d14290474f9e8346bdb3c4969a&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1818,9 +1917,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae904a7db8348bdaea10a949424265e&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1831,9 +1931,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae82c03836a4d8eb270347c8a65130a&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1844,9 +1945,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae7b89f800f4114869f774b24981275&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1857,9 +1959,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae6da474a4a41229bd94ba64abebbcc&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1870,9 +1973,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae660b470194bffb306dc01d4085701&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1883,9 +1987,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae5e2bc359746bead83a9e9192f460c&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1896,9 +2001,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae58299ee0c4c2eb6590ca7b072247a&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1909,9 +2015,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae51a08ff9b4bf099f3bf653df7b9a8&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1922,9 +2029,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae496a89bb44722a492eccda18151ce&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1935,9 +2043,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae43206219a4a8aaba3079ea8ec28c9&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1948,9 +2057,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae3cdbf1a5f4baa8ac2dba5a0682acf&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1961,9 +2071,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae3471b29704163b4c7bb2741873f17&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1974,9 +2085,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae2e048ba8b4f9c9d0c4643c7b70955&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -1987,9 +2099,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae27a0c0b0647099467aeab67d083b9&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2000,9 +2113,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae1f3fdb72c4d0893013f25c9764093&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2013,9 +2127,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae18dc7b75e4bb78664728ec2079bed&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2026,9 +2141,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae12423d7a7467586dffc33400dbbdf&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2039,9 +2155,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae097c6dcdf4c0d8d17bcb87dbebb50&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2052,9 +2169,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae03347bf3543aca09a9d6cccb70ae5&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2065,9 +2183,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adfd7f29e1948c7b2906900693c88b1&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2078,9 +2197,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adf527c8c354ee2b844bdaf95143047&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2091,9 +2211,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adedda993694b52a6c7562a791c8ea6&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2104,9 +2225,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ade6d368b104e99b11bea34db5ff85a&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2117,9 +2239,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ade2f000b6f42f0a7f96da0cfe2a9e8&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2130,9 +2253,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6addeb55d2004010afd0ed82dbe21d0c&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2143,9 +2267,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6add8b32e7c94784a393c6d68180d236&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2156,9 +2281,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6add1b9b6f344006913aa65d807c92b6&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2169,9 +2295,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adcd6c8be8e4554a81eab3dc98c0532&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2182,9 +2309,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adc92e5ffe149bdb13d90c4ff9bc173&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2195,9 +2323,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adc380fa4824158a1e25d119c4fc307&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2208,9 +2337,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adbd1cc314649e195e5163484d6deac&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2221,9 +2351,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adb962dd58d44c2924577d0b4ab2f22&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2234,9 +2365,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adb497ba1434efc83af1f7a6d364d57&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2247,9 +2379,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adaea2de674408ab215a3af64073926&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2260,9 +2393,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ada4564080240caaf686099a1119817&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2273,9 +2407,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad9984fed4d4b5384d7be4d34654271&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2286,9 +2421,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad9333db0974bd59ec85c12ab5aacf8&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2299,9 +2435,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad8f4598da642b0924b8ae6596130b8&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2312,9 +2449,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad8a9538c6745bb905a7c9393aad83a&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2325,9 +2463,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad8467f162e490494e5b50a2100d047&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2338,9 +2477,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad7e0508ff847b1adf62c525014673b&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2351,9 +2491,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad7a229f52b41db8f5bef14c59e60d4&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2364,9 +2505,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad7550d216d456f90544e0c2a022c11&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2377,9 +2519,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad6f527dbcf4178aa66ba4fc878d1f8&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2390,9 +2533,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad6993fd84046518d24bc450f4b7376&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2403,9 +2547,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad61c03d2bc40cd89a2b11792640309&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2416,9 +2561,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5a2b1420a452381bc2f8439dae65c&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2429,9 +2575,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad53271c6ca497da38dd53590b2116d&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2442,9 +2589,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad4ed5af56f4d10b2e6410b5a30f07c&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2455,9 +2603,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad4ac33816446c094541eb31e52107f&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2468,9 +2617,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad44f47a73742bb8e3025b6312ad087&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2481,9 +2631,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad39833726845258500268ea7ed6147&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2494,9 +2645,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad354afdd22409d9796e184073c5e1e&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2507,9 +2659,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad2fc7f4e7c4308a4cb7ba7a63ec6fd&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2520,9 +2673,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad295f21a0c4590864d4dfe02677a10&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2533,9 +2687,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad20bd5fa0f47a1aa27506141bb6215&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2546,9 +2701,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad1aacf6fd34f77a7dc7b34bda2753a&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2559,9 +2715,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad145ef3df148e5b49655012b45aeae&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2572,9 +2729,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad1089f39f5412f8cef97ee1ea39a3d&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2585,9 +2743,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad0bbc5d6a246689b129319ee4c95d6&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2598,9 +2757,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad05b9523544e2183dc7251333b7a02&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2611,9 +2771,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acff86283b842a2a0ae37c0e51e2673&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2624,9 +2785,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acfb9abe77c420d8d603fe0185cf771&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2637,9 +2799,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acf6fa2c1f04d11a7fe4df31febef77&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2650,9 +2813,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acf0cc5cd0f44e19fd8651e7b1b28ed&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2663,9 +2827,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aceb66d21194ffb97dd392538aedda8&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2676,9 +2841,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ace3e6c2c23473782c7d128c39b20b3&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2689,9 +2855,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acd7fde063f444c8367329d44786a13&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2702,9 +2869,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6accff813a984de8a8656bb2a7227fae&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2715,9 +2883,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc79703f9e4b859fb26faa3e70cf56&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2728,9 +2897,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acb890bb9e548f5b384f9015afa305c&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2741,9 +2911,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acb256cbd13474eb3ac0777b7c62cd7&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2754,9 +2925,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acab3383c464ccdb355b278a7f21b56&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2767,9 +2939,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca328e96474ff3946eb412856128fe&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2780,9 +2953,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9d4a454cb43dd9963a051b75689c9&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2793,9 +2967,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac93165dc2e46d296b44352c79e1aa4&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2806,9 +2981,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8872d6a9c45ac843acb788c3db2d5&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2819,9 +2995,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8268ae8774fc3b88960e763d66d39&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2832,9 +3009,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac79e3e0dd9459090d2085c5021e62c&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2845,9 +3023,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7351d6a2b4d769bf7197ea9000a7f&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2858,9 +3037,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6d16ca12b40e9b1441376ee6de636&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2871,9 +3051,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac64a79b7894dee8b8a1ae3393da40e&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2884,9 +3065,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac5e20f75244fe0923bac36e64a9b8f&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2897,9 +3079,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac4957e19d0452bb678d9ad52c33406&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2910,7 +3093,7 @@
       "deadline": "2026-11-02",
       "source_url": "https://www.contractsfinder.service.gov.uk/Notice/5c128046-ddb1-4add-9d56-08d46247a687",
       "unique_links": 3,
-      "linked_domains": 0,
+      "linked_domains": 2,
       "flags": [
         "past_deadline_labeled_live",
         "verified_flag_without_verification_record"
@@ -2924,9 +3107,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad44f47a73742bb8e3025b6312ad087&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2937,9 +3121,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad39833726845258500268ea7ed6147&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2950,9 +3135,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad354afdd22409d9796e184073c5e1e&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2963,9 +3149,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad2fc7f4e7c4308a4cb7ba7a63ec6fd&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2976,9 +3163,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad295f21a0c4590864d4dfe02677a10&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -2989,9 +3177,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad20bd5fa0f47a1aa27506141bb6215&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3002,9 +3191,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad1aacf6fd34f77a7dc7b34bda2753a&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3015,9 +3205,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad145ef3df148e5b49655012b45aeae&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3028,9 +3219,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad1089f39f5412f8cef97ee1ea39a3d&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3041,9 +3233,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad0bbc5d6a246689b129319ee4c95d6&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3054,9 +3247,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad05b9523544e2183dc7251333b7a02&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3067,9 +3261,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acff86283b842a2a0ae37c0e51e2673&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3080,9 +3275,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acfb9abe77c420d8d603fe0185cf771&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3093,9 +3289,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acf6fa2c1f04d11a7fe4df31febef77&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3106,9 +3303,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acf0cc5cd0f44e19fd8651e7b1b28ed&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3119,9 +3317,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aceb66d21194ffb97dd392538aedda8&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3132,9 +3331,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ace3e6c2c23473782c7d128c39b20b3&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3145,9 +3345,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acd7fde063f444c8367329d44786a13&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3158,9 +3359,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6accff813a984de8a8656bb2a7227fae&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3171,9 +3373,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc79703f9e4b859fb26faa3e70cf56&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3184,9 +3387,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acb890bb9e548f5b384f9015afa305c&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3197,9 +3401,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acb890bb9e548f5b384f9015afa305c&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcreative-europe-drives-billions-investments-and-boosts-visibility-eu-works&c=13154779194254474701&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3210,9 +3415,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acb256cbd13474eb3ac0777b7c62cd7&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3223,9 +3429,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acab3383c464ccdb355b278a7f21b56&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3236,9 +3443,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca328e96474ff3946eb412856128fe&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3249,9 +3457,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9d4a454cb43dd9963a051b75689c9&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3262,9 +3471,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac93165dc2e46d296b44352c79e1aa4&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3275,9 +3485,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8872d6a9c45ac843acb788c3db2d5&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3288,9 +3499,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8268ae8774fc3b88960e763d66d39&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3301,9 +3513,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac79e3e0dd9459090d2085c5021e62c&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3314,9 +3527,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7351d6a2b4d769bf7197ea9000a7f&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3327,9 +3541,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6d16ca12b40e9b1441376ee6de636&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3340,9 +3555,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac64a79b7894dee8b8a1ae3393da40e&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3353,9 +3569,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac5e20f75244fe0923bac36e64a9b8f&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3366,9 +3583,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac53da478054b598b98f53e6b001e36&url=https%3a%2f%2farstechnica.com%2fculture%2f2026%2f07%2fwith-help-from-data-art-museums-are-reframing-the-visitor-experience%2f&c=9405080875889595589&mkt=es-mx",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3379,9 +3597,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac4957e19d0452bb678d9ad52c33406&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3392,9 +3611,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac33ae69ea9498b93e2fe375abd8666&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3405,9 +3625,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac1ebbcdd9d4ff88c894380a7a8f393&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3418,9 +3639,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac12d3b28574810b6bbeb177456b296&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3431,9 +3653,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac0eb7b648e42c7b87f4589763b9ace&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3444,9 +3667,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac091dbe22e4f9cb717cea9bd0b9346&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3457,9 +3681,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab7f30883a8446f8135e317464203c0&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcreative-europe-drives-billions-investments-and-boosts-visibility-eu-works&c=13154779194254474701&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3470,9 +3695,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab7f30883a8446f8135e317464203c0&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2ffunding%2fcreative-innovation-lab&c=6795989186076005330&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3483,9 +3709,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab7ad631a2c4f41bf8f1d4b32533998&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcreative-europe-drives-billions-investments-and-boosts-visibility-eu-works&c=13154779194254474701&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3496,9 +3723,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab7ad631a2c4f41bf8f1d4b32533998&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2ffunding%2fcreative-innovation-lab&c=6795989186076005330&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3509,9 +3737,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab661ce1615474391677a601f658475&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcreative-europe-drives-billions-investments-and-boosts-visibility-eu-works&c=13154779194254474701&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3522,9 +3751,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab661ce1615474391677a601f658475&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2ffunding%2fcreative-innovation-lab&c=6795989186076005330&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3535,9 +3765,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab600f338ed4df89d3cc89ef8bd7833&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcreative-europe-drives-billions-investments-and-boosts-visibility-eu-works&c=13154779194254474701&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3548,9 +3779,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab597b16ea945efb24ef3140191530b&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcreative-europe-drives-billions-investments-and-boosts-visibility-eu-works&c=13154779194254474701&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3561,9 +3793,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab597b16ea945efb24ef3140191530b&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2ffunding%2fcreative-innovation-lab&c=6795989186076005330&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3574,9 +3807,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab55b439d2b4575b358cd6549e7ab09&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcreative-europe-drives-billions-investments-and-boosts-visibility-eu-works&c=13154779194254474701&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3587,9 +3821,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab55b439d2b4575b358cd6549e7ab09&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2ffunding%2fcreative-innovation-lab&c=6795989186076005330&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3600,9 +3835,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab50fd634be4c019e747aca14048930&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcreative-europe-drives-billions-investments-and-boosts-visibility-eu-works&c=13154779194254474701&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3613,9 +3849,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab4ae77dc7645869bac9ec70eb8482c&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcreative-europe-drives-billions-investments-and-boosts-visibility-eu-works&c=13154779194254474701&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3626,9 +3863,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab4ae77dc7645869bac9ec70eb8482c&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2ffunding%2fcreative-innovation-lab&c=6795989186076005330&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3639,9 +3877,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab44602182d4efdb7be0e2bf641aa08&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcreative-europe-drives-billions-investments-and-boosts-visibility-eu-works&c=13154779194254474701&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3652,9 +3891,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab44602182d4efdb7be0e2bf641aa08&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2ffunding%2fcreative-innovation-lab&c=6795989186076005330&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3665,9 +3905,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab4084b18a44019acaea08864124d71&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcreative-europe-drives-billions-investments-and-boosts-visibility-eu-works&c=13154779194254474701&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3678,9 +3919,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab4084b18a44019acaea08864124d71&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2ffunding%2fcreative-innovation-lab&c=6795989186076005330&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3691,9 +3933,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab3bc79e26246ba98e28df22df42b39&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcreative-europe-drives-billions-investments-and-boosts-visibility-eu-works&c=13154779194254474701&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3704,9 +3947,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab3bc79e26246ba98e28df22df42b39&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2ffunding%2fcreative-innovation-lab&c=6795989186076005330&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3717,9 +3961,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab35b05429e48d3a61f88bec603e678&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcreative-europe-drives-billions-investments-and-boosts-visibility-eu-works&c=13154779194254474701&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3730,9 +3975,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab35b05429e48d3a61f88bec603e678&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2ffunding%2fcreative-innovation-lab&c=6795989186076005330&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3743,9 +3989,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab2b4a2b32b44bca7e4447362b00513&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcreative-europe-drives-billions-investments-and-boosts-visibility-eu-works&c=13154779194254474701&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3756,9 +4003,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab2b4a2b32b44bca7e4447362b00513&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2ffunding%2fcreative-innovation-lab&c=6795989186076005330&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3769,9 +4017,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab20d0d6cb840e191a65954b7545330&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcreative-europe-drives-billions-investments-and-boosts-visibility-eu-works&c=13154779194254474701&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3782,9 +4031,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab20d0d6cb840e191a65954b7545330&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2ffunding%2fcreative-innovation-lab&c=6795989186076005330&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3795,9 +4045,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab1a9794880445bb2ce9e8a6246de63&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcreative-europe-drives-billions-investments-and-boosts-visibility-eu-works&c=13154779194254474701&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3808,9 +4059,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab1a9794880445bb2ce9e8a6246de63&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2ffunding%2fcreative-innovation-lab&c=6795989186076005330&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3821,9 +4073,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab129f050fc488e93092d74feeed60d&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcreative-europe-drives-billions-investments-and-boosts-visibility-eu-works&c=13154779194254474701&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3834,9 +4087,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab129f050fc488e93092d74feeed60d&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2ffunding%2fcreative-innovation-lab&c=6795989186076005330&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3847,9 +4101,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab0bb26142a41b1b519023f75cdd11d&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcreative-europe-drives-billions-investments-and-boosts-visibility-eu-works&c=13154779194254474701&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3860,9 +4115,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab0bb26142a41b1b519023f75cdd11d&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2ffunding%2fcreative-innovation-lab&c=6795989186076005330&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3873,9 +4129,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab0481590414bdaadf2c40bdc8cc176&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcreative-europe-drives-billions-investments-and-boosts-visibility-eu-works&c=13154779194254474701&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3886,9 +4143,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab0481590414bdaadf2c40bdc8cc176&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2ffunding%2fcreative-innovation-lab&c=6795989186076005330&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3899,9 +4157,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab00656f86644ae9c4a8a41da454e63&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcreative-europe-drives-billions-investments-and-boosts-visibility-eu-works&c=13154779194254474701&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3912,9 +4171,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab00656f86644ae9c4a8a41da454e63&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2ffunding%2fcreative-innovation-lab&c=6795989186076005330&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3925,9 +4185,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aafc48d27474d11988ab3e7dc42d03b&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcreative-europe-drives-billions-investments-and-boosts-visibility-eu-works&c=13154779194254474701&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3938,9 +4199,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aafc48d27474d11988ab3e7dc42d03b&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2ffunding%2fcreative-innovation-lab&c=6795989186076005330&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3951,9 +4213,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac4957d8f0d42bd8c0fb86396439c65&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fother%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=17754296698912003094&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3964,9 +4227,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac43bf5b4c94e76ad86d11ac6cb86ef&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fother%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=17754296698912003094&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3977,9 +4241,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac3ba07b4b642e6b56afcb156ef5ee9&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fother%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=17754296698912003094&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -3990,9 +4255,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac33ae5b97a41ee8d54f7fc84503634&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fother%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=17754296698912003094&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -4003,9 +4269,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac2c6c45a554ce3902ccd384addb5c9&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fother%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=17754296698912003094&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -4016,9 +4283,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac1ebbbebfb4585be621bb0fc1c4680&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fother%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=17754296698912003094&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -4029,9 +4297,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac0eb7a5bca4357a781da2f265d8e42&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fother%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=17754296698912003094&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -4042,9 +4311,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac02e04d9354d08a1105a64f602d7bd&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fother%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=17754296698912003094&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -4055,9 +4325,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abfa7fce07b418190c5f53f7314e8a8&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fother%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=17754296698912003094&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -4068,9 +4339,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abf45e7cbaa4aec87f489637adbaa95&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fother%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=17754296698912003094&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -4081,9 +4353,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abe603054da45869fc8d9216f787fd2&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fother%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=17754296698912003094&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -4094,9 +4367,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab04815a1c545c9b0c96399abc3497b&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -4107,9 +4381,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aafc48d72f045e6b3656b519ca66f78&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -4120,9 +4395,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaf6851e1894162a243509099cb6cb2&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -4133,9 +4409,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaef5113abc4c3dbdc8ddcf312cbd2a&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -4146,9 +4423,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaeb0bfd9c7453faa113d209bb60690&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -4159,9 +4437,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aae6d5b80a94eae988fb9b563dba8ce&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -4172,9 +4451,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aae13142e0a41f2968b7892863b13fd&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -4185,9 +4465,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aada5f7671d4a4f84e87025b799d054&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -4198,9 +4479,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aad6761cbbf4102891ecbec72adb3c8&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -4211,9 +4493,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aacc38d85874865bd482b7772f2cdd1&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -4224,9 +4507,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aac5b78057b4df3aa4c2197d4d37221&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -4237,9 +4521,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aabd4051a0c4a33b6c139990b4a4ac3&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -4250,9 +4535,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aab73bdf98d4bf69e3d15ef839ba7e7&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -4263,9 +4549,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aab08f11e934ccd95bb738133a8bcd0&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -4276,9 +4563,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaacca8bdd9456fa3400bd14945e231&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -4289,9 +4577,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaa818cf33840b889ff31496b6bb0ba&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -4302,9 +4591,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaa21800e94439d8f8c2708508ffb57&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -4315,9 +4605,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa9b84e43714ceda6810fc9d8c92bbd&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -4328,9 +4619,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa97b0a0195426686fd56c6d418f267&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -4341,9 +4633,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa93178147f4c05926ef87313394fdb&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -4354,9 +4647,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa8d123744a404c8f0e49c5e8f7e00b&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -4367,9 +4661,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa69050077e45479fc89d03fa56ac88&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -4380,9 +4675,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa62ceede314db5a6d5df4ce9e49581&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -4393,9 +4689,10 @@
       "deadline": null,
       "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa5c6ad35884165a5f6fd25af152d9b&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "non_https_source"
+        "non_https_source",
+        "search_engine_redirect_source"
       ]
     },
     {
@@ -4406,10 +4703,10 @@
       "deadline": null,
       "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=SEP654811",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "claimed_independent_sources_not_linked",
-        "no_verified_supporting_evidence"
+        "no_verified_supporting_evidence",
+        "claimed_independent_sources_not_linked"
       ]
     },
     {
@@ -4420,9 +4717,8 @@
       "deadline": null,
       "source_url": "https://www.find-tender.service.gov.uk/Notice/067059-2026",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "claimed_independent_sources_not_linked",
         "no_verified_supporting_evidence"
       ]
     },
@@ -4434,10 +4730,10 @@
       "deadline": null,
       "source_url": "https://www.eis.gov.lv/EKEIS/Supplier/Procurement/180665",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "claimed_independent_sources_not_linked",
-        "no_verified_supporting_evidence"
+        "no_verified_supporting_evidence",
+        "claimed_independent_sources_not_linked"
       ]
     },
     {
@@ -4448,10 +4744,10 @@
       "deadline": null,
       "source_url": "https://news.ontario.ca/en/release/1007497/ontario_breaks_ground_on_new_science_centre_at_ontario_place",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "claimed_independent_sources_not_linked",
-        "no_verified_supporting_evidence"
+        "no_verified_supporting_evidence",
+        "claimed_independent_sources_not_linked"
       ]
     },
     {
@@ -4462,9 +4758,8 @@
       "deadline": null,
       "source_url": "https://www.louvre.fr/en/explore/life-at-the-museum/louvre-nouvelle-renaissance-international-architecture-competition",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "claimed_independent_sources_not_linked",
         "no_verified_supporting_evidence"
       ]
     },
@@ -4476,9 +4771,8 @@
       "deadline": null,
       "source_url": "https://www.nationalgallery.org.uk/about-us/project-domani",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "claimed_independent_sources_not_linked",
         "no_verified_supporting_evidence"
       ]
     },
@@ -4490,10 +4784,10 @@
       "deadline": null,
       "source_url": "https://www.mvrdv.com/projects/1265/gam-torino",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "claimed_independent_sources_not_linked",
-        "no_verified_supporting_evidence"
+        "no_verified_supporting_evidence",
+        "claimed_independent_sources_not_linked"
       ]
     },
     {
@@ -4504,10 +4798,10 @@
       "deadline": null,
       "source_url": "https://lsc.org/media-information/91026-supernova-groundbreaking",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "claimed_independent_sources_not_linked",
-        "no_verified_supporting_evidence"
+        "no_verified_supporting_evidence",
+        "claimed_independent_sources_not_linked"
       ]
     },
     {
@@ -4518,10 +4812,10 @@
       "deadline": null,
       "source_url": "https://expansion.thedali.org/design",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "claimed_independent_sources_not_linked",
-        "no_verified_supporting_evidence"
+        "no_verified_supporting_evidence",
+        "claimed_independent_sources_not_linked"
       ]
     },
     {
@@ -4532,10 +4826,10 @@
       "deadline": null,
       "source_url": "https://www.migrationmuseum.org/wolfson-foundation-commits-600000-to-the-uks-missing-museum/",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "claimed_independent_sources_not_linked",
-        "no_verified_supporting_evidence"
+        "no_verified_supporting_evidence",
+        "claimed_independent_sources_not_linked"
       ]
     },
     {
@@ -4546,10 +4840,10 @@
       "deadline": null,
       "source_url": "https://www.clay1a.org/",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "claimed_independent_sources_not_linked",
-        "no_verified_supporting_evidence"
+        "no_verified_supporting_evidence",
+        "claimed_independent_sources_not_linked"
       ]
     },
     {
@@ -4560,10 +4854,10 @@
       "deadline": null,
       "source_url": "https://ibank.ca.gov/ibank-closes-236-million-in-bond-financing-for-la-brea-tar-pits-reimagine-project/",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "claimed_independent_sources_not_linked",
-        "no_verified_supporting_evidence"
+        "no_verified_supporting_evidence",
+        "claimed_independent_sources_not_linked"
       ]
     },
     {
@@ -4574,9 +4868,8 @@
       "deadline": null,
       "source_url": "https://www.profootballhof.com/news/nfl-owners-approve-funding-for-pro-football-hall-of-fame-s-transformation-plan",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "claimed_independent_sources_not_linked",
         "no_verified_supporting_evidence"
       ]
     },
@@ -4588,10 +4881,10 @@
       "deadline": null,
       "source_url": "https://www.imls.gov/grants/awarded/ma-260003-oms-26",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "claimed_independent_sources_not_linked",
-        "no_verified_supporting_evidence"
+        "no_verified_supporting_evidence",
+        "claimed_independent_sources_not_linked"
       ]
     },
     {
@@ -4602,10 +4895,10 @@
       "deadline": null,
       "source_url": "https://www.galwaycity.ie/news/2026/galway-city-museum-redevelopment-works-commence",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "claimed_independent_sources_not_linked",
-        "no_verified_supporting_evidence"
+        "no_verified_supporting_evidence",
+        "claimed_independent_sources_not_linked"
       ]
     },
     {
@@ -4616,10 +4909,10 @@
       "deadline": null,
       "source_url": "https://www.imls.gov/grants/awarded/ma-259864-oms-26",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "claimed_independent_sources_not_linked",
-        "no_verified_supporting_evidence"
+        "no_verified_supporting_evidence",
+        "claimed_independent_sources_not_linked"
       ]
     },
     {
@@ -4630,10 +4923,10 @@
       "deadline": null,
       "source_url": "https://www.pontypriddtowncouncil.gov.uk/pontypridd-town-council-welcomes-major-welsh-government-investment-in-pontypridd-museum",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "claimed_independent_sources_not_linked",
-        "no_verified_supporting_evidence"
+        "no_verified_supporting_evidence",
+        "claimed_independent_sources_not_linked"
       ]
     },
     {
@@ -4644,10 +4937,10 @@
       "deadline": null,
       "source_url": "https://www.imls.gov/grants/awarded/ma-259865-oms-26",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "claimed_independent_sources_not_linked",
-        "no_verified_supporting_evidence"
+        "no_verified_supporting_evidence",
+        "claimed_independent_sources_not_linked"
       ]
     },
     {
@@ -4658,9 +4951,8 @@
       "deadline": null,
       "source_url": "https://www.imls.gov/grants/awarded/igsm-259954-oms-26",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "claimed_independent_sources_not_linked",
         "no_verified_supporting_evidence"
       ]
     },
@@ -4672,9 +4964,8 @@
       "deadline": null,
       "source_url": "https://www.imls.gov/grants/awarded/ma-259829-oms-26",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "claimed_independent_sources_not_linked",
         "no_verified_supporting_evidence"
       ]
     },
@@ -4686,10 +4977,10 @@
       "deadline": null,
       "source_url": "https://ted.europa.eu/en/notice/-/detail/695514-2026",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "claimed_independent_sources_not_linked",
-        "no_verified_supporting_evidence"
+        "no_verified_supporting_evidence",
+        "claimed_independent_sources_not_linked"
       ]
     },
     {
@@ -4700,10 +4991,10 @@
       "deadline": null,
       "source_url": "https://www.kommersannons.se/malmo/Notice/NoticeOverview.aspx?ProcurementId=58904",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "claimed_independent_sources_not_linked",
-        "no_verified_supporting_evidence"
+        "no_verified_supporting_evidence",
+        "claimed_independent_sources_not_linked"
       ]
     },
     {
@@ -4714,10 +5005,10 @@
       "deadline": null,
       "source_url": "https://kinnstudio.dk/journal/gilleleje",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "claimed_independent_sources_not_linked",
-        "no_verified_supporting_evidence"
+        "no_verified_supporting_evidence",
+        "claimed_independent_sources_not_linked"
       ]
     },
     {
@@ -4728,9 +5019,8 @@
       "deadline": null,
       "source_url": "https://www.regjeringen.no/no/dokumenter/prop.-1-s-20252026/id3123306/?ch=2",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "claimed_independent_sources_not_linked",
         "no_verified_supporting_evidence"
       ]
     },
@@ -4742,9 +5032,8 @@
       "deadline": null,
       "source_url": "https://op.europa.eu/en/web/public-procurement/procurement-details/-/procurement/8d0231ea-1e44-40b0-bd47-3430599ab4a9",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "claimed_independent_sources_not_linked",
         "no_verified_supporting_evidence"
       ]
     },
@@ -4756,10 +5045,10 @@
       "deadline": null,
       "source_url": "https://tenderwize.com/en/tenders/478751-2026",
       "unique_links": 1,
-      "linked_domains": 0,
+      "linked_domains": 1,
       "flags": [
-        "claimed_independent_sources_not_linked",
-        "no_verified_supporting_evidence"
+        "no_verified_supporting_evidence",
+        "claimed_independent_sources_not_linked"
       ]
     }
   ]

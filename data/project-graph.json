@@ -44,7 +44,25 @@
           "£290,000"
         ]
       },
-      "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=SEP654811"
+      "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=SEP654811",
+      "evidence": [
+        {
+          "kind": "Recorded project source",
+          "title": "Original research link",
+          "detail": "Source URL recorded with this project. The page content, claims, date and current procurement status have not yet been independently rechecked.",
+          "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=SEP654811",
+          "verification_status": "not_checked"
+        }
+      ],
+      "source_audit": {
+        "status": "not_checked",
+        "linked_source_count": 1,
+        "claimed_domains": [
+          "sell2wales.gov.wales",
+          "find-tender.service.gov.uk"
+        ],
+        "note": "Claimed domains are research metadata, not independent evidence unless a direct URL is attached."
+      }
     },
     {
       "project_id": "project-pendine-through-time",
@@ -86,7 +104,24 @@
           "£350,000"
         ]
       },
-      "source_url": "https://www.find-tender.service.gov.uk/Notice/067059-2026"
+      "source_url": "https://www.find-tender.service.gov.uk/Notice/067059-2026",
+      "evidence": [
+        {
+          "kind": "Recorded project source",
+          "title": "Original research link",
+          "detail": "Source URL recorded with this project. The page content, claims, date and current procurement status have not yet been independently rechecked.",
+          "source_url": "https://www.find-tender.service.gov.uk/Notice/067059-2026",
+          "verification_status": "not_checked"
+        }
+      ],
+      "source_audit": {
+        "status": "not_checked",
+        "linked_source_count": 1,
+        "claimed_domains": [
+          "find-tender.service.gov.uk"
+        ],
+        "note": "Claimed domains are research metadata, not independent evidence unless a direct URL is attached."
+      }
     },
     {
       "project_id": "project-andrejs-pumpurs",
@@ -126,7 +161,25 @@
         "opening_years": [],
         "investment_signals": []
       },
-      "source_url": "https://www.eis.gov.lv/EKEIS/Supplier/Procurement/180665"
+      "source_url": "https://www.eis.gov.lv/EKEIS/Supplier/Procurement/180665",
+      "evidence": [
+        {
+          "kind": "Recorded project source",
+          "title": "Original research link",
+          "detail": "Source URL recorded with this project. The page content, claims, date and current procurement status have not yet been independently rechecked.",
+          "source_url": "https://www.eis.gov.lv/EKEIS/Supplier/Procurement/180665",
+          "verification_status": "not_checked"
+        }
+      ],
+      "source_audit": {
+        "status": "not_checked",
+        "linked_source_count": 1,
+        "claimed_domains": [
+          "eis.gov.lv",
+          "tedas.eu"
+        ],
+        "note": "Claimed domains are research metadata, not independent evidence unless a direct URL is attached."
+      }
     },
     {
       "project_id": "project-ontario-science-centre",
@@ -168,7 +221,25 @@
         ],
         "investment_signals": []
       },
-      "source_url": "https://news.ontario.ca/en/release/1007497/ontario_breaks_ground_on_new_science_centre_at_ontario_place"
+      "source_url": "https://news.ontario.ca/en/release/1007497/ontario_breaks_ground_on_new_science_centre_at_ontario_place",
+      "evidence": [
+        {
+          "kind": "Recorded project source",
+          "title": "Original research link",
+          "detail": "Source URL recorded with this project. The page content, claims, date and current procurement status have not yet been independently rechecked.",
+          "source_url": "https://news.ontario.ca/en/release/1007497/ontario_breaks_ground_on_new_science_centre_at_ontario_place",
+          "verification_status": "not_checked"
+        }
+      ],
+      "source_audit": {
+        "status": "not_checked",
+        "linked_source_count": 1,
+        "claimed_domains": [
+          "news.ontario.ca",
+          "ontariosciencecentre.ca"
+        ],
+        "note": "Claimed domains are research metadata, not independent evidence unless a direct URL is attached."
+      }
     },
     {
       "project_id": "project-louvre-nouvelle-renaissance",
@@ -207,7 +278,24 @@
         "opening_years": [],
         "investment_signals": []
       },
-      "source_url": "https://www.louvre.fr/en/explore/life-at-the-museum/louvre-nouvelle-renaissance-international-architecture-competition"
+      "source_url": "https://www.louvre.fr/en/explore/life-at-the-museum/louvre-nouvelle-renaissance-international-architecture-competition",
+      "evidence": [
+        {
+          "kind": "Recorded project source",
+          "title": "Original research link",
+          "detail": "Source URL recorded with this project. The page content, claims, date and current procurement status have not yet been independently rechecked.",
+          "source_url": "https://www.louvre.fr/en/explore/life-at-the-museum/louvre-nouvelle-renaissance-international-architecture-competition",
+          "verification_status": "not_checked"
+        }
+      ],
+      "source_audit": {
+        "status": "not_checked",
+        "linked_source_count": 1,
+        "claimed_domains": [
+          "louvre.fr"
+        ],
+        "note": "Claimed domains are research metadata, not independent evidence unless a direct URL is attached."
+      }
     },
     {
       "project_id": "project-national-gallery-domani",
@@ -252,7 +340,24 @@
           "£375 million already committed"
         ]
       },
-      "source_url": "https://www.nationalgallery.org.uk/about-us/project-domani"
+      "source_url": "https://www.nationalgallery.org.uk/about-us/project-domani",
+      "evidence": [
+        {
+          "kind": "Recorded project source",
+          "title": "Original research link",
+          "detail": "Source URL recorded with this project. The page content, claims, date and current procurement status have not yet been independently rechecked.",
+          "source_url": "https://www.nationalgallery.org.uk/about-us/project-domani",
+          "verification_status": "not_checked"
+        }
+      ],
+      "source_audit": {
+        "status": "not_checked",
+        "linked_source_count": 1,
+        "claimed_domains": [
+          "nationalgallery.org.uk"
+        ],
+        "note": "Claimed domains are research metadata, not independent evidence unless a direct URL is attached."
+      }
     },
     {
       "project_id": "project-gam-torino-redevelopment",
@@ -294,7 +399,25 @@
         "opening_years": [],
         "investment_signals": []
       },
-      "source_url": "https://www.mvrdv.com/projects/1265/gam-torino"
+      "source_url": "https://www.mvrdv.com/projects/1265/gam-torino",
+      "evidence": [
+        {
+          "kind": "Recorded project source",
+          "title": "Original research link",
+          "detail": "Source URL recorded with this project. The page content, claims, date and current procurement status have not yet been independently rechecked.",
+          "source_url": "https://www.mvrdv.com/projects/1265/gam-torino",
+          "verification_status": "not_checked"
+        }
+      ],
+      "source_audit": {
+        "status": "not_checked",
+        "linked_source_count": 1,
+        "claimed_domains": [
+          "fondazionetorinomusei.it",
+          "mvrdv.com"
+        ],
+        "note": "Claimed domains are research metadata, not independent evidence unless a direct URL is attached."
+      }
     },
     {
       "project_id": "project-liberty-supernova",
@@ -344,7 +467,25 @@
           "up to $39.8 million NJEDA support"
         ]
       },
-      "source_url": "https://lsc.org/media-information/91026-supernova-groundbreaking"
+      "source_url": "https://lsc.org/media-information/91026-supernova-groundbreaking",
+      "evidence": [
+        {
+          "kind": "Recorded project source",
+          "title": "Original research link",
+          "detail": "Source URL recorded with this project. The page content, claims, date and current procurement status have not yet been independently rechecked.",
+          "source_url": "https://lsc.org/media-information/91026-supernova-groundbreaking",
+          "verification_status": "not_checked"
+        }
+      ],
+      "source_audit": {
+        "status": "not_checked",
+        "linked_source_count": 1,
+        "claimed_domains": [
+          "lsc.org",
+          "njeda.gov"
+        ],
+        "note": "Claimed domains are research metadata, not independent evidence unless a direct URL is attached."
+      }
     },
     {
       "project_id": "project-dali-expansion",
@@ -395,7 +536,26 @@
           "approximately $70 million expansion"
         ]
       },
-      "source_url": "https://expansion.thedali.org/design"
+      "source_url": "https://expansion.thedali.org/design",
+      "evidence": [
+        {
+          "kind": "Recorded project source",
+          "title": "Original research link",
+          "detail": "Source URL recorded with this project. The page content, claims, date and current procurement status have not yet been independently rechecked.",
+          "source_url": "https://expansion.thedali.org/design",
+          "verification_status": "not_checked"
+        }
+      ],
+      "source_audit": {
+        "status": "not_checked",
+        "linked_source_count": 1,
+        "claimed_domains": [
+          "thedali.org",
+          "expansion.thedali.org",
+          "beckgroup.com"
+        ],
+        "note": "Claimed domains are research metadata, not independent evidence unless a direct URL is attached."
+      }
     },
     {
       "project_id": "project-migration-museum-london",
@@ -455,7 +615,26 @@
           "permanent museum fit-out fundraising programme"
         ]
       },
-      "source_url": "https://www.migrationmuseum.org/wolfson-foundation-commits-600000-to-the-uks-missing-museum/"
+      "source_url": "https://www.migrationmuseum.org/wolfson-foundation-commits-600000-to-the-uks-missing-museum/",
+      "evidence": [
+        {
+          "kind": "Recorded project source",
+          "title": "Original research link",
+          "detail": "Source URL recorded with this project. The page content, claims, date and current procurement status have not yet been independently rechecked.",
+          "source_url": "https://www.migrationmuseum.org/wolfson-foundation-commits-600000-to-the-uks-missing-museum/",
+          "verification_status": "not_checked"
+        }
+      ],
+      "source_audit": {
+        "status": "not_checked",
+        "linked_source_count": 1,
+        "claimed_domains": [
+          "migrationmuseum.org",
+          "wolfson.org.uk",
+          "news.cityoflondon.gov.uk"
+        ],
+        "note": "Claimed domains are research metadata, not independent evidence unless a direct URL is attached."
+      }
     },
     {
       "project_id": "project-clay1a-ipswich",
@@ -515,7 +694,27 @@
           "£2.28 million Towns Fund grant"
         ]
       },
-      "source_url": "https://www.clay1a.org/"
+      "source_url": "https://www.clay1a.org/",
+      "evidence": [
+        {
+          "kind": "Recorded project source",
+          "title": "Original research link",
+          "detail": "Source URL recorded with this project. The page content, claims, date and current procurement status have not yet been independently rechecked.",
+          "source_url": "https://www.clay1a.org/",
+          "verification_status": "not_checked"
+        }
+      ],
+      "source_audit": {
+        "status": "not_checked",
+        "linked_source_count": 1,
+        "claimed_domains": [
+          "clay1a.org",
+          "ipswich.gov.uk",
+          "studiojouan.com",
+          "aim-museums.co.uk"
+        ],
+        "note": "Claimed domains are research metadata, not independent evidence unless a direct URL is attached."
+      }
     },
     {
       "project_id": "project-la-brea-tar-pits-reimagine",
@@ -576,7 +775,27 @@
           "approximately $240 million overall transformation"
         ]
       },
-      "source_url": "https://ibank.ca.gov/ibank-closes-236-million-in-bond-financing-for-la-brea-tar-pits-reimagine-project/"
+      "source_url": "https://ibank.ca.gov/ibank-closes-236-million-in-bond-financing-for-la-brea-tar-pits-reimagine-project/",
+      "evidence": [
+        {
+          "kind": "Recorded project source",
+          "title": "Original research link",
+          "detail": "Source URL recorded with this project. The page content, claims, date and current procurement status have not yet been independently rechecked.",
+          "source_url": "https://ibank.ca.gov/ibank-closes-236-million-in-bond-financing-for-la-brea-tar-pits-reimagine-project/",
+          "verification_status": "not_checked"
+        }
+      ],
+      "source_audit": {
+        "status": "not_checked",
+        "linked_source_count": 1,
+        "claimed_domains": [
+          "ibank.ca.gov",
+          "nhm.org",
+          "nhmlac.org",
+          "kossmanndejong.nl"
+        ],
+        "note": "Claimed domains are research metadata, not independent evidence unless a direct URL is attached."
+      }
     },
     {
       "project_id": "project-pro-football-hof-evolve-2030",
@@ -634,7 +853,24 @@
           "approximately $102 million six-phase Evolve 2030 programme"
         ]
       },
-      "source_url": "https://www.profootballhof.com/news/nfl-owners-approve-funding-for-pro-football-hall-of-fame-s-transformation-plan"
+      "source_url": "https://www.profootballhof.com/news/nfl-owners-approve-funding-for-pro-football-hall-of-fame-s-transformation-plan",
+      "evidence": [
+        {
+          "kind": "Recorded project source",
+          "title": "Original research link",
+          "detail": "Source URL recorded with this project. The page content, claims, date and current procurement status have not yet been independently rechecked.",
+          "source_url": "https://www.profootballhof.com/news/nfl-owners-approve-funding-for-pro-football-hall-of-fame-s-transformation-plan",
+          "verification_status": "not_checked"
+        }
+      ],
+      "source_audit": {
+        "status": "not_checked",
+        "linked_source_count": 1,
+        "claimed_domains": [
+          "profootballhof.com"
+        ],
+        "note": "Claimed domains are research metadata, not independent evidence unless a direct URL is attached."
+      }
     },
     {
       "project_id": "project-mcwane-dropping-science",
@@ -692,7 +928,26 @@
           "$170,000 Birmingham City Council support announced in 2025"
         ]
       },
-      "source_url": "https://www.imls.gov/grants/awarded/ma-260003-oms-26"
+      "source_url": "https://www.imls.gov/grants/awarded/ma-260003-oms-26",
+      "evidence": [
+        {
+          "kind": "Recorded project source",
+          "title": "Original research link",
+          "detail": "Source URL recorded with this project. The page content, claims, date and current procurement status have not yet been independently rechecked.",
+          "source_url": "https://www.imls.gov/grants/awarded/ma-260003-oms-26",
+          "verification_status": "not_checked"
+        }
+      ],
+      "source_audit": {
+        "status": "not_checked",
+        "linked_source_count": 1,
+        "claimed_domains": [
+          "imls.gov",
+          "mcwane.org",
+          "birminghamtimes.com"
+        ],
+        "note": "Claimed domains are research metadata, not independent evidence unless a direct URL is attached."
+      }
     },
     {
       "project_id": "project-galway-city-museum-redevelopment",
@@ -751,7 +1006,26 @@
           "€12.6 million Fáilte Ireland investment"
         ]
       },
-      "source_url": "https://www.galwaycity.ie/news/2026/galway-city-museum-redevelopment-works-commence"
+      "source_url": "https://www.galwaycity.ie/news/2026/galway-city-museum-redevelopment-works-commence",
+      "evidence": [
+        {
+          "kind": "Recorded project source",
+          "title": "Original research link",
+          "detail": "Source URL recorded with this project. The page content, claims, date and current procurement status have not yet been independently rechecked.",
+          "source_url": "https://www.galwaycity.ie/news/2026/galway-city-museum-redevelopment-works-commence",
+          "verification_status": "not_checked"
+        }
+      ],
+      "source_audit": {
+        "status": "not_checked",
+        "linked_source_count": 1,
+        "claimed_domains": [
+          "galwaycity.ie",
+          "failteireland.ie",
+          "constructionireland.ie"
+        ],
+        "note": "Claimed domains are research metadata, not independent evidence unless a direct URL is attached."
+      }
     },
     {
       "project_id": "project-carter-county-museum-expansion",
@@ -815,7 +1089,27 @@
           "$1 million county PILT allocation"
         ]
       },
-      "source_url": "https://www.imls.gov/grants/awarded/ma-259864-oms-26"
+      "source_url": "https://www.imls.gov/grants/awarded/ma-259864-oms-26",
+      "evidence": [
+        {
+          "kind": "Recorded project source",
+          "title": "Original research link",
+          "detail": "Source URL recorded with this project. The page content, claims, date and current procurement status have not yet been independently rechecked.",
+          "source_url": "https://www.imls.gov/grants/awarded/ma-259864-oms-26",
+          "verification_status": "not_checked"
+        }
+      ],
+      "source_audit": {
+        "status": "not_checked",
+        "linked_source_count": 1,
+        "claimed_domains": [
+          "imls.gov",
+          "ekalakaeagle.com",
+          "naco.org",
+          "ypradio.org"
+        ],
+        "note": "Claimed domains are research metadata, not independent evidence unless a direct URL is attached."
+      }
     },
     {
       "project_id": "project-pontypridd-upper-gallery",
@@ -871,7 +1165,25 @@
           "more than £257,000 Welsh Government capital grant"
         ]
       },
-      "source_url": "https://www.pontypriddtowncouncil.gov.uk/pontypridd-town-council-welcomes-major-welsh-government-investment-in-pontypridd-museum"
+      "source_url": "https://www.pontypriddtowncouncil.gov.uk/pontypridd-town-council-welcomes-major-welsh-government-investment-in-pontypridd-museum",
+      "evidence": [
+        {
+          "kind": "Recorded project source",
+          "title": "Original research link",
+          "detail": "Source URL recorded with this project. The page content, claims, date and current procurement status have not yet been independently rechecked.",
+          "source_url": "https://www.pontypriddtowncouncil.gov.uk/pontypridd-town-council-welcomes-major-welsh-government-investment-in-pontypridd-museum",
+          "verification_status": "not_checked"
+        }
+      ],
+      "source_audit": {
+        "status": "not_checked",
+        "linked_source_count": 1,
+        "claimed_domains": [
+          "pontypriddtowncouncil.gov.uk",
+          "pontypriddmuseum.wales"
+        ],
+        "note": "Claimed domains are research metadata, not independent evidence unless a direct URL is attached."
+      }
     },
     {
       "project_id": "project-taft-duncanson-ar",
@@ -927,7 +1239,25 @@
           "$159,733 FY2026 Museums for America award"
         ]
       },
-      "source_url": "https://www.imls.gov/grants/awarded/ma-259865-oms-26"
+      "source_url": "https://www.imls.gov/grants/awarded/ma-259865-oms-26",
+      "evidence": [
+        {
+          "kind": "Recorded project source",
+          "title": "Original research link",
+          "detail": "Source URL recorded with this project. The page content, claims, date and current procurement status have not yet been independently rechecked.",
+          "source_url": "https://www.imls.gov/grants/awarded/ma-259865-oms-26",
+          "verification_status": "not_checked"
+        }
+      ],
+      "source_audit": {
+        "status": "not_checked",
+        "linked_source_count": 1,
+        "claimed_domains": [
+          "imls.gov",
+          "taftmuseum.org"
+        ],
+        "note": "Claimed domains are research metadata, not independent evidence unless a direct URL is attached."
+      }
     },
     {
       "project_id": "project-spark-wonderlab",
@@ -983,7 +1313,24 @@
           "$75,000 FY2026 Inspire! grant for design phase"
         ]
       },
-      "source_url": "https://www.imls.gov/grants/awarded/igsm-259954-oms-26"
+      "source_url": "https://www.imls.gov/grants/awarded/igsm-259954-oms-26",
+      "evidence": [
+        {
+          "kind": "Recorded project source",
+          "title": "Original research link",
+          "detail": "Source URL recorded with this project. The page content, claims, date and current procurement status have not yet been independently rechecked.",
+          "source_url": "https://www.imls.gov/grants/awarded/igsm-259954-oms-26",
+          "verification_status": "not_checked"
+        }
+      ],
+      "source_audit": {
+        "status": "not_checked",
+        "linked_source_count": 1,
+        "claimed_domains": [
+          "imls.gov"
+        ],
+        "note": "Claimed domains are research metadata, not independent evidence unless a direct URL is attached."
+      }
     },
     {
       "project_id": "project-misci-electric-revolutions",
@@ -1038,7 +1385,24 @@
           "$94,987 FY2026 Museums for America award"
         ]
       },
-      "source_url": "https://www.imls.gov/grants/awarded/ma-259829-oms-26"
+      "source_url": "https://www.imls.gov/grants/awarded/ma-259829-oms-26",
+      "evidence": [
+        {
+          "kind": "Recorded project source",
+          "title": "Original research link",
+          "detail": "Source URL recorded with this project. The page content, claims, date and current procurement status have not yet been independently rechecked.",
+          "source_url": "https://www.imls.gov/grants/awarded/ma-259829-oms-26",
+          "verification_status": "not_checked"
+        }
+      ],
+      "source_audit": {
+        "status": "not_checked",
+        "linked_source_count": 1,
+        "claimed_domains": [
+          "imls.gov"
+        ],
+        "note": "Claimed domains are research metadata, not independent evidence unless a direct URL is attached."
+      }
     },
     {
       "project_id": "project-solingen-klingenmuseum-permanent",
@@ -1084,7 +1448,25 @@
           "architecture and scenography package is not a direct interactive tender"
         ]
       },
-      "source_url": "https://ted.europa.eu/en/notice/-/detail/695514-2026"
+      "source_url": "https://ted.europa.eu/en/notice/-/detail/695514-2026",
+      "evidence": [
+        {
+          "kind": "Recorded project source",
+          "title": "Original research link",
+          "detail": "Source URL recorded with this project. The page content, claims, date and current procurement status have not yet been independently rechecked.",
+          "source_url": "https://ted.europa.eu/en/notice/-/detail/695514-2026",
+          "verification_status": "not_checked"
+        }
+      ],
+      "source_audit": {
+        "status": "not_checked",
+        "linked_source_count": 1,
+        "claimed_domains": [
+          "ted.europa.eu",
+          "bieterzugang.deutsche-evergabe.de"
+        ],
+        "note": "Claimed domains are research metadata, not independent evidence unless a direct URL is attached."
+      }
     },
     {
       "project_id": "project-malmo-art-museum-2026",
@@ -1131,7 +1513,25 @@
           "no confirmed interactive tender"
         ]
       },
-      "source_url": "https://www.kommersannons.se/malmo/Notice/NoticeOverview.aspx?ProcurementId=58904"
+      "source_url": "https://www.kommersannons.se/malmo/Notice/NoticeOverview.aspx?ProcurementId=58904",
+      "evidence": [
+        {
+          "kind": "Recorded project source",
+          "title": "Original research link",
+          "detail": "Source URL recorded with this project. The page content, claims, date and current procurement status have not yet been independently rechecked.",
+          "source_url": "https://www.kommersannons.se/malmo/Notice/NoticeOverview.aspx?ProcurementId=58904",
+          "verification_status": "not_checked"
+        }
+      ],
+      "source_audit": {
+        "status": "not_checked",
+        "linked_source_count": 1,
+        "claimed_domains": [
+          "kommersannons.se",
+          "malmo.se"
+        ],
+        "note": "Claimed domains are research metadata, not independent evidence unless a direct URL is attached."
+      }
     },
     {
       "project_id": "project-gilleleje-1943-exhibition",
@@ -1178,7 +1578,25 @@
           "designer may deliver media in-house"
         ]
       },
-      "source_url": "https://kinnstudio.dk/journal/gilleleje"
+      "source_url": "https://kinnstudio.dk/journal/gilleleje",
+      "evidence": [
+        {
+          "kind": "Recorded project source",
+          "title": "Original research link",
+          "detail": "Source URL recorded with this project. The page content, claims, date and current procurement status have not yet been independently rechecked.",
+          "source_url": "https://kinnstudio.dk/journal/gilleleje",
+          "verification_status": "not_checked"
+        }
+      ],
+      "source_audit": {
+        "status": "not_checked",
+        "linked_source_count": 1,
+        "claimed_domains": [
+          "kinnstudio.dk",
+          "museumns.dk"
+        ],
+        "note": "Claimed domains are research metadata, not independent evidence unless a direct URL is attached."
+      }
     },
     {
       "project_id": "project-norway-naturrom-lygra",
@@ -1224,7 +1642,24 @@
           "state contribution is not exhibition budget"
         ]
       },
-      "source_url": "https://www.regjeringen.no/no/dokumenter/prop.-1-s-20252026/id3123306/?ch=2"
+      "source_url": "https://www.regjeringen.no/no/dokumenter/prop.-1-s-20252026/id3123306/?ch=2",
+      "evidence": [
+        {
+          "kind": "Recorded project source",
+          "title": "Original research link",
+          "detail": "Source URL recorded with this project. The page content, claims, date and current procurement status have not yet been independently rechecked.",
+          "source_url": "https://www.regjeringen.no/no/dokumenter/prop.-1-s-20252026/id3123306/?ch=2",
+          "verification_status": "not_checked"
+        }
+      ],
+      "source_audit": {
+        "status": "not_checked",
+        "linked_source_count": 1,
+        "claimed_domains": [
+          "regjeringen.no"
+        ],
+        "note": "Claimed domains are research metadata, not independent evidence unless a direct URL is attached."
+      }
     },
     {
       "project_id": "project-rosenborg-kingdoms-treasury",
@@ -1268,7 +1703,24 @@
           "interactive scope not separately verified"
         ]
       },
-      "source_url": "https://op.europa.eu/en/web/public-procurement/procurement-details/-/procurement/8d0231ea-1e44-40b0-bd47-3430599ab4a9"
+      "source_url": "https://op.europa.eu/en/web/public-procurement/procurement-details/-/procurement/8d0231ea-1e44-40b0-bd47-3430599ab4a9",
+      "evidence": [
+        {
+          "kind": "Recorded project source",
+          "title": "Original research link",
+          "detail": "Source URL recorded with this project. The page content, claims, date and current procurement status have not yet been independently rechecked.",
+          "source_url": "https://op.europa.eu/en/web/public-procurement/procurement-details/-/procurement/8d0231ea-1e44-40b0-bd47-3430599ab4a9",
+          "verification_status": "not_checked"
+        }
+      ],
+      "source_audit": {
+        "status": "not_checked",
+        "linked_source_count": 1,
+        "claimed_domains": [
+          "op.europa.eu"
+        ],
+        "note": "Claimed domains are research metadata, not independent evidence unless a direct URL is attached."
+      }
     },
     {
       "project_id": "project-viga-kristiansand-exhibitions",
@@ -1313,7 +1765,25 @@
           "interactive subcontract not confirmed"
         ]
       },
-      "source_url": "https://tenderwize.com/en/tenders/478751-2026"
+      "source_url": "https://tenderwize.com/en/tenders/478751-2026",
+      "evidence": [
+        {
+          "kind": "Recorded project source",
+          "title": "Original research link",
+          "detail": "Source URL recorded with this project. The page content, claims, date and current procurement status have not yet been independently rechecked.",
+          "source_url": "https://tenderwize.com/en/tenders/478751-2026",
+          "verification_status": "not_checked"
+        }
+      ],
+      "source_audit": {
+        "status": "not_checked",
+        "linked_source_count": 1,
+        "claimed_domains": [
+          "tenderwize.com",
+          "evergabe.com"
+        ],
+        "note": "Claimed domains are research metadata, not independent evidence unless a direct URL is attached."
+      }
     }
   ]
 }

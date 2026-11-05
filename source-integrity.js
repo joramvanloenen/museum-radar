@@ -25,7 +25,7 @@ window.renderModal=function(){
  }
  if(sources){
   const descriptions=evidence.map(e=>`<div class="evidence"><div class="evidenceItem"><b>${esc(e.title||'Supporting evidence')}</b><small>${esc(e.date||'')} ${esc(e.kind||'')}</small><div>${esc(e.detail||'')}</div>${safeUrl(e.source_url)?`<a href="${esc(safeUrl(e.source_url))}" target="_blank" rel="noopener noreferrer">Open evidence ↗</a>`:''}</div></div>`).join('');
-  sources.innerHTML='<h3>Evidence & verification</h3><p class="sourceVerification">${all.length} recorded source link${all.length===1?'':'s'} · ${evidence.length} structured evidence entr${evidence.length===1?'y':'ies'}.</p>'+(descriptions||'<p class="sourceVerification">No separate evidence notes are recorded. The source link above is not an independent verification or a second source.</p>');
+  sources.innerHTML='<h3>Evidence & verification</h3><p class="sourceVerification">${all.length} recorded source link${all.length===1?'':'s'} · ${evidence.length} structured evidence entr${evidence.length===1?'y':'ies'}.</p>'+(descriptions||'<p class="sourceVerification">No independently checked evidence notes are recorded. The source link above is not an independent verification or a second source.</p>');
  }
  const facts=modal.querySelector('.detailFacts .factList');
  if(facts){

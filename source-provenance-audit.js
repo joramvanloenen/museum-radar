@@ -8,11 +8,12 @@
   const candidates=[o.source_url,...(o.documents||[]).map(url),...(o.evidence||[]).map(url),...(o.sources||[]).map(url)];
   const unique=[...new Set(candidates.map(canonical).filter(Boolean))];
   const domains=[...new Set(unique.map(domain).filter(Boolean))];
-  const evidence=(o.evidence||[]).filter(e=>e&&(e.title||e.detail||e.source_url));
+  const evidence=(o.evidence||[]).filter(e=>e&&(e.title||e.detail||e.source_url)&&e.verification_status!=='not_checked');
+  const recorded=(o.evidence||[]).filter(e=>e?.verification_status==='not_checked');
   const claimed=Number(o.prediction?.source_diversity||0);
   const mismatched=claimed>domains.length;
   const predicted=o.source_key==='research_agent';
-  return {unique,domains,evidence,claimed,mismatched,predicted,verified:!!o.verified};
+  return {unique,domains,evidence,recorded,claimed,mismatched,predicted,verified:!!o.verified};
  }
  window.renderModal=function(){
   const result=previous.apply(this,arguments);
@@ -21,7 +22,7 @@
   if(!section)return result;
   const box=document.createElement('div');box.className='sourceAudit';
   const provenance=a.verified?'Record marked verified; links not rechecked live':a.predicted?'Predicted lead; source claims not independently checked':'Source links recorded; live verification not performed';
-  box.innerHTML='<h4>Source provenance audit</h4><div class="sourceAuditStats"><span><b>'+a.unique.length+'</b> unique links</span><span><b>'+a.domains.length+'</b> linked domains</span><span><b>'+a.evidence.length+'</b> evidence notes</span></div><p>'+esc(provenance)+'</p>'+
+  box.innerHTML='<h4>Source provenance audit</h4><div class="sourceAuditStats"><span><b>'+a.unique.length+'</b> unique links</span><span><b>'+a.domains.length+'</b> linked domains</span><span><b>'+a.evidence.length+'</b> other evidence notes</span></div><p>'+esc(provenance)+'</p>'+
   (a.mismatched?'<p class="sourceAuditWarning">⚠ Prediction metadata claims '+a.claimed+' independent source domains, but only '+a.domains.length+' domain'+(a.domains.length===1?' is':'s are')+' linked in this record. Additional sources must be supplied before this claim can be verified.</p>':'')+
   (a.domains.length===1?'<p>Multiple links on the same domain are not independent sources.</p>':'')+
   (!a.unique.length?'<p class="sourceAuditWarning">No source URLs attached. Do not treat this as a verified opportunity.</p>':'')+

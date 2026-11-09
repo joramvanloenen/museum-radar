@@ -1,110 +1,5 @@
 [
   {
-    "id": "verified-20261109-france-mmi-digital",
-    "title": "M.M.I. Exhibition — Scenography and Digital Applications",
-    "organization": "COMUE - UdL",
-    "country": "France",
-    "city": "Lyon",
-    "stage": "Live Tender",
-    "score": 93,
-    "confidence": 83,
-    "budget_min": null,
-    "budget_max": null,
-    "currency": "EUR",
-    "deadline": "2026-12-07",
-    "summary": "European procurement 695219-2026 for an exhibition with separate scenography and digital applications lots. Digital applications lot appears particularly relevant; tender documents and precise eligibility need review.",
-    "fit_rationale": "Separate digital applications lot suggests a direct route for interactive design/software rather than a general exhibition build.",
-    "pitch_angle": "Focus on Lot 2 Digital Applications, check technical requirements and language/eligibility.",
-    "next_action": "Verify full official TED notice and Lot 2 documents before treating the bid as confirmed actionable.",
-    "source_key": "manual_research",
-    "verified": false,
-    "source_url": "https://ted.europa.eu/en/notice/-/detail/695219-2026",
-    "source_label": "TED notice 695219-2026 (check original)",
-    "documents": [],
-    "evidence": [
-      {
-        "date": "2026-11-09",
-        "kind": "Secondary listing",
-        "title": "Procurement listing and notice reference",
-        "detail": "Secondary listing reports two lots (scenography and digital applications), deadline 7 Dec 2026. Official notice details not fully inspected.",
-        "source_url": "https://www.tenderdetail.com/Global-Tenders/TenderNotice/119196765/3B934F9E-E875-419A-9E08-254DCACA3B31",
-        "verification_status": "not_checked"
-      }
-    ]
-  },
-  {
-    "id": "verified-20261109-kmska-rubens",
-    "title": "Rubens en de wereld — Scenography and Interactive AV/MM",
-    "organization": "Koninklijk Museum voor Schone Kunsten Antwerpen (KMSKA)",
-    "country": "Belgium",
-    "city": "Antwerp",
-    "stage": "Live Tender",
-    "score": 91,
-    "confidence": 92,
-    "budget_min": null,
-    "budget_max": null,
-    "currency": "EUR",
-    "deadline": "2026-11-23",
-    "summary": "Published European procurement notice 718478-2026 for design, production, installation and removal of exhibition scenography. Scope explicitly includes interactive audiovisual/multimedia applications and potential software development. Overall contract is broader than interactive delivery.",
-    "fit_rationale": "Explicit interactive AV/MM and software component, but procurement bundles scenography, fabrication and installation. Specialist subcontract/consortium route may be better than direct bid.",
-    "pitch_angle": "Identify exhibition/scenography prime bidders and offer interactive media design and software implementation.",
-    "next_action": "Read full TED tender and technical specification; determine consortium eligibility and multimedia package scope before committing.",
-    "source_key": "manual_research",
-    "verified": true,
-    "source_url": "https://ted.europa.eu/en/notice/-/detail/718478-2026",
-    "source_label": "Official TED notice 718478-2026",
-    "documents": [],
-    "evidence": [
-      {
-        "date": "2026-11-09",
-        "kind": "Published procurement notice",
-        "title": "TED 718478-2026",
-        "detail": "Notice published 16 Oct 2026; submission deadline 23 Nov 2026; includes interactive AV/MM applications and potential software development.",
-        "source_url": "https://ted.europa.eu/en/notice/-/detail/718478-2026",
-        "verification_status": "checked"
-      }
-    ]
-  },
-  {
-    "id": "verified-20261109-smg-video-games-fitout",
-    "title": "Video Games Exhibition — Fit Out and Graphics",
-    "organization": "Science Museum Group / National Science and Media Museum",
-    "country": "United Kingdom",
-    "city": "Bradford",
-    "stage": "Live Tender",
-    "score": 77,
-    "confidence": 90,
-    "budget_min": 100000,
-    "budget_max": 100000,
-    "currency": "GBP",
-    "deadline": "2026-11-19",
-    "summary": "Official UK4 notice for fit-out and graphics for a video games exhibition in Bradford. Primarily exhibition build and graphics, not a standalone interactive software commission. Enquiries close 13 November.",
-    "fit_rationale": "Relevant to interactive-exhibition delivery through partnership with a lead fit-out supplier; digital scope not confirmed.",
-    "pitch_angle": "Check fit-out specification and whether interactive/media elements are subcontracted; approach main exhibition contractor if appropriate.",
-    "next_action": "Review official notice and procurement portal; only bid directly if fit-out and graphics capability matches the full scope.",
-    "source_key": "manual_research",
-    "verified": true,
-    "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=OCT672914",
-    "source_label": "Official UK4 notice (Sell2Wales)",
-    "documents": [
-      {
-        "title": "Science Museum Group supplier portal",
-        "url": "https://in-tendhost.co.uk/sciencemuseumgroup/aspx/Home",
-        "kind": "Tender portal"
-      }
-    ],
-    "evidence": [
-      {
-        "date": "2026-11-09",
-        "kind": "Official notice reviewed",
-        "title": "UK4 procurement notice",
-        "detail": "Buyer Science Museum Group; £100,000 estimated; bid deadline 19 Nov 2026; exhibition fit-out and graphics; scope of interactive media not confirmed.",
-        "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=OCT672914",
-        "verification_status": "checked"
-      }
-    ]
-  },
-  {
     "id": "uk-sep655817",
     "title": "ROG First Light Exhibitions Audio Visual Hardware Contractor",
     "organization": "National Maritime Museum",
@@ -280,7 +175,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-11-09T06:48:18+00:00",
+    "updated_at": "2026-11-09T22:29:08+00:00",
     "evidence": [
       {
         "date": "",
@@ -323,7 +218,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-11-09T06:48:15+00:00",
+    "updated_at": "2026-11-09T22:29:04+00:00",
     "evidence": [
       {
         "date": "",
@@ -366,7 +261,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-11-09T06:48:15+00:00",
+    "updated_at": "2026-11-09T22:29:04+00:00",
     "evidence": [
       {
         "date": "",
@@ -1632,6 +1527,90 @@
         "detail": "Kistefos Museum is welcoming visitors to a striking new visitor centre, designed by architecture firm Lundhagem. The building serves as an inviting gateway to the museum experience – and offers ...",
         "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc083b143b41a0a40e3bb14b5befd8&url=https%3a%2f%2fwww.mynewsdesk.com%2fno%2fkistefosmuseum%2fpressreleases%2fkistefos-museum-opened-new-visitor-centre-on-saturday-june-20th-3455162&c=6876426998342124081&mkt=en-ca",
         "source_label": "Visitor centre signals",
+        "strength": 62
+      }
+    ]
+  },
+  {
+    "id": "search-eb93efc76e8c427aa0",
+    "title": "Florida Museum to reopen in November after major renovation, expansion",
+    "organization": "Museum expansion signals",
+    "country": "Worldwide",
+    "city": "",
+    "stage": "Pitch",
+    "score": 56,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "The Florida Museum of Natural History plans to reopen its Ken and Linda McGurn Exhibition Hall to the public on Nov. 23 following a large-scale renovation and expansion project, according to a museum ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af24936cb6847d4afe907a61ed8b743&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af24936cb6847d4afe907a61ed8b743&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
+    "source_label": "Museum expansion signals",
+    "documents": [
+      {
+        "title": "Florida Museum to reopen in November after major renovation, expansion",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af24936cb6847d4afe907a61ed8b743&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
+        "kind": "Source article"
+      }
+    ],
+    "updated_at": "2026-11-09T22:29:11+00:00",
+    "evidence": [
+      {
+        "date": "Wed, 30 Sep 2026",
+        "kind": "Web source",
+        "title": "Florida Museum to reopen in November after major renovation, expansion",
+        "detail": "The Florida Museum of Natural History plans to reopen its Ken and Linda McGurn Exhibition Hall to the public on Nov. 23 following a large-scale renovation and expansion project, according to a museum ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af24936cb6847d4afe907a61ed8b743&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
+        "source_label": "Museum expansion signals",
+        "strength": 62
+      }
+    ]
+  },
+  {
+    "id": "search-8294de06bfe58565a6",
+    "title": "Florida Museum to reopen in November after major renovation, expansion",
+    "organization": "Museum expansion signals",
+    "country": "Worldwide",
+    "city": "",
+    "stage": "Pitch",
+    "score": 56,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "Add Yahoo as a preferred source to see more of our stories on Google. The Florida Museum of Natural History plans to reopen its Ken and Linda McGurn Exhibition Hall to the public on Nov. 23 following ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af24936cb6847d4afe907a61ed8b743&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fscience%2farticles%2fflorida-museum-reopen-november-major-151401280.html&c=8905575700437874638&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af24936cb6847d4afe907a61ed8b743&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fscience%2farticles%2fflorida-museum-reopen-november-major-151401280.html&c=8905575700437874638&mkt=en-us",
+    "source_label": "Museum expansion signals",
+    "documents": [
+      {
+        "title": "Florida Museum to reopen in November after major renovation, expansion",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af24936cb6847d4afe907a61ed8b743&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fscience%2farticles%2fflorida-museum-reopen-november-major-151401280.html&c=8905575700437874638&mkt=en-us",
+        "kind": "Source article"
+      }
+    ],
+    "updated_at": "2026-11-09T22:29:11+00:00",
+    "evidence": [
+      {
+        "date": "Wed, 30 Sep 2026",
+        "kind": "Web source",
+        "title": "Florida Museum to reopen in November after major renovation, expansion",
+        "detail": "Add Yahoo as a preferred source to see more of our stories on Google. The Florida Museum of Natural History plans to reopen its Ken and Linda McGurn Exhibition Hall to the public on Nov. 23 following ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af24936cb6847d4afe907a61ed8b743&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fscience%2farticles%2fflorida-museum-reopen-november-major-151401280.html&c=8905575700437874638&mkt=en-us",
+        "source_label": "Museum expansion signals",
         "strength": 62
       }
     ]
@@ -6504,6 +6483,48 @@
         "detail": "The Longmont Museum is set to reopen October 17 following a major expansion that gives the facility 70% more public gallery space.",
         "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad39832a6ad48f0891bc8f6c8c6d0cd&url=https%3a%2f%2fwww.longmontleader.com%2flocal-news%2finside-longmont-museums-nearly-10m-expansion-12851684&c=8460159237135211109&mkt=en-us",
         "source_label": "Museum expansion signals",
+        "strength": 62
+      }
+    ]
+  },
+  {
+    "id": "search-c4fe543a121a869360",
+    "title": "Cultural Heritage @home",
+    "organization": "EU cultural heritage funding",
+    "country": "Europe",
+    "city": "",
+    "stage": "Signal",
+    "score": 40,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "Museums, opera houses and tourist attractions across Europe and the world are making more and more content available online to make the self-isolation and social distancing more enjoyable and relaxing ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af24938ca7a44c6aebc217cecc22423&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af24938ca7a44c6aebc217cecc22423&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+    "source_label": "EU cultural heritage funding",
+    "documents": [
+      {
+        "title": "Cultural Heritage @home",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af24938ca7a44c6aebc217cecc22423&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+        "kind": "Source article"
+      }
+    ],
+    "updated_at": "2026-11-09T22:29:12+00:00",
+    "evidence": [
+      {
+        "date": "Tue, 31 Mar 2020",
+        "kind": "Web source",
+        "title": "Cultural Heritage @home",
+        "detail": "Museums, opera houses and tourist attractions across Europe and the world are making more and more content available online to make the self-isolation and social distancing more enjoyable and relaxing ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af24938ca7a44c6aebc217cecc22423&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+        "source_label": "EU cultural heritage funding",
         "strength": 62
       }
     ]

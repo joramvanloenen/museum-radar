@@ -1,199 +1,5 @@
 [
   {
-    "id": "new-20261110-estonia-natural-history",
-    "title": "Estonian Museum of Natural History — Permanent Exhibition and Children's Area",
-    "organization": "Riigi Tugiteenuste Keskus / Estonian Museum of Natural History",
-    "country": "Estonia",
-    "city": "Tallinn",
-    "stage": "Live Tender",
-    "score": 80,
-    "confidence": 78,
-    "budget_min": null,
-    "budget_max": null,
-    "currency": "EUR",
-    "deadline": null,
-    "summary": "TED notice 775808-2026: permanent exhibition implementation and young children's exhibition area, two lots, estimated combined €2,812,950. Conflicting secondary sources report 23 Nov versus 30 Nov 2026 deadlines; verify official notice before bidding.",
-    "fit_rationale": "Possible interactive exhibit and children-focused experience subcontract work; full exhibition implementation and design are broader than software-only scope.",
-    "pitch_angle": "Check official TED and Estonian procurement register for the correct deadline and lot specifications; consider specialist partnership.",
-    "next_action": "Check official TED and Estonian procurement register for the correct deadline and lot specifications; consider specialist partnership.",
-    "source_key": "manual_research",
-    "verified": false,
-    "source_url": "https://ted.europa.eu/en/notice/-/detail/775808-2026",
-    "source_label": "Procurement notice / buyer portal",
-    "documents": [
-      {
-        "title": "Estonian public procurement portal",
-        "url": "https://riigihanked.riik.ee/rhr-web/#/procurement/10889304/tenders",
-        "kind": "Buyer portal"
-      }
-    ],
-    "evidence": [
-      {
-        "date": "2026-11-10",
-        "kind": "Published tender listing",
-        "title": "Tender details located",
-        "detail": "TED notice 775808-2026: permanent exhibition implementation and young children's exhibition area, two lots, estimated combined €2,812,950. Conflicting secondary sources report 23 Nov versus 30 Nov 2026 deadlines; verify official notice before bidding. Secondary sources disagree on deadline: 23 Nov vs 30 Nov. Original notice and procurement documents require buyer-side confirmation.",
-        "source_url": "https://ted.europa.eu/en/notice/-/detail/775808-2026",
-        "verification_status": "not_checked"
-      }
-    ]
-  },
-  {
-    "id": "new-20261110-smg-hey-duggee",
-    "title": "Hey Duggee's Big Day Out — Early Years Experience Designer",
-    "organization": "Science Museum Group",
-    "country": "United Kingdom",
-    "city": "London",
-    "stage": "Live Tender",
-    "score": 75,
-    "confidence": 78,
-    "budget_min": null,
-    "budget_max": null,
-    "currency": "GBP",
-    "deadline": "2026-11-20",
-    "summary": "Science Museum Group is seeking an experience designer for an early-years exhibition. Secondary procurement listing reports £70,000 estimated value and 20 Nov 2026 deadline.",
-    "fit_rationale": "Potential for playful physical interactions and visitor experience design; digital component not established.",
-    "pitch_angle": "Find the exact buyer notice and tender specification; verify interactive scope and submission requirements.",
-    "next_action": "Find the exact buyer notice and tender specification; verify interactive scope and submission requirements.",
-    "source_key": "manual_research",
-    "verified": false,
-    "source_url": "https://bidskim.com/contracts/museum-exhibition-design",
-    "source_label": "Procurement notice / buyer portal",
-    "documents": [
-      {
-        "title": "Science Museum Group procurement portal",
-        "url": "https://in-tendhost.co.uk/sciencemuseumgroup/aspx/Home",
-        "kind": "Submission portal"
-      }
-    ],
-    "evidence": [
-      {
-        "date": "2026-11-10",
-        "kind": "Published tender listing",
-        "title": "Tender details located",
-        "detail": "Science Museum Group is seeking an experience designer for an early-years exhibition. Secondary procurement listing reports £70,000 estimated value and 20 Nov 2026 deadline.  Original notice and procurement documents require buyer-side confirmation.",
-        "source_url": "https://bidskim.com/contracts/museum-exhibition-design",
-        "verification_status": "not_checked"
-      }
-    ]
-  },
-  {
-    "id": "new-20261110-smg-ocean-design",
-    "title": "The Ocean — 3D, 2D and Lighting Exhibition Design",
-    "organization": "Science Museum Group",
-    "country": "United Kingdom",
-    "city": "London",
-    "stage": "Live Tender",
-    "score": 71,
-    "confidence": 78,
-    "budget_min": null,
-    "budget_max": null,
-    "currency": "GBP",
-    "deadline": "2026-11-15",
-    "summary": "Science Museum Group below-threshold open competition 098437-2026 for 3D, 2D and lighting design for temporary exhibitions at Science Museum (2028) and Science and Industry Museum (2029). Estimated £108,000. Design rather than confirmed interactive implementation.",
-    "fit_rationale": "Good exhibition design partnership opportunity; interactive software is not an explicit deliverable.",
-    "pitch_angle": "Assess whether design capabilities match the tender; otherwise identify winning design team for later specialist packages.",
-    "next_action": "Assess whether design capabilities match the tender; otherwise identify winning design team for later specialist packages.",
-    "source_key": "manual_research",
-    "verified": false,
-    "source_url": "https://opentenders.co.uk/tenders/3d-2d-and-lighting-exhibition-design-services-for-the-ocean-working-title-tempor-078aa8",
-    "source_label": "Procurement notice / buyer portal",
-    "documents": [
-      {
-        "title": "Science Museum Group procurement portal",
-        "url": "https://in-tendhost.co.uk/sciencemuseumgroup/aspx/Home",
-        "kind": "Submission portal"
-      }
-    ],
-    "evidence": [
-      {
-        "date": "2026-11-10",
-        "kind": "Published tender listing",
-        "title": "Tender details located",
-        "detail": "Science Museum Group below-threshold open competition 098437-2026 for 3D, 2D and lighting design for temporary exhibitions at Science Museum (2028) and Science and Industry Museum (2029). Estimated £108,000. Design rather than confirmed interactive implementation.  Original notice and procurement documents require buyer-side confirmation.",
-        "source_url": "https://opentenders.co.uk/tenders/3d-2d-and-lighting-exhibition-design-services-for-the-ocean-working-title-tempor-078aa8",
-        "verification_status": "not_checked"
-      }
-    ]
-  },
-  {
-    "id": "new-20261110-dmn-system-stadt",
-    "title": "Deutsches Museum — System Stadt participatory touchscreen exhibit",
-    "organization": "Deutsches Museum",
-    "country": "Germany",
-    "city": "Cologne",
-    "stage": "Live Tender",
-    "score": 94,
-    "confidence": 78,
-    "budget_min": null,
-    "budget_max": null,
-    "currency": "EUR",
-    "deadline": "2026-11-24",
-    "summary": "Published 9 Nov 2026: develop, design and build a freestanding participatory exhibit about future urban society, combining a table, graphics, physical objects and touchscreen. Listing states 24 Nov 2026, 10:00 CET deadline.",
-    "fit_rationale": "Strong fit for bespoke touchscreen interaction and physical-digital exhibition production.",
-    "pitch_angle": "Locate original German buyer notice and specification; confirm eligibility and total build scope before bidding.",
-    "next_action": "Locate original German buyer notice and specification; confirm eligibility and total build scope before bidding.",
-    "source_key": "manual_research",
-    "verified": false,
-    "source_url": "https://aperlena.com/en/t/entwicklung-gestaltung-und-bau-eines-interaktiven-ausstellungstucks-dmn-b912926f06",
-    "source_label": "Procurement notice / buyer portal",
-    "documents": [],
-    "evidence": [
-      {
-        "date": "2026-11-10",
-        "kind": "Published tender listing",
-        "title": "Tender details located",
-        "detail": "Published 9 Nov 2026: develop, design and build a freestanding participatory exhibit about future urban society, combining a table, graphics, physical objects and touchscreen. Listing states 24 Nov 2026, 10:00 CET deadline. Only secondary aggregator URL currently attached; do not treat as verified. Original notice and procurement documents require buyer-side confirmation.",
-        "source_url": "https://aperlena.com/en/t/entwicklung-gestaltung-und-bau-eines-interaktiven-ausstellungstucks-dmn-b912926f06",
-        "verification_status": "not_checked"
-      }
-    ]
-  },
-  {
-    "id": "new-20261110-jena-optical-interactive",
-    "title": "Deutsches Optisches Museum — Interactive Exhibits (2 lots)",
-    "organization": "Stiftung Deutsches Optisches Museum",
-    "country": "Germany",
-    "city": "Jena",
-    "stage": "Live Tender",
-    "score": 96,
-    "confidence": 78,
-    "budget_min": null,
-    "budget_max": null,
-    "currency": "EUR",
-    "deadline": "2026-12-04",
-    "summary": "TED notice 765545-2026: negotiated procedure for interactive exhibits. Technical development, functional prototypes, production, software/control and media integration, installation, testing and documentation. 4 Dec is the participation-request date, NOT the final offer deadline.",
-    "fit_rationale": "Excellent specialist fit for interactive software, physical exhibits, control systems and media integration.",
-    "pitch_angle": "Review participation criteria and submit request to participate before 4 Dec; bid stage follows shortlisting.",
-    "next_action": "Review participation criteria and submit request to participate before 4 Dec; bid stage follows shortlisting.",
-    "source_key": "manual_research",
-    "verified": false,
-    "source_url": "https://ted.europa.eu/en/notice/-/detail/765545-2026",
-    "source_label": "Procurement notice / buyer portal",
-    "documents": [
-      {
-        "title": "Buyer submission portal",
-        "url": "https://www.dtvp.de/Satellite/notice/CXP4Y3EMTRJ",
-        "kind": "Procurement portal"
-      },
-      {
-        "title": "Tender documents",
-        "url": "https://www.dtvp.de/Satellite/notice/CXP4Y3EMTRJ/documents",
-        "kind": "Tender documents"
-      }
-    ],
-    "evidence": [
-      {
-        "date": "2026-11-10",
-        "kind": "Published tender listing",
-        "title": "Tender details located",
-        "detail": "TED notice 765545-2026: negotiated procedure for interactive exhibits. Technical development, functional prototypes, production, software/control and media integration, installation, testing and documentation. 4 Dec is the participation-request date, NOT the final offer deadline. The deadline field represents the participation stage. Original notice and procurement documents require buyer-side confirmation.",
-        "source_url": "https://ted.europa.eu/en/notice/-/detail/765545-2026",
-        "verification_status": "not_checked"
-      }
-    ]
-  },
-  {
     "id": "uk-sep655817",
     "title": "ROG First Light Exhibitions Audio Visual Hardware Contractor",
     "organization": "National Maritime Museum",
@@ -369,7 +175,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-11-09T22:29:08+00:00",
+    "updated_at": "2026-11-10T07:27:49+00:00",
     "evidence": [
       {
         "date": "",
@@ -412,7 +218,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-11-09T22:29:04+00:00",
+    "updated_at": "2026-11-10T07:27:46+00:00",
     "evidence": [
       {
         "date": "",
@@ -455,7 +261,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-11-09T22:29:04+00:00",
+    "updated_at": "2026-11-10T07:27:46+00:00",
     "evidence": [
       {
         "date": "",
@@ -1721,6 +1527,90 @@
         "detail": "Kistefos Museum is welcoming visitors to a striking new visitor centre, designed by architecture firm Lundhagem. The building serves as an inviting gateway to the museum experience – and offers ...",
         "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc083b143b41a0a40e3bb14b5befd8&url=https%3a%2f%2fwww.mynewsdesk.com%2fno%2fkistefosmuseum%2fpressreleases%2fkistefos-museum-opened-new-visitor-centre-on-saturday-june-20th-3455162&c=6876426998342124081&mkt=en-ca",
         "source_label": "Visitor centre signals",
+        "strength": 62
+      }
+    ]
+  },
+  {
+    "id": "search-af4246b421d401a7c0",
+    "title": "Florida Museum to reopen in November after major renovation, expansion",
+    "organization": "Museum expansion signals",
+    "country": "Worldwide",
+    "city": "",
+    "stage": "Pitch",
+    "score": 56,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "Add Yahoo as a preferred source to see more of our stories on Google. The Florida Museum of Natural History plans to reopen its Ken and Linda McGurn Exhibition Hall to the public on Nov. 23 following ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af2c779b59c4e20902a021a5311d525&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fscience%2farticles%2fflorida-museum-reopen-november-major-151401280.html&c=8905575700437874638&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af2c779b59c4e20902a021a5311d525&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fscience%2farticles%2fflorida-museum-reopen-november-major-151401280.html&c=8905575700437874638&mkt=en-us",
+    "source_label": "Museum expansion signals",
+    "documents": [
+      {
+        "title": "Florida Museum to reopen in November after major renovation, expansion",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af2c779b59c4e20902a021a5311d525&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fscience%2farticles%2fflorida-museum-reopen-november-major-151401280.html&c=8905575700437874638&mkt=en-us",
+        "kind": "Source article"
+      }
+    ],
+    "updated_at": "2026-11-10T07:27:53+00:00",
+    "evidence": [
+      {
+        "date": "Wed, 30 Sep 2026",
+        "kind": "Web source",
+        "title": "Florida Museum to reopen in November after major renovation, expansion",
+        "detail": "Add Yahoo as a preferred source to see more of our stories on Google. The Florida Museum of Natural History plans to reopen its Ken and Linda McGurn Exhibition Hall to the public on Nov. 23 following ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af2c779b59c4e20902a021a5311d525&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fscience%2farticles%2fflorida-museum-reopen-november-major-151401280.html&c=8905575700437874638&mkt=en-us",
+        "source_label": "Museum expansion signals",
+        "strength": 62
+      }
+    ]
+  },
+  {
+    "id": "search-fc38f90358e1fd67b1",
+    "title": "Florida Museum to reopen in November after major renovation, expansion",
+    "organization": "Museum expansion signals",
+    "country": "Worldwide",
+    "city": "",
+    "stage": "Pitch",
+    "score": 56,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "The Florida Museum of Natural History plans to reopen its Ken and Linda McGurn Exhibition Hall to the public on Nov. 23 following a large-scale renovation and expansion project, according to a museum ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af2c779b59c4e20902a021a5311d525&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af2c779b59c4e20902a021a5311d525&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
+    "source_label": "Museum expansion signals",
+    "documents": [
+      {
+        "title": "Florida Museum to reopen in November after major renovation, expansion",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af2c779b59c4e20902a021a5311d525&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
+        "kind": "Source article"
+      }
+    ],
+    "updated_at": "2026-11-10T07:27:53+00:00",
+    "evidence": [
+      {
+        "date": "Wed, 30 Sep 2026",
+        "kind": "Web source",
+        "title": "Florida Museum to reopen in November after major renovation, expansion",
+        "detail": "The Florida Museum of Natural History plans to reopen its Ken and Linda McGurn Exhibition Hall to the public on Nov. 23 following a large-scale renovation and expansion project, according to a museum ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af2c779b59c4e20902a021a5311d525&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
+        "source_label": "Museum expansion signals",
         "strength": 62
       }
     ]
@@ -6682,6 +6572,48 @@
     ]
   },
   {
+    "id": "search-150c61711700f69e28",
+    "title": "Cultural Heritage @home",
+    "organization": "EU cultural heritage funding",
+    "country": "Europe",
+    "city": "",
+    "stage": "Signal",
+    "score": 40,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "Museums, opera houses and tourist attractions across Europe and the world are making more and more content available online to make the self-isolation and social distancing more enjoyable and relaxing ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af2c77aacf24d1c9404da8f480fe158&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af2c77aacf24d1c9404da8f480fe158&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+    "source_label": "EU cultural heritage funding",
+    "documents": [
+      {
+        "title": "Cultural Heritage @home",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af2c77aacf24d1c9404da8f480fe158&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+        "kind": "Source article"
+      }
+    ],
+    "updated_at": "2026-11-10T07:27:54+00:00",
+    "evidence": [
+      {
+        "date": "Tue, 31 Mar 2020",
+        "kind": "Web source",
+        "title": "Cultural Heritage @home",
+        "detail": "Museums, opera houses and tourist attractions across Europe and the world are making more and more content available online to make the self-isolation and social distancing more enjoyable and relaxing ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af2c77aacf24d1c9404da8f480fe158&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+        "source_label": "EU cultural heritage funding",
+        "strength": 62
+      }
+    ]
+  },
+  {
     "id": "search-c4fe543a121a869360",
     "title": "Cultural Heritage @home",
     "organization": "EU cultural heritage funding",
@@ -10933,6 +10865,48 @@
     ],
     "watched": false,
     "verified": true
+  },
+  {
+    "id": "search-0db4b02ef452b94d8a",
+    "title": "Horizon Europe - funding digital technology and research",
+    "organization": "EU cultural heritage funding",
+    "country": "Europe",
+    "city": "",
+    "stage": "Pitch",
+    "score": 38,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "Horizon Europe is the EU’s key funding programme for research and innovation. Part of it funds vital research in Europe’s digital transition. The Horizon Europe programme budget amounts to EUR 95.5 ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af2c77aacf24d1c9404da8f480fe158&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2factivities%2fhorizon-europe-funding-digital&c=15240915731629891503&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af2c77aacf24d1c9404da8f480fe158&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2factivities%2fhorizon-europe-funding-digital&c=15240915731629891503&mkt=en-us",
+    "source_label": "EU cultural heritage funding",
+    "documents": [
+      {
+        "title": "Horizon Europe - funding digital technology and research",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af2c77aacf24d1c9404da8f480fe158&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2factivities%2fhorizon-europe-funding-digital&c=15240915731629891503&mkt=en-us",
+        "kind": "Budget / funding"
+      }
+    ],
+    "updated_at": "2026-11-10T07:27:54+00:00",
+    "evidence": [
+      {
+        "date": "Sun, 05 Oct 2025",
+        "kind": "Web source",
+        "title": "Horizon Europe - funding digital technology and research",
+        "detail": "Horizon Europe is the EU’s key funding programme for research and innovation. Part of it funds vital research in Europe’s digital transition. The Horizon Europe programme budget amounts to EUR 95.5 ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af2c77aacf24d1c9404da8f480fe158&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2factivities%2fhorizon-europe-funding-digital&c=15240915731629891503&mkt=en-us",
+        "source_label": "EU cultural heritage funding",
+        "strength": 62
+      }
+    ]
   },
   {
     "id": "search-dbeb4d3b654a402d27",

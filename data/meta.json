@@ -1,9 +1,9 @@
 {
   "status": "GitHub Actions scout",
-  "generated_at": "2026-11-10T19:50:32+00:00",
-  "last_scan_at": "2026-11-10T19:50:32+00:00",
+  "generated_at": "2026-11-11T06:41:00+00:00",
+  "last_scan_at": "2026-11-11T06:41:00+00:00",
   "last_scan_found": 7,
   "last_scan_relevant": 7,
-  "total_opportunities": 371,
-  "last_error": ""
+  "total_opportunities": 375,
+  "last_error": "Search Singapore Science Centre exhibits: not well-formed (invalid token): line 1, column 41 | Search India science museum immersive: not well-formed (invalid token): line 1, column 41"
 }

@@ -175,7 +175,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-11-11T06:40:50+00:00",
+    "updated_at": "2026-11-11T19:42:12+00:00",
     "evidence": [
       {
         "date": "",
@@ -218,7 +218,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-11-11T06:40:46+00:00",
+    "updated_at": "2026-11-11T19:42:09+00:00",
     "evidence": [
       {
         "date": "",
@@ -261,7 +261,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-11-11T06:40:46+00:00",
+    "updated_at": "2026-11-11T19:42:09+00:00",
     "evidence": [
       {
         "date": "",
@@ -6740,6 +6740,48 @@
     ]
   },
   {
+    "id": "search-4ea65e9ceca7e29340",
+    "title": "Cultural Heritage @home",
+    "organization": "EU cultural heritage funding",
+    "country": "Europe",
+    "city": "",
+    "stage": "Signal",
+    "score": 40,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "Museums, opera houses and tourist attractions across Europe and the world are making more and more content available online to make the self-isolation and social distancing more enjoyable and relaxing ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af4c518cc3a47d29df68c09a211c28e&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af4c518cc3a47d29df68c09a211c28e&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+    "source_label": "EU cultural heritage funding",
+    "documents": [
+      {
+        "title": "Cultural Heritage @home",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af4c518cc3a47d29df68c09a211c28e&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+        "kind": "Source article"
+      }
+    ],
+    "updated_at": "2026-11-11T19:42:16+00:00",
+    "evidence": [
+      {
+        "date": "Tue, 31 Mar 2020",
+        "kind": "Web source",
+        "title": "Cultural Heritage @home",
+        "detail": "Museums, opera houses and tourist attractions across Europe and the world are making more and more content available online to make the self-isolation and social distancing more enjoyable and relaxing ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af4c518cc3a47d29df68c09a211c28e&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+        "source_label": "EU cultural heritage funding",
+        "strength": 62
+      }
+    ]
+  },
+  {
     "id": "search-9821d91105ec3ecef4",
     "title": "Cultural Heritage @home",
     "organization": "EU cultural heritage funding",
@@ -11117,6 +11159,48 @@
     ],
     "watched": false,
     "verified": true
+  },
+  {
+    "id": "search-eb2505001639e1bd91",
+    "title": "Horizon Europe - funding digital technology and research",
+    "organization": "EU cultural heritage funding",
+    "country": "Europe",
+    "city": "",
+    "stage": "Pitch",
+    "score": 38,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "Horizon Europe is the EU’s key funding programme for research and innovation. Part of it funds vital research in Europe’s digital transition. The Horizon Europe programme budget amounts to EUR 95.5 ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af4c518cc3a47d29df68c09a211c28e&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2factivities%2fhorizon-europe-funding-digital&c=15240915731629891503&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af4c518cc3a47d29df68c09a211c28e&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2factivities%2fhorizon-europe-funding-digital&c=15240915731629891503&mkt=en-us",
+    "source_label": "EU cultural heritage funding",
+    "documents": [
+      {
+        "title": "Horizon Europe - funding digital technology and research",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af4c518cc3a47d29df68c09a211c28e&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2factivities%2fhorizon-europe-funding-digital&c=15240915731629891503&mkt=en-us",
+        "kind": "Budget / funding"
+      }
+    ],
+    "updated_at": "2026-11-11T19:42:16+00:00",
+    "evidence": [
+      {
+        "date": "Sun, 05 Oct 2025",
+        "kind": "Web source",
+        "title": "Horizon Europe - funding digital technology and research",
+        "detail": "Horizon Europe is the EU’s key funding programme for research and innovation. Part of it funds vital research in Europe’s digital transition. The Horizon Europe programme budget amounts to EUR 95.5 ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af4c518cc3a47d29df68c09a211c28e&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2factivities%2fhorizon-europe-funding-digital&c=15240915731629891503&mkt=en-us",
+        "source_label": "EU cultural heritage funding",
+        "strength": 62
+      }
+    ]
   },
   {
     "id": "search-71c022fa370f84f3aa",

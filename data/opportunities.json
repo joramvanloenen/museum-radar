@@ -175,7 +175,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-11-12T12:28:42+00:00",
+    "updated_at": "2026-11-12T18:24:32+00:00",
     "evidence": [
       {
         "date": "",
@@ -218,7 +218,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-11-12T12:28:38+00:00",
+    "updated_at": "2026-11-12T18:24:29+00:00",
     "evidence": [
       {
         "date": "",
@@ -261,7 +261,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-11-12T12:28:38+00:00",
+    "updated_at": "2026-11-12T18:24:29+00:00",
     "evidence": [
       {
         "date": "",
@@ -1527,6 +1527,90 @@
         "detail": "Kistefos Museum is welcoming visitors to a striking new visitor centre, designed by architecture firm Lundhagem. The building serves as an inviting gateway to the museum experience – and offers ...",
         "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc083b143b41a0a40e3bb14b5befd8&url=https%3a%2f%2fwww.mynewsdesk.com%2fno%2fkistefosmuseum%2fpressreleases%2fkistefos-museum-opened-new-visitor-centre-on-saturday-june-20th-3455162&c=6876426998342124081&mkt=en-ca",
         "source_label": "Visitor centre signals",
+        "strength": 62
+      }
+    ]
+  },
+  {
+    "id": "search-45b64fe0cf56b29ea0",
+    "title": "Florida Museum to reopen in November after major renovation, expansion",
+    "organization": "Museum expansion signals",
+    "country": "Worldwide",
+    "city": "",
+    "stage": "Pitch",
+    "score": 56,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "Add Yahoo as a preferred source to see more of our stories on Google. The Florida Museum of Natural History plans to reopen its Ken and Linda McGurn Exhibition Hall to the public on Nov. 23 following ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af60463f72c47f6ac0b1acfaad880ce&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fscience%2farticles%2fflorida-museum-reopen-november-major-151401280.html&c=8905575700437874638&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af60463f72c47f6ac0b1acfaad880ce&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fscience%2farticles%2fflorida-museum-reopen-november-major-151401280.html&c=8905575700437874638&mkt=en-us",
+    "source_label": "Museum expansion signals",
+    "documents": [
+      {
+        "title": "Florida Museum to reopen in November after major renovation, expansion",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af60463f72c47f6ac0b1acfaad880ce&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fscience%2farticles%2fflorida-museum-reopen-november-major-151401280.html&c=8905575700437874638&mkt=en-us",
+        "kind": "Source article"
+      }
+    ],
+    "updated_at": "2026-11-12T18:24:35+00:00",
+    "evidence": [
+      {
+        "date": "Wed, 30 Sep 2026",
+        "kind": "Web source",
+        "title": "Florida Museum to reopen in November after major renovation, expansion",
+        "detail": "Add Yahoo as a preferred source to see more of our stories on Google. The Florida Museum of Natural History plans to reopen its Ken and Linda McGurn Exhibition Hall to the public on Nov. 23 following ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af60463f72c47f6ac0b1acfaad880ce&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fscience%2farticles%2fflorida-museum-reopen-november-major-151401280.html&c=8905575700437874638&mkt=en-us",
+        "source_label": "Museum expansion signals",
+        "strength": 62
+      }
+    ]
+  },
+  {
+    "id": "search-aaf91349cb9ab26b35",
+    "title": "Florida Museum to reopen in November after major renovation, expansion",
+    "organization": "Museum expansion signals",
+    "country": "Worldwide",
+    "city": "",
+    "stage": "Pitch",
+    "score": 56,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "The Florida Museum of Natural History plans to reopen its Ken and Linda McGurn Exhibition Hall to the public on Nov. 23 following a large-scale renovation and expansion project, according to a museum ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af60463f72c47f6ac0b1acfaad880ce&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af60463f72c47f6ac0b1acfaad880ce&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
+    "source_label": "Museum expansion signals",
+    "documents": [
+      {
+        "title": "Florida Museum to reopen in November after major renovation, expansion",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af60463f72c47f6ac0b1acfaad880ce&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
+        "kind": "Source article"
+      }
+    ],
+    "updated_at": "2026-11-12T18:24:35+00:00",
+    "evidence": [
+      {
+        "date": "Wed, 30 Sep 2026",
+        "kind": "Web source",
+        "title": "Florida Museum to reopen in November after major renovation, expansion",
+        "detail": "The Florida Museum of Natural History plans to reopen its Ken and Linda McGurn Exhibition Hall to the public on Nov. 23 following a large-scale renovation and expansion project, according to a museum ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af60463f72c47f6ac0b1acfaad880ce&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
+        "source_label": "Museum expansion signals",
         "strength": 62
       }
     ]
@@ -6903,6 +6987,48 @@
         "detail": "The Longmont Museum is set to reopen October 17 following a major expansion that gives the facility 70% more public gallery space.",
         "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad39832a6ad48f0891bc8f6c8c6d0cd&url=https%3a%2f%2fwww.longmontleader.com%2flocal-news%2finside-longmont-museums-nearly-10m-expansion-12851684&c=8460159237135211109&mkt=en-us",
         "source_label": "Museum expansion signals",
+        "strength": 62
+      }
+    ]
+  },
+  {
+    "id": "search-0ce0db9b12eeefe212",
+    "title": "Cultural Heritage @home",
+    "organization": "EU cultural heritage funding",
+    "country": "Europe",
+    "city": "",
+    "stage": "Signal",
+    "score": 40,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "Museums, opera houses and tourist attractions across Europe and the world are making more and more content available online to make the self-isolation and social distancing more enjoyable and relaxing ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af604647347475fa9ba7b80a859243a&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af604647347475fa9ba7b80a859243a&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+    "source_label": "EU cultural heritage funding",
+    "documents": [
+      {
+        "title": "Cultural Heritage @home",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af604647347475fa9ba7b80a859243a&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+        "kind": "Source article"
+      }
+    ],
+    "updated_at": "2026-11-12T18:24:36+00:00",
+    "evidence": [
+      {
+        "date": "Tue, 31 Mar 2020",
+        "kind": "Web source",
+        "title": "Cultural Heritage @home",
+        "detail": "Museums, opera houses and tourist attractions across Europe and the world are making more and more content available online to make the self-isolation and social distancing more enjoyable and relaxing ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af604647347475fa9ba7b80a859243a&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+        "source_label": "EU cultural heritage funding",
         "strength": 62
       }
     ]
@@ -16409,5 +16535,57 @@
         "strength": 62
       }
     ]
+  },
+  {
+    "id": "cf-55bd991fd0dde68c09",
+    "title": "Activity & Interpretation Plan Consultant",
+    "organization": "Thetford Town Council",
+    "country": "United Kingdom",
+    "city": "",
+    "stage": "Lead",
+    "score": 35,
+    "confidence": 82,
+    "currency": "GBP",
+    "deadline": "2026-11-27",
+    "procurement_window": null,
+    "summary": "The appointed consultant will prepare a comprehensive Activity & Interpretation Plan which demonstrates how people will engage with St Peter's Church and the wider heritage of Thetford through:\r\n\r\n•\tLearning;\r\n•\tVolunteering;\r\n•\tSkills development;\r\n•\tCommunity engagement;\r\n•\tInterpretation;\r\n•\tParticipation;\r\n•\tEvents;\r\n•\tTraining;\r\n•\tOutreach activities.\r\n\r\nThe consultant shall ensure that the Activity & Interpretation Plan is fully aligned with NLHF requirements and capable of supporting a successful Delivery Phase application.\r\n\r\nThe Activity Plan shall identify opportunities for community involvement, volunteering, learning, training, events and wider public engagement, together with recommendations for sustainable delivery and long-term legacy.\r\n\r\nThe Interpretation Plan shall identify and communicate the key heritage themes, stories and significance of St Peter's Church, establish",
+    "fit_rationale": "Matched museum / exhibition / visitor-experience language.",
+    "pitch_angle": "Review the procurement notice and qualification requirements.",
+    "next_action": "Open source and triage scope, budget, deadline and bidder requirements.",
+    "sample": false,
+    "source_key": "contracts_finder",
+    "external_id": "ocds-b5fd17-daa551b3-034f-4997-98b2-a6dd293d4090",
+    "source_url": "https://www.contractsfinder.service.gov.uk/Notice/90d317a4-0657-495a-a9ea-57e035554822",
+    "source_label": "Contracts Finder notice",
+    "documents": [
+      {
+        "title": "Opportunity notice on Contracts Finder",
+        "url": "https://www.contractsfinder.service.gov.uk/Notice/90d317a4-0657-495a-a9ea-57e035554822",
+        "kind": "tenderNotice"
+      },
+      {
+        "title": "Contract brief",
+        "url": "https://www.contractsfinder.service.gov.uk/Notice/Attachment/034f76eb-467a-45da-996f-19e104a83448",
+        "kind": "tenderNotice"
+      },
+      {
+        "title": "Updated 12.11.26",
+        "url": "https://www.contractsfinder.service.gov.uk/Notice/Attachment/4f8354c3-78ee-47a2-a0ef-581011ecf2c6",
+        "kind": "clarifications"
+      }
+    ],
+    "updated_at": "2026-11-12T18:24:27+00:00",
+    "evidence": [
+      {
+        "date": "2026-11-12",
+        "kind": "Procurement",
+        "title": "Contracts Finder notice detected",
+        "detail": "Automated discovery. Verify against the original procurement notice.",
+        "source_url": "https://www.contractsfinder.service.gov.uk/Notice/90d317a4-0657-495a-a9ea-57e035554822",
+        "source_label": "Contracts Finder notice",
+        "strength": 82
+      }
+    ],
+    "verified": true
   }
 ]

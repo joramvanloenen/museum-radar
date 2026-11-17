@@ -1,9 +1,9 @@
 {
   "status": "GitHub Actions scout",
-  "generated_at": "2026-11-17T12:28:39+00:00",
-  "last_scan_at": "2026-11-17T12:28:39+00:00",
-  "last_scan_found": 6,
-  "last_scan_relevant": 6,
-  "total_opportunities": 443,
-  "last_error": "Search ARCH-E museum competitions: not well-formed (invalid token): line 1, column 41 | Search German future projects: not well-formed (invalid token): line 1, column 41 | Search Italian museum procurement: not well-formed (invalid token): line 1, column 41 | Search In-Tend museum interactives: not well-formed (invalid token): line 1, column 41"
+  "generated_at": "2026-11-17T18:25:48+00:00",
+  "last_scan_at": "2026-11-17T18:25:48+00:00",
+  "last_scan_found": 7,
+  "last_scan_relevant": 7,
+  "total_opportunities": 446,
+  "last_error": ""
 }

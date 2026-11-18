@@ -175,7 +175,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-11-18T12:28:14+00:00",
+    "updated_at": "2026-11-18T18:23:53+00:00",
     "evidence": [
       {
         "date": "",
@@ -183,6 +183,49 @@
         "title": "Official procurement listing",
         "detail": "26/06/2026 Museum Interpretation Services Reference No: JUN631313 Published By: Amgueddfa Cymru - National Museum Wales Deadline Date: Notice Type: Speculative Notice",
         "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUN631313&amp;catID=",
+        "source_label": "Sell2Wales museum exhibition",
+        "strength": 93
+      }
+    ],
+    "watched": false
+  },
+  {
+    "id": "sell2wales-nov674573",
+    "title": "Framework Agreement: Large Objects - Logistics and Engineering",
+    "organization": "Amgueddfa Cymru - National Museum Wales",
+    "country": "United Kingdom",
+    "city": "",
+    "stage": "Pre-market",
+    "score": 98,
+    "confidence": 93,
+    "currency": "GBP",
+    "deadline": null,
+    "procurement_window": "Pre-market",
+    "summary": "Official procurement listing discovered in a museum / exhibition / AV category.",
+    "fit_rationale": "Official procurement notice matched museum, exhibition, AV or interactive experience terms.",
+    "pitch_angle": "Review the official notice and decide whether to bid directly or with a delivery partner.",
+    "next_action": "Open the official procurement notice and review scope, documents, deadline and eligibility.",
+    "sample": false,
+    "verified": true,
+    "source_key": "sell2wales",
+    "external_id": "NOV674573",
+    "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=NOV674573&amp;catID=",
+    "source_label": "Sell2Wales museum exhibition",
+    "documents": [
+      {
+        "title": "Official procurement notice",
+        "url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=NOV674573&amp;catID=",
+        "kind": "Contract notice"
+      }
+    ],
+    "updated_at": "2026-11-18T18:23:50+00:00",
+    "evidence": [
+      {
+        "date": "",
+        "kind": "Procurement",
+        "title": "Official procurement listing",
+        "detail": "04/11/2026 Framework Agreement: Large Objects - Logistics and Engineering Reference No: NOV674573 Published By: Amgueddfa Cymru - National Museum Wales Deadline Date: Notice Type: Speculative Notice",
+        "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=NOV674573&amp;catID=",
         "source_label": "Sell2Wales museum exhibition",
         "strength": 93
       }
@@ -226,49 +269,6 @@
         "title": "Official procurement listing",
         "detail": "23/07/2026 Museum Design and Delivery Team Reference No: JUL639968 Published By: Glasgow Life (Culture & Sport Glasgow) Deadline Date: Notice Type: Prior Information Notice",
         "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=JUL639968&amp;catID=",
-        "source_label": "Sell2Wales museum exhibition",
-        "strength": 93
-      }
-    ],
-    "watched": false
-  },
-  {
-    "id": "sell2wales-nov674573",
-    "title": "Framework Agreement: Large Objects - Logistics and Engineering",
-    "organization": "Amgueddfa Cymru - National Museum Wales",
-    "country": "United Kingdom",
-    "city": "",
-    "stage": "Pre-market",
-    "score": 98,
-    "confidence": 93,
-    "currency": "GBP",
-    "deadline": null,
-    "procurement_window": "Pre-market",
-    "summary": "Official procurement listing discovered in a museum / exhibition / AV category.",
-    "fit_rationale": "Official procurement notice matched museum, exhibition, AV or interactive experience terms.",
-    "pitch_angle": "Review the official notice and decide whether to bid directly or with a delivery partner.",
-    "next_action": "Open the official procurement notice and review scope, documents, deadline and eligibility.",
-    "sample": false,
-    "verified": true,
-    "source_key": "sell2wales",
-    "external_id": "NOV674573",
-    "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=NOV674573&amp;catID=",
-    "source_label": "Sell2Wales museum exhibition",
-    "documents": [
-      {
-        "title": "Official procurement notice",
-        "url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=NOV674573&amp;catID=",
-        "kind": "Contract notice"
-      }
-    ],
-    "updated_at": "2026-11-18T12:28:10+00:00",
-    "evidence": [
-      {
-        "date": "",
-        "kind": "Procurement",
-        "title": "Official procurement listing",
-        "detail": "04/11/2026 Framework Agreement: Large Objects - Logistics and Engineering Reference No: NOV674573 Published By: Amgueddfa Cymru - National Museum Wales Deadline Date: Notice Type: Speculative Notice",
-        "source_url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=NOV674573&amp;catID=",
         "source_label": "Sell2Wales museum exhibition",
         "strength": 93
       }

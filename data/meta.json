@@ -1,9 +1,9 @@
 {
   "status": "GitHub Actions scout",
-  "generated_at": "2026-11-19T06:33:14+00:00",
-  "last_scan_at": "2026-11-19T06:33:14+00:00",
-  "last_scan_found": 5,
-  "last_scan_relevant": 5,
-  "total_opportunities": 464,
-  "last_error": ""
+  "generated_at": "2026-11-19T12:28:28+00:00",
+  "last_scan_at": "2026-11-19T12:28:28+00:00",
+  "last_scan_found": 6,
+  "last_scan_relevant": 6,
+  "total_opportunities": 468,
+  "last_error": "Search Museum digital tenders: not well-formed (invalid token): line 1, column 41 | Search Visitor centre signals: not well-formed (invalid token): line 1, column 41 | Search Museum masterplans: not well-formed (invalid token): line 1, column 41 | Search Museum annual reports future projects: not well-formed (invalid token): line 1, column 41 | Search Museum supplier pages: not well-formed (invalid token): line 1, column 41 | Search German future projects: not well-formed (invalid token): line 1, column 41 | Search AV integration museum: not well-formed (invalid token): line 1, column 41 | Search Tender Impulse discovery: not well-formed (invalid token): line 1, column 41 | Search India science museum immersive: not well-formed (invalid token): line 1, column 41 | Search South Africa science centre exhibits: not well-formed (invalid token): line 1, column 41 | Search In-Tend museum interactives: not well-formed (invalid token): line 1, column 41"
 }

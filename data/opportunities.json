@@ -175,7 +175,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-11-21T18:23:34+00:00",
+    "updated_at": "2026-11-22T00:44:33+00:00",
     "evidence": [
       {
         "date": "",
@@ -218,7 +218,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-11-21T18:23:28+00:00",
+    "updated_at": "2026-11-22T00:44:30+00:00",
     "evidence": [
       {
         "date": "",
@@ -1779,6 +1779,90 @@
         "detail": "Kistefos Museum is welcoming visitors to a striking new visitor centre, designed by architecture firm Lundhagem. The building serves as an inviting gateway to the museum experience – and offers ...",
         "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc083b143b41a0a40e3bb14b5befd8&url=https%3a%2f%2fwww.mynewsdesk.com%2fno%2fkistefosmuseum%2fpressreleases%2fkistefos-museum-opened-new-visitor-centre-on-saturday-june-20th-3455162&c=6876426998342124081&mkt=en-ca",
         "source_label": "Visitor centre signals",
+        "strength": 62
+      }
+    ]
+  },
+  {
+    "id": "search-7841aab9ccd2e4b285",
+    "title": "Florida Museum to reopen in November after major renovation, expansion",
+    "organization": "Museum expansion signals",
+    "country": "Worldwide",
+    "city": "",
+    "stage": "Pitch",
+    "score": 56,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "Add Yahoo as a preferred source to see more of our stories on Google. The Florida Museum of Natural History plans to reopen its Ken and Linda McGurn Exhibition Hall to the public on Nov. 23 following ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b023af4353a4da2bc600f6318b6cba6&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fscience%2farticles%2fflorida-museum-reopen-november-major-151401280.html&c=8905575700437874638&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b023af4353a4da2bc600f6318b6cba6&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fscience%2farticles%2fflorida-museum-reopen-november-major-151401280.html&c=8905575700437874638&mkt=en-us",
+    "source_label": "Museum expansion signals",
+    "documents": [
+      {
+        "title": "Florida Museum to reopen in November after major renovation, expansion",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b023af4353a4da2bc600f6318b6cba6&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fscience%2farticles%2fflorida-museum-reopen-november-major-151401280.html&c=8905575700437874638&mkt=en-us",
+        "kind": "Source article"
+      }
+    ],
+    "updated_at": "2026-11-22T00:44:36+00:00",
+    "evidence": [
+      {
+        "date": "Wed, 30 Sep 2026",
+        "kind": "Web source",
+        "title": "Florida Museum to reopen in November after major renovation, expansion",
+        "detail": "Add Yahoo as a preferred source to see more of our stories on Google. The Florida Museum of Natural History plans to reopen its Ken and Linda McGurn Exhibition Hall to the public on Nov. 23 following ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b023af4353a4da2bc600f6318b6cba6&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fscience%2farticles%2fflorida-museum-reopen-november-major-151401280.html&c=8905575700437874638&mkt=en-us",
+        "source_label": "Museum expansion signals",
+        "strength": 62
+      }
+    ]
+  },
+  {
+    "id": "search-54b663e8976e2f7b38",
+    "title": "Florida Museum to reopen in November after major renovation, expansion",
+    "organization": "Museum expansion signals",
+    "country": "Worldwide",
+    "city": "",
+    "stage": "Pitch",
+    "score": 56,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "The Florida Museum of Natural History plans to reopen its Ken and Linda McGurn Exhibition Hall to the public on Nov. 23 following a large-scale renovation and expansion project, according to a museum ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b023af4353a4da2bc600f6318b6cba6&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b023af4353a4da2bc600f6318b6cba6&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
+    "source_label": "Museum expansion signals",
+    "documents": [
+      {
+        "title": "Florida Museum to reopen in November after major renovation, expansion",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b023af4353a4da2bc600f6318b6cba6&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
+        "kind": "Source article"
+      }
+    ],
+    "updated_at": "2026-11-22T00:44:36+00:00",
+    "evidence": [
+      {
+        "date": "Wed, 30 Sep 2026",
+        "kind": "Web source",
+        "title": "Florida Museum to reopen in November after major renovation, expansion",
+        "detail": "The Florida Museum of Natural History plans to reopen its Ken and Linda McGurn Exhibition Hall to the public on Nov. 23 following a large-scale renovation and expansion project, according to a museum ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b023af4353a4da2bc600f6318b6cba6&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
+        "source_label": "Museum expansion signals",
         "strength": 62
       }
     ]
@@ -10143,6 +10227,48 @@
     ]
   },
   {
+    "id": "search-e136c6ee0fd6ee4a56",
+    "title": "Cultural Heritage @home",
+    "organization": "EU cultural heritage funding",
+    "country": "Europe",
+    "city": "",
+    "stage": "Signal",
+    "score": 40,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "Museums, opera houses and tourist attractions across Europe and the world are making more and more content available online to make the self-isolation and social distancing more enjoyable and relaxing ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b023af55031459db04f52928c33503a&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b023af55031459db04f52928c33503a&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+    "source_label": "EU cultural heritage funding",
+    "documents": [
+      {
+        "title": "Cultural Heritage @home",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b023af55031459db04f52928c33503a&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+        "kind": "Source article"
+      }
+    ],
+    "updated_at": "2026-11-22T00:44:37+00:00",
+    "evidence": [
+      {
+        "date": "Tue, 31 Mar 2020",
+        "kind": "Web source",
+        "title": "Cultural Heritage @home",
+        "detail": "Museums, opera houses and tourist attractions across Europe and the world are making more and more content available online to make the self-isolation and social distancing more enjoyable and relaxing ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b023af55031459db04f52928c33503a&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+        "source_label": "EU cultural heritage funding",
+        "strength": 62
+      }
+    ]
+  },
+  {
     "id": "search-81b09179400dc93d7b",
     "title": "Cultural Heritage @home",
     "organization": "EU cultural heritage funding",
@@ -16160,6 +16286,48 @@
     "verified": true
   },
   {
+    "id": "search-5cb31c1cdd45589696",
+    "title": "Horizon Europe - funding digital technology and research",
+    "organization": "EU cultural heritage funding",
+    "country": "Europe",
+    "city": "",
+    "stage": "Pitch",
+    "score": 38,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "Horizon Europe is the EU’s key funding programme for research and innovation. Part of it funds vital research in Europe’s digital transition. The Horizon Europe programme budget amounts to EUR 95.5 ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b023af55031459db04f52928c33503a&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2factivities%2fhorizon-europe-funding-digital&c=15240915731629891503&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b023af55031459db04f52928c33503a&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2factivities%2fhorizon-europe-funding-digital&c=15240915731629891503&mkt=en-us",
+    "source_label": "EU cultural heritage funding",
+    "documents": [
+      {
+        "title": "Horizon Europe - funding digital technology and research",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b023af55031459db04f52928c33503a&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2factivities%2fhorizon-europe-funding-digital&c=15240915731629891503&mkt=en-us",
+        "kind": "Budget / funding"
+      }
+    ],
+    "updated_at": "2026-11-22T00:44:37+00:00",
+    "evidence": [
+      {
+        "date": "Sun, 05 Oct 2025",
+        "kind": "Web source",
+        "title": "Horizon Europe - funding digital technology and research",
+        "detail": "Horizon Europe is the EU’s key funding programme for research and innovation. Part of it funds vital research in Europe’s digital transition. The Horizon Europe programme budget amounts to EUR 95.5 ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b023af55031459db04f52928c33503a&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2factivities%2fhorizon-europe-funding-digital&c=15240915731629891503&mkt=en-us",
+        "source_label": "EU cultural heritage funding",
+        "strength": 62
+      }
+    ]
+  },
+  {
     "id": "search-7beb071f4346fbfec1",
     "title": "Horizon Europe - funding digital technology and research",
     "organization": "EU cultural heritage funding",
@@ -20192,6 +20360,48 @@
     ]
   },
   {
+    "id": "search-07bfa6ef26dc1b762f",
+    "title": "Hilliard Art Museum hires new curator as it prepares for major expansion in Lafayette",
+    "organization": "Museum expansion signals",
+    "country": "Worldwide",
+    "city": "",
+    "stage": "Pitch",
+    "score": 36,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "Jonathan Boelkins becomes Hilliard’s curator, guiding exhibits from ancient to modern art. His architecture background shapes innovative displays, helping the museum grow locally and internationally.",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b023af4353a4da2bc600f6318b6cba6&url=https%3a%2f%2fwww.theadvocate.com%2facadiana%2fentertainment_life%2fhilliard-art-museum-hires-new-curator-as-it-prepares-for-major-expansion-in-lafayette%2farticle_672a111c-f73b-42a6-917d-1403474456ee.html&c=14276478317438695587&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b023af4353a4da2bc600f6318b6cba6&url=https%3a%2f%2fwww.theadvocate.com%2facadiana%2fentertainment_life%2fhilliard-art-museum-hires-new-curator-as-it-prepares-for-major-expansion-in-lafayette%2farticle_672a111c-f73b-42a6-917d-1403474456ee.html&c=14276478317438695587&mkt=en-us",
+    "source_label": "Museum expansion signals",
+    "documents": [
+      {
+        "title": "Hilliard Art Museum hires new curator as it prepares for major expansion in Lafayette",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b023af4353a4da2bc600f6318b6cba6&url=https%3a%2f%2fwww.theadvocate.com%2facadiana%2fentertainment_life%2fhilliard-art-museum-hires-new-curator-as-it-prepares-for-major-expansion-in-lafayette%2farticle_672a111c-f73b-42a6-917d-1403474456ee.html&c=14276478317438695587&mkt=en-us",
+        "kind": "Source article"
+      }
+    ],
+    "updated_at": "2026-11-22T00:44:36+00:00",
+    "evidence": [
+      {
+        "date": "Tue, 10 Nov 2026",
+        "kind": "Web source",
+        "title": "Hilliard Art Museum hires new curator as it prepares for major expansion in Lafayette",
+        "detail": "Jonathan Boelkins becomes Hilliard’s curator, guiding exhibits from ancient to modern art. His architecture background shapes innovative displays, helping the museum grow locally and internationally.",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b023af4353a4da2bc600f6318b6cba6&url=https%3a%2f%2fwww.theadvocate.com%2facadiana%2fentertainment_life%2fhilliard-art-museum-hires-new-curator-as-it-prepares-for-major-expansion-in-lafayette%2farticle_672a111c-f73b-42a6-917d-1403474456ee.html&c=14276478317438695587&mkt=en-us",
+        "source_label": "Museum expansion signals",
+        "strength": 62
+      }
+    ]
+  },
+  {
     "id": "search-7c02c06b5ac1ac3d5f",
     "title": "Hilliard Art Museum hires new curator as it prepares for major expansion in Lafayette",
     "organization": "Museum expansion signals",
@@ -21110,216 +21320,6 @@
         "title": "Hammerstein Museum Awarded $1 Million PA State Grant for Highland Farm Redevelopment",
         "detail": "The Oscar Hammerstein Museum and Theatre Education Center has been awarded a $1 million Redevelopment Assistance Capital Program (RACP) grant from the Commonwealth of Pennsylvania to support the ...",
         "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aacc38d85874865bd482b7772f2cdd1&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
-        "source_label": "Museum funding awards",
-        "strength": 62
-      }
-    ]
-  },
-  {
-    "id": "search-9fbb31641e75b3a221",
-    "title": "Hammerstein Museum Awarded $1 Million PA State Grant for Highland Farm Redevelopment",
-    "organization": "Museum funding awards",
-    "country": "Worldwide",
-    "city": "",
-    "stage": "Signal",
-    "score": 36,
-    "confidence": 62,
-    "currency": "EUR",
-    "deadline": null,
-    "procurement_window": "Investigate",
-    "summary": "The Oscar Hammerstein Museum and Theatre Education Center has been awarded a $1 million Redevelopment Assistance Capital Program (RACP) grant from the Commonwealth of Pennsylvania to support the ...",
-    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
-    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
-    "next_action": "Open the source and verify the project, owner and timing.",
-    "sample": false,
-    "verified": false,
-    "source_key": "search_pitch",
-    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aac5b78057b4df3aa4c2197d4d37221&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
-    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aac5b78057b4df3aa4c2197d4d37221&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
-    "source_label": "Museum funding awards",
-    "documents": [
-      {
-        "title": "Hammerstein Museum Awarded $1 Million PA State Grant for Highland Farm Redevelopment",
-        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aac5b78057b4df3aa4c2197d4d37221&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
-        "kind": "Budget / funding"
-      }
-    ],
-    "updated_at": "2026-09-17T21:28:24+00:00",
-    "evidence": [
-      {
-        "date": "Sun, 19 Jul 2026",
-        "kind": "Web source",
-        "title": "Hammerstein Museum Awarded $1 Million PA State Grant for Highland Farm Redevelopment",
-        "detail": "The Oscar Hammerstein Museum and Theatre Education Center has been awarded a $1 million Redevelopment Assistance Capital Program (RACP) grant from the Commonwealth of Pennsylvania to support the ...",
-        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aac5b78057b4df3aa4c2197d4d37221&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
-        "source_label": "Museum funding awards",
-        "strength": 62
-      }
-    ]
-  },
-  {
-    "id": "search-921661f39a03403df2",
-    "title": "Hammerstein Museum Awarded $1 Million PA State Grant for Highland Farm Redevelopment",
-    "organization": "Museum funding awards",
-    "country": "Worldwide",
-    "city": "",
-    "stage": "Signal",
-    "score": 36,
-    "confidence": 62,
-    "currency": "EUR",
-    "deadline": null,
-    "procurement_window": "Investigate",
-    "summary": "The Oscar Hammerstein Museum and Theatre Education Center has been awarded a $1 million Redevelopment Assistance Capital Program (RACP) grant from the Commonwealth of Pennsylvania to support the ...",
-    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
-    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
-    "next_action": "Open the source and verify the project, owner and timing.",
-    "sample": false,
-    "verified": false,
-    "source_key": "search_pitch",
-    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aabd4051a0c4a33b6c139990b4a4ac3&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
-    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aabd4051a0c4a33b6c139990b4a4ac3&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
-    "source_label": "Museum funding awards",
-    "documents": [
-      {
-        "title": "Hammerstein Museum Awarded $1 Million PA State Grant for Highland Farm Redevelopment",
-        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aabd4051a0c4a33b6c139990b4a4ac3&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
-        "kind": "Budget / funding"
-      }
-    ],
-    "updated_at": "2026-09-17T11:50:29+00:00",
-    "evidence": [
-      {
-        "date": "Sun, 19 Jul 2026",
-        "kind": "Web source",
-        "title": "Hammerstein Museum Awarded $1 Million PA State Grant for Highland Farm Redevelopment",
-        "detail": "The Oscar Hammerstein Museum and Theatre Education Center has been awarded a $1 million Redevelopment Assistance Capital Program (RACP) grant from the Commonwealth of Pennsylvania to support the ...",
-        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aabd4051a0c4a33b6c139990b4a4ac3&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
-        "source_label": "Museum funding awards",
-        "strength": 62
-      }
-    ]
-  },
-  {
-    "id": "search-1672510322468d3a65",
-    "title": "Hammerstein Museum Awarded $1 Million PA State Grant for Highland Farm Redevelopment",
-    "organization": "Museum funding awards",
-    "country": "Worldwide",
-    "city": "",
-    "stage": "Signal",
-    "score": 36,
-    "confidence": 62,
-    "currency": "EUR",
-    "deadline": null,
-    "procurement_window": "Investigate",
-    "summary": "The Oscar Hammerstein Museum and Theatre Education Center has been awarded a $1 million Redevelopment Assistance Capital Program (RACP) grant from the Commonwealth of Pennsylvania to support the ...",
-    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
-    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
-    "next_action": "Open the source and verify the project, owner and timing.",
-    "sample": false,
-    "verified": false,
-    "source_key": "search_pitch",
-    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aab73bdf98d4bf69e3d15ef839ba7e7&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
-    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aab73bdf98d4bf69e3d15ef839ba7e7&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
-    "source_label": "Museum funding awards",
-    "documents": [
-      {
-        "title": "Hammerstein Museum Awarded $1 Million PA State Grant for Highland Farm Redevelopment",
-        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aab73bdf98d4bf69e3d15ef839ba7e7&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
-        "kind": "Budget / funding"
-      }
-    ],
-    "updated_at": "2026-09-17T04:59:41+00:00",
-    "evidence": [
-      {
-        "date": "Sun, 19 Jul 2026",
-        "kind": "Web source",
-        "title": "Hammerstein Museum Awarded $1 Million PA State Grant for Highland Farm Redevelopment",
-        "detail": "The Oscar Hammerstein Museum and Theatre Education Center has been awarded a $1 million Redevelopment Assistance Capital Program (RACP) grant from the Commonwealth of Pennsylvania to support the ...",
-        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aab73bdf98d4bf69e3d15ef839ba7e7&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
-        "source_label": "Museum funding awards",
-        "strength": 62
-      }
-    ]
-  },
-  {
-    "id": "search-dd72c301b8e595db4d",
-    "title": "Hammerstein Museum Awarded $1 Million PA State Grant for Highland Farm Redevelopment",
-    "organization": "Museum funding awards",
-    "country": "Worldwide",
-    "city": "",
-    "stage": "Signal",
-    "score": 36,
-    "confidence": 62,
-    "currency": "EUR",
-    "deadline": null,
-    "procurement_window": "Investigate",
-    "summary": "The Oscar Hammerstein Museum and Theatre Education Center has been awarded a $1 million Redevelopment Assistance Capital Program (RACP) grant from the Commonwealth of Pennsylvania to support the ...",
-    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
-    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
-    "next_action": "Open the source and verify the project, owner and timing.",
-    "sample": false,
-    "verified": false,
-    "source_key": "search_pitch",
-    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aab08f11e934ccd95bb738133a8bcd0&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
-    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aab08f11e934ccd95bb738133a8bcd0&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
-    "source_label": "Museum funding awards",
-    "documents": [
-      {
-        "title": "Hammerstein Museum Awarded $1 Million PA State Grant for Highland Farm Redevelopment",
-        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aab08f11e934ccd95bb738133a8bcd0&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
-        "kind": "Budget / funding"
-      }
-    ],
-    "updated_at": "2026-09-16T21:24:01+00:00",
-    "evidence": [
-      {
-        "date": "Sun, 19 Jul 2026",
-        "kind": "Web source",
-        "title": "Hammerstein Museum Awarded $1 Million PA State Grant for Highland Farm Redevelopment",
-        "detail": "The Oscar Hammerstein Museum and Theatre Education Center has been awarded a $1 million Redevelopment Assistance Capital Program (RACP) grant from the Commonwealth of Pennsylvania to support the ...",
-        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aab08f11e934ccd95bb738133a8bcd0&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
-        "source_label": "Museum funding awards",
-        "strength": 62
-      }
-    ]
-  },
-  {
-    "id": "search-8fa1b990224ebb102e",
-    "title": "Hammerstein Museum Awarded $1 Million PA State Grant for Highland Farm Redevelopment",
-    "organization": "Museum funding awards",
-    "country": "Worldwide",
-    "city": "",
-    "stage": "Signal",
-    "score": 36,
-    "confidence": 62,
-    "currency": "EUR",
-    "deadline": null,
-    "procurement_window": "Investigate",
-    "summary": "The Oscar Hammerstein Museum and Theatre Education Center has been awarded a $1 million Redevelopment Assistance Capital Program (RACP) grant from the Commonwealth of Pennsylvania to support the ...",
-    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
-    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
-    "next_action": "Open the source and verify the project, owner and timing.",
-    "sample": false,
-    "verified": false,
-    "source_key": "search_pitch",
-    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaacca8bdd9456fa3400bd14945e231&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
-    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaacca8bdd9456fa3400bd14945e231&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
-    "source_label": "Museum funding awards",
-    "documents": [
-      {
-        "title": "Hammerstein Museum Awarded $1 Million PA State Grant for Highland Farm Redevelopment",
-        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaacca8bdd9456fa3400bd14945e231&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
-        "kind": "Budget / funding"
-      }
-    ],
-    "updated_at": "2026-09-16T17:06:48+00:00",
-    "evidence": [
-      {
-        "date": "Sun, 19 Jul 2026",
-        "kind": "Web source",
-        "title": "Hammerstein Museum Awarded $1 Million PA State Grant for Highland Farm Redevelopment",
-        "detail": "The Oscar Hammerstein Museum and Theatre Education Center has been awarded a $1 million Redevelopment Assistance Capital Program (RACP) grant from the Commonwealth of Pennsylvania to support the ...",
-        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaacca8bdd9456fa3400bd14945e231&url=https%3a%2f%2fwww.broadwayworld.com%2ftranslate%2fuk%2fHammerstein-Museum-Awarded-1-Million-PA-State-Grant-for-Highland-Farm-Redevelopment-20260720&c=16954399813251557461&mkt=en-us",
         "source_label": "Museum funding awards",
         "strength": 62
       }

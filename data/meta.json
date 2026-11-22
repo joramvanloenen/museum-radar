@@ -1,9 +1,9 @@
 {
   "status": "GitHub Actions scout",
-  "generated_at": "2026-11-22T00:44:44+00:00",
-  "last_scan_at": "2026-11-22T00:44:44+00:00",
+  "generated_at": "2026-11-22T06:30:31+00:00",
+  "last_scan_at": "2026-11-22T06:30:31+00:00",
   "last_scan_found": 8,
   "last_scan_relevant": 8,
   "total_opportunities": 500,
-  "last_error": "Search In-Tend museum interactives: not well-formed (invalid token): line 1, column 41"
+  "last_error": ""
 }

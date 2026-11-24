@@ -1,9 +1,9 @@
 {
   "status": "GitHub Actions scout",
-  "generated_at": "2026-11-23T18:24:49+00:00",
-  "last_scan_at": "2026-11-23T18:24:49+00:00",
-  "last_scan_found": 6,
-  "last_scan_relevant": 6,
+  "generated_at": "2026-11-24T00:39:01+00:00",
+  "last_scan_at": "2026-11-24T00:39:01+00:00",
+  "last_scan_found": 7,
+  "last_scan_relevant": 7,
   "total_opportunities": 500,
-  "last_error": ""
+  "last_error": "Search Museum supplier pages: not well-formed (invalid token): line 1, column 41 | Search Italian museum procurement: not well-formed (invalid token): line 1, column 41 | Search India science museum immersive: not well-formed (invalid token): line 1, column 41"
 }

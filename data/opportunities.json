@@ -175,7 +175,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-11-24T12:29:24+00:00",
+    "updated_at": "2026-11-24T18:24:52+00:00",
     "evidence": [
       {
         "date": "",
@@ -218,7 +218,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-11-24T12:29:20+00:00",
+    "updated_at": "2026-11-24T18:24:48+00:00",
     "evidence": [
       {
         "date": "",
@@ -1779,6 +1779,48 @@
         "detail": "Kistefos Museum is welcoming visitors to a striking new visitor centre, designed by architecture firm Lundhagem. The building serves as an inviting gateway to the museum experience – and offers ...",
         "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc083b143b41a0a40e3bb14b5befd8&url=https%3a%2f%2fwww.mynewsdesk.com%2fno%2fkistefosmuseum%2fpressreleases%2fkistefos-museum-opened-new-visitor-centre-on-saturday-june-20th-3455162&c=6876426998342124081&mkt=en-ca",
         "source_label": "Visitor centre signals",
+        "strength": 62
+      }
+    ]
+  },
+  {
+    "id": "search-aa885ec645fee8ca36",
+    "title": "Florida Museum to reopen in November after major renovation, expansion",
+    "organization": "Museum expansion signals",
+    "country": "Worldwide",
+    "city": "",
+    "stage": "Pitch",
+    "score": 56,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "The Florida Museum of Natural History plans to reopen its Ken and Linda McGurn Exhibition Hall to the public on Nov. 23 following a large-scale renovation and expansion project, according to a museum ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b05d67707b441038944fe5bb48b0a20&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b05d67707b441038944fe5bb48b0a20&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
+    "source_label": "Museum expansion signals",
+    "documents": [
+      {
+        "title": "Florida Museum to reopen in November after major renovation, expansion",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b05d67707b441038944fe5bb48b0a20&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
+        "kind": "Source article"
+      }
+    ],
+    "updated_at": "2026-11-24T18:24:56+00:00",
+    "evidence": [
+      {
+        "date": "Wed, 30 Sep 2026",
+        "kind": "Web source",
+        "title": "Florida Museum to reopen in November after major renovation, expansion",
+        "detail": "The Florida Museum of Natural History plans to reopen its Ken and Linda McGurn Exhibition Hall to the public on Nov. 23 following a large-scale renovation and expansion project, according to a museum ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b05d67707b441038944fe5bb48b0a20&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
+        "source_label": "Museum expansion signals",
         "strength": 62
       }
     ]
@@ -11067,6 +11109,48 @@
     ]
   },
   {
+    "id": "search-987ce3e89efe1fad03",
+    "title": "Cultural Heritage @home",
+    "organization": "EU cultural heritage funding",
+    "country": "Europe",
+    "city": "",
+    "stage": "Signal",
+    "score": 40,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "Museums, opera houses and tourist attractions across Europe and the world are making more and more content available online to make the self-isolation and social distancing more enjoyable and relaxing ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b05d678892c4b0ab96255488cfccf5e&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b05d678892c4b0ab96255488cfccf5e&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+    "source_label": "EU cultural heritage funding",
+    "documents": [
+      {
+        "title": "Cultural Heritage @home",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b05d678892c4b0ab96255488cfccf5e&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+        "kind": "Source article"
+      }
+    ],
+    "updated_at": "2026-11-24T18:24:57+00:00",
+    "evidence": [
+      {
+        "date": "Tue, 31 Mar 2020",
+        "kind": "Web source",
+        "title": "Cultural Heritage @home",
+        "detail": "Museums, opera houses and tourist attractions across Europe and the world are making more and more content available online to make the self-isolation and social distancing more enjoyable and relaxing ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b05d678892c4b0ab96255488cfccf5e&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+        "source_label": "EU cultural heritage funding",
+        "strength": 62
+      }
+    ]
+  },
+  {
     "id": "search-01546684760607e976",
     "title": "Cultural Heritage @home",
     "organization": "EU cultural heritage funding",
@@ -17546,6 +17630,48 @@
     "verified": true
   },
   {
+    "id": "search-b356353fa2812932e6",
+    "title": "3D-4CH offers new funding opportunities for hands-on training in 3D cultural heritage",
+    "organization": "EU cultural heritage funding",
+    "country": "Europe",
+    "city": "",
+    "stage": "Pitch",
+    "score": 38,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "The EU-funded 3D-4CH project is supporting the development of practical digital skills in Europe's cultural heritage sector through a new Training Synergy Call, offering up to six grants of €5,000 ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b05d678892c4b0ab96255488cfccf5e&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2f3d-4ch-offers-new-funding-opportunities-hands-training-3d-cultural-heritage&c=15881814407328551254&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b05d678892c4b0ab96255488cfccf5e&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2f3d-4ch-offers-new-funding-opportunities-hands-training-3d-cultural-heritage&c=15881814407328551254&mkt=en-us",
+    "source_label": "EU cultural heritage funding",
+    "documents": [
+      {
+        "title": "3D-4CH offers new funding opportunities for hands-on training in 3D cultural heritage",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b05d678892c4b0ab96255488cfccf5e&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2f3d-4ch-offers-new-funding-opportunities-hands-training-3d-cultural-heritage&c=15881814407328551254&mkt=en-us",
+        "kind": "Budget / funding"
+      }
+    ],
+    "updated_at": "2026-11-24T18:24:57+00:00",
+    "evidence": [
+      {
+        "date": "Thu, 15 Oct 2026",
+        "kind": "Web source",
+        "title": "3D-4CH offers new funding opportunities for hands-on training in 3D cultural heritage",
+        "detail": "The EU-funded 3D-4CH project is supporting the development of practical digital skills in Europe's cultural heritage sector through a new Training Synergy Call, offering up to six grants of €5,000 ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b05d678892c4b0ab96255488cfccf5e&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2f3d-4ch-offers-new-funding-opportunities-hands-training-3d-cultural-heritage&c=15881814407328551254&mkt=en-us",
+        "source_label": "EU cultural heritage funding",
+        "strength": 62
+      }
+    ]
+  },
+  {
     "id": "search-62d8221ed68e218768",
     "title": "3D-4CH offers new funding opportunities for hands-on training in 3D cultural heritage",
     "organization": "EU cultural heritage funding",
@@ -21194,132 +21320,6 @@
         "title": "Creative Europe drives billions in investments and boosts visibility of EU works",
         "detail": "Creative Europe has successfully contributed to safeguarding cultural diversity, strengthening competitiveness and empowering the cultural and creative sector as well as the audiovisual sector to ...",
         "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab4084b18a44019acaea08864124d71&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcreative-europe-drives-billions-investments-and-boosts-visibility-eu-works&c=13154779194254474701&mkt=en-us",
-        "source_label": "EU cultural heritage funding",
-        "strength": 62
-      }
-    ]
-  },
-  {
-    "id": "search-cc3083c5c17f92c062",
-    "title": "Creative Innovation Lab",
-    "organization": "EU cultural heritage funding",
-    "country": "Europe",
-    "city": "",
-    "stage": "Signal",
-    "score": 38,
-    "confidence": 62,
-    "currency": "EUR",
-    "deadline": null,
-    "procurement_window": "Investigate",
-    "summary": "Creative Innovation Lab aims to improve the competitiveness of the European audiovisual and other cultural and creative sectors through cross sector collaboration. Initiated as a pilot project in 2021 ...",
-    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
-    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
-    "next_action": "Open the source and verify the project, owner and timing.",
-    "sample": false,
-    "verified": false,
-    "source_key": "search_pitch",
-    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab4084b18a44019acaea08864124d71&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2ffunding%2fcreative-innovation-lab&c=6795989186076005330&mkt=en-us",
-    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab4084b18a44019acaea08864124d71&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2ffunding%2fcreative-innovation-lab&c=6795989186076005330&mkt=en-us",
-    "source_label": "EU cultural heritage funding",
-    "documents": [
-      {
-        "title": "Creative Innovation Lab",
-        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab4084b18a44019acaea08864124d71&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2ffunding%2fcreative-innovation-lab&c=6795989186076005330&mkt=en-us",
-        "kind": "Budget / funding"
-      }
-    ],
-    "updated_at": "2026-09-23T17:11:39+00:00",
-    "evidence": [
-      {
-        "date": "Mon, 28 Feb 2022",
-        "kind": "Web source",
-        "title": "Creative Innovation Lab",
-        "detail": "Creative Innovation Lab aims to improve the competitiveness of the European audiovisual and other cultural and creative sectors through cross sector collaboration. Initiated as a pilot project in 2021 ...",
-        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab4084b18a44019acaea08864124d71&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2ffunding%2fcreative-innovation-lab&c=6795989186076005330&mkt=en-us",
-        "source_label": "EU cultural heritage funding",
-        "strength": 62
-      }
-    ]
-  },
-  {
-    "id": "search-3488988a43b16c1325",
-    "title": "Creative Europe drives billions in investments and boosts visibility of EU works",
-    "organization": "EU cultural heritage funding",
-    "country": "Europe",
-    "city": "",
-    "stage": "Signal",
-    "score": 38,
-    "confidence": 62,
-    "currency": "EUR",
-    "deadline": null,
-    "procurement_window": "Investigate",
-    "summary": "Creative Europe has successfully contributed to safeguarding cultural diversity, strengthening competitiveness and empowering the cultural and creative sector as well as the audiovisual sector to ...",
-    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
-    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
-    "next_action": "Open the source and verify the project, owner and timing.",
-    "sample": false,
-    "verified": false,
-    "source_key": "search_pitch",
-    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab3bc79e26246ba98e28df22df42b39&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcreative-europe-drives-billions-investments-and-boosts-visibility-eu-works&c=13154779194254474701&mkt=en-us",
-    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab3bc79e26246ba98e28df22df42b39&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcreative-europe-drives-billions-investments-and-boosts-visibility-eu-works&c=13154779194254474701&mkt=en-us",
-    "source_label": "EU cultural heritage funding",
-    "documents": [
-      {
-        "title": "Creative Europe drives billions in investments and boosts visibility of EU works",
-        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab3bc79e26246ba98e28df22df42b39&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcreative-europe-drives-billions-investments-and-boosts-visibility-eu-works&c=13154779194254474701&mkt=en-us",
-        "kind": "Source article"
-      }
-    ],
-    "updated_at": "2026-09-23T11:48:09+00:00",
-    "evidence": [
-      {
-        "date": "Tue, 16 Dec 2025",
-        "kind": "Web source",
-        "title": "Creative Europe drives billions in investments and boosts visibility of EU works",
-        "detail": "Creative Europe has successfully contributed to safeguarding cultural diversity, strengthening competitiveness and empowering the cultural and creative sector as well as the audiovisual sector to ...",
-        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab3bc79e26246ba98e28df22df42b39&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcreative-europe-drives-billions-investments-and-boosts-visibility-eu-works&c=13154779194254474701&mkt=en-us",
-        "source_label": "EU cultural heritage funding",
-        "strength": 62
-      }
-    ]
-  },
-  {
-    "id": "search-7c362e08198bfdd334",
-    "title": "Creative Innovation Lab",
-    "organization": "EU cultural heritage funding",
-    "country": "Europe",
-    "city": "",
-    "stage": "Signal",
-    "score": 38,
-    "confidence": 62,
-    "currency": "EUR",
-    "deadline": null,
-    "procurement_window": "Investigate",
-    "summary": "Creative Innovation Lab aims to improve the competitiveness of the European audiovisual and other cultural and creative sectors through cross sector collaboration. Initiated as a pilot project in 2021 ...",
-    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
-    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
-    "next_action": "Open the source and verify the project, owner and timing.",
-    "sample": false,
-    "verified": false,
-    "source_key": "search_pitch",
-    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab3bc79e26246ba98e28df22df42b39&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2ffunding%2fcreative-innovation-lab&c=6795989186076005330&mkt=en-us",
-    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab3bc79e26246ba98e28df22df42b39&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2ffunding%2fcreative-innovation-lab&c=6795989186076005330&mkt=en-us",
-    "source_label": "EU cultural heritage funding",
-    "documents": [
-      {
-        "title": "Creative Innovation Lab",
-        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab3bc79e26246ba98e28df22df42b39&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2ffunding%2fcreative-innovation-lab&c=6795989186076005330&mkt=en-us",
-        "kind": "Budget / funding"
-      }
-    ],
-    "updated_at": "2026-09-23T11:48:09+00:00",
-    "evidence": [
-      {
-        "date": "Mon, 28 Feb 2022",
-        "kind": "Web source",
-        "title": "Creative Innovation Lab",
-        "detail": "Creative Innovation Lab aims to improve the competitiveness of the European audiovisual and other cultural and creative sectors through cross sector collaboration. Initiated as a pilot project in 2021 ...",
-        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab3bc79e26246ba98e28df22df42b39&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2ffunding%2fcreative-innovation-lab&c=6795989186076005330&mkt=en-us",
         "source_label": "EU cultural heritage funding",
         "strength": 62
       }

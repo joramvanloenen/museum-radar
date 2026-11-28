@@ -175,7 +175,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-11-27T18:25:17+00:00",
+    "updated_at": "2026-11-28T00:40:28+00:00",
     "evidence": [
       {
         "date": "",
@@ -186,7 +186,8 @@
         "source_label": "Sell2Wales museum exhibition",
         "strength": 93
       }
-    ]
+    ],
+    "watched": false
   },
   {
     "id": "sell2wales-jun631313",
@@ -217,7 +218,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-11-27T18:25:15+00:00",
+    "updated_at": "2026-11-28T00:40:26+00:00",
     "evidence": [
       {
         "date": "",
@@ -260,7 +261,7 @@
         "kind": "Contract notice"
       }
     ],
-    "updated_at": "2026-11-27T18:25:12+00:00",
+    "updated_at": "2026-11-28T00:40:21+00:00",
     "evidence": [
       {
         "date": "",
@@ -1821,6 +1822,90 @@
         "detail": "Kistefos Museum is welcoming visitors to a striking new visitor centre, designed by architecture firm Lundhagem. The building serves as an inviting gateway to the museum experience – and offers ...",
         "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc083b143b41a0a40e3bb14b5befd8&url=https%3a%2f%2fwww.mynewsdesk.com%2fno%2fkistefosmuseum%2fpressreleases%2fkistefos-museum-opened-new-visitor-centre-on-saturday-june-20th-3455162&c=6876426998342124081&mkt=en-ca",
         "source_label": "Visitor centre signals",
+        "strength": 62
+      }
+    ]
+  },
+  {
+    "id": "search-6efde96ed0aa327eca",
+    "title": "Florida Museum to reopen in November after major renovation, expansion",
+    "organization": "Museum expansion signals",
+    "country": "Worldwide",
+    "city": "",
+    "stage": "Pitch",
+    "score": 56,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "Add Yahoo as a preferred source to see more of our stories on Google. The Florida Museum of Natural History plans to reopen its Ken and Linda McGurn Exhibition Hall to the public on Nov. 23 following ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0a22fd64ae4d1c9a737f6a0beafc47&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fscience%2farticles%2fflorida-museum-reopen-november-major-151401280.html&c=8905575700437874638&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0a22fd64ae4d1c9a737f6a0beafc47&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fscience%2farticles%2fflorida-museum-reopen-november-major-151401280.html&c=8905575700437874638&mkt=en-us",
+    "source_label": "Museum expansion signals",
+    "documents": [
+      {
+        "title": "Florida Museum to reopen in November after major renovation, expansion",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0a22fd64ae4d1c9a737f6a0beafc47&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fscience%2farticles%2fflorida-museum-reopen-november-major-151401280.html&c=8905575700437874638&mkt=en-us",
+        "kind": "Source article"
+      }
+    ],
+    "updated_at": "2026-11-28T00:40:29+00:00",
+    "evidence": [
+      {
+        "date": "Wed, 30 Sep 2026",
+        "kind": "Web source",
+        "title": "Florida Museum to reopen in November after major renovation, expansion",
+        "detail": "Add Yahoo as a preferred source to see more of our stories on Google. The Florida Museum of Natural History plans to reopen its Ken and Linda McGurn Exhibition Hall to the public on Nov. 23 following ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0a22fd64ae4d1c9a737f6a0beafc47&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fscience%2farticles%2fflorida-museum-reopen-november-major-151401280.html&c=8905575700437874638&mkt=en-us",
+        "source_label": "Museum expansion signals",
+        "strength": 62
+      }
+    ]
+  },
+  {
+    "id": "search-d7cce0b6b599dc14f9",
+    "title": "Florida Museum to reopen in November after major renovation, expansion",
+    "organization": "Museum expansion signals",
+    "country": "Worldwide",
+    "city": "",
+    "stage": "Pitch",
+    "score": 56,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "The Florida Museum of Natural History plans to reopen its Ken and Linda McGurn Exhibition Hall to the public on Nov. 23 following a large-scale renovation and expansion project, according to a museum ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0a22fd64ae4d1c9a737f6a0beafc47&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0a22fd64ae4d1c9a737f6a0beafc47&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
+    "source_label": "Museum expansion signals",
+    "documents": [
+      {
+        "title": "Florida Museum to reopen in November after major renovation, expansion",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0a22fd64ae4d1c9a737f6a0beafc47&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
+        "kind": "Source article"
+      }
+    ],
+    "updated_at": "2026-11-28T00:40:29+00:00",
+    "evidence": [
+      {
+        "date": "Wed, 30 Sep 2026",
+        "kind": "Web source",
+        "title": "Florida Museum to reopen in November after major renovation, expansion",
+        "detail": "The Florida Museum of Natural History plans to reopen its Ken and Linda McGurn Exhibition Hall to the public on Nov. 23 following a large-scale renovation and expansion project, according to a museum ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0a22fd64ae4d1c9a737f6a0beafc47&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftravel%2fmuseums-and-galleries%2fflorida-museum-to-reopen-in-november-after-major-renovation-expansion%2far-AA2dhwtS&c=15852587499594007316&mkt=en-us",
+        "source_label": "Museum expansion signals",
         "strength": 62
       }
     ]
@@ -12159,6 +12244,48 @@
     ]
   },
   {
+    "id": "search-fe630d28338ff0ab76",
+    "title": "Cultural Heritage @home",
+    "organization": "EU cultural heritage funding",
+    "country": "Europe",
+    "city": "",
+    "stage": "Signal",
+    "score": 40,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "Museums, opera houses and tourist attractions across Europe and the world are making more and more content available online to make the self-isolation and social distancing more enjoyable and relaxing ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0a22fe849947f7bad6ed81cb4fead4&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0a22fe849947f7bad6ed81cb4fead4&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+    "source_label": "EU cultural heritage funding",
+    "documents": [
+      {
+        "title": "Cultural Heritage @home",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0a22fe849947f7bad6ed81cb4fead4&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+        "kind": "Source article"
+      }
+    ],
+    "updated_at": "2026-11-28T00:40:30+00:00",
+    "evidence": [
+      {
+        "date": "Tue, 31 Mar 2020",
+        "kind": "Web source",
+        "title": "Cultural Heritage @home",
+        "detail": "Museums, opera houses and tourist attractions across Europe and the world are making more and more content available online to make the self-isolation and social distancing more enjoyable and relaxing ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0a22fe849947f7bad6ed81cb4fead4&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2fcultural-heritage-home&c=8716852889646728280&mkt=en-us",
+        "source_label": "EU cultural heritage funding",
+        "strength": 62
+      }
+    ]
+  },
+  {
     "id": "search-5ffbaee6f4f2e6ecc3",
     "title": "Cultural Heritage @home",
     "organization": "EU cultural heritage funding",
@@ -19142,6 +19269,48 @@
     "verified": true
   },
   {
+    "id": "search-2109067792a991d365",
+    "title": "3D-4CH offers new funding opportunities for hands-on training in 3D cultural heritage",
+    "organization": "EU cultural heritage funding",
+    "country": "Europe",
+    "city": "",
+    "stage": "Pitch",
+    "score": 38,
+    "confidence": 62,
+    "currency": "EUR",
+    "deadline": null,
+    "procurement_window": "Investigate",
+    "summary": "The EU-funded 3D-4CH project is supporting the development of practical digital skills in Europe's cultural heritage sector through a new Training Synergy Call, offering up to six grants of €5,000 ...",
+    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
+    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
+    "next_action": "Open the source and verify the project, owner and timing.",
+    "sample": false,
+    "verified": false,
+    "source_key": "search_pitch",
+    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0a22fe849947f7bad6ed81cb4fead4&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2f3d-4ch-offers-new-funding-opportunities-hands-training-3d-cultural-heritage&c=15881814407328551254&mkt=en-us",
+    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0a22fe849947f7bad6ed81cb4fead4&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2f3d-4ch-offers-new-funding-opportunities-hands-training-3d-cultural-heritage&c=15881814407328551254&mkt=en-us",
+    "source_label": "EU cultural heritage funding",
+    "documents": [
+      {
+        "title": "3D-4CH offers new funding opportunities for hands-on training in 3D cultural heritage",
+        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0a22fe849947f7bad6ed81cb4fead4&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2f3d-4ch-offers-new-funding-opportunities-hands-training-3d-cultural-heritage&c=15881814407328551254&mkt=en-us",
+        "kind": "Budget / funding"
+      }
+    ],
+    "updated_at": "2026-11-28T00:40:30+00:00",
+    "evidence": [
+      {
+        "date": "Thu, 15 Oct 2026",
+        "kind": "Web source",
+        "title": "3D-4CH offers new funding opportunities for hands-on training in 3D cultural heritage",
+        "detail": "The EU-funded 3D-4CH project is supporting the development of practical digital skills in Europe's cultural heritage sector through a new Training Synergy Call, offering up to six grants of €5,000 ...",
+        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0a22fe849947f7bad6ed81cb4fead4&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fnews%2f3d-4ch-offers-new-funding-opportunities-hands-training-3d-cultural-heritage&c=15881814407328551254&mkt=en-us",
+        "source_label": "EU cultural heritage funding",
+        "strength": 62
+      }
+    ]
+  },
+  {
     "id": "search-9974df265b6099e350",
     "title": "3D-4CH offers new funding opportunities for hands-on training in 3D cultural heritage",
     "organization": "EU cultural heritage funding",
@@ -21152,174 +21321,6 @@
         "title": "EU funding for digitalising and greening the energy system",
         "detail": "The EU leads the energy sector's digital and green transformation through key initiatives on research, innovation, and cross-border infrastructure, essential for digital integration. The European ...",
         "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad145ef3df148e5b49655012b45aeae&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
-        "source_label": "EU cultural heritage funding",
-        "strength": 62
-      }
-    ]
-  },
-  {
-    "id": "search-3ec24e999c3db38bfc",
-    "title": "EU funding for digitalising and greening the energy system",
-    "organization": "EU cultural heritage funding",
-    "country": "Europe",
-    "city": "",
-    "stage": "Pitch",
-    "score": 38,
-    "confidence": 62,
-    "currency": "EUR",
-    "deadline": null,
-    "procurement_window": "Investigate",
-    "summary": "The EU leads the energy sector's digital and green transformation through key initiatives on research, innovation, and cross-border infrastructure, essential for digital integration. The European ...",
-    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
-    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
-    "next_action": "Open the source and verify the project, owner and timing.",
-    "sample": false,
-    "verified": false,
-    "source_key": "search_pitch",
-    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad1089f39f5412f8cef97ee1ea39a3d&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
-    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad1089f39f5412f8cef97ee1ea39a3d&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
-    "source_label": "EU cultural heritage funding",
-    "documents": [
-      {
-        "title": "EU funding for digitalising and greening the energy system",
-        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad1089f39f5412f8cef97ee1ea39a3d&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
-        "kind": "Budget / funding"
-      }
-    ],
-    "updated_at": "2026-10-15T17:08:47+00:00",
-    "evidence": [
-      {
-        "date": "Wed, 17 Jun 2026",
-        "kind": "Web source",
-        "title": "EU funding for digitalising and greening the energy system",
-        "detail": "The EU leads the energy sector's digital and green transformation through key initiatives on research, innovation, and cross-border infrastructure, essential for digital integration. The European ...",
-        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad1089f39f5412f8cef97ee1ea39a3d&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
-        "source_label": "EU cultural heritage funding",
-        "strength": 62
-      }
-    ]
-  },
-  {
-    "id": "search-1e010aa74b9a9836d3",
-    "title": "EU funding for digitalising and greening the energy system",
-    "organization": "EU cultural heritage funding",
-    "country": "Europe",
-    "city": "",
-    "stage": "Pitch",
-    "score": 38,
-    "confidence": 62,
-    "currency": "EUR",
-    "deadline": null,
-    "procurement_window": "Investigate",
-    "summary": "The EU leads the energy sector's digital and green transformation through key initiatives on research, innovation, and cross-border infrastructure, essential for digital integration. The European ...",
-    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
-    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
-    "next_action": "Open the source and verify the project, owner and timing.",
-    "sample": false,
-    "verified": false,
-    "source_key": "search_pitch",
-    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad0bbc5d6a246689b129319ee4c95d6&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
-    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad0bbc5d6a246689b129319ee4c95d6&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
-    "source_label": "EU cultural heritage funding",
-    "documents": [
-      {
-        "title": "EU funding for digitalising and greening the energy system",
-        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad0bbc5d6a246689b129319ee4c95d6&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
-        "kind": "Budget / funding"
-      }
-    ],
-    "updated_at": "2026-10-15T11:40:53+00:00",
-    "evidence": [
-      {
-        "date": "Wed, 17 Jun 2026",
-        "kind": "Web source",
-        "title": "EU funding for digitalising and greening the energy system",
-        "detail": "The EU leads the energy sector's digital and green transformation through key initiatives on research, innovation, and cross-border infrastructure, essential for digital integration. The European ...",
-        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad0bbc5d6a246689b129319ee4c95d6&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
-        "source_label": "EU cultural heritage funding",
-        "strength": 62
-      }
-    ]
-  },
-  {
-    "id": "search-714d8a8707fdd704ce",
-    "title": "EU funding for digitalising and greening the energy system",
-    "organization": "EU cultural heritage funding",
-    "country": "Europe",
-    "city": "",
-    "stage": "Pitch",
-    "score": 38,
-    "confidence": 62,
-    "currency": "EUR",
-    "deadline": null,
-    "procurement_window": "Investigate",
-    "summary": "The EU leads the energy sector's digital and green transformation through key initiatives on research, innovation, and cross-border infrastructure, essential for digital integration. The European ...",
-    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
-    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
-    "next_action": "Open the source and verify the project, owner and timing.",
-    "sample": false,
-    "verified": false,
-    "source_key": "search_pitch",
-    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad05b9523544e2183dc7251333b7a02&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
-    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad05b9523544e2183dc7251333b7a02&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
-    "source_label": "EU cultural heritage funding",
-    "documents": [
-      {
-        "title": "EU funding for digitalising and greening the energy system",
-        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad05b9523544e2183dc7251333b7a02&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
-        "kind": "Budget / funding"
-      }
-    ],
-    "updated_at": "2026-10-15T04:50:29+00:00",
-    "evidence": [
-      {
-        "date": "Wed, 17 Jun 2026",
-        "kind": "Web source",
-        "title": "EU funding for digitalising and greening the energy system",
-        "detail": "The EU leads the energy sector's digital and green transformation through key initiatives on research, innovation, and cross-border infrastructure, essential for digital integration. The European ...",
-        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad05b9523544e2183dc7251333b7a02&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
-        "source_label": "EU cultural heritage funding",
-        "strength": 62
-      }
-    ]
-  },
-  {
-    "id": "search-c4a97393618eeffc84",
-    "title": "EU funding for digitalising and greening the energy system",
-    "organization": "EU cultural heritage funding",
-    "country": "Europe",
-    "city": "",
-    "stage": "Pitch",
-    "score": 38,
-    "confidence": 62,
-    "currency": "EUR",
-    "deadline": null,
-    "procurement_window": "Investigate",
-    "summary": "The EU leads the energy sector's digital and green transformation through key initiatives on research, innovation, and cross-border infrastructure, essential for digital integration. The European ...",
-    "fit_rationale": "Autonomous search matched museum / exhibition / interactive opportunity language.",
-    "pitch_angle": "Investigate the project owner, design team, funding and procurement route before outreach.",
-    "next_action": "Open the source and verify the project, owner and timing.",
-    "sample": false,
-    "verified": false,
-    "source_key": "search_pitch",
-    "external_id": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acff86283b842a2a0ae37c0e51e2673&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
-    "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acff86283b842a2a0ae37c0e51e2673&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
-    "source_label": "EU cultural heritage funding",
-    "documents": [
-      {
-        "title": "EU funding for digitalising and greening the energy system",
-        "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acff86283b842a2a0ae37c0e51e2673&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
-        "kind": "Budget / funding"
-      }
-    ],
-    "updated_at": "2026-10-14T21:47:14+00:00",
-    "evidence": [
-      {
-        "date": "Wed, 17 Jun 2026",
-        "kind": "Web source",
-        "title": "EU funding for digitalising and greening the energy system",
-        "detail": "The EU leads the energy sector's digital and green transformation through key initiatives on research, innovation, and cross-border infrastructure, essential for digital integration. The European ...",
-        "source_url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acff86283b842a2a0ae37c0e51e2673&url=https%3a%2f%2fdigital-strategy.ec.europa.eu%2fen%2fpolicies%2feu-programmes-digitalisation-energy&c=9827596561221394840&mkt=en-us",
         "source_label": "EU cultural heritage funding",
         "strength": 62
       }
